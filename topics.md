@@ -523,3 +523,43 @@ What you explain: What Bosnia and Herzegovina actually is as a football nation (
 Thumbnail text: "Win Tonight. Or It's Over."
 
 Virality score: 🔥 10/10
+
+
+
+Idea 74🔥🔥🔥
+
+Title: The USA Is Through — But Their Star Got Sent Off and Now Misses the Next Game
+
+Why it'll explode: Folarin Balogun scored USA's first goal against Bosnia and Herzegovina, then was sent off for a foul — meaning the player who opened the scoring won't be there when the USA face Belgium in the Round of 16 on July 6.  The hero becomes the liability in the same match. This is peak USA sports drama — win and heartbreak at the same time, perfectly timed before a massive knockout clash.
+
+What you explain: How red card suspensions automatically carry into the next knockout match, who steps up for the USA without their top striker, and what Belgium's defensive system looks like — stick figures showing Balogun celebrating a goal, then walking off with a red card in the same match.
+
+Thumbnail text: "Scored. Then Sent Off."
+
+Virality score: 🔥 10/10
+
+Idea 75🔥🔥🔥
+
+
+Title: Ronaldo Just Scored His First-Ever World Cup Knockout Goal — At 41 Years Old
+
+Why it'll explode: Just over 20 years after making his FIFA World Cup debut, Cristiano Ronaldo scored his first-ever knockout stage goal  — and became the oldest player ever to play in the knockout stage of the World Cup.  Two records in one match. At 41. This is the "last dance" story of the entire tournament and the most searched footballer on the planet right now.
+
+What you explain: Why knockout goals are statistically rarer and harder than group stage goals, how Ronaldo's record-breaking career has somehow left this specific achievement empty until now, and what Portugal need to beat Spain in the Round of 16 — stick figures showing a 20-year timeline of Ronaldo at six World Cups finally completing the set.
+
+Thumbnail text: "41 Years Old. First Knockout Goal. Ever."
+
+Virality score: 🔥 9.5/10
+
+
+Idea 76🔥🔥🔥
+
+Title: Three People Died Celebrating Mexico's Win. Nobody Is Talking About It.
+
+Why it'll explode: Health officials confirmed three people died during massive street celebrations in Mexico City after Mexico's 2-0 World Cup win over Ecuador.  Mexico hasn't won a knockout stage match since 1986 — 40 years of hurt finally broken, and the celebrations turned deadly. This crosses from sports into real human consequence, pulling in audiences far beyond football.
+
+What you explain: Why Mexico's 40-year knockout drought made this result so emotionally overwhelming for an entire nation, what "el quinto partido" (the fifth match) means in Mexican football culture, and how celebrations of this scale connect to national identity — stick figures showing the eruption of an entire city.
+
+Thumbnail text: "Mexico Won. Then This Happened."
+
+Virality score: 🔥 9.5/10
