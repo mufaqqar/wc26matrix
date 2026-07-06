@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>England Beat Mexico at the Azteca — No Team Had Ever Done That at a World Cup | WC26Matrix</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; background: #0a1628; color: #e0e8f0; padding: 2rem 1rem; }
+.container { max-width: 1000px; margin: 0 auto; }
+h1 { font-size: 2rem; font-weight: 700; color: #00e5ff; margin-bottom: 0.3rem; }
+.subtitle { color: #8899aa; font-size: 1rem; margin-bottom: 2rem; border-left: 4px solid #ff6b35; padding-left: 1rem; }
+.badge { font-size: 0.75rem; font-weight: 600; background: #ff6b35; color: #fff; padding: 0.2rem 0.7rem; border-radius: 20px; display: inline-block; }
+.badge.gold { background: #ff6b35; }
+.badge.blue { background: #0088ff; }
+.badge.image { background: #9b59b6; color: #fff; }
+.badge.video { background: #e74c3c; color: #fff; }
+.section-header { font-size: 1.2rem; font-weight: 600; color: #00e5ff; background: #111d33; padding: 0.7rem 1.2rem; border-radius: 8px; margin-bottom: 1rem; display: flex; align-items: center; gap: 0.6rem; flex-wrap: wrap; }
+.scene { background: #0f1d33; border-radius: 10px; padding: 1.2rem 1.5rem; margin-bottom: 1rem; box-shadow: 0 1px 4px rgba(0,0,0,0.3); border-left: 4px solid #00e5ff; }
+.scene-header { display: flex; align-items: center; gap: 0.8rem; margin-bottom: 0.8rem; flex-wrap: wrap; }
+.scene-num { font-weight: 700; color: #00e5ff; font-size: 0.9rem; }
+.scene-desc { font-style: italic; color: #8899aa; font-size: 0.9rem; }
+.voiceover { background: #0d1a2e; border-radius: 6px; padding: 0.8rem 1rem; margin-top: 0.7rem; font-size: 0.95rem; line-height: 1.6; color: #e0e8f0; border-left: 3px solid #0088ff; }
+.voiceover-label { font-size: 0.75rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; color: #0088ff; margin-bottom: 0.3rem; }
+.prompt-label { font-size: 0.75rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; color: #fff; margin-bottom: 0.2rem; margin-top: 0.6rem; padding: 0.15rem 0.6rem; border-radius: 4px; display: inline-block; }
+.prompt-label.image { background: #9b59b6; }
+.prompt-label.video { background: #e74c3c; }
+.prompt-box { background: #0d1a2e; border-radius: 6px; padding: 0.8rem 1rem; font-size: 0.88rem; line-height: 1.5; color: #99aabb; font-family: 'Courier New', monospace; border-left: 3px solid #00e5ff; white-space: pre-wrap; margin-bottom: 0.5rem; }
+.prompt-box.video-prompt { border-left-color: #e74c3c; background: #1a0d0d; }
+.img-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0.8rem; margin-top: 0.5rem; }
+.img-item { background: #0d1a2e; border-radius: 6px; padding: 0.7rem; border-left: 3px solid #9b59b6; }
+.img-item .label { font-size: 0.7rem; font-weight: 600; color: #9b59b6; margin-bottom: 0.2rem; }
+.img-item .text { font-size: 0.82rem; color: #99aabb; font-family: 'Courier New', monospace; line-height: 1.4; white-space: pre-wrap; }
+.vid-item { background: #1a0d0d; border-radius: 6px; padding: 0.7rem; border-left: 3px solid #e74c3c; }
+.vid-item .label { font-size: 0.7rem; font-weight: 600; color: #e74c3c; margin-bottom: 0.2rem; }
+.vid-item .text { font-size: 0.82rem; color: #99aabb; font-family: 'Courier New', monospace; line-height: 1.4; }
+.thumbnail-box { background: #0f1d33; border-radius: 10px; padding: 1.2rem 1.5rem; box-shadow: 0 1px 4px rgba(0,0,0,0.3); border-left: 4px solid #ff6b35; margin-bottom: 1rem; }
+.thumbnail-box .label { font-size: 0.75rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 0.2rem; }
+.thumbnail-box .label.gold { color: #ff6b35; }
+.thumbnail-box .label.blue { color: #0088ff; }
+.seo-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+.seo-card { background: #0f1d33; border-radius: 10px; padding: 1rem 1.2rem; box-shadow: 0 1px 4px rgba(0,0,0,0.3); }
+.seo-card h3 { font-size: 0.9rem; color: #00e5ff; margin-bottom: 0.5rem; }
+.seo-card ul { list-style: none; }
+.seo-card li { font-size: 0.88rem; color: #99aabb; padding: 0.25rem 0; border-bottom: 1px solid #1a2a44; }
+.seo-card li:last-child { border-bottom: none; }
+.seo-card.tags li { display: inline-block; background: #1a2a44; padding: 0.2rem 0.6rem; border-radius: 4px; margin: 0.2rem; font-size: 0.8rem; border: none; }
+.seo-desc { font-size: 0.85rem; line-height: 1.6; color: #99aabb; margin-bottom: 0.5rem; }
+.vonote { background: #0f1d33; border-radius: 10px; padding: 1.2rem 1.5rem; box-shadow: 0 1px 4px rgba(0,0,0,0.3); }
+.vonote ul { list-style: none; font-size: 0.92rem; line-height: 1.8; color: #99aabb; }
+.meta-row { display: flex; gap: 1rem; flex-wrap: wrap; margin-bottom: 1rem; }
+.meta-tag { background: #1a2a44; padding: 0.3rem 0.8rem; border-radius: 20px; font-size: 0.85rem; }
+.meta-tag.style { background: #1a2a44; color: #00e5ff; border: 1px solid #00e5ff; }
+footer { margin-top: 3rem; text-align: center; font-size: 0.85rem; color: #556677; padding: 1rem 0; }
+@media (max-width: 700px) { .seo-grid { grid-template-columns: 1fr; } .img-grid { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+<div class="container">
+
+<h1>England Beat Mexico at the Azteca — No Team Had Ever Done That at a World Cup</h1>
+<div class="subtitle">Stickman sports infographic style — Clean vector illustrations on dark football stadium backgrounds</div>
+
+<div class="meta-row">
+    <span class="meta-tag">Category: WC26 Knockouts</span>
+    <span class="meta-tag">Est. Length: ~3 min</span>
+    <span class="meta-tag style">Style: Stickman Sports Infographic</span>
+    <span class="meta-tag">Scenes: 10</span>
+    <span class="meta-tag">Images: 40</span>
+    <span class="meta-tag">Video Prompts: 40</span>
+    <span class="meta-tag">Voiceover: ~400 words</span>
+</div>
+
+<div class="thumbnail-box">
+    <div class="label gold">Thumbnail</div>
+    <div class="voiceover" style="margin-top: 0.5rem;">
+        <p><strong>Layout:</strong> Dark stadium atmosphere at Estadio Azteca. Center frame shows a massive towering stadium silhouette with the iconic Azteca architecture and "ALTITUDE 2,200M" glowing at the top. Below it, a stickman England team in white huddled together, outnumbered but defiant, a red card icon floating above them with a red X through Quansah's number. Mexico's green crowd is a wall of noise in the background. Bold text in white with red and blue accents: "NO TEAM HAD DONE IT. ENGLAND DID." The three England goal icons glow at the bottom.</p>
+    </div>
+    <div class="img-grid" style="margin-top: 0.8rem;">
+        <div class="img-item">
+            <div class="label">Image A</div>
+            <div class="text">Estadio Azteca silhouette towering purple night sky with ALTITUDE 2200M glowing, England crest floating below, historic achievement atmosphere, NO TEAM HAD DONE IT ENGLAND DID on dark stadium background</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Image B</div>
+            <div class="text">Stickman England ten men huddled in defensive shape, red card icon above them, Mexico waves of green attackers crashing against them, defiance holding on visualization on dark pitch background</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Image C</div>
+            <div class="text">Three goal icons glowing at bottom of frame: England 3-2 Mexico, each goal a golden marker, the scoreline that broke the Azteca curse, historic result display on dark gradient background</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Image D</div>
+            <div class="text">Split: England players celebrating on one side, Mexico players on their knees on the other, the stadium crowd stunned silence, the moment history was made at the fortress of world football</div>
+        </div>
+    </div>
+</div>
+
+<div class="section-header">Scene 1 — The Hook</div>
+<div class="scene">
+    <div class="scene-header">
+        <span class="scene-num">Scene 01</span>
+        <span class="scene-desc">England beat Mexico at the Azteca. No team had ever done that in a World Cup. And England did it with 10 men.</span>
+    </div>
+    <div class="voiceover">
+        <div class="voiceover-label">Voiceover</div>
+        <p>England just did something no team has ever done before: they won a World Cup match at the Estadio Azteca in Mexico City. Not just won — they won 3-2 in one of the best matches of the tournament, despite playing the entire second half with 10 men after Jarell Quansah's red card. The Azteca is the most intimidating stadium in world football. Altitude of 2,200 meters. 87,000 fans screaming. A fortress where Mexico had never lost a World Cup knockout match. Until today. England's best result on foreign soil in their entire World Cup history.</p>
+    </div>
+    <div class="prompt-label image">IMAGE PROMPTS</div>
+    <div class="img-grid">
+        <div class="img-item">
+            <div class="label">Prompt A</div>
+            <div class="text">Estadio Azteca exterior, massive bowl stadium, 87,000 capacity sign, altitude 2200m marker, the fortress of world football, intimidating venue visualization on dark Mexico City night sky background</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt B</div>
+            <div class="text">Infographic title card: ENGLAND 3-2 MEXICO, ROUND OF 16, FIRST TEAM TO WIN AT AZTECA IN WORLD CUP, historic achievement headline on dark gradient with England flag and Azteca silhouette</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt C</div>
+            <div class="text">Stickman England team of 10 players in defensive formation, red card icon above, the 10-man defiance that held off Mexico, tactical survival visualization on dark green pitch background</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt D</div>
+            <div class="text">Timeline: previous World Cup matches at Azteca — Mexico's record, other visiting teams' results, all leading to 2026 where England changed history, the Azteca record book visualized on dark background</div>
+        </div>
+    </div>
+    <div class="prompt-label video">VIDEO PROMPTS</div>
+    <div class="img-grid">
+        <div class="vid-item">
+            <div class="label">Video A</div>
+            <div class="text">Azteca stadium intro: drone flyover of the iconic bowl, atmosphere of 87,000, the scale and intimidation of the venue established, the challenge England faced visualized architecturally</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video B</div>
+            <div class="text">Montage of England's three goals edited with increasing pace, the attacking brilliance that built the lead before the red card, the foundation of the historic win established</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video C</div>
+            <div class="text">Match timeline animation: England's three goals, Mexico's two, the red card moment, the 10-man survival phase, the full narrative arc of 90+ minutes compressed into 20 seconds</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video D</div>
+            <div class="text">Stadium atmosphere: Mexican fans creating a wall of noise, England fans huddled in a corner, the hostile environment that makes the Azteca the most feared venue in football</div>
+        </div>
+    </div>
+</div>
+
+<div class="section-header">Scene 2 — The Azteca Fortress</div>
+<div class="scene">
+    <div class="scene-header">
+        <span class="scene-num">Scene 02</span>
+        <span class="scene-desc">Why the Azteca is the most intimidating stadium in world football</span>
+    </div>
+    <div class="voiceover">
+        <div class="voiceover-label">Voiceover</div>
+        <p>The Estadio Azteca is not just a stadium — it is a weapon. Opened in 1966, it has hosted two World Cup finals: 1970 and 1986. The altitude of 2,200 meters above sea level makes breathing difficult for visiting teams. The crowd of 87,000 is louder than any in football because of the stadium's unique architecture — the sound is trapped and amplified. Mexico has played dozens of World Cup matches here. Before England, no visiting team had ever won a knockout match at the Azteca. It was considered impossible. England proved it was not.</p>
+    </div>
+    <div class="prompt-label image">IMAGE PROMPTS</div>
+    <div class="img-grid">
+        <div class="img-item">
+            <div class="label">Prompt A</div>
+            <div class="text">Azteca cross-section: stadium bowl structure showing how sound is trapped and amplified, altitude marker 2200m, crowd of 87,000 visualized, the fortress weaponized on dark engineering-style background</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt B</div>
+            <div class="text">Stickman visiting team players struggling to breathe, altitude sickness icons, the physical challenge of playing at 2,200m, the hidden opponent in the air, lung icon on dark stadium background</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt C</div>
+            <div class="text">World Cup history at Azteca: 1970 final, 1986 final, Mexico's knockout wins, the list of giants who fell here — all leading to 2026 where England broke the streak, historical infographic on dark background</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt D</div>
+            <div class="text">Sound wave visualization: the noise of 87,000 fans trapped in the Azteca bowl, the decibel level that intimidates opponents, acoustic weapon infographic on dark background with stadium silhouette</div>
+        </div>
+    </div>
+    <div class="prompt-label video">VIDEO PROMPTS</div>
+    <div class="img-grid">
+        <div class="vid-item">
+            <div class="label">Video A</div>
+            <div class="text">Azteca history montage: 1970 Pelé, 1986 Maradona, the legends who played here, the stadium's place in football history established through iconic moments</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video B</div>
+            <div class="text">Altitude animation: oxygen level graphic decreasing as you enter the stadium, the physical stress on visiting players visualized, why playing at the Azteca is different from anywhere else</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video C</div>
+            <div class="text">Stadium sound test: crowd noise meter rising, the unique acoustics of the Azteca demonstrated, why visiting teams struggle to communicate on the pitch</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video D</div>
+            <div class="text">Visiting team tunnel walk: Mexico fans noise walls on both sides, the psychological intimidation before kickoff, the mental challenge of walking into the Azteca cauldron</div>
+        </div>
+    </div>
+</div>
+
+<div class="section-header">Scene 3 — The Match: England 3-2 Mexico</div>
+<div class="scene">
+    <div class="scene-header">
+        <span class="scene-num">Scene 03</span>
+        <span class="scene-desc">How the match unfolded — a wild back-and-forth thriller at altitude</span>
+    </div>
+    <div class="voiceover">
+        <div class="voiceover-label">Voiceover</div>
+        <p>The match was arguably the best of the entire World Cup so far. England started fast — two goals in the first 25 minutes through Bukayo Saka and Jude Bellingham. Mexico pulled one back before halftime through Raul Jimenez. Then, early in the second half, disaster for England: Jarell Quansah was shown a straight red card for a last-man foul. 10-man England, 60 minutes to hold on. But England did not just hold on — Harry Kane scored a third to make it 3-1. Mexico pulled one back through a Jimenez penalty. The final 20 minutes were a siege. England survived. History was made.</p>
+    </div>
+    <div class="prompt-label image">IMAGE PROMPTS</div>
+    <div class="img-grid">
+        <div class="img-item">
+            <div class="label">Prompt A</div>
+            <div class="text">Match timeline: 15' SAKA goal, 25' BELLINGHAM goal, 38' JIMENEZ goal, 52' QUANSAH red card, 58' KANE goal, 72' JIMENEZ penalty, FINAL 3-2, the rollercoaster timeline of a classic match on dark background</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt B</div>
+            <div class="text">Stickman Saka celebrating first goal, Bellingham joining him, early dominance that silenced the Azteca, England's electric start visualized on dark away kit background with Mexico green crowd</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt C</div>
+            <div class="text">Stickman Quansah walking off after red card, head down, teammates watching, the moment England went from comfortable to vulnerable, game-changing red card visualized on dark pitch with stadium lights</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt D</div>
+            <div class="text">Harry Kane scoring England's third: stickman Kane shooting, ball in net, 10-man England finding a way to extend their lead, the goal that proved crucial on dark stadium background</div>
+        </div>
+    </div>
+    <div class="prompt-label video">VIDEO PROMPTS</div>
+    <div class="img-grid">
+        <div class="vid-item">
+            <div class="label">Video A</div>
+            <div class="text">Match highlights in sequence: Saka goal, Bellingham goal, Jimenez header, Quansah red card, Kane goal, Jimenez penalty, final whistle, the full emotional arc of the match compressed into 40 seconds</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video B</div>
+            <div class="text">Saka and Bellingham goal replays: the build-up, the finishes, the quality that put England ahead, attacking brilliance from two of England's brightest young stars</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video C</div>
+            <div class="text">Red card moment: the foul replayed in slow motion, the referee's decision, the reaction of both teams, the turning point of the match analyzed in detail</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video D</div>
+            <div class="text">Final 20 minutes siege: Mexico attacks wave after wave, England defending desperately, the tension of a team holding on with 10 men, the drama of survival animated</div>
+        </div>
+    </div>
+</div>
+
+<div class="section-header">Scene 4 — The Red Card</div>
+<div class="scene">
+    <div class="scene-header">
+        <span class="scene-num">Scene 04</span>
+        <span class="scene-desc">Jarell Quansah's red card — the moment England's task became impossible</span>
+    </div>
+    <div class="voiceover">
+        <div class="voiceover-label">Voiceover</div>
+        <p>Jarell Quansah, England's young center-back, was the last man when he brought down a Mexico attacker making a run toward goal. The referee had no choice — straight red card. England, already battling altitude and a hostile crowd, now had to play 60 minutes with 10 men. Quansah walked off in tears. England's chances of holding on seemed slim. But what happened next shocked everyone. England did not collapse. They regrouped. They scored again. And then they defended like their lives depended on it.</p>
+    </div>
+    <div class="prompt-label image">IMAGE PROMPTS</div>
+    <div class="img-grid">
+        <div class="img-item">
+            <div class="label">Prompt A</div>
+            <div class="text">Stickman Quansah walking off the pitch, head in hands, tears visible, England teammates' faces showing concern and determination, the human cost of a tactical foul on dark stadium background</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt B</div>
+            <div class="text">Red card infographic: Quansah's foul as last defender, the rules of denial of clear goalscoring opportunity explained, yellow vs red criteria, why the referee had no choice on dark background with rulebook styling</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt C</div>
+            <div class="text">England defensive shape after red card: formation shifting from 4-3-3 to 4-4-1, the tactical adjustment visualized as a formation change infographic on dark coaching board</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt D</div>
+            <div class="text">Stickman England coach on sideline, hands gesturing to the team, tactical instructions being shouted, the manager organizing a 10-man survival plan in real time on dark sideline background</div>
+        </div>
+    </div>
+    <div class="prompt-label video">VIDEO PROMPTS</div>
+    <div class="img-grid">
+        <div class="vid-item">
+            <div class="label">Video A</div>
+            <div class="text">Red card incident: the run, the foul, the referee reaching for the card, Quansah's reaction, the full sequence that changed the match, broadcast-style replay</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video B</div>
+            <div class="text">Formation shift animation: England's 11-man shape collapsing into 10-man defensive block, the tactical adjustment visualized in real time, order from chaos</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video C</div>
+            <div class="text">Quansah in the tunnel: watching the rest of the match on a monitor, the agony of a player who cost his team but had to watch them fight, emotional isolation visualized</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video D</div>
+            <div class="text">Stickman England captain Harry Kane rallying the team after the red card, the leadership moment that kept England from collapsing, captain's response to adversity animated</div>
+        </div>
+    </div>
+</div>
+
+<div class="section-header">Scene 5 — The 10-Man Performance</div>
+<div class="scene">
+    <div class="scene-header">
+        <span class="scene-num">Scene 05</span>
+        <span class="scene-desc">How England held on with 10 men against wave after wave of Mexican attacks</span>
+    </div>
+    <div class="voiceover">
+        <div class="voiceover-label">Voiceover</div>
+        <p>After the red card, Mexico threw everything at England. Wave after wave of attacks. Jimenez, the Mexican captain, led the charge with his physical presence. The crowd, already loud, became a deafening wall of green sound. But England's defense, led by John Stones and Kyle Walker, refused to break. They blocked shots. They cleared headers. They made last-ditch tackles. And when Mexico did break through — a Raul Jimenez penalty made it 3-2 — England held firm for the final 18 minutes. Goalkeeper Jordan Pickford made two crucial saves. The 10 men of England did the impossible.</p>
+    </div>
+    <div class="prompt-label image">IMAGE PROMPTS</div>
+    <div class="img-grid">
+        <div class="img-item">
+            <div class="label">Prompt A</div>
+            <div class="text">England 10-man defensive wall: stickman England players in a desperate block, Mexican attackers swarming from all sides, the siege of the Azteca visualized as a defensive battle on dark green pitch background</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt B</div>
+            <div class="text">Stickman Jordan Pickford making a save, arms stretched, ball deflected, the goalkeeper who kept England in the match, crucial save infographic on dark goal background with Mexico crowd behind</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt C</div>
+            <div class="text">Stat comparison: Mexico shots after red card vs before, possession shift, chances created, the data showing Mexico's dominance that England somehow survived, defensive stats infographic on dark background</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt D</div>
+            <div class="text">Stickman John Stones and Kyle Walker, exhausted but standing, their defensive partnership visualized as a shield, the veteran leaders who organized the 10-man resistance on dark stadium background</div>
+        </div>
+    </div>
+    <div class="prompt-label video">VIDEO PROMPTS</div>
+    <div class="img-grid">
+        <div class="vid-item">
+            <div class="label">Video A</div>
+            <div class="text">Defensive montage: blocks, tackles, clearances, Pickford saves, the 10-man defiance edited to intense music, every defensive action that preserved England's lead</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video B</div>
+            <div class="text">Mexico's best chances animated: shots, headers, near-misses, each one a heart-stopping moment, the narrow margins of England's survival visualized</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video C</div>
+            <div class="text">Pickford save compilation: two crucial saves in the final minutes, slow motion, the goalkeeper's heroics that preserved the historic result, match-saving moments frozen in time</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video D</div>
+            <div class="text">Final whistle reaction: England players collapsing in exhaustion and relief, the toll of 60 minutes with 10 men visible in their bodies, survival achievement visualized through physical exhaustion</div>
+        </div>
+    </div>
+</div>
+
+<div class="section-header">Scene 6 — What This Means for England</div>
+<div class="scene">
+    <div class="scene-header">
+        <span class="scene-num">Scene 06</span>
+        <span class="scene-desc">England's best result on foreign soil in World Cup history</span>
+    </div>
+    <div class="voiceover">
+        <div class="voiceover-label">Voiceover</div>
+        <p>England's World Cup history is filled with famous wins — 1966 final, 1990 semifinal run, 2018 semifinal run. But none of those matches compare to this in terms of what it says about this team. Winning at the Azteca, with 10 men, against a hostile crowd of 87,000, at 2,200 meters altitude — this is England's best result on foreign soil in their entire World Cup history. It proves something that England teams of the past have often been accused of lacking: resilience. This England team does not fold under pressure. They find a way.</p>
+    </div>
+    <div class="prompt-label image">IMAGE PROMPTS</div>
+    <div class="img-grid">
+        <div class="img-item">
+            <div class="label">Prompt A</div>
+            <div class="text">England World Cup history timeline: 1966 home win, 1990 semifinal, 2018 semifinal, 2026 Azteca win, each ranked by significance, the Azteca win highlighted as greatest foreign soil achievement on dark background</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt B</div>
+            <div class="text">Stickman England team resilience meter: past England teams folding under pressure vs 2026 team holding strong, the mental toughness comparison visualized as a bar chart on dark background</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt C</div>
+            <div class="text">Three Lions crest with the Azteca silhouette in the background, England's identity redefined by this victory, a new chapter in English football history visualized as badge evolution</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt D</div>
+            <div class="text">Infographic: England's tournament so far — goals scored, clean sheets, key players, the momentum building toward a potential deep run, team progress on dark gradient background with England flag accents</div>
+        </div>
+    </div>
+    <div class="prompt-label video">VIDEO PROMPTS</div>
+    <div class="img-grid">
+        <div class="vid-item">
+            <div class="label">Video A</div>
+            <div class="text">Famous England wins montage: 1966 final, 1990 Cameroon, 2018 Colombia, 2026 Azteca, each victory building toward the current team's identity, heritage and present connected</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video B</div>
+            <div class="text">England fan reactions: pubs across England erupting at the final whistle, the joy of a nation that has seen heartbreak and now witnesses something different, fan emotion captured</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video C</div>
+            <div class="text">Stickman England players embracing after full time, the exhaustion and pride mixed together, a team that knows they achieved something special, post-match emotion</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video D</div>
+            <div class="text">Resilience narrative: past England penalty shootout losses, past disappointments, contrasted with this 10-man performance, the narrative of a mentally tougher England established</div>
+        </div>
+    </div>
+</div>
+
+<div class="section-header">Scene 7 — Mexico's Pain</div>
+<div class="scene">
+    <div class="scene-header">
+        <span class="scene-num">Scene 07</span>
+        <span class="scene-desc">Mexico's Azteca fortress falls — the end of an era for Mexican football</span>
+    </div>
+    <div class="voiceover">
+        <div class="voiceover-label">Voiceover</div>
+        <p>For Mexico, this loss is devastating. The Azteca had been their shield for decades. No visiting team had ever won a World Cup knockout match here. It was more than a stadium — it was an identity. Mexico's World Cup hopes were built around the belief that the Azteca made them unbeatable. That belief is gone now. Raul Jimenez scored twice and fought for everything, but it was not enough. Mexico's 40-year knockout drought continues — their last knockout win was also in 1986. The curse of el quinto partido is still alive.</p>
+    </div>
+    <div class="prompt-label image">IMAGE PROMPTS</div>
+    <div class="img-grid">
+        <div class="img-item">
+            <div class="label">Prompt A</div>
+            <div class="text">Stickman Mexico players on their knees at full time, the Azteca crowd behind them in stunned silence, the fortress breached, the end of an era on dark green pitch background with stadium lights</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt B</div>
+            <div class="text">Azteca fortress wall with a crack labeled ENGLAND 2026, the impenetrable shield finally broken, the historic defeat visualized as structural damage on dark background</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt C</div>
+            <div class="text">Raul Jimenez silhouette, two goals scored but not enough, the pain of a captain who gave everything but could not carry his team through, individual hero in a losing cause on dark background</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt D</div>
+            <div class="text">Mexico knockout drought timeline: 1986 last win, 1994-2022 all Round of 16 exits, 2026 Azteca loss, the continuing curse visualized as a painful timeline on dark gradient background</div>
+        </div>
+    </div>
+    <div class="prompt-label video">VIDEO PROMPTS</div>
+    <div class="img-grid">
+        <div class="vid-item">
+            <div class="label">Video A</div>
+            <div class="text">Mexico players reaction: Jimenez on his knees, fans crying in the stands, the silence of 87,000 people, the weight of disappointment visualized through human emotion</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video B</div>
+            <div class="text">Azteca fortress animation: the legendary shield of Mexican football cracking and falling, England's flag breaking through, the symbolic end of an era animated</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video C</div>
+            <div class="text">Jimenez performance montage: his two goals, his leadership, his fight, the captain's effort that fell short, individual brilliance in a team loss</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video D</div>
+            <div class="text">Mexican fan documentary-style: fans leaving the stadium in silence, the long walk home after a historic defeat, the emotional aftermath of a nation's shattered belief</div>
+        </div>
+    </div>
+</div>
+
+<div class="section-header">Scene 8 — The Key Players</div>
+<div class="scene">
+    <div class="scene-header">
+        <span class="scene-num">Scene 08</span>
+        <span class="scene-desc">The stars who made England's historic win possible</span>
+    </div>
+    <div class="voiceover">
+        <div class="voiceover-label">Voiceover</div>
+        <p>Three players deserve special recognition. Bukayo Saka scored England's opener and was a constant threat on the wing before the red card forced him into defensive duty. Jude Bellingham scored a brilliant second goal and then covered every blade of grass in midfield, winning tackles and starting counter-attacks while down to 10 men. And Jordan Pickford made two save-of-the-tournament candidates in the final minutes — including a point-blank reaction stop that preserved the lead. These three players embodied England's resilience when it mattered most.</p>
+    </div>
+    <div class="prompt-label image">IMAGE PROMPTS</div>
+    <div class="img-grid">
+        <div class="img-item">
+            <div class="label">Prompt A</div>
+            <div class="text">Three stickman England stars: Saka with goal icon, Bellingham with goal and midfield icon, Pickford with save icon, each highlighted for their contribution, hero cards on dark stadium background</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt B</div>
+            <div class="text">Stickman Bellingham covering the whole midfield, heat map showing his range, the engine of England's 10-man performance, work rate visualized as pitch coverage on dark green background</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt C</div>
+            <div class="text">Pickford's save visualized: ball traveling toward goal, his hand intercepting, the geometry of a world-class save drawn with scientific precision on dark goal background</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt D</div>
+            <div class="text">Saka celebration: stickman Saka by the corner flag, arms raised, the moment that started England's historic night, early goal that silenced the Azteca on dark stadium background</div>
+        </div>
+    </div>
+    <div class="prompt-label video">VIDEO PROMPTS</div>
+    <div class="img-grid">
+        <div class="vid-item">
+            <div class="label">Video A</div>
+            <div class="text">Player highlights: Saka's goal and defensive work, Bellingham's goal and midfield dominance, Pickford's saves, each hero's contribution shown in individual sequence</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video B</div>
+            <div class="text">Bellingham's match in review: his touches, his passes, his tackles, the complete midfield performance that helped England survive with 10 men, individual match data visualized</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video C</div>
+            <div class="text">Pickford's saves in slow motion: the reactions, the positioning, the reflexes of a goalkeeper at his peak, save technique analyzed frame by frame</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video D</div>
+            <div class="text">Stickman Saka and Bellingham embracing after the match, young stars of England's future delivering in the biggest moment, generational talent stepping up visualized</div>
+        </div>
+    </div>
+</div>
+
+<div class="section-header">Scene 9 — What This Victory Means for English Football</div>
+<div class="scene">
+    <div class="scene-header">
+        <span class="scene-num">Scene 09</span>
+        <span class="scene-desc">England's mentality shift — from nearly men to history makers</span>
+    </div>
+    <div class="voiceover">
+        <div class="voiceover-label">Voiceover</div>
+        <p>English football has long been defined by its failures. Penalty shootout heartbreaks. Semifinal exits. The weight of 1966. But this England team is different. They have reached a semifinal, a final, and now delivered the greatest foreign result in their history. The narrative is changing. England no longer folds under pressure — they thrive in it. Winning with 10 men at the Azteca is the kind of result that teams remember for years. It builds belief. It builds identity. England is no longer hoping to win — they are expecting to win.</p>
+    </div>
+    <div class="prompt-label image">IMAGE_PROMPTS</div>
+    <div class="img-grid">
+        <div class="img-item">
+            <div class="label">Prompt A</div>
+            <div class="text">England identity evolution: 1966 STILL WAITING, 1990 HEARTBREAK, 2018 PRIDE RESTORED, 2026 BELIEVERS, the transformation of English football mentality visualized as progressive statements on dark background</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt B</div>
+            <div class="text">Stickman England team standing together, Azteca crowd behind them as silhouettes, the fortress conquered, the team that broke the curse, unified on dark stadium background with three lions crest</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt C</div>
+            <div class="text">Bracket path: England advancing to quarterfinal, their road ahead, the belief that this could be their tournament, bracket optimism visualized on dark gradient background</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt D</div>
+            <div class="text">Infographic: England's record in knockout matches since 2018 — the improvement, the resilience, the data showing a team that has learned how to win when it matters, progress on dark background</div>
+        </div>
+    </div>
+    <div class="prompt-label video">VIDEO PROMPTS</div>
+    <div class="img-grid">
+        <div class="vid-item">
+            <div class="label">Video A</div>
+            <div class="text">England knockout history montage: 1990 penalty loss, 1996 semi, 2004 quarter, 2018 semi, 2020 final, 2026 Azteca win, the arc of English football from heartbreak to resilience</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video B</div>
+            <div class="text">Stickman England team being asked about the pressure of history, breaking the Azteca curse, their answer: we write our own history, mentality shift visualized through interview</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video C</div>
+            <div class="text">England fans around the world reacting, the global support for a team that is changing its narrative, fan belief visualized through multinational watch parties</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video D</div>
+            <div class="text">Bracket animation: England's path to the final glowing, the Azteca victory as the launchpad, the tournament wide open, England's opportunity visualized through bracket progression</div>
+        </div>
+    </div>
+</div>
+
+<div class="section-header">Scene 10 — Conclusion</div>
+<div class="scene">
+    <div class="scene-header">
+        <span class="scene-num">Scene 10</span>
+        <span class="scene-desc">No team had ever done it. England did. And they did it the hard way — with 10 men.</span>
+    </div>
+    <div class="voiceover">
+        <div class="voiceover-label">Voiceover</div>
+        <p>The Estadio Azteca has stood for nearly 60 years. It has hosted two World Cup finals, seen Pelé and Maradona, witnessed Mexico's greatest victories. No visiting team had ever won a World Cup knockout match here. Until today. England, with 10 men for 60 minutes, at 2,200 meters altitude, against 87,000 screaming fans, won 3-2. This was not just a victory. It was a statement. England can win anywhere. England can win against anyone. England can win even when the odds are stacked against them. The Azteca curse is broken. And English football will never be the same.</p>
+    </div>
+    <div class="prompt-label image">IMAGE PROMPTS</div>
+    <div class="img-grid">
+        <div class="img-item">
+            <div class="label">Prompt A</div>
+            <div class="text">England crest superimposed on the Azteca stadium, the fortress conquered, the symbol of England's greatest foreign victory, historic achievement visualized as crest on stadium on dark night background</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt B</div>
+            <div class="text">Stickman England team arm in arm at center circle of Azteca, the 10 who finished the match together, unity and defiance against all odds on dark green pitch with floodlight beams</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt C</div>
+            <div class="text">Azteca empty after the match, England scarf on a seat, the historic moment memorialized in the silence of the stadium, a quiet tribute to what happened here on dark stadium background</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt D</div>
+            <div class="text">Final text card: ENGLAND 3-2 MEXICO, FIRST TEAM TO WIN AT AZTECA IN WORLD CUP, 10 MEN FOR 60 MINUTES, QUARTERFINAL BOUND, WC26 logo, clean historic title card on dark gradient with England flag</div>
+        </div>
+    </div>
+    <div class="prompt-label video">VIDEO PROMPTS</div>
+    <div class="img-grid">
+        <div class="vid-item">
+            <div class="label">Video A</div>
+            <div class="text">Final whistle celebration: England players collapsing in exhaustion and joy, the bench running onto the pitch, the realization of what they achieved, raw emotion of a historic victory</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video B</div>
+            <div class="text">Montage of the match's defining moments: Saka's goal, Bellingham's strike, the red card, the 10-man defense, Pickford's saves, Kane's finish, the final whistle, the complete story in 30 seconds</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video C</div>
+            <div class="text">Azteca time-lapse: from full stadium to empty, the history that was made within those walls, the stadium itself as a witness to the historic moment, architectural tribute with fading crowd</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video D</div>
+            <div class="text">Final frame: England crest with three lions, text appearing: "WE DID WHAT NO ONE COULD DO", slow fade to WC26 logo, the statement of a team that made history, cinematic conclusion</div>
+        </div>
+    </div>
+</div>
+
+<div class="section-header">Thumbnail &amp; SEO</div>
+
+<div class="thumbnail-box">
+    <div class="label gold">YouTube Thumbnail</div>
+    <div class="voiceover" style="margin-top: 0.5rem;">
+        <p><strong>Title Options:</strong></p>
+        <ul style="list-style: none; margin-top: 0.3rem;">
+            <li>A: England Beat Mexico at the Azteca — No Team Had Ever Done That at a World Cup</li>
+            <li>B: England 3-2 Mexico: History at the Azteca — Won With 10 Men</li>
+            <li>C: The Azteca Curse Is Broken: England's Greatest Foreign Victory</li>
+        </ul>
+        <p style="margin-top: 0.5rem;"><strong>Design:</strong> Dark Azteca stadium night. Towering stadium silhouette with "ALTITUDE 2,200M" glowing. 10-man England huddled in white, red card above them. Mexico's green crowd as a wall of noise background. Three England goal icons glowing. Bold text: "NO TEAM HAD DONE IT. ENGLAND DID." in white with red/blue accents. Dramatic floodlights, high contrast, stickman vector style.</p>
+    </div>
+</div>
+
+<div class="thumbnail-box">
+    <div class="label gold">Share Thumbnail AI Prompt</div>
+    <div class="prompt-box">1200x630 share card stickman style dark Azteca stadium night towering stadium silhouette altitude 2200m glowing ten England players white huddled red card icon above Mexico green crowd wall of noise background three England goal icons glowing bold text No Team Had Done It England Did 1200x630 educational infographic high contrast historic dramatic no photorealism</div>
+    <div class="label blue" style="margin-top: 0.6rem; font-size: 0.75rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; color: #0088ff;">Share Copy</div>
+    <div style="background: #0d1a2e; border-radius: 6px; padding: 0.8rem 1rem; font-size: 0.95rem; line-height: 1.6; color: #e0e8f0; border-left: 3px solid #0088ff; margin-top: 0.3rem;">
+        <p><strong>Title:</strong> England Beat Mexico at the Azteca — First Team Ever to Do It at a World Cup. With 10 Men.</p>
+        <p><strong>Description:</strong> England won 3-2 at the Estadio Azteca — no visiting team had ever won a World Cup knockout match there. England did it with 10 men for 60 minutes. The greatest foreign result in English football history.</p>
+        <p><strong>Tags:</strong> #England #Mexico #Azteca #WorldCup2026 #HistoryMade #10Men #ThreeLions #WC26 #EnglandWin</p>
+    </div>
+</div>
+
+<div class="seo-grid">
+    <div class="seo-card">
+        <h3>Description</h3>
+        <p class="seo-desc">England beat Mexico 3-2 at the Estadio Azteca in the World Cup Round of 16 — the first visiting team ever to win a World Cup knockout match at the legendary stadium. England played 60 minutes with 10 men after Jarell Quansah's red card. Bukayo Saka, Jude Bellingham, and Harry Kane scored in one of the best matches of the tournament. We break down the Azteca's intimidating history, the red card that changed the game, the heroic 10-man defensive performance, and what this historic victory means for England's World Cup hopes.</p>
+    </div>
+    <div class="seo-card tags">
+        <h3>Tags</h3>
+        <ul>
+            <li>England beat Mexico Azteca</li>
+            <li>Azteca curse broken England</li>
+            <li>England 3-2 Mexico World Cup</li>
+            <li>England 10 men Mexico</li>
+            <li>Quansah red card England</li>
+            <li>Saka goal England Mexico</li>
+            <li>Bellingham goal Mexico</li>
+            <li>Kane goal England Azteca</li>
+            <li>England greatest foreign win</li>
+            <li>Mexico Azteca World Cup history</li>
+            <li>England Round of 16 2026</li>
+            <li>Azteca altitude 2200m</li>
+            <li>Pickford saves England Mexico</li>
+            <li>England knockout Mexico</li>
+            <li>Stones Walker defense England</li>
+            <li>Jimenez two goals Mexico</li>
+            <li>Azteca 87000 crowd</li>
+            <li>England resilience 10 men</li>
+            <li>Mexico el quinto partido curse</li>
+            <li>England World Cup history</li>
+            <li>England quarterfinal bound</li>
+            <li>Azteca first team win World Cup</li>
+            <li>England mental toughness</li>
+            <li>Mexico Azteca knockout loss</li>
+            <li>England Saka Bellingham stars</li>
+            <li>England best result foreign soil</li>
+            <li>World Cup 2026 best match</li>
+            <li>England Mexico highlights</li>
+            <li>Azteca fortress destroyed</li>
+            <li>England three lions history</li>
+        </ul>
+    </div>
+    <div class="seo-card">
+        <h3>Keywords</h3>
+        <ul>
+            <li>England first team to win at Azteca World Cup</li>
+            <li>England 3-2 Mexico 10 men red card</li>
+            <li>Quansah red card England Azteca win</li>
+            <li>England greatest foreign World Cup result</li>
+            <li>Azteca stadium history England victory</li>
+            <li>England Mexico knockout 2026</li>
+            <li>Saka Bellingham Kane goals Mexico</li>
+            <li>Pickford saves England 10 men Mexico</li>
+            <li>Mexico Azteca curse continues England</li>
+            <li>England resilience 10 man performance World Cup</li>
+            <li>England quarterfinal 2026 Azteca win</li>
+            <li>Azteca altitude 2200 meters England win</li>
+            <li>England mental toughness World Cup 2026</li>
+            <li>Stones Walker defensive masterclass Mexico</li>
+            <li>England fans celebration Azteca victory</li>
+        </ul>
+    </div>
+    <div class="seo-card">
+        <h3>Hashtags</h3>
+        <ul>
+            <li>#AztecaConquered</li>
+            <li>#EnglandHistory</li>
+            <li>#ThreeLions</li>
+            <li>#10MenWon</li>
+            <li>#MexicoAzteca</li>
+            <li>#WorldCupClassic</li>
+            <li>#EnglandVsMexico</li>
+            <li>#WC26</li>
+        </ul>
+    </div>
+</div>
+
+<div class="section-header">Voiceover Notes</div>
+<div class="vonote">
+    <ul>
+        <li><strong>Tone:</strong> Triumphant, respectful, storytelling. Balances celebration of England's historic achievement with respect for Mexico's Azteca legacy. Builds the drama of the match while honoring both teams.</li>
+        <li><strong>Pacing:</strong> Scene 1 hook with the historic achievement. Scene 2 why the Azteca is so intimidating. Scene 3 match breakdown. Scene 4 the red card. Scene 5 10-man performance. Scene 6 what this means for England. Scene 7 Mexico's pain. Scene 8 key players. Scene 9 English football mindset shift. Scene 10 triumphant conclusion.</li>
+        <li><strong>Key phrases to emphasize:</strong> "no team had ever done it", "first time in World Cup history", "with 10 men", "2,200 meters altitude", "87,000 fans", "greatest foreign victory", "Azteca fortress", "England found a way".</li>
+        <li><strong>Musical cues:</strong> Opening with dramatic orchestral establishing Azteca, match segments with energetic rock, red card with tense strings, 10-man defense with heroic brass, conclusion with triumphant English choral.</li>
+        <li><strong>Sound design:</strong> Azteca crowd roar, altitude breathing effect, referee whistle, goal celebrations, Pickford save impact, final whistle silence then explosion, three lions chant snippet.</li>
+        <li><strong>Transition style:</strong> Cinematic wipes for historical segments, quick cuts for match action, slow motion for key moments, dramatic pause for the red card, triumphant build for the conclusion.</li>
+        <li><strong>Duration target:</strong> 10 scenes x approximately 15-20 seconds each = ~3 minutes. Aim for 3:00-3:20 final runtime.</li>
+    </ul>
+</div>
+
+<footer>WC26Matrix — Storyboard generated for Stickman Sports Infographic style video production</footer>
+
+</div>
+</body>
+</html>

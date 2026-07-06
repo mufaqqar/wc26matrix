@@ -594,7 +594,9 @@ Virality score: 🔥 10/10
 
 
 
-Idea 79🔥🔥🔥
+Idea 79
+
+🔥🔥🔥
 
 
 Title: England Beat Mexico at the Azteca — No Team Had Ever Done That at a World Cup
