@@ -563,3 +563,46 @@ What you explain: Why Mexico's 40-year knockout drought made this result so emot
 Thumbnail text: "Mexico Won. Then This Happened."
 
 Virality score: 🔥 9.5/10
+
+
+
+Idea 77🔥🔥🔥
+
+Title: Norway Just Knocked Out Brazil. Neymar Retired On the Spot.
+
+Why it'll explode: Brazil was eliminated from the 2026 FIFA World Cup following a 2-1 loss to Norway, with Erling Haaland heading in the go-ahead goal in the 79th minute and scoring again before the end of regulation.  Then immediately after the final whistle, Neymar announced his decision to retire from international football following Brazil's World Cup exit.  A five-time World Cup nation eliminated by Norway — in their first ever quarterfinal — plus a generational superstar retiring mid-tournament. This is the single biggest shock result of the entire tournament.
+
+What you explain: How Norway built the most dangerous striker in the world around Erling Haaland, why Brazil's golden era may now officially be over without Neymar, and what this result means statistically — Norway had never reached a World Cup quarterfinal in their history until today. Stick figures showing Haaland's two goals and the retirement announcement side by side.
+
+Thumbnail text: "Norway Killed Brazil. Neymar's Gone."
+
+Virality score: 🔥 10/10
+
+
+Idea 78🔥🔥🔥
+
+
+Title: FIFA Overturned Balogun's Red Card. Belgium Is Furious. USA vs Belgium Is Tonight.
+
+Why it'll explode: A World Cup red card hasn't been rescinded since 1962 — that changed when FIFA lifted Folarin Balogun's suspension,  making him available for tonight's USA vs Belgium Round of 16. The Royal Belgian Football Association released a statement in response to FIFA lifting Balogun's suspension  — meaning the opponent is officially protesting before kickoff. Tonight's match is already the most politically charged game of the round before a single ball has been kicked.
+
+What you explain: How the red card appeals process actually works, why reversals are so historically rare (only the second time in World Cup history), what the Belgian federation's complaint means legally, and why Balogun being available changes the USA's entire tactical setup tonight — stick figures showing a red card being shown, then a hand taking it back while Belgian stick figures throw their arms up.
+
+Thumbnail text: "Red Card Gone. Belgium Furious. Tonight."
+
+Virality score: 🔥 10/10
+
+
+
+Idea 79🔥🔥🔥
+
+
+Title: England Beat Mexico at the Azteca — No Team Had Ever Done That at a World Cup
+
+Why it'll explode: England beat Mexico 3-2 at Estadio Azteca in perhaps the best match of the World Cup so far — the Three Lions held on despite a second-half red card for Jarell Quansah and a Raul Jimenez penalty narrowing the gap to one goal.  Winning at the Azteca in a World Cup knockout match had never been done before by any English team. England's win was described as their best result on foreign soil in their entire World Cup history. 
+
+What you explain: Why the Azteca is the most intimidating stadium in world football (altitude, noise, history), what made this result statistically historic for England, and how a red card mid-match forced England into a defensive shape that somehow held — stick figures showing a lone goalkeeper and nine outfield players holding off wave after wave of Mexican attacks.
+
+Thumbnail text: "No Team Had Done It. England Did."
+
+Virality score: 🔥 9.5/10
