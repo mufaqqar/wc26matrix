@@ -75,6 +75,13 @@ Idea 65 [□□□□□□□□□□] 0% — Not started
 Idea 74 [■■■■■■■■■■] 100% — Storyboard done (10 scenes)
 Idea 75 [■■■■■■■■■■] 100% — Storyboard done (10 scenes)
 Idea 76 [■■■■■■■■■■] 100% — Storyboard done (10 scenes)
+Idea 77 [■■■■■■■■■■] 100% — Storyboard done (10 scenes)
+Idea 78 [■■■■■■■■■■] 100% — Storyboard done (10 scenes)
+Idea 79 [■■■■■■■■■■] 100% — Storyboard done (10 scenes)
+Idea 80 [■■■■■■■■■■] 100% — Storyboard done (10 scenes)
+Idea 81 [■■■■■■■■■■] 100% — Storyboard done (10 scenes)
+Idea 82 [■■■■■■■■■■] 100% — Storyboard done (10 scenes)
+Idea 83 [■■■■■■■■■■] 100% — Storyboard done (10 scenes)
 ```
 
-**Total progress:** 55/65 ideas complete (85%) — 3 ideas remaining for storyboards
+**Total progress:** 71/83 ideas storyboarded (86%)

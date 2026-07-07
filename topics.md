@@ -608,3 +608,56 @@ What you explain: Why the Azteca is the most intimidating stadium in world footb
 Thumbnail text: "No Team Had Done It. England Did."
 
 Virality score: 🔥 9.5/10
+
+
+
+
+Idea 80
+
+Title: The USA Got Knocked Out On Home Soil. Here's Exactly What Went Wrong.
+
+Why it'll explode: Belgium defeated the United States 4-1, with Charles De Ketelaere scoring twice and assisting on another goal, exposing the Americans' defensive liabilities  on home soil in front of 66,925 fans in Seattle. Christian Pulisic was subbed off injured in the 57th minute, visibly crying into his kit on the sidelines.  A host nation humiliated at home, their star in tears — this is peak American sports heartbreak content and it's the #1 trending topic in the US right now.
+
+What you explain: The four tactical mistakes that cost the USA the match — how Belgium exposed the defensive left side repeatedly, why the goalkeeper error at 3-1 was the killing blow, what Pulisic's injury means for his future, and whether this generation of USMNT players delivered on the promise of hosting a World Cup — stick figures walking through each Belgium goal and the defensive breakdown that caused it.
+
+Thumbnail text: "USA. Out. On Home Soil."
+
+Virality score: 🔥 10/10
+
+Idea 81
+
+Title: Ronaldo Cried After His Last Match. He Never Won a World Cup.
+
+Why it'll explode: Portugal star Cristiano Ronaldo confirmed this would be his final World Cup after a 1-0 loss to Spain eliminated Portugal in the Round of 16.  While Ronaldo became the first player ever to score in six World Cups, Portugal has not made it beyond the quarterfinals in 20 years.  The greatest individual player of his generation ends his World Cup story without the only trophy that ever escaped him. This is the most emotional story of the entire tournament and the most searched name on the planet tonight.
+
+What you explain: Why the World Cup is the only major trophy missing from Ronaldo's career, what Portugal's tactical setup cost him in this match, and what his six-tournament legacy looks like now that it's officially over — stick figures showing a timeline of six World Cups with six near-misses and one final exit.
+
+Thumbnail text: "6 World Cups. No Trophy. Goodbye."
+
+Virality score: 🔥 10/10
+
+
+Idea 82
+
+Title: Trump Called FIFA to Overturn a Red Card. The USA Lost 4-1 Anyway. Belgium Said "Overturn This."
+
+Why it'll explode: Trump confirmed to reporters that he personally called FIFA president Gianni Infantino to ask him to review Balogun's red card — saying "I asked for a review because I didn't think it was a foul. I didn't know what the hell a red card was."  FIFA overturned the ban in what was the first red card reversal in over 60 years of World Cup matches.  Belgium appealed, lost the appeal, played the match — and won 4-1. After the final whistle, Belgium's official social media account posted a picture of their celebrating players with two words: "Overturn this."  The US President didn't know what a red card was, called the head of world football, got the ban reversed — and his team still got knocked out 4-1 on home soil. This writes itself.
+
+What you explain: What a red card automatic suspension actually means in FIFA's own rulebook, why this reversal was only the second in 60+ years of World Cup history, what UEFA said about FIFA "crossing a red line," and why Belgium's two-word response became the most viral post of the entire tournament — stick figures showing Trump on a phone calling FIFA, the red card being taken back, then Belgium scoring four anyway.
+
+Thumbnail text: "Trump Called FIFA. USA Lost 4-1. 'Overturn This.'"
+
+Virality score: 🔥 10/10
+
+
+Idea 83
+
+Title: The Goalkeeper Who Let In 4 Goals Had Only Let In 1 All Tournament
+
+Why it'll explode: US goalkeeper Matt Freese had allowed just one goal in the entire World Cup entering the Belgium match — then allowed four in a single game, including a major error that led directly to Belgium's third goal.  One goalkeeper, one night, a complete collapse — the contrast between his tournament stats and this single match performance is one of the most shocking individual stat lines of the Round of 16.
+
+What you explain: What actually happened on each of the four goals — which were Freese's fault, which were defensive collapses in front of him, and why a goalkeeper's confidence can shatter after a single error in a match of this magnitude — stick figures breaking down each goal showing who was to blame at every stage.
+
+Thumbnail text: "1 Goal All Tournament. Then 4 in One Night."
+
+Virality score: 🔥 9/10
