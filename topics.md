@@ -661,3 +661,32 @@ What you explain: What actually happened on each of the four goals — which wer
 Thumbnail text: "1 Goal All Tournament. Then 4 in One Night."
 
 Virality score: 🔥 9/10
+
+
+Idea 84
+
+
+
+Title: Egypt Had Argentina 2-0. VAR Took a Goal Away. Argentina Won 3-2. Egypt Called It "Rigged."
+
+Why it'll explode: Argentina trailed Egypt before completing a stunning 3-2 comeback win in their Round of 16 match — with Egypt leading 2-0 despite having a goal controversially disallowed by VAR.  Egypt's coach Hossam Hassan did not hold back after the match: "We haven't seen respect or fair play. A penalty was ruled out, a second goal was remarkably disallowed. I want to put it in beautiful words and say 'Hard luck' — but we have been treated unfairly."  One day after Trump called FIFA to overturn Balogun's red card, another VAR controversy hands the most famous player on the planet a lifeline. The word "rigged" is now trending globally and this is the single most searched football story of July 8.
+
+What you explain: Egypt's Mostafa Ziko's goal that would have made it 2-0 was disallowed after VAR determined that Egypt defender Marwan Attia had fouled Argentina's Lisandro Martínez in the build-up — with the foul occurring while Argentina was still on the attack, leading to controversy over whether VAR had even overstepped its own reach.  FOX Sports analyst Rob Green said on broadcast: "Surely, this is not within VAR's realm to review this. It's a full length of the pitch away."  Meanwhile former FIFA referee Mark Clattenburg disagreed entirely: "I don't believe that A. it was a foul and B. there should be a VAR intervention to disallow this goal — this type of foul isn't consistent to the way referees have been refereeing this tournament."  Stick figures walking through the exact sequence — the original attack, the foul 20 seconds earlier on the other side of the pitch, the goal, and the disallowance — so casual fans finally understand what VAR can and cannot legally review.
+
+Thumbnail text: "2-0 Up. VAR Struck. Then Messi Scored Three."
+
+Virality score: 🔥 10/10
+
+
+Idea 85 
+
+
+Title: "How Far Back Does VAR Go? Back to Kick-Off Soon."
+
+Why it'll explode: Veteran football commentator Ian Darke posted: "How far back in the play does VAR go? Back to kick off soon!! Hint of farce about that Egypt goal being ruled out. The goal would have stood for 150 years prior to VAR."  That quote went viral instantly. The Egypt VAR decision is just the latest in a string of controversial calls at this World Cup — and analysts are now openly asking how far back a review can legally go to erase a goal.  This is the pure football-rules explainer your channel was built for — and the timing is perfect.
+
+What you explain: Exactly what IFAB's Laws of the Game say about how far back VAR can go in a phase of play, how the Egypt decision compares to previous VAR decisions this tournament, and why the "full length of the pitch" argument is the most compelling criticism — stick figures showing a timeline of play rewinding further and further back to show where VAR's legal boundary actually sits.
+
+Thumbnail text: "How Far Back Can VAR Go? Nobody Agrees."
+
+Virality score: 🔥 9/10
