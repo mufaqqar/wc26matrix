@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Is WORLD CUP Rigged? | WC26Matrix</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; background: #0a1628; color: #e0e8f0; padding: 2rem 1rem; }
+.container { max-width: 1000px; margin: 0 auto; }
+h1 { font-size: 2rem; font-weight: 700; color: #00e5ff; margin-bottom: 0.3rem; }
+.subtitle { color: #8899aa; font-size: 1rem; margin-bottom: 2rem; border-left: 4px solid #ff6b35; padding-left: 1rem; }
+.badge { font-size: 0.75rem; font-weight: 600; background: #ff6b35; color: #fff; padding: 0.2rem 0.7rem; border-radius: 20px; display: inline-block; }
+.badge.gold { background: #ff6b35; }
+.badge.blue { background: #0088ff; }
+.badge.image { background: #9b59b6; color: #fff; }
+.badge.video { background: #e74c3c; color: #fff; }
+.section-header { font-size: 1.2rem; font-weight: 600; color: #00e5ff; background: #111d33; padding: 0.7rem 1.2rem; border-radius: 8px; margin-bottom: 1rem; display: flex; align-items: center; gap: 0.6rem; flex-wrap: wrap; }
+.scene { background: #0f1d33; border-radius: 10px; padding: 1.2rem 1.5rem; margin-bottom: 1rem; box-shadow: 0 1px 4px rgba(0,0,0,0.3); border-left: 4px solid #00e5ff; }
+.scene-header { display: flex; align-items: center; gap: 0.8rem; margin-bottom: 0.8rem; flex-wrap: wrap; }
+.scene-num { font-weight: 700; color: #00e5ff; font-size: 0.9rem; }
+.scene-desc { font-style: italic; color: #8899aa; font-size: 0.9rem; }
+.voiceover { background: #0d1a2e; border-radius: 6px; padding: 0.8rem 1rem; margin-top: 0.7rem; font-size: 0.95rem; line-height: 1.6; color: #e0e8f0; border-left: 3px solid #0088ff; }
+.voiceover-label { font-size: 0.75rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; color: #0088ff; margin-bottom: 0.3rem; }
+.prompt-label { font-size: 0.75rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; color: #fff; margin-bottom: 0.2rem; margin-top: 0.6rem; padding: 0.15rem 0.6rem; border-radius: 4px; display: inline-block; }
+.prompt-label.image { background: #9b59b6; }
+.prompt-label.video { background: #e74c3c; }
+.prompt-box { background: #0d1a2e; border-radius: 6px; padding: 0.8rem 1rem; font-size: 0.88rem; line-height: 1.5; color: #99aabb; font-family: 'Courier New', monospace; border-left: 3px solid #00e5ff; white-space: pre-wrap; margin-bottom: 0.5rem; }
+.prompt-box.video-prompt { border-left-color: #e74c3c; background: #1a0d0d; }
+.img-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0.8rem; margin-top: 0.5rem; }
+.img-item { background: #0d1a2e; border-radius: 6px; padding: 0.7rem; border-left: 3px solid #9b59b6; }
+.img-item .label { font-size: 0.7rem; font-weight: 600; color: #9b59b6; margin-bottom: 0.2rem; }
+.img-item .text { font-size: 0.82rem; color: #99aabb; font-family: 'Courier New', monospace; line-height: 1.4; white-space: pre-wrap; }
+.vid-item { background: #1a0d0d; border-radius: 6px; padding: 0.7rem; border-left: 3px solid #e74c3c; }
+.vid-item .label { font-size: 0.7rem; font-weight: 600; color: #e74c3c; margin-bottom: 0.2rem; }
+.vid-item .text { font-size: 0.82rem; color: #99aabb; font-family: 'Courier New', monospace; line-height: 1.4; }
+.thumbnail-box { background: #0f1d33; border-radius: 10px; padding: 1.2rem 1.5rem; box-shadow: 0 1px 4px rgba(0,0,0,0.3); border-left: 4px solid #ff6b35; margin-bottom: 1rem; }
+.thumbnail-box .label { font-size: 0.75rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 0.2rem; }
+.thumbnail-box .label.gold { color: #ff6b35; }
+.thumbnail-box .label.blue { color: #0088ff; }
+.seo-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+.seo-card { background: #0f1d33; border-radius: 10px; padding: 1rem 1.2rem; box-shadow: 0 1px 4px rgba(0,0,0,0.3); }
+.seo-card h3 { font-size: 0.9rem; color: #00e5ff; margin-bottom: 0.5rem; }
+.seo-card ul { list-style: none; }
+.seo-card li { font-size: 0.88rem; color: #99aabb; padding: 0.25rem 0; border-bottom: 1px solid #1a2a44; }
+.seo-card li:last-child { border-bottom: none; }
+.seo-card.tags li { display: inline-block; background: #1a2a44; padding: 0.2rem 0.6rem; border-radius: 4px; margin: 0.2rem; font-size: 0.8rem; border: none; }
+.seo-desc { font-size: 0.85rem; line-height: 1.6; color: #99aabb; margin-bottom: 0.5rem; }
+.vonote { background: #0f1d33; border-radius: 10px; padding: 1.2rem 1.5rem; box-shadow: 0 1px 4px rgba(0,0,0,0.3); }
+.vonote ul { list-style: none; font-size: 0.92rem; line-height: 1.8; color: #99aabb; }
+.meta-row { display: flex; gap: 1rem; flex-wrap: wrap; margin-bottom: 1rem; }
+.meta-tag { background: #1a2a44; padding: 0.3rem 0.8rem; border-radius: 20px; font-size: 0.85rem; }
+.meta-tag.style { background: #1a2a44; color: #00e5ff; border: 1px solid #00e5ff; }
+footer { margin-top: 3rem; text-align: center; font-size: 0.85rem; color: #556677; padding: 1rem 0; }
+@media (max-width: 700px) { .seo-grid { grid-template-columns: 1fr; } .img-grid { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+<div class="container">
+
+<h1>Is WORLD CUP Rigged?</h1>
+<div class="subtitle">Stickman conspiracy investigation style — Dark investigative tone with evidence boards and timeline breakdowns</div>
+
+<div class="meta-row">
+    <span class="meta-tag">Category: WC26 Controversy</span>
+    <span class="meta-tag">Est. Length: ~4 min</span>
+    <span class="meta-tag style">Style: Stickman Investigative Infographic</span>
+    <span class="meta-tag">Scenes: 10</span>
+    <span class="meta-tag">Images: 40</span>
+    <span class="meta-tag">Video Prompts: 40</span>
+    <span class="meta-tag">Voiceover: ~500 words</span>
+</div>
+
+<div class="thumbnail-box">
+    <div class="label gold">Thumbnail</div>
+    <div class="voiceover" style="margin-top: 0.5rem;">
+        <p><strong>Layout:</strong> Dark interrogation room style. Center frame shows a World Cup trophy with crack lines spreading across it, dollar signs and question marks floating around it. A stickman detective figure in trench coat points at the trophy. Red string connecting suspicious incidents on a evidence board behind him. Bottom text: "IS THE WORLD CUP RIGGED?" in bold red and white.</p>
+    </div>
+    <div class="img-grid" style="margin-top: 0.8rem;">
+        <div class="img-item">
+            <div class="label">Image A</div>
+            <div class="text">World Cup trophy in center with crack lines spreading across it like broken glass, dollar signs and question marks floating around, dark interrogation room lighting, red glowing evidence thread wrapping around the trophy base</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Image B</div>
+            <div class="text">Stickman detective in trench coat pointing at camera, behind him an evidence board with red strings connecting photos of referee decisions VAR screens and FIFA logo, dramatic spotlight from above</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Image C</div>
+            <div class="text">Split composition: left side shows a fair scale with World Cup trophy balanced, right side shows the scale tipping with money bags on one side and trophy on the other, dark gradient background</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Image D</div>
+            <div class="text">Giant question mark made of football referee whistles and VAR screens, World Cup trophy silhouette inside the question mark, conspiracy theory mood with dim stadium lighting and shadowy figures</div>
+        </div>
+    </div>
+</div>
+
+<div class="section-header">Scene 1 — The Hook: I'm Going to Try and Prove If the World Cup Is Rigged</div>
+<div class="scene">
+    <div class="scene-header">
+        <span class="scene-num">Scene 01</span>
+        <span class="scene-desc">Opening the investigation — why millions of fans question the integrity of football's biggest tournament</span>
+    </div>
+    <div class="voiceover">
+        <div class="voiceover-label">Voiceover</div>
+        <p>The World Cup is the most watched sporting event on Earth. Billions of eyes. Decades of history. And underneath it all — a persistent, uncomfortable question. Is it rigged? From controversial referee decisions to suspicious draws, from VAR chaos to the enormous financial stakes — I'm going to examine the evidence. Not with opinions. With facts. Let's find out if the beautiful game is still beautiful — or if something darker is pulling the strings.</p>
+    </div>
+    <div class="prompt-label image">IMAGE PROMPTS</div>
+    <div class="img-grid">
+        <div class="img-item">
+            <div class="label">Prompt A</div>
+            <div class="text">Stickman detective figure standing at podium with World Cup trophy behind glass, evidence folder open in front labeled CASE FILE WORLD CUP, question marks floating in dark background, single spotlight creating dramatic shadows</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt B</div>
+            <div class="text">Giant World Cup trophy with magnifying glass hovering over it, the trophy has faint shadowy figures manipulating it from below like puppet strings, conspiracy investigation visual on dark background</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt C</div>
+            <div class="text">Infographic showing the scale of the World Cup: billions of viewers, millions of dollars, 32+ nations, with a question mark overlay questioning if something so big can be fair, stat board style</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt D</div>
+            <div class="text">Stickman analyst holding two masks: one smiling fair play mask, one sinister conspiracy mask, World Cup trophy between them, choosing which truth to reveal, dark split lighting effect</div>
+        </div>
+    </div>
+    <div class="prompt-label video">VIDEO PROMPTS</div>
+    <div class="img-grid">
+        <div class="vid-item">
+            <div class="label">Video A</div>
+            <div class="text">Detective walks to podium in dark room, places evidence folder on desk labeled CASE FILE, trophy behind glass glows, question marks float in, dramatic orchestral with tension building</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video B</div>
+            <div class="text">Slow zoom on World Cup trophy, magnifying glass hovers over it revealing shadowy puppet strings attached, ominous low frequency hum as strings become visible, conspiracy tone</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video C</div>
+            <div class="text">Stat numbers appear counting up: viewers, nations, revenue, all building to massive scale, question mark overlay slams in with impact, dramatic pause, investigation music begins</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video D</div>
+            <div class="text">Two masks appear floating, one fair play smile and one sinister conspiracy, they spin and morph into one face with both expressions split, trophy beneath, tension building music</div>
+        </div>
+    </div>
+</div>
+
+<div class="section-header">Scene 2 — The Referee Problem: Too Many Mistakes or Too Convenient?</div>
+<div class="scene">
+    <div class="scene-header">
+        <span class="scene-num">Scene 02</span>
+        <span class="scene-desc">Controversial calls that shaped World Cup history</span>
+    </div>
+    <div class="voiceover">
+        <div class="voiceover-label">Voiceover</div>
+        <p>The first piece of evidence: referee decisions. Every World Cup has them — moments where a single whistle changes everything. The 2006 final where Zidane was sent off for a headbutt. The 2018 Brazil vs Mexico match with questionable calls. And in 2026 — the Egypt vs Argentina VAR controversy where a goal was disallowed for a foul that happened 20 seconds and 60 yards earlier. Are these honest mistakes? Or is there a pattern?</p>
+    </div>
+    <div class="prompt-label image">IMAGE PROMPTS</div>
+    <div class="img-grid">
+        <div class="img-item">
+            <div class="label">Prompt A</div>
+            <div class="text">Timeline of controversial World Cup referee moments with dates: 2006 Zidane red card, 2018 Brazil Mexico calls, 2026 Egypt VAR disallowed goal, each moment shown as a card with stickman referee figure blowing whistle, red cards flying, dark evidence board style background</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt B</div>
+            <div class="text">Stickman referee with two faces: one side blindfolded, one side with dollar sign eyes, scale of justice tilting to one side, players surrounding him protesting, conspiracy investigation visual</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt C</div>
+            <div class="text">2006 final moment: Zidane stickman headbutt moment frozen in time, red card being pulled from referee pocket, Italian players celebrating in background, dramatic freeze frame with question mark overlay</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt D</div>
+            <div class="text">Stat comparison showing controversial decisions per tournament over history, bar chart with red bars marking tournaments with high-profile controversies, 2026 highlighted with warning marker</div>
+        </div>
+    </div>
+    <div class="prompt-label video">VIDEO PROMPTS</div>
+    <div class="img-grid">
+        <div class="vid-item">
+            <div class="label">Video A</div>
+            <div class="text">Timeline scrolls through controversial moments with dates, each moment freezes briefly showing the incident in stickman form, referee whistle sound at each freeze, building to 2026 moment highlighted red</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video B</div>
+            <div class="text">Referee figure spins revealing blindfold on one side dollar sign eyes on other, scale of justice wobbles and tips, players gesture in protest, freeze on tilted scale, conspiracy music sting</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video C</div>
+            <div class="text">2006 Zidane headbutt plays in slow motion stickman style, freezes at impact, red card appears sliding into frame with dramatic sound, players react in slow motion, freeze frame evidence style</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video D</div>
+            <div class="text">Bar chart builds year by year showing controversial decisions, 2026 bar rises higher with red glow, warning icon pulses, investigative tone as data reveals the pattern</div>
+        </div>
+    </div>
+</div>
+
+<div class="section-header">Scene 3 — The VAR Paradox: Technology or Tool?</div>
+<div class="scene">
+    <div class="scene-header">
+        <span class="scene-num">Scene 03</span>
+        <span class="scene-desc">VAR was supposed to fix everything — it made things worse</span>
+    </div>
+    <div class="voiceover">
+        <div class="voiceover-label">Voiceover</div>
+        <p>VAR was introduced to eliminate human error. Instead, it created a new kind of controversy. The Egypt vs Argentina decision is the perfect example: VAR went back 20 seconds into the build-up to disallow a goal. The foul happened on the opposite side of the pitch. Even former referees disagree on whether it was legal. When the experts can't agree, fans cry conspiracy. And with the 2026 Trump red card reversal adding fuel to the fire, trust in the system is at an all-time low.</p>
+    </div>
+    <div class="prompt-label image">IMAGE PROMPTS</div>
+    <div class="img-grid">
+        <div class="img-item">
+            <div class="label">Prompt A</div>
+            <div class="text">VAR monitor screen showing freeze frame of Egypt goal being disallowed, a timeline bar at bottom showing the play rewinding 20 seconds to the foul on the other side of pitch, controversial decision highlighted in red, stadium background with angry fans</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt B</div>
+            <div class="text">Stickman VAR official sitting at monitor bank with multiple screens, each showing different angles of the same play, confused expression with question marks above head, control room dark atmosphere with screen glow on his face</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt C</div>
+            <div class="text">Scale of justice with VAR logo on one side and REFEREE on other, both sides unbalanced and wobbling, stickman fans watching with confused expressions, question whether VAR helps or hinders fairness</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt D</div>
+            <div class="text">Timeline of VAR controversy moments: 2018 introduction, 2022 offside debates, 2026 Egypt VAR disallowal, 2026 Trump red card reversal, each marked with controversy icon, building case pattern visual</div>
+        </div>
+    </div>
+    <div class="prompt-label video">VIDEO PROMPTS</div>
+    <div class="img-grid">
+        <div class="vid-item">
+            <div class="label">Video A</div>
+            <div class="text">VAR monitor shows goal scored, then rewinds 20 seconds to show the foul, freeze frame on the foul with red X, timeline bar scrolls back showing distance traveled, controversial disallowance visualized</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video B</div>
+            <div class="text">VAR official at monitor bank, screens flicker with different angles, his face shows confusion with question marks appearing, control room dark atmosphere with beeping sounds, investigative tension</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video C</div>
+            <div class="text">Scale with VAR on one side and REF on other wobbles back and forth, fans watch with confused expressions, scale never settles, question mark appears above, unresolved tension</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video D</div>
+            <div class="text">Timeline of VAR controversies scrolls with each year showing a controversial moment, 2026 has two entries both pulsing red, evidence building with each entry, conspiracy music intensifies</div>
+        </div>
+    </div>
+</div>
+
+<div class="section-header">Scene 4 — The Money Trail: Follow the Dollars</div>
+<div class="scene">
+    <div class="scene-header">
+        <span class="scene-num">Scene 04</span>
+        <span class="scene-desc">Billions of dollars in sponsorships, broadcasting rights, and betting — who benefits from certain results?</span>
+    </div>
+    <div class="voiceover">
+        <div class="voiceover-label">Voiceover</div>
+        <p>Follow the money. It is the oldest investigative rule. The World Cup generates billions in revenue. Broadcasters pay fortunes for rights. Sponsors invest millions. Betting markets move billions. When the stakes are this high, the incentive to influence outcomes exists. Not proof of rigging — but motive. And in any investigation, motive is where you start. Who benefits when a big team advances? Who loses when a small team wins?</p>
+    </div>
+    <div class="prompt-label image">IMAGE PROMPTS</div>
+    <div class="img-grid">
+        <div class="img-item">
+            <div class="label">Prompt A</div>
+            <div class="text">Flow chart showing money trail: FIFA logo at top, arrows flowing down to SPONSORS BROADCASTERS BETTING MARKETS HOST NATIONS, each with money bag icons, question mark over whether money influences outcomes, dark investigative board style</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt B</div>
+            <div class="text">Stickman puppet master figure pulling strings labeled MONEY above a World Cup trophy, strings attached to referee players and officials below, shadowy操纵 figure in darkness, conspiracy visual metaphor</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt C</div>
+            <div class="text">Giant pie chart showing World Cup revenue distribution: broadcasting rights largest slice, sponsorships second, ticket sales third, with question marks on certain slices suggesting undisclosed flows, dark financial infographic style</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt D</div>
+            <div class="text">Two stadiums side by side: one with big nation playing packed stadium full of money signs floating, one with small nation playing half-empty stadium with question marks, contrast showing financial incentives for certain outcomes</div>
+        </div>
+    </div>
+    <div class="prompt-label video">VIDEO PROMPTS</div>
+    <div class="img-grid">
+        <div class="vid-item">
+            <div class="label">Video A</div>
+            <div class="text">Money trail flow chart animates from FIFA down through sponsors broadcasters betting markets, each node glows as money flows through, question mark pulses at the end, investigative reveal music</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video B</div>
+            <div class="text">Puppet master figure in shadows pulls strings labeled MONEY, trophy and referee and players below move with string pulls, shadowy操纵 atmosphere, conspiracy tension with slow menacing music</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video C</div>
+            <div class="text">Pie chart segments appear one by one showing revenue distribution, certain segments have question marks overlay, suspicious segments pulse, financial investigation tone with analytical music</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video D</div>
+            <div class="text">Split screen stadiums animate: big nation packed with money symbols floating, small nation sparse with question marks, contrast builds, financial incentive theory visualized</div>
+        </div>
+    </div>
+</div>
+
+<div class="section-header">Scene 5 — The Disgrace of Gijon: 1982 West Germany vs Austria</div>
+<div class="scene">
+    <div class="scene-header">
+        <span class="scene-num">Scene 05</span>
+        <span class="scene-desc">The most infamous match in World Cup history — where collusion was caught on camera</span>
+    </div>
+    <div class="voiceover">
+        <div class="voiceover-label">Voiceover</div>
+        <p>If you want to understand why people believe the World Cup can be rigged, look at 1982. West Germany vs Austria. The group stage. A 1-0 win for West Germany suited both teams — it eliminated Algeria, who had played earlier. After the tenth minute, both teams stopped attacking. They passed the ball sideways. The crowd booed. The German commentator told viewers to turn off their TVs. It was the most blatant example of collusion in World Cup history and it changed nothing. FIFA did not intervene.</p>
+    </div>
+    <div class="prompt-label image">IMAGE PROMPTS</div>
+    <div class="img-grid">
+        <div class="img-item">
+            <div class="label">Prompt A</div>
+            <div class="text">Stadium scene from 1982: stickman West Germany and Austria players passing ball sideways in midfield, crowd stickman figures booing with angry expressions, giant scoreboard showing 1-0 after 10 minutes, timeline showing 80 minutes of nothing</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt B</div>
+            <div class="text">Three team group table showing Algeria West Germany Austria, arrows showing result eliminated Algeria despite their win, group math visualized with X marks, conspiracy evidence board style with red string</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt C</div>
+            <div class="text">Stickman German commentator at broadcast desk with hand covering face, speech bubble saying TURN OFF YOUR TV, disgusted expression, 1982 retro broadcast equipment, dark studio lighting with single lamp</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt D</div>
+            <div class="text">Two stickman coaches shaking hands at sideline with hidden smirks, players around them with flat disinterested body language, the deal being made in shadows, conspiracy visual with dark overtones</div>
+        </div>
+    </div>
+    <div class="prompt-label video">VIDEO PROMPTS</div>
+    <div class="img-grid">
+        <div class="vid-item">
+            <div class="label">Video A</div>
+            <div class="text">1982 stadium style fades in, players pass sideways with no urgency, crowd boos growing louder, scoreboard frozen at 1-0 from 10th minute, timer ticks to 90 with no action, scandalous tone</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video B</div>
+            <div class="text">Group table appears with three teams, result arrows show how West Germany 1-0 Austria eliminates Algeria despite their earlier win, table math visualized with elimination X, evidence board style</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video C</div>
+            <div class="text">1980s style broadcast desk with retro microphones, commentator stickman covers face in disgust, speech bubble TURN OFF YOUR TV appears, 80s static filter effect, historical scandal mood</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video D</div>
+            <div class="text">Two coaches shake hands with hidden smirks, players exhibit flat body language, shadow covers their handshake, ominous music suggests collusion, freeze frame on the handshake</div>
+        </div>
+    </div>
+</div>
+
+<div class="section-header">Scene 6 — The 2006 Final: Zidane's Red Card</div>
+<div class="scene">
+    <div class="scene-header">
+        <span class="scene-num">Scene 06</span>
+        <span class="scene-desc">Zinedine Zidane's headbutt in the final — the moment that launched a thousand conspiracy theories</span>
+    </div>
+    <div class="voiceover">
+        <div class="voiceover-label">Voiceover</div>
+        <p>2006 World Cup final. Zinedine Zidane, France's legendary captain, playing his last ever match. In the 110th minute, he headbutts Marco Materazzi and gets sent off. France lose on penalties. The conspiracy theory? Materazzi insulted Zidane's family — and some believe he was provoked deliberately to remove France's best player from the biggest moment. The timing was perfect for Italy. The question remains: was it passion, or was it a setup?</p>
+    </div>
+    <div class="prompt-label image">IMAGE PROMPTS</div>
+    <div class="img-grid">
+        <div class="img-item">
+            <div class="label">Prompt A</div>
+            <div class="text">Frozen moment of Zidane stickman headbutting Materazzi stickman, red card being shown by referee, stadium crowd in shock with hands on heads, clock showing 110 minutes, dramatic freeze frame style with dark clouds</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt B</div>
+            <div class="text">Timeline of the 2006 final: France dominating first half, Italy equalizing, extra time, Zidane headbutt moment highlighted in red, penalty shootout Italy wins, each stage marked with stickman icons showing the turning point</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt C</div>
+            <div class="text">Stickman Materazzi whispering into Zidane's ear with speech bubble of snake symbols, Zidane's reaction with anger explosion above his head, provocation visual theory, dark sinister lighting</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt D</div>
+            <div class="text">Split screen: Zidane walking past the World Cup trophy toward the tunnel, Italian players lifting trophy in celebration on other side, the moment France's dream died captured as comparison, emotional contrasting visual</div>
+        </div>
+    </div>
+    <div class="prompt-label video">VIDEO PROMPTS</div>
+    <div class="img-grid">
+        <div class="vid-item">
+            <div class="label">Video A</div>
+            <div class="text">Headbutt moment plays in slow motion stickman style, crowd gasp sound, red card appears with dramatic sting, freeze frame with red border, evidence marker appears labeling the moment</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video B</div>
+            <div class="text">Timeline of 2006 final animates through key moments, headbutt moment highlighted with glowing red marker, penalty shootout section shows Italy winning, turning point analysis with dramatic narration</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video C</div>
+            <div class="true">Materazzi leans in whispering, snake symbols appear in speech bubble, Zidane's anger builds with shaking animation, headbutt impact freeze, provocation theory visualized with conspiracy music</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video D</div>
+            <div class="text">Zidane walks past trophy toward tunnel on one side, Italy celebrates lifting trophy on other, contrasting emotions, slow motion walk of shame vs celebration, emotional split screen with tragic music</div>
+        </div>
+    </div>
+</div>
+
+<div class="section-header">Scene 7 — 2018 Brazil vs Mexico: Questionable Refereeing</div>
+<div class="scene">
+    <div class="scene-header">
+        <span class="scene-num">Scene 07</span>
+        <span class="scene-desc">The match that made neutral fans suspicious</span>
+    </div>
+    <div class="voiceover">
+        <div class="voiceover-label">Voiceover</div>
+        <p>2018 Round of 16. Brazil vs Mexico. A match filled with questionable calls that benefited Brazil. A penalty not given for Mexico. A foul not called in the build-up to Brazil's opening goal. Soft yellow cards that changed the game's flow. While Brazil were the better team, the refereeing raised enough eyebrows that fans still bring it up years later. And here is the pattern: when controversy happens, it tends to favor the bigger team. Always.</p>
+    </div>
+    <div class="prompt-label image">IMAGE PROMPTS</div>
+    <div class="img-grid">
+        <div class="img-item">
+            <div class="label">Prompt A</div>
+            <div class="text">Stickman Brazil vs Mexico match scene with referee at center, three controversial moments highlighted with red circles: penalty appeal not given for Mexico, foul before Brazil goal, yellow card shown to Mexican player, timeline of events below</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt B</div>
+            <div class="text">Pattern infographic showing historical trend: controversial decisions favoring larger nations vs smaller nations, bar chart showing decisions by nation size, clear bias pattern visible in the data</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt C</div>
+            <div class="text">Stickman Mexican player on ground appealing for penalty, referee looking away with hand wave, Brazil player already running forward with ball, unfair moment frozen in time, dramatic stadium lighting</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt D</div>
+            <div class="text">Evidence board with photos of referees who officiated big nation matches, statistics showing favorability ratings, question marks over their decisions, red string connecting patterns, conspiracy investigation style</div>
+        </div>
+    </div>
+    <div class="prompt-label video">VIDEO PROMPTS</div>
+    <div class="img-grid">
+        <div class="vid-item">
+            <div class="label">Video A</div>
+            <div class="text">Match scene plays with three controversial moments highlighted in red circles as they happen, fan reactions in corners showing outrage, timeline at bottom tracking each incident, investigative analysis</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video B</div>
+            <div class="text">Bar chart animates showing decisions favoring big nations vs small, bars grow showing clear pattern, data evidence style with analytical music, the pattern becomes undeniable as bars rise</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video C</div>
+            <div class="text">Mexican player falls in box appealing, referee waves hand away dismissively, Brazil player continues, freeze frame on the unfair moment, slow motion replay with question mark overlay</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video D</div>
+            <div class="text">Evidence board builds with referee photos and stats, red strings connect patterns, question marks appear, conspiracy investigation aesthetic with dramatic music building</div>
+        </div>
+    </div>
+</div>
+
+<div class="section-header">Scene 8 — The 2026 Trump Factor: Red Flag or Red Card?</div>
+<div class="scene">
+    <div class="scene-header">
+        <span class="scene-num">Scene 08</span>
+        <span class="scene-desc">US President calls FIFA, red card gets overturned — the most controversial moment of 2026</span>
+    </div>
+    <div class="voiceover">
+        <div class="voiceover-label">Voiceover</div>
+        <p>Now we arrive at 2026. The most direct evidence yet of outside influence. Donald Trump personally called FIFA president Gianni Infantino to ask for a review of Balogun's red card. A US president directly contacting football's governing body to influence a disciplinary decision. FIFA overturned the ban — the first red card reversal in over 60 years. Belgium's furious response: they beat the USA 4-1 and posted a picture with two words — "Overturn this." The question is not whether influence was attempted. It was. The question is whether it worked.</p>
+    </div>
+    <div class="prompt-label image">IMAGE PROMPTS</div>
+    <div class="img-grid">
+        <div class="img-item">
+            <div class="label">Prompt A</div>
+            <div class="text">Stickman Trump on phone labeled CALLING FIFA, stickman Infantino on other end nodding, giant red card between them with arrow showing it being withdrawn, Belgium players watching with angry expressions, controversial influence visualized</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt B</div>
+            <div class="text">Timeline of the controversy: Balogun red card shown, Trump calls FIFA, FIFA overturns, Belgium protests, Belgium wins 4-1, Belgium social media post OVERTURN THIS, each step marked with reaction icons, evidence board style</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt C</div>
+            <div class="text">FIFA headquarters building with giant phone receiver hovering above it connected to White House, red card document being stamped OVERTURNED, scales of justice tipped, political influence visual metaphor</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt D</div>
+            <div class="text">Belgium team celebrating with 4-1 scoreboard, social media post screenshot showing OVERTURN THIS text trending, viral post graphic with millions of likes, the response that became the most viral moment</div>
+        </div>
+    </div>
+    <div class="prompt-label video">VIDEO PROMPTS</div>
+    <div class="img-grid">
+        <div class="vid-item">
+            <div class="label">Video A</div>
+            <div class="text">Phone call animation: Trump dials FIFA, Infantino answers nodding, red card document between them gets stamp OVERTURNED, Belgium players react with fury, influence chain visualized with dramatic music</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video B</div>
+            <div class="text">Timeline animates through each step: red card, phone call, reversal, protest, 4-1 win, viral post, each step with reaction icon, building controversy with escalating music</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video C</div>
+            <div class="text">FIFA building exterior, phone receiver descends from sky connected to White House by glowing line, red card document stamped OVERTURNED, scales wobble and tip, political interference visualized</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video D</div>
+            <div class="text">Belgium celebration with 4-1 scoreboard flashing, social media post OVERTURN THIS appears with like count rapidly rising, viral explosion effect, the response that defined the controversy</div>
+        </div>
+    </div>
+</div>
+
+<div class="section-header">Scene 9 — The Evidence Verdict: What the Data Says</div>
+<div class="scene">
+    <div class="scene-header">
+        <span class="scene-num">Scene 09</span>
+        <span class="scene-desc">Weighing the evidence — facts, patterns, and what remains unknown</span>
+    </div>
+    <div class="voiceover">
+        <div class="voiceover-label">Voiceover</div>
+        <p>Let's weigh the evidence. On one side: human error is inevitable across hundreds of matches. Referees will make mistakes. VAR will have grey areas. Not everything is a conspiracy. On the other side: the pattern of controversial decisions favoring larger teams, the enormous financial stakes, the history of collusion, and now a US president directly calling FIFA. No single piece of evidence proves the World Cup is rigged. But collectively, the pattern demands scrutiny. Where there is smoke, there is often fire.</p>
+    </div>
+    <div class="prompt-label image">IMAGE PROMPTS</div>
+    <div class="img-grid">
+        <div class="img-item">
+            <div class="label">Prompt A</div>
+            <div class="text">Balance scale with two sides, left side labeled HUMAN ERROR with referee whistle icon showing honest mistakes, right side labeled SYSTEMIC BIAS with money bag icon showing institutional influence, scale tipping slightly to the right, evidence board aesthetic</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt B</div>
+            <div class="text">Evidence board with six pieces of evidence pinned: REFEREE CONTROVERSIES VAR CHAOS MONEY TRAIL 1982 COLLUSION ZIDANE 2006 TRUMP CALL, each with connecting red string to central question mark, detective investigation style</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt C</div>
+            <div class="text">Stat panel showing: percentage of controversial decisions favoring big nations, VAR overturn rates, financial stakes per match, betting market movements during controversies, data-driven evidence presentation on dark background</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt D</div>
+            <div class="text">Smoke and fire visual metaphor: small fires labeled REFEREE VAR MONEY POLITICS scattered across a football pitch, growing into larger flames, question whether they form a single大火, dark ominous atmospheric background</div>
+        </div>
+    </div>
+    <div class="prompt-label video">VIDEO PROMPTS</div>
+    <div class="img-grid">
+        <div class="vid-item">
+            <div class="label">Video A</div>
+            <div class="text">Balance scale appears with HUMAN ERROR on left and SYSTEMIC BIAS on right, items added to each side, right side slowly tips down, scale never settles perfectly level, unresolved tension</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video B</div>
+            <div class="text">Evidence board builds with six pinned pieces appearing one by one, red string connects each to central question mark, each piece glows as it's added, detective reveal atmosphere with investigative music</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video C</div>
+            <div class="text">Stats appear one by one building the data case, percentages and numbers pulse, betting market movements visualized as line charts, data-driven evidence presentation with analytical music</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video D</div>
+            <div class="text">Small flames appear across pitch labeled with each controversy type, they grow and merge into larger fire, question mark burns in the center, smoke and fire conspiracy metaphor, dramatic finale building</div>
+        </div>
+    </div>
+</div>
+
+<div class="section-header">Scene 10 — Conclusion: What Do You Think?</div>
+<div class="scene">
+    <div class="scene-header">
+        <span class="scene-num">Scene 10</span>
+        <span class="scene-desc">No definitive answer — but the question has never been more important</span>
+    </div>
+    <div class="voiceover">
+        <div class="voiceover-label">Voiceover</div>
+        <p>So — is the World Cup rigged? I cannot give you a definitive yes or no. There is no smoking gun. But there is a pattern. There is motive. There is a history of collusion. And there is a growing list of moments that make even the most trusting fan pause. The World Cup is the greatest show on earth. But every great show has a director. The question is: who is directing this one? I want to hear what you think. Drop your thoughts in the comments. And if you want more content like this, subscribe. The investigation continues.</p>
+    </div>
+    <div class="prompt-label image">IMAGE PROMPTS</div>
+    <div class="img-grid">
+        <div class="img-item">
+            <div class="label">Prompt A</div>
+            <div class="text">World Cup trophy on pedestal with spotlight from above, around it dark shadows with question marks floating, one side of the trophy is bright and clean, the other side has crack lines, duality of perception visual</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt B</div>
+            <div class="text">Stickman detective facing camera with hands spread, evidence board behind him with all cases summarized, no clear answer expression on his face, open investigation status, dark atmospheric lighting with single spotlight</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt C</div>
+            <div class="text">Final question mark graphic made of football pitch lines, World Cup trophy silhouette inside the question mark, text IS THE WORLD CUP RIGGED? in bold red, dark gradient background with stadium floodlights</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt D</div>
+            <div class="text">Stickman fan sitting alone in empty stadium looking at the pitch, deep in thought, World Cup trophy glowing faintly at center circle, contemplative mood with solitary figure, open-ended conclusion visual</div>
+        </div>
+    </div>
+    <div class="prompt-label video">VIDEO PROMPTS</div>
+    <div class="img-grid">
+        <div class="vid-item">
+            <div class="label">Video A</div>
+            <div class="text">Slow reveal of trophy in spotlight, one side pristine and glowing, other side with crack lines spreading, shadows creep around the base, question marks float up, duality of the tournament visualized</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video B</div>
+            <div class="text">Detective faces camera with open hands, evidence board behind summarizes all cases, shrugs slightly showing no clear answer, freeze frame on his face with question mark overlay, investigation unresolved</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video C</div>
+            <div class="text">Pitch line question mark draws itself on dark field, trophy silhouette appears inside it, title text IS THE WORLD CUP RIGGED? types out with dramatic pauses, music swells and fades to silence</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video D</div>
+            <div class="text">Fan sits alone in empty stadium, camera slowly zooms out showing the vast empty space around him, trophy glows faintly at center circle, contemplative piano music, freeze on wide shot, open ending</div>
+        </div>
+    </div>
+</div>
+
+<div class="section-header">Thumbnail &amp; SEO</div>
+
+<div class="thumbnail-box">
+    <div class="label gold">YouTube Thumbnail</div>
+    <div class="voiceover" style="margin-top: 0.5rem;">
+        <p><strong>Title Options:</strong></p>
+        <ul style="list-style: none; margin-top: 0.3rem;">
+            <li>A: Is WORLD CUP Rigged?</li>
+            <li>B: I Tried to Prove the World Cup Is Rigged</li>
+            <li>C: The Evidence the World Cup Is Rigged (You Decide)</li>
+        </ul>
+        <p style="margin-top: 0.5rem;"><strong>Design:</strong> Dark interrogation room. Cracked World Cup trophy in center with dollar signs and question marks floating. Stickman detective pointing at camera. Red string evidence board in background connecting FIFA, Trump call, Zidane, 1982. Bold red/white text: "IS THE WORLD CUP RIGGED?"</p>
+    </div>
+</div>
+
+<div class="seo-grid">
+    <div class="seo-card">
+        <h3>Description</h3>
+        <p class="seo-desc">Is the World Cup rigged? I investigated the evidence: controversial referee decisions, VAR controversies, the 1982 Disgrace of Gijon collusion, Zidane's 2006 red card, the money trail with billions in betting and broadcasting, and Donald Trump calling FIFA to overturn a red card in 2026. From suspicious draws to corruption allegations — I examine every angle so you can decide for yourself.</p>
+    </div>
+    <div class="seo-card tags">
+        <h3>Tags</h3>
+        <ul>
+            <li>World Cup rigged</li>
+            <li>is World Cup fixed</li>
+            <li>World Cup conspiracy</li>
+            <li>FIFA corruption</li>
+            <li>World Cup rigged evidence</li>
+            <li>Zidane red card 2006</li>
+            <li>Disgrace of Gijon 1982</li>
+            <li>Trump FIFA red card</li>
+            <li>VAR controversy</li>
+            <li>World Cup match fixing</li>
+            <li>FIFA corruption allegations</li>
+            <li>World Cup referee bias</li>
+            <li>Brazil Mexico 2018 controversy</li>
+            <li>Egypt Argentina VAR 2026</li>
+            <li>World Cup conspiracy theory</li>
+            <li>World Cup investigation</li>
+            <li>sport rigged allegations</li>
+            <li>FIFA money influence</li>
+            <li>World Cup betting scandal</li>
+            <li>World Cup integrity</li>
+            <li>World Cup true crime</li>
+            <li>World Cup documentary</li>
+            <li>is football rigged</li>
+            <li>World Cup conspiracy evidence</li>
+            <li>FIFA Infantino controversy</li>
+            <li>World Cup 2026 controversy</li>
+            <li>World Cup controversial moments</li>
+            <li>World Cup unfair decisions</li>
+            <li>World Cup collusion</li>
+            <li>World Cup truth</li>
+        </ul>
+    </div>
+    <div class="seo-card">
+        <h3>Keywords</h3>
+        <ul>
+            <li>is the World Cup rigged</li>
+            <li>World Cup fixed evidence</li>
+            <li>World Cup conspiracy theories</li>
+            <li>FIFA corruption scandal</li>
+            <li>World Cup match fixing investigation</li>
+            <li>Zidane headbutt conspiracy</li>
+            <li>1982 World Cup collusion</li>
+            <li>Trump calls FIFA red card</li>
+            <li>VAR controversy World Cup</li>
+            <li>World Cup referee bias analysis</li>
+            <li>World Cup rigged proof</li>
+            <li>FIFA money conspiracy</li>
+            <li>World Cup betting influence</li>
+            <li>World Cup integrity questioned</li>
+            <li>World Cup rigged documentary</li>
+        </ul>
+    </div>
+    <div class="seo-card">
+        <h3>Hashtags</h3>
+        <ul>
+            <li>#WorldCupRigged</li>
+            <li>#FIFAcorruption</li>
+            <li>#WorldCupConspiracy</li>
+            <li>#IsItRigged</li>
+            <li>#FootballTruth</li>
+            <li>#FIFAinvestigation</li>
+            <li>#WorldCupControversy</li>
+            <li>#TheBeautifulGame</li>
+        </ul>
+    </div>
+</div>
+
+<div class="section-header">Voiceover Notes</div>
+<div class="vonote">
+    <ul>
+        <li><strong>Tone:</strong> Investigative, compelling, balanced. Like a detective presenting evidence to a jury. Not alarmist — but willing to ask hard questions. Should make viewers feel like they are part of an investigation, not being told what to think.</li>
+        <li><strong>Pacing:</strong> Scene 1 opens with mystery and scale. Scenes 2-4 build the case methodically. Scene 5-8 present specific case studies with dramatic weight. Scene 9 weighs evidence neutrally. Scene 10 leaves the verdict to the viewer.</li>
+        <li><strong>Key phrases to emphasize:</strong> "follow the money", "the Disgrace of Gijon", "too convenient", "pattern not proof", "smoking gun", "who is directing this show", "you decide".</li>
+        <li><strong>Musical cues:</strong> Opening with mystery and tension, investigative pulse throughout, dramatic reveals at key moments, contemplative during evidence weighing, unresolved final chord for the open ending.</li>
+        <li><strong>Sound design:</strong> Whistle blows for referee moments, cash register sounds for money segments, rewind effect for VAR scenes, crowd murmur underlying, dramatic sting on key evidence reveals.</li>
+        <li><strong>Transition style:</strong> Evidence board pin-in transitions, case file flip for evidence pieces, timeline scroll for historical moments, dissolve to black for reflective moments.</li>
+        <li><strong>Duration target:</strong> 10 scenes × approximately 20-25 seconds each = ~4 minutes. Aim for 3:45-4:15 final runtime.</li>
+    </ul>
+</div>
+
+<footer>WC26Matrix — Storyboard generated for Stickman Investigative Infographic style video production</footer>
+
+</div>
+</body>
+</html>

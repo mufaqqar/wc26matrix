@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Brazil's Formation Finally Exposed in World Cup Analysis | WC26Matrix</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; background: #0a1628; color: #e0e8f0; padding: 2rem 1rem; }
+.container { max-width: 1000px; margin: 0 auto; }
+h1 { font-size: 2rem; font-weight: 700; color: #00e5ff; margin-bottom: 0.3rem; }
+.subtitle { color: #8899aa; font-size: 1rem; margin-bottom: 2rem; border-left: 4px solid #ff6b35; padding-left: 1rem; }
+.badge { font-size: 0.75rem; font-weight: 600; background: #ff6b35; color: #fff; padding: 0.2rem 0.7rem; border-radius: 20px; display: inline-block; }
+.badge.gold { background: #ff6b35; }
+.badge.blue { background: #0088ff; }
+.badge.image { background: #9b59b6; color: #fff; }
+.badge.video { background: #e74c3c; color: #fff; }
+.section-header { font-size: 1.2rem; font-weight: 600; color: #00e5ff; background: #111d33; padding: 0.7rem 1.2rem; border-radius: 8px; margin-bottom: 1rem; display: flex; align-items: center; gap: 0.6rem; flex-wrap: wrap; }
+.scene { background: #0f1d33; border-radius: 10px; padding: 1.2rem 1.5rem; margin-bottom: 1rem; box-shadow: 0 1px 4px rgba(0,0,0,0.3); border-left: 4px solid #00e5ff; }
+.scene-header { display: flex; align-items: center; gap: 0.8rem; margin-bottom: 0.8rem; flex-wrap: wrap; }
+.scene-num { font-weight: 700; color: #00e5ff; font-size: 0.9rem; }
+.scene-desc { font-style: italic; color: #8899aa; font-size: 0.9rem; }
+.voiceover { background: #0d1a2e; border-radius: 6px; padding: 0.8rem 1rem; margin-top: 0.7rem; font-size: 0.95rem; line-height: 1.6; color: #e0e8f0; border-left: 3px solid #0088ff; }
+.voiceover-label { font-size: 0.75rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; color: #0088ff; margin-bottom: 0.3rem; }
+.prompt-label { font-size: 0.75rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; color: #fff; margin-bottom: 0.2rem; margin-top: 0.6rem; padding: 0.15rem 0.6rem; border-radius: 4px; display: inline-block; }
+.prompt-label.image { background: #9b59b6; }
+.prompt-label.video { background: #e74c3c; }
+.prompt-box { background: #0d1a2e; border-radius: 6px; padding: 0.8rem 1rem; font-size: 0.88rem; line-height: 1.5; color: #99aabb; font-family: 'Courier New', monospace; border-left: 3px solid #00e5ff; white-space: pre-wrap; margin-bottom: 0.5rem; }
+.prompt-box.video-prompt { border-left-color: #e74c3c; background: #1a0d0d; }
+.img-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0.8rem; margin-top: 0.5rem; }
+.img-item { background: #0d1a2e; border-radius: 6px; padding: 0.7rem; border-left: 3px solid #9b59b6; }
+.img-item .label { font-size: 0.7rem; font-weight: 600; color: #9b59b6; margin-bottom: 0.2rem; }
+.img-item .text { font-size: 0.82rem; color: #99aabb; font-family: 'Courier New', monospace; line-height: 1.4; white-space: pre-wrap; }
+.vid-item { background: #1a0d0d; border-radius: 6px; padding: 0.7rem; border-left: 3px solid #e74c3c; }
+.vid-item .label { font-size: 0.7rem; font-weight: 600; color: #e74c3c; margin-bottom: 0.2rem; }
+.vid-item .text { font-size: 0.82rem; color: #99aabb; font-family: 'Courier New', monospace; line-height: 1.4; }
+.thumbnail-box { background: #0f1d33; border-radius: 10px; padding: 1.2rem 1.5rem; box-shadow: 0 1px 4px rgba(0,0,0,0.3); border-left: 4px solid #ff6b35; margin-bottom: 1rem; }
+.thumbnail-box .label { font-size: 0.75rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 0.2rem; }
+.thumbnail-box .label.gold { color: #ff6b35; }
+.thumbnail-box .label.blue { color: #0088ff; }
+.seo-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+.seo-card { background: #0f1d33; border-radius: 10px; padding: 1rem 1.2rem; box-shadow: 0 1px 4px rgba(0,0,0,0.3); }
+.seo-card h3 { font-size: 0.9rem; color: #00e5ff; margin-bottom: 0.5rem; }
+.seo-card ul { list-style: none; }
+.seo-card li { font-size: 0.88rem; color: #99aabb; padding: 0.25rem 0; border-bottom: 1px solid #1a2a44; }
+.seo-card li:last-child { border-bottom: none; }
+.seo-card.tags li { display: inline-block; background: #1a2a44; padding: 0.2rem 0.6rem; border-radius: 4px; margin: 0.2rem; font-size: 0.8rem; border: none; }
+.seo-desc { font-size: 0.85rem; line-height: 1.6; color: #99aabb; margin-bottom: 0.5rem; }
+.vonote { background: #0f1d33; border-radius: 10px; padding: 1.2rem 1.5rem; box-shadow: 0 1px 4px rgba(0,0,0,0.3); }
+.vonote ul { list-style: none; font-size: 0.92rem; line-height: 1.8; color: #99aabb; }
+.meta-row { display: flex; gap: 1rem; flex-wrap: wrap; margin-bottom: 1rem; }
+.meta-tag { background: #1a2a44; padding: 0.3rem 0.8rem; border-radius: 20px; font-size: 0.85rem; }
+.meta-tag.style { background: #1a2a44; color: #00e5ff; border: 1px solid #00e5ff; }
+footer { margin-top: 3rem; text-align: center; font-size: 0.85rem; color: #556677; padding: 1rem 0; }
+@media (max-width: 700px) { .seo-grid { grid-template-columns: 1fr; } .img-grid { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+<div class="container">
+
+<h1>Brazil's Formation Finally Exposed in World Cup Analysis</h1>
+<div class="subtitle">Stickman tactical analysis style — Clean formation diagrams on dark football pitch backgrounds</div>
+
+<div class="meta-row">
+    <span class="meta-tag">Category: WC26 Tactical Analysis</span>
+    <span class="meta-tag">Est. Length: ~3 min</span>
+    <span class="meta-tag style">Style: Stickman Tactical Infographic</span>
+    <span class="meta-tag">Scenes: 10</span>
+    <span class="meta-tag">Images: 40</span>
+    <span class="meta-tag">Video Prompts: 40</span>
+    <span class="meta-tag">Voiceover: ~420 words</span>
+</div>
+
+<div class="thumbnail-box">
+    <div class="label gold">Thumbnail</div>
+    <div class="voiceover" style="margin-top: 0.5rem;">
+        <p><strong>Layout:</strong> Dark pitch from aerial view, Brazil's formation laid out in glowing yellow and green stickman figures. A magnifying glass hovers over the defensive midfield gap, revealing a crack in the system. Brazil crest in top corner. Bold text in yellow with green stroke: "BRAZIL'S FORMATION EXPOSED." One stickman opponent figure already slipped through the gap.</p>
+    </div>
+    <div class="img-grid" style="margin-top: 0.8rem;">
+        <div class="img-item">
+            <div class="label">Image A</div>
+            <div class="text">Aerial view of football pitch with Brazil formation in green and yellow stickman figures, magnifying glass zooming into a gap between midfield and defense, opponent stickman slipping through the gap, Brazil crest top corner, bold text BRAZIL'S FORMATION EXPOSED</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Image B</div>
+            <div class="text">Split composition left side Brazil formation diagram with arrows and tactical notes, right side showing opponent celebrating a goal with question mark HOW DID THEY BREAK THROUGH, dark green pitch background with stadium floodlights</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Image C</div>
+            <div class="text">Stickman coach figure at tactical board drawing Xs and arrows over Brazil formation, board is cracked in the middle symbolizing broken tactics, Brazil jersey draped over chair, dramatic spotlight on the tactical flaws</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Image D</div>
+            <div class="text">Brazil formation rendered as a fortress wall with stickman defenders, one section of the wall has visible cracks with opponent stickmen pouring through, bold yellow warning triangle icons marking the weak spots</div>
+        </div>
+    </div>
+</div>
+
+<div class="section-header">Scene 1 — The Hook: Can I Break Down Brazil's Formation?</div>
+<div class="scene">
+    <div class="scene-header">
+        <span class="scene-num">Scene 01</span>
+        <span class="scene-desc">Brazil's formation has a fatal flaw. Here's exactly what it is.</span>
+    </div>
+    <div class="voiceover">
+        <div class="voiceover-label">Voiceover</div>
+        <p>Brazil is the most decorated nation in World Cup history. Five titles. Legendary attackers. But this World Cup, something is different. Their formation has a structural weakness — and the opponents have noticed. Today, I am breaking down exactly how Brazil sets up, where the gaps are hiding, and why the samba kings are more vulnerable than you think. This is Brazil's formation, finally exposed.</p>
+    </div>
+    <div class="prompt-label image">IMAGE PROMPTS</div>
+    <div class="img-grid">
+        <div class="img-item">
+            <div class="label">Prompt A</div>
+            <div class="text">Stickman sports tactical infographic, aerial view of football pitch showing Brazil formation in glowing green and yellow, formation shape with numbered positions, question marks floating above certain positions, dark pitch background with stadium floodlights</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt B</div>
+            <div class="text">Brazil crest in center surrounded by five gold stars representing World Cup titles, tactical grid lines radiating outward showing formation analysis theme, dramatic dark background with green gold gradient lighting</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt C</div>
+            <div class="text">Stickman analyst silhouette standing in front of giant aerial formation diagram holding a pointer stick, spotlight on the diagram showing the formation shape, tactical notes and arrows surrounding the diagram</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt D</div>
+            <div class="text">Warning sign infographic shaped like Brazil flag, inside it a formation diagram with a crack symbol running through the midfield, text BRAZIL'S FORMATION EXPOSED in bold yellow, dark dramatic background</div>
+        </div>
+    </div>
+    <div class="prompt-label video">VIDEO PROMPTS</div>
+    <div class="img-grid">
+        <div class="vid-item">
+            <div class="label">Video A</div>
+            <div class="text">Aerial pitch view flies in with Brazil formation appearing as glowing figures one by one, formation locks into place, red warning pulses appear on two positions, dramatic orchestral sting with crowd murmur</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video B</div>
+            <div class="text">Brazil crest zooms in with five stars glowing, transitions into tactical grid overlay, title text BRAZIL'S FORMATION EXPOSED types itself out with tactical typewriter effect, stadium ambiance builds</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video C</div>
+            <div class="text">Analyst stickman walks into frame from darkness, pointer extends toward the formation diagram, zoom in toward the diagram as he points, intense tactical study atmosphere with low pulsing music</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video D</div>
+            <div class="text">Brazil flag morphs into tactical formation diagram, crack appears rippling through the midfield positions, warning symbols flash red, title overlay BRAZIL'S FORMATION EXPOSED slams in with impact sound</div>
+        </div>
+    </div>
+</div>
+
+<div class="section-header">Scene 2 — The Base Formation: What Brazil Actually Plays</div>
+<div class="scene">
+    <div class="scene-header">
+        <span class="scene-num">Scene 02</span>
+        <span class="scene-desc">4-3-3 with a twist — the false fullback system</span>
+    </div>
+    <div class="voiceover">
+        <div class="voiceover-label">Voiceover</div>
+        <p>On paper, Brazil lines up in a 4-3-3. Four defenders, three midfielders, three forwards. Standard enough. But watch closely — one fullback inverts into midfield when Brazil has the ball. This creates a box midfield, overloads the center, and leaves the wing exposed. It is a high-risk, high-reward system that works brilliantly — until it doesn't.</p>
+    </div>
+    <div class="prompt-label image">IMAGE PROMPTS</div>
+    <div class="img-grid">
+        <div class="img-item">
+            <div class="label">Prompt A</div>
+            <div class="text">Tactical formation diagram showing Brazil lined up in 4-3-3 with player positions numbered, stickman figures in yellow jerseys on green pitch, formation grid lines connecting positions, defensive midfield zone highlighted, dark stadium background</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt B</div>
+            <div class="text">Split diagram showing Brazil's shape with ball, left side shows standard 4-3-3, right side shows in-possession shape with one fullback arrow moving into midfield creating box midfield, tactical annotation style on dark background</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt C</div>
+            <div class="text">Stickman fullback figure with arrow showing movement from defensive line into midfield, labeled FALSE FULLBACK in tactical notation, highlighted zone showing the space he leaves behind, stadium pitch background with coaching board aesthetic</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt D</div>
+            <div class="text">Heat map style diagram showing Brazil's average positions, highlighted concentration in central areas, exposed wide areas marked with warning icons, stickman analyst notes pointing at the unbalanced distribution</div>
+        </div>
+    </div>
+    <div class="prompt-label video">VIDEO PROMPTS</div>
+    <div class="img-grid">
+        <div class="vid-item">
+            <div class="label">Video A</div>
+            <div class="text">Formation appears as 4-3-3 on pitch, player positions glow yellow one by one, formation grid draws around them, tactical labels appear at each position line, slow rotation of the formation for 3D effect</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video B</div>
+            <div class="text">Formation morphs from standard 4-3-3 into attacking shape, fullback figure glows and moves into midfield with animated arrow, midfield becomes box shape, space left on wing pulses red warning, tactical transformation</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video C</div>
+            <div class="text">Fullback stickman highlighted with glowing border, arrow path traces from defensive line into midfield position, label FALSE FULLBACK types in, the vacated space behind him fills with red danger pattern</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video D</div>
+            <div class="text">Heat map develops on pitch showing Brazil's concentrated central play, wide areas flash red as danger zones, average position dots cluster in middle, tactical annotations appear noting the imbalance</div>
+        </div>
+    </div>
+</div>
+
+<div class="section-header">Scene 3 — The Defensive Structure: Solidity or Illusion?</div>
+<div class="scene">
+    <div class="scene-header">
+        <span class="scene-num">Scene 03</span>
+        <span class="scene-desc">High defensive line, aggressive pressing — the risk profile</span>
+    </div>
+    <div class="voiceover">
+        <div class="voiceover-label">Voiceover</div>
+        <p>Brazil defends high. Their defensive line sits near the halfway line when pressing. The center-backs are expected to cover enormous space. When it works, they suffocate opponents before they can think. When it fails — and it has failed at this World Cup — the space behind them is a highway to goal. Norway exploited this ruthlessly.</p>
+    </div>
+    <div class="prompt-label image">IMAGE PROMPTS</div>
+    <div class="img-grid">
+        <div class="img-item">
+            <div class="label">Prompt A</div>
+            <div class="text">Tactical diagram showing Brazil's high defensive line drawn as a yellow line near halfway, massive space behind the line marked with red danger zone, opponent stickman figures waiting in that space, stadium pitch aerial view</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt B</div>
+            <div class="text">Stickman Brazil center-backs with long arrows showing the wide space they must cover between them, gap measured with ruler icon showing the distance, opponent striker positioned in the gap, tactical infographic style</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt C</div>
+            <div class="text">Pressing trigger diagram showing Brazil's forward line pushing up, midfield line compressing, defensive line holding high, the three lines shown as three horizontal bands with distances between them measured, dark pitch background</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt D</div>
+            <div class="text">Before and after comparison: left side shows Brazil's successful press with compact lines, right side shows press broken with opponent through ball arrows slicing through the defensive line into the danger zone</div>
+        </div>
+    </div>
+    <div class="prompt-label video">VIDEO PROMPTS</div>
+    <div class="img-grid">
+        <div class="vid-item">
+            <div class="label">Video A</div>
+            <div class="text">Defensive line draws across pitch near halfway, space behind fills with red danger pattern, opponent stickman figures appear in the space, warning icons flash, tactical annotation HIGH RISK appears</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video B</div>
+            <div class="text">Two center-back figures with gap between them, ruler measures the gap distance, opponent striker figure slides into the gap, gap widens with pulsing red as striker receives ball, defensive vulnerability</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video C</div>
+            <div class="text">Three horizontal lines representing defense midfield forward compress together showing successful press, then the lines spring apart like broken elastic, opponent through ball arrow shoots through the gap, press break</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video D</div>
+            <div class="text">Split screen left side shows compact Brazil press with all lines connected, right side shows press broken with red arrows shooting through defensive line into open space behind, tactical comparison with analysis markers</div>
+        </div>
+    </div>
+</div>
+
+<div class="section-header">Scene 4 — The Midfield Problem: Creative Chaos</div>
+<div class="scene">
+    <div class="scene-header">
+        <span class="scene-num">Scene 04</span>
+        <span class="scene-desc">Three midfielders, two different jobs — the balance is off</span>
+    </div>
+    <div class="voiceover">
+        <div class="voiceover-label">Voiceover</div>
+        <p>Brazil's midfield three is the heart of the problem. They play with one defensive midfielder and two box-to-box creators. The issue? Both creators push forward, leaving the single pivot isolated against counter-attacks. Against Norway, Haaland exploited that space between the lines. One pass through the midfield and the entire defensive structure was compromised.</p>
+    </div>
+    <div class="prompt-label image">IMAGE PROMPTS</div>
+    <div class="img-grid">
+        <div class="img-item">
+            <div class="label">Prompt A</div>
+            <div class="text">Tactical diagram showing Brazil midfield three, one defensive midfielder isolated with arrows showing both other midfielders pushing forward, gap appearing in front of the defense, opponent stickman receiving ball in that gap, dark pitch background</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt B</div>
+            <div class="text">Stickman defensive midfielder with too much space to cover shown as large highlighted zone around him, two other midfield stickman figures far ahead unable to help, passing lane through the gap highlighted with red arrow</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt C</div>
+            <div class="text">Heat map showing midfield positions in possession vs out of possession, large empty zone between midfield and defense when Brazil loses the ball, tactical warning symbol in that zone, analyst note MIDFIELD GAP</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt D</div>
+            <div class="text">Three player comparison: defensive midfielder work rate zone shown as large circle, two attacking midfielders heat maps shown far forward, the gap between them visualized as a canyon with danger markings</div>
+        </div>
+    </div>
+    <div class="prompt-label video">VIDEO PROMPTS</div>
+    <div class="img-grid">
+        <div class="vid-item">
+            <div class="label">Video A</div>
+            <div class="text">Midfield three appear on pitch, two midfielders animate forward with arrows leaving one isolated, gap opens in front of defense, opponent stickman receives pass in the gap and turns toward goal</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video B</div>
+            <div class="text">Defensive midfielder highlighted with large coverage zone pulsing, two midfielders ahead shown outside the zone, through ball arrow passes through gap between them, red danger flare where ball arrives</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video C</div>
+            <div class="text">Heat map develops in possession showing all three midfielders forward, then transitions to out of possession heat map showing the gap, warning triangle appears in empty zone, tactical annotation MIDFIELD GAP types in</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video D</div>
+            <div class="text">Three circles representing each midfielder's work rate zone, two forward circles shift up leaving one isolated circle behind, canyon crack forms between them growing wider with danger red glow</div>
+        </div>
+    </div>
+</div>
+
+<div class="section-header">Scene 5 — The Fullback Vulnerability: Exposed Wide Areas</div>
+<div class="scene">
+    <div class="scene-header">
+        <span class="scene-num">Scene 05</span>
+        <span class="scene-desc">When the fullback inverts, the wing becomes a highway</span>
+    </div>
+    <div class="voiceover">
+        <div class="voiceover-label">Voiceover</div>
+        <p>The false fullback system is Brazil's biggest tactical gamble. When the right back moves into midfield, the entire right wing is exposed. The winger is expected to track back and cover — but against elite opponents, that delay is enough. Norway attacked this space relentlessly. Brazil's left back was left on an island, two versus one, almost every time.</p>
+    </div>
+    <div class="prompt-label image">IMAGE PROMPTS</div>
+    <div class="img-grid">
+        <div class="img-item">
+            <div class="label">Prompt A</div>
+            <div class="text">Tactical diagram highlighting the wide area, fullback arrow moving inward to midfield, massive exposed wing space marked with red hazard stripes, two opponent wingers positioned in that space, stickman left back isolated alone</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt B</div>
+            <div class="text">Split view showing left side of pitch with Brazil left back stickman facing two opponent attackers, numerical advantage diagram showing 2v1 situation, danger meter showing high risk on that flank, tactical notation</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt C</div>
+            <div class="text">Stickman left back with exhaustion meter showing fatigue, arrows showing opponent runs behind him, his view showing empty space where fullback support should be, isolated island metaphor with water around him</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt D</div>
+            <div class="text">Wide passing lane analysis showing diagonal balls played into the exposed channel, completion rate stats for those passes, danger zone highlighted where crosses are delivered from, opponent cross diagram with target runner</div>
+        </div>
+    </div>
+    <div class="prompt-label video">VIDEO PROMPTS</div>
+    <div class="img-grid">
+        <div class="vid-item">
+            <div class="label">Video A</div>
+            <div class="text">Fullback figure moves inward from wing to midfield with arrow, the space he leaves floods red, two opponent players move into the red space creating 2v1, fullback looks back at empty wing with alarm</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video B</div>
+            <div class="text">Full screen shows left flank with Brazil left back alone, two opponent players close in, numerical advantage counter shows 2v1 pulsing red, tactical annotation NUMERICAL DISADVANTAGE appears, danger building</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video C</div>
+            <div class="text">Left back stickman on small island in the ocean, waves labeled OPPONENT ATTACKS crash toward him, no support boat visible, exhaustion meter depletes, isolated defender metaphor animated</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video D</div>
+            <div class="text">Wide pass animation showing diagonal ball played into exposed channel, completion marker shows high percentage, cross delivery into box with target striker highlighted, dangerous chance creation sequence</div>
+        </div>
+    </div>
+</div>
+
+<div class="section-header">Scene 6 — The Norwegian Blueprint: How Norway Broke Brazil</div>
+<div class="scene">
+    <div class="scene-header">
+        <span class="scene-num">Scene 06</span>
+        <span class="scene-desc">Haaland's brace — a tactical case study</span>
+    </div>
+    <div class="voiceover">
+        <div class="voiceover-label">Voiceover</div>
+        <p>Norway's game plan was simple: exploit the exact weaknesses we just identified. First goal: through ball into the midfield gap, Haaland turns the defender, finishes. Second goal: overload the exposed left flank, cross to the back post, Haaland header. Two goals. Two specific formation weaknesses. Norway didn't just beat Brazil — they exposed the blueprint for every team watching.</p>
+    </div>
+    <div class="prompt-label image">IMAGE PROMPTS</div>
+    <div class="img-grid">
+        <div class="img-item">
+            <div class="label">Prompt A</div>
+            <div class="text">Tactical replay diagram of Norway's first goal showing through ball arrow splitting Brazil's midfield and defense, Haaland stickman receiving between the lines, finish arrow into goal, defensive breakdown highlighted with red X marks</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt B</div>
+            <div class="text">Second goal tactical diagram showing wide overload on Brazil's exposed flank, cross delivery arrow, Haaland header trajectory, defensive positioning of Brazil shown as static figures caught in bad positions, breakdown annotations</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt C</div>
+            <div class="text">Stickman Norway coach with tactical board showing Brazil's formation with X marks at the two exploited zones, Haaland figure positioned in both dangerous areas, blueprint document titled HOW TO BEAT BRAZIL unfolding</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt D</div>
+            <div class="text">Stat comparison showing Norway's successful actions in the dangerous zones vs Brazil's failed defensive actions, arrows and numbers showing where they won the tactical battle, pitch diagram with hot zones highlighted</div>
+        </div>
+    </div>
+    <div class="prompt-label video">VIDEO PROMPTS</div>
+    <div class="img-grid">
+        <div class="vid-item">
+            <div class="label">Video A</div>
+            <div class="text">Pitch aerial view replay of first goal, through ball arrow splits midfield and defense, Haaland receives and scores, defensive breakdown X marks appear where Brazil failed, tactical replay analysis</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video B</div>
+            <div class="text">Wide flank overload animation, Brazil left back isolated, two Norway attackers combine, cross delivered, Haaland header trajectory into goal, defensive errors highlighted with red markers as they happen</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video C</div>
+            <div class="text">Norway coach at tactical board drawing Xs on Brazil formation, Haaland positioned in the two gaps, blueprint scrolls out showing the game plan, coach points at the X marks with emphasis</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video D</div>
+            <div class="text">Stat bars showing Norway's successful attacks on the wings and through midfield vs Brazil's defensive recoveries in those zones, hot zone map highlights where Norway did damage, tactical analysis summary</div>
+        </div>
+    </div>
+</div>
+
+<div class="section-header">Scene 7 — Brazil's Attack: Individual Brilliance Over System</div>
+<div class="scene">
+    <div class="scene-header">
+        <span class="scene-num">Scene 07</span>
+        <span class="scene-desc">The attack is world-class — but is it system-driven or player-dependent?</span>
+    </div>
+    <div class="voiceover">
+        <div class="voiceover-label">Voiceover</div>
+        <p>Brazil's attack is stacked. Vinicius Junior, Rodrygo, Richarlison — this generation has talent. But here is the problem: Brazil's attacking patterns rely more on individual brilliance than structural creation. They rank low in expected goals from open-play patterns and high in dribble-success-dependent chances. When individual magic works, it looks unstoppable. When it doesn't, the formation offers no backup plan.</p>
+    </div>
+    <div class="prompt-label image">IMAGE PROMPTS</div>
+    <div class="img-grid">
+        <div class="img-item">
+            <div class="label">Prompt A</div>
+            <div class="text">Comparison diagram showing two types of attacks, left side SYSTEM-DRIVEN with structured passing patterns and arrows, right side INDIVIDUAL with single player dribbling past defenders, Brazil heavily tilted toward the individual side, dark pitch background</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt B</div>
+            <div class="text">Stat bars comparing Brazil to top nations in expected goals from open play, combination play, and dribble成功率, Brazil low on first two metrics high on third, tactical analysis notation highlighting the imbalance</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt C</div>
+            <div class="text">Stickman Vinicius Junior figure with trail of defenders behind him, showing dribble-dependent attack pattern, passing option arrows showing limited support around him, creative isolation visual metaphor</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt D</div>
+            <div class="text">Tactical board showing Brazil's attacking patterns as mostly vertical dribbles through center, few horizontal combination patterns or crossing variations, limited options highlighted with red question marks</div>
+        </div>
+    </div>
+    <div class="prompt-label video">VIDEO PROMPTS</div>
+    <div class="img-grid">
+        <div class="vid-item">
+            <div class="label">Video A</div>
+            <div class="text">Split animation left side shows structured passing patterns with arrows and combination play, right side shows single player dribbling past multiple defenders, scale tips heavily toward right side labeled BRAZIL</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video B</div>
+            <div class="text">Stat bars rise for each category: expected goals open play low, combination play low, dribble success high, comparison bars from other top nations shown alongside, imbalance visually clear</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video C</div>
+            <div class="text">Vinicius stickman dribbles past multiple defender figures, dotted trail shows his path, passing option arrows around him are few and weak, creative isolation visualized as he runs alone with ball</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video D</div>
+            <div class="text">Tactical board with Brazil's attack patterns drawn as mostly vertical arrows, few horizontal combinations, red question marks appear next to limited patterns, alternative pattern options shown faded in background</div>
+        </div>
+    </div>
+</div>
+
+<div class="section-header">Scene 8 — Tactical Comparison: Brazil vs Other Elite Nations</div>
+<div class="scene">
+    <div class="scene-header">
+        <span class="scene-num">Scene 08</span>
+        <span class="scene-desc">How Brazil's structure compares to Spain, Argentina, and France</span>
+    </div>
+    <div class="voiceover">
+        <div class="voiceover-label">Voiceover</div>
+        <p>Compare Brazil's formation to other elite teams. Spain uses a controlled 4-3-3 with structured positional play. Argentina builds through Messi as a floating playmaker. France uses a balanced double pivot with defensive solidity. Brazil's approach is the most volatile — high risk in possession, exposed in transition, and reliant on individual moments. Among top nations, Brazil has the weakest structural foundation.</p>
+    </div>
+    <div class="prompt-label image">IMAGE PROMPTS</div>
+    <div class="img-grid">
+        <div class="img-item">
+            <div class="label">Prompt A</div>
+            <div class="text">Four formation diagrams side by side: Spain 4-3-3 structured with controlled passing arrows, Argentina 4-3-3 with Messi floating connection lines, France 4-2-3-1 with double pivot shield, Brazil 4-3-3 with false fullback arrows and exposed zones highlighted, comparison grid style</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt B</div>
+            <div class="text">Structural stability meter with four bars: Spain high, Argentina medium-high, France high, Brazil medium-low with warning indicator, each bar labeled with country flags and formation stability scores, dark background</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt C</div>
+            <div class="text">Stickman representation of each nation's tactical identity: Spain as chess pieces arranged precisely, Argentina as a single star with connecting threads, France as a fortress wall, Brazil as a fireworks display — spectacular but unstable</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt D</div>
+            <div class="text">Radar chart comparing four nations across six tactical categories: DEFENSIVE SOLIDITY POSSESSION CONTROL TRANSITION DEFENSE STRUCTURED ATTACK SET PIECES INDIVIDUAL BRILLIANCE, Brazil's shape skewed heavily toward individual brilliance</div>
+        </div>
+    </div>
+    <div class="prompt-label video">VIDEO PROMPTS</div>
+    <div class="img-grid">
+        <div class="vid-item">
+            <div class="label">Video A</div>
+            <div class="text">Four formation diagrams appear in grid, each nation's formation animates with their distinctive tactical patterns, Brazil highlighted last with danger zones pulsing on its formation, tactical comparison overview</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video B</div>
+            <div class="text">Four stability bars rise: Spain high, Argentina medium-high, France high, Brazil's bar stops at medium-low with warning icon flashing, country flags animate beside each bar, clear visual hierarchy established</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video C</div>
+            <div class="text">Each tactical identity appears: chess pieces for Spain positioning precisely, star with threads for Argentina, fortress for France, then Brazil fireworks explode spectacularly but fade and fall quickly, unstable metaphor</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video D</div>
+            <div class="text">Radar chart draws with four colored shapes, each category label appears as the shape extends, Brazil's shape clearly distorted toward the individual brilliance axis, imbalance visually obvious</div>
+        </div>
+    </div>
+</div>
+
+<div class="section-header">Scene 9 — What Brazil Must Change</div>
+<div class="scene">
+    <div class="scene-header">
+        <span class="scene-num">Scene 09</span>
+        <span class="scene-desc">Three tactical fixes that could save Brazil's tournament</span>
+    </div>
+    <div class="voiceover">
+        <div class="voiceover-label">Voiceover</div>
+        <p>Fix one: Drop the false fullback against elite opponents. Keep defensive shape. Fix two: Add a second defensive midfielder — sacrifice one creator for structural balance. Fix three: Develop structured attacking patterns that don't rely on individual dribbling. Brazil's talent is undeniable. But talent without structure wins games. Structure with talent wins tournaments. The clock is ticking.</p>
+    </div>
+    <div class="prompt-label image">IMAGE PROMPTS</div>
+    <div class="img-grid">
+        <div class="img-item">
+            <div class="label">Prompt A</div>
+            <div class="text">Three numbered fix panels: FIX 1 shows fullback staying in defensive line with cross mark over the invert arrow, FIX 2 shows 4-2-3-1 with double pivot shield protecting defense, FIX 3 shows structured passing pattern arrows replacing dribble icon, each with Brazil flag checkmark</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt B</div>
+            <div class="text">Tactical board showing proposed 4-2-3-1 formation with two defensive midfielders, compact defensive shape, balanced positioning, tactical notes highlighting improvements over current system, comparison arrow showing transformation</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt C</div>
+            <div class="text">Fix 3 visualization: left side showing old dribble-dependent attack pattern with isolated player, right side showing new structured combination play with passing triangles and movement arrows, transformation arrow with IMPROVEMENT label</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt D</div>
+            <div class="text">Stickman Brazil coach holding three cards labeled FIX 1 FIX 2 FIX 3, ticking clock behind him showing tournament time running out, Brazil crest with question mark of whether changes will come, urgency visual</div>
+        </div>
+    </div>
+    <div class="prompt-label video">VIDEO PROMPTS</div>
+    <div class="img-grid">
+        <div class="vid-item">
+            <div class="label">Video A</div>
+            <div class="text">Three fix panels slide in one by one with animated demonstrations: fix 1 fullback stays back with green check, fix 2 formation morphs to 4-2-3-1 with double pivot, fix 3 pass patterns replace dribble animations</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video B</div>
+            <div class="text">Current 4-3-3 formation morphs into proposed 4-2-3-1, defensive shield appears protecting back line, compactness increases, tactical improvements highlighted with green glow on defensive zones</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video C</div>
+            <div class="text">Left side shows isolated dribbler with few options, right side shows passing triangles with players moving into space, transformation arrow animates between them, green checkmark appears on improved side</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video D</div>
+            <div class="text">Coach holds three cards, each flips to reveal the fix animation, ticking clock overlay shows time running, Brazil crest fades in and out, urgency building with quickening clock tick sound</div>
+        </div>
+    </div>
+</div>
+
+<div class="section-header">Scene 10 — Conclusion: The Samba Crossroads</div>
+<div class="scene">
+    <div class="scene-header">
+        <span class="scene-num">Scene 10</span>
+        <span class="scene-desc">Brazil's formation is exposed. Can they adapt before it's too late?</span>
+    </div>
+    <div class="voiceover">
+        <div class="voiceover-label">Voiceover</div>
+        <p>Brazil's formation is not broken — but it is exposed. Every remaining opponent has the Norway blueprint. The question is not whether Brazil has the talent. They have more talent than almost anyone. The question is whether they have the tactical flexibility to adapt. The samba kings stand at a crossroads. One path leads to another early exit. The other path leads to tactical evolution — and maybe a sixth star. The choice is theirs.</p>
+    </div>
+    <div class="prompt-label image">IMAGE PROMPTS</div>
+    <div class="img-grid">
+        <div class="img-item">
+            <div class="label">Prompt A</div>
+            <div class="text">Stickman Brazil team standing at a crossroads, one path labeled SAME FORMATION with early exit icon, other path labeled ADAPT AND EVOLVE with World Cup trophy icon, Brazil crest glowing above the crossroads, dramatic stadium lighting</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt B</div>
+            <div class="text">Formation diagram at center with two arrows emerging, one arrow pointing to a broken shield representing Norway's defeat, other arrow pointing to a solid fortress with sixth star above, tactical evolution metaphor</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt C</div>
+            <div class="text">Stickman Brazil coach with tactical board showing both current formation and proposed changes side by side, question mark between them, Brazil fans in background watching with hopeful tension, decision moment visual</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt D</div>
+            <div class="text">Final card graphic: Brazil crest with five stars, sixth star faded as outline, formation diagram beneath, text BRAZIL'S FORMATION EXPOSED — CAN THEY ADAPT? in bold yellow green, dramatic dark gradient background</div>
+        </div>
+    </div>
+    <div class="prompt-label video">VIDEO PROMPTS</div>
+    <div class="img-grid">
+        <div class="vid-item">
+            <div class="label">Video A</div>
+            <div class="text">Brazil stickman team arrives at crossroads, left path shows their formation breaking apart and Norway celebrating, right path shows formation evolving into fortress with trophy, team looks at both paths deciding</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video B</div>
+            <div class="text">Formation diagram splits into two directions, one side cracks and falls showing Norway defeat, other side builds into solid formation with sixth star appearing above, evolution animation with dramatic orchestral music</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video C</div>
+            <div class="text">Coach looks at tactical board with two formations, camera zooms into his face showing thoughtful expression, Brazil fans in background fade in holding breath, freeze frame on decision moment with question mark</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video D</div>
+            <div class="text">Brazil crest fades in with five stars, sixth star outline pulses, formation diagram appears below, final title types out CAN THEY ADAPT?, music swells and cuts to silence with final frame hold, impactful ending</div>
+        </div>
+    </div>
+</div>
+
+<div class="section-header">Thumbnail &amp; SEO</div>
+
+<div class="thumbnail-box">
+    <div class="label gold">YouTube Thumbnail</div>
+    <div class="voiceover" style="margin-top: 0.5rem;">
+        <p><strong>Title Options:</strong></p>
+        <ul style="list-style: none; margin-top: 0.3rem;">
+            <li>A: Brazil's Formation Finally Exposed in World Cup Analysis</li>
+            <li>B: I Found the Weakness in Brazil's Formation</li>
+            <li>C: Brazil's Tactical Flaw Exposed — Can They Fix It?</li>
+        </ul>
+        <p style="margin-top: 0.5rem;"><strong>Design:</strong> Aerial pitch view with Brazil formation in yellow/green stickmen. Magnifying glass over the midfield gap. Opponent stickman already through the gap. Brazil crest top corner. Bold yellow text: "BRAZIL'S FORMATION EXPOSED." High contrast tactical analysis style.</p>
+    </div>
+</div>
+
+<div class="seo-grid">
+    <div class="seo-card">
+        <h3>Description</h3>
+        <p class="seo-desc">Brazil's formation has a fatal flaw and Norway exposed it. In this tactical analysis, I break down exactly how Brazil sets up in their 4-3-3, where the weaknesses are hiding, and how Erling Haaland and Norway exploited the midfield gap and exposed fullback areas to knock Brazil out of the 2026 World Cup. Can Brazil adapt before it's too late? Tactical breakdown with stickman formation diagrams.</p>
+    </div>
+    <div class="seo-card tags">
+        <h3>Tags</h3>
+        <ul>
+            <li>Brazil formation analysis</li>
+            <li>Brazil World Cup 2026 tactics</li>
+            <li>Brazil 4-3-3 formation</li>
+            <li>Norway vs Brazil tactics</li>
+            <li>Haaland Brazil breakdown</li>
+            <li>Brazil tactical weakness</li>
+            <li>World Cup tactical analysis</li>
+            <li>Brazil false fullback</li>
+            <li>Norway beat Brazil how</li>
+            <li>Brazil formation exposed</li>
+            <li>Brazil midfield problem</li>
+            <li>samba football tactics</li>
+            <li>Brazil defensive structure</li>
+            <li>World Cup 2026 Brazil</li>
+            <li>Brazil formation flaw</li>
+            <li>tactical analysis football</li>
+            <li>Brazil Norway World Cup</li>
+            <li>Brazil system weakness</li>
+            <li>stickman tactical analysis</li>
+            <li>Brazil formation breakdown</li>
+            <li>WC26 Brazil tactics</li>
+            <li>Brazil formation guide</li>
+            <li>how Brazil play football</li>
+            <li>Brazil tactical evolution</li>
+            <li>formation analysis football</li>
+            <li>Brazil World Cup tactics</li>
+            <li>Brazil football system</li>
+            <li>Brazil formation Norway</li>
+            <li>World Cup tactical breakdown</li>
+            <li>Brazil sixth star</li>
+        </ul>
+    </div>
+    <div class="seo-card">
+        <h3>Keywords</h3>
+        <ul>
+            <li>Brazil formation analysis 2026</li>
+            <li>Brazil tactical weakness World Cup</li>
+            <li>Brazil 4-3-3 formation breakdown</li>
+            <li>Norway Brazil formation exploit</li>
+            <li>Haaland Brazil tactical analysis</li>
+            <li>Brazil false fullback system</li>
+            <li>Brazil midfield gap problem</li>
+            <li>Brazil formation fix World Cup</li>
+            <li>Brazil tactical analysis stickman</li>
+            <li>Brazil formation exposed Norway</li>
+            <li>World Cup 2026 Brazil tactics</li>
+            <li>Brazil formation vulnerability</li>
+            <li>Brazil tactical evolution needed</li>
+            <li>Brazil attacking patterns analysis</li>
+            <li>Brazil formation comparison elite</li>
+        </ul>
+    </div>
+    <div class="seo-card">
+        <h3>Hashtags</h3>
+        <ul>
+            <li>#BrazilFormation</li>
+            <li>#WorldCupTactics</li>
+            <li>#Brazil2026</li>
+            <li>#TacticalAnalysis</li>
+            <li>#FormationExposed</li>
+            <li>#WC26Tactics</li>
+            <li>#SambaFootball</li>
+            <li>#BrazilWeakness</li>
+        </ul>
+    </div>
+</div>
+
+<div class="section-header">Voiceover Notes</div>
+<div class="vonote">
+    <ul>
+        <li><strong>Tone:</strong> Analytical, authoritative, slightly urgent. Like a tactical professor revealing something the audience hasn't noticed. Confident but not arrogant. Should make viewers feel like insiders.</li>
+        <li><strong>Pacing:</strong> Scene 1 opens with bold claims and hook. Scenes 2-5 are methodical building the tactical case. Scene 6 is the payoff with Norway case study. Scenes 7-8 widen the lens with comparison. Scene 9 offers solutions. Scene 10 is ominous and reflective.</li>
+        <li><strong>Key phrases to emphasize:</strong> "formation finally exposed", "false fullback", "midfield gap", "Norway blueprint", "structure with talent wins tournaments", "samba crossroads".</li>
+        <li><strong>Musical cues:</strong> Opening with analytical pulse beat, tension building through formation breakdown, dramatic swell during Norway goal replays, contemplative piano for solutions, ominous unresolved chord for conclusion.</li>
+        <li><strong>Sound design:</strong> Tactical board marker sounds when diagrams draw, stadium crowd underlying, dramatic sting on key revelations, heartbeat during vulnerability sections, clock tick during urgency moments.</li>
+        <li><strong>Transition style:</strong> Clean tactical wipe transitions between diagrams, diagonal wipes for formation changes, crossfade for comparison sections, hard cuts for contrast moments.</li>
+        <li><strong>Duration target:</strong> 10 scenes × approximately 15-20 seconds each = ~3 minutes. Aim for 2:45-3:15 final runtime.</li>
+    </ul>
+</div>
+
+<footer>WC26Matrix — Storyboard generated for Stickman Tactical Infographic style video production</footer>
+
+</div>
+</body>
+</html>

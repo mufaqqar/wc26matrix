@@ -690,3 +690,45 @@ What you explain: Exactly what IFAB's Laws of the Game say about how far back VA
 Thumbnail text: "How Far Back Can VAR Go? Nobody Agrees."
 
 Virality score: 🔥 9/10
+
+
+
+
+Idea 86 
+
+Title : Brazil's Formation Finally Exposed in World Cup Analysis
+
+Get ready for the most in-depth analysis of Brazil's formation in the World Cup. This video breaks down the team's strategy, tactics, and player positions, giving you a unique insight into what makes them tick. From their defensive solidity to their attacking flair, we'll be examining every aspect of Brazil's gameplay. Whether you're a die-hard football fan or just looking to learn more about the beautiful game, this World Cup analysis is for you. Discover the secrets behind Brazil's success and find out how they plan to take on the best teams in the world. With expert commentary and detailed analysis, you won't want to miss this comprehensive look at Brazil's formation.
+
+Hook : Can I break down Brazil's formation in this World Cup analysis?
+
+
+Idea 87
+
+Title : Is WORLD CUP Rigged?
+
+Hook : I'm going to try and prove if the World Cup is rigged!
+
+Is the World Cup rigged? This is a question that has sparked intense debate among football fans and critics alike. With allegations of match-fixing, biased refereeing, and corruption, many are left wondering if the beautiful game is indeed fair. In this video, we'll delve into the world of football and explore the possibility of the World Cup being rigged. From suspicious referee decisions to mysterious player injuries, we'll examine the evidence and hear from experts to get to the bottom of this controversy. Whether you're a die-hard football fan or just a casual observer, this video is sure to spark interesting discussions and raise important questions about the integrity of the sport. So, is the World Cup rigged? Watch to find out.
+
+Script : I'm going to try and prove if the World Cup is rigged! 
+The World Cup, the pinnacle of international soccer, watched by millions, and often marred by controversy. Allegations of rigging have long plagued the tournament, leaving fans worldwide questioning the integrity of the game. In this video, we're going to dive into the evidence, explore the theories, and maybe, just maybe, get to the bottom of it all.
+
+People have various reasons to believe the World Cup might be rigged. One of the main reasons is the perception of unfair referee decisions. Controversial calls have been a part of the tournament since its inception. Some argue that these mistakes are too frequent, too impactful, and sometimes, seem to favor certain teams. 
+Another reason is the occurrence of suspicious draws. Certain match outcomes can seem too convenient, sparking speculation about the legitimacy of the results. 
+The influence of money also plays a significant role. With massive sponsorships and broadcasting rights at stake, the financial motivations can be immense. 
+The power dynamics within football's governing bodies, particularly FIFA, also come under scrutiny.
+
+VAR, or Video Assistant Referee, was introduced to minimize errors, but has it done more harm than good? There have been instances where VAR decisions have been heavily criticized, leading to more confusion and controversy. 
+The role of powerful organizations and their influence on match outcomes can't be ignored. FIFA, being at the helm, makes decisions that can affect the tournament's flow. 
+Some point to specific incidents, like the 2006 World Cup final between Italy and France, where Zidane's infamous red card sparked debates. 
+The 2018 World Cup round of 16 match between Brazil and Mexico also raised eyebrows due to some questionable refereeing.
+
+One infamous incident that stands out is the 1982 World Cup semifinal between West Germany and Austria. A 1-0 win for West Germany, but the manner in which they achieved it has been questioned for years. 
+The match's outcome had significant implications for both teams' progression and ultimately, West Germany's victory led them to the final. 
+The influence of powerful figures and potential collusions add fuel to the fire. 
+The match remains a talking point, decades later, with many still convinced that something wasn't right.
+
+In conclusion, the debate around World Cup rigging is complex, filled with allegations, controversies, and what-ifs. While there's no concrete evidence to prove the tournament is rigged, the accumulation of human error, high stakes, and influential powers create an environment where skepticism thrives.
+
+So, what do you think? Are there any incidents or theories you've come across that make you question the World Cup's integrity? Share your thoughts in the comments below. If you're interested in more content on sports controversies, consider subscribing, and we'll catch you in the next video!
