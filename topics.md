@@ -732,3 +732,67 @@ The match remains a talking point, decades later, with many still convinced that
 In conclusion, the debate around World Cup rigging is complex, filled with allegations, controversies, and what-ifs. While there's no concrete evidence to prove the tournament is rigged, the accumulation of human error, high stakes, and influential powers create an environment where skepticism thrives.
 
 So, what do you think? Are there any incidents or theories you've come across that make you question the World Cup's integrity? Share your thoughts in the comments below. If you're interested in more content on sports controversies, consider subscribing, and we'll catch you in the next video!
+
+
+Idea 88
+
+
+Title: Pulisic Wasn't Just "Tired." He Was Playing With a Broken Bone.
+
+Why it'll explode: Reports confirmed Thursday that Christian Pulisic had sustained a bone bruise and microfracture in his tibia and fibula during the tournament — meaning the USA's captain was playing injured for multiple matches while being publicly criticized for his performances. The backlash against him, including from former USWNT star Carli Lloyd, now looks completely different. "He was soft" becomes "he played through a fracture." The sentiment flip is instant and massive across US sports media right now.
+
+What you explain: What a tibial bone bruise and microfracture actually means physically, why players at this level play through injuries they'd never disclose publicly, and how this reframes the entire USMNT campaign — stick figures showing Pulisic's match-by-match performance timeline against the hidden injury he was carrying underneath.
+
+Thumbnail text: "They Called Him Soft. He Had a Fracture."
+
+Virality score: 🔥 10/10
+
+
+Idea 89
+
+Title: Haaland Has 5.8 Million TikTok Followers in China — More Than Norway's Entire Population
+
+Why it'll explode: Since launching his account on China's version of TikTok, Erling Haaland has amassed 5.8 million followers — more than the population of Norway.  Norway's population is 5.5 million people. Their biggest star has more Chinese social media followers than there are people in his entire country — and tomorrow Norway face England in a quarterfinal that could send them to the first semifinal in Norwegian football history. The numbers story plus the "fairytale run" angle plus the England clash tomorrow makes this a perfect pre-quarterfinal viral post.
+
+What you explain: How Haaland's global fame compares to Norway's actual footballing history, what a Norway semifinal would mean for a nation that's never reached the last four of a World Cup, and what England need to do tactically to stop the most dangerous striker in the world — stick figures showing Haaland's goal route and the defensive trap England need to set.
+
+Thumbnail text: "More Fans in China Than People in Norway."
+
+Virality score: 🔥 9/10
+
+
+Idea 90
+
+Title: England vs Argentina Is Back. 40 Years After the Hand of God. Now There's a "Cable of God."
+
+Why it'll explode: England face Argentina in the World Cup semifinal on Wednesday in Atlanta — exactly 40 years after Diego Maradona's infamous "Hand of God" goal knocked England out at Mexico 1986. But Saturday's England vs Norway quarterfinal already produced its own divine controversy — a moment being called the "Cable of God," where a TV camera cable hanging over the pitch appeared to deflect a shot at a crucial moment, sparking conspiracy theories about whether England's path was helped by something off the pitch. One legendary controversial moment. One new one. Same two nations. Same tournament stage. The narrative writes itself and it's the #1 trending sports topic globally right now.
+
+What you explain: What the original "Hand of God" actually was and why it became the most famous goal in football history, what the "Cable of God" moment looked like and whether it genuinely affected play, and why England vs Argentina carries more historical weight than almost any other match in football — stick figures recreating both moments side by side, 40 years apart, same two countries.
+
+Thumbnail text: "Hand of God. Cable of God. Same Rival."
+
+Virality score: 🔥 10/10
+
+Idea 91 
+
+Title: For the First Time Ever, the World Cup Semifinals Are the Top 4 Ranked Teams in the World. All Four.
+
+Why it'll explode: France (ranked 1st), Argentina (2nd), Spain (3rd) and England (4th) are the four remaining teams — making this the first World Cup in history where the four semifinalists are exactly the top four FIFA-ranked teams entering the tournament. 48 nations started. Every single underdog is gone. The four best teams in the world are playing each other. This is either the most perfectly competitive World Cup ever or the most predictable — and fans are arguing about which one right now.
+
+What you explain: How rare it is for favorites to dominate a World Cup this completely (2010, 2014, 2018 and 2022 all had major upsets in the semifinals), what this means for the concept of the "World Cup upset," and whether the expanded 48-team format actually helped the top teams by giving them easier early opponents — stick figures showing 48 teams collapsing down to exactly the top four ranked nations.
+
+Thumbnail text: "48 Teams Started. The Top 4 Remain."
+
+Virality score: 🔥 9.5/10
+
+Idea 92
+
+Title: Jude Bellingham Scored the Decisive Goal in 4 of England's 6 World Cup Matches. He's 23.
+
+Why it'll explode: For the fourth time in six games at the World Cup, Bellingham has been the decisive factor for England  — scoring twice against Norway including an extra-time winner to send England into the semifinals. England is advancing to the World Cup semifinals with a 2-1 win over Norway, thanks to a heroic brace from star midfielder Jude Bellingham — and England manager Thomas Tuchel was more focused on what the players needed to do better, calling it a "lucky" win and bluntly chiding the team for their "sloppy" tactics. The greatest individual tournament performance by an English player since 1966 — and his manager still isn't satisfied. The combination of historic numbers and an ungrateful coach is peak viral content.
+
+What you explain: What "decisive goal" actually means statistically across a tournament, how Bellingham's performance compares to the greatest individual World Cup runs in history (Maradona 1986, Mbappe 2018), and why a manager publicly criticizing a player who just scored twice in extra time to reach a semifinal is one of the strangest press conference moments of the tournament — stick figures showing Bellingham's six-match goal timeline next to a shrugging Tuchel.
+
+Thumbnail text: "4 Decisive Goals. Manager Still Unhappy."
+
+Virality score: 🔥 9.5/10

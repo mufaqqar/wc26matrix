@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>For the First Time Ever, the World Cup Semifinals Are the Top 4 Ranked Teams in the World. All Four. | WC26Matrix</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; background: #0a1628; color: #e0e8f0; padding: 2rem 1rem; }
+.container { max-width: 1000px; margin: 0 auto; }
+h1 { font-size: 2rem; font-weight: 700; color: #00e5ff; margin-bottom: 0.3rem; }
+.subtitle { color: #8899aa; font-size: 1rem; margin-bottom: 2rem; border-left: 4px solid #ff6b35; padding-left: 1rem; }
+.badge { font-size: 0.75rem; font-weight: 600; background: #ff6b35; color: #fff; padding: 0.2rem 0.7rem; border-radius: 20px; display: inline-block; }
+.badge.gold { background: #ff6b35; }
+.badge.blue { background: #0088ff; }
+.badge.image { background: #9b59b6; color: #fff; }
+.badge.video { background: #e74c3c; color: #fff; }
+.section-header { font-size: 1.2rem; font-weight: 600; color: #00e5ff; background: #111d33; padding: 0.7rem 1.2rem; border-radius: 8px; margin-bottom: 1rem; display: flex; align-items: center; gap: 0.6rem; flex-wrap: wrap; }
+.scene { background: #0f1d33; border-radius: 10px; padding: 1.2rem 1.5rem; margin-bottom: 1rem; box-shadow: 0 1px 4px rgba(0,0,0,0.3); border-left: 4px solid #00e5ff; }
+.scene-header { display: flex; align-items: center; gap: 0.8rem; margin-bottom: 0.8rem; flex-wrap: wrap; }
+.scene-num { font-weight: 700; color: #00e5ff; font-size: 0.9rem; }
+.scene-desc { font-style: italic; color: #8899aa; font-size: 0.9rem; }
+.voiceover { background: #0d1a2e; border-radius: 6px; padding: 0.8rem 1rem; margin-top: 0.7rem; font-size: 0.95rem; line-height: 1.6; color: #e0e8f0; border-left: 3px solid #0088ff; }
+.voiceover-label { font-size: 0.75rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; color: #0088ff; margin-bottom: 0.3rem; }
+.prompt-label { font-size: 0.75rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; color: #fff; margin-bottom: 0.2rem; margin-top: 0.6rem; padding: 0.15rem 0.6rem; border-radius: 4px; display: inline-block; }
+.prompt-label.image { background: #9b59b6; }
+.prompt-label.video { background: #e74c3c; }
+.prompt-box { background: #0d1a2e; border-radius: 6px; padding: 0.8rem 1rem; font-size: 0.88rem; line-height: 1.5; color: #99aabb; font-family: 'Courier New', monospace; border-left: 3px solid #00e5ff; white-space: pre-wrap; margin-bottom: 0.5rem; }
+.prompt-box.video-prompt { border-left-color: #e74c3c; background: #1a0d0d; }
+.img-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0.8rem; margin-top: 0.5rem; }
+.img-item { background: #0d1a2e; border-radius: 6px; padding: 0.7rem; border-left: 3px solid #9b59b6; }
+.img-item .label { font-size: 0.7rem; font-weight: 600; color: #9b59b6; margin-bottom: 0.2rem; }
+.img-item .text { font-size: 0.82rem; color: #99aabb; font-family: 'Courier New', monospace; line-height: 1.4; white-space: pre-wrap; }
+.vid-item { background: #1a0d0d; border-radius: 6px; padding: 0.7rem; border-left: 3px solid #e74c3c; }
+.vid-item .label { font-size: 0.7rem; font-weight: 600; color: #e74c3c; margin-bottom: 0.2rem; }
+.vid-item .text { font-size: 0.82rem; color: #99aabb; font-family: 'Courier New', monospace; line-height: 1.4; }
+.thumbnail-box { background: #0f1d33; border-radius: 10px; padding: 1.2rem 1.5rem; box-shadow: 0 1px 4px rgba(0,0,0,0.3); border-left: 4px solid #ff6b35; margin-bottom: 1rem; }
+.thumbnail-box .label { font-size: 0.75rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 0.2rem; }
+.thumbnail-box .label.gold { color: #ff6b35; }
+.thumbnail-box .label.blue { color: #0088ff; }
+.seo-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+.seo-card { background: #0f1d33; border-radius: 10px; padding: 1rem 1.2rem; box-shadow: 0 1px 4px rgba(0,0,0,0.3); }
+.seo-card h3 { font-size: 0.9rem; color: #00e5ff; margin-bottom: 0.5rem; }
+.seo-card ul { list-style: none; }
+.seo-card li { font-size: 0.88rem; color: #99aabb; padding: 0.25rem 0; border-bottom: 1px solid #1a2a44; }
+.seo-card li:last-child { border-bottom: none; }
+.seo-card.tags li { display: inline-block; background: #1a2a44; padding: 0.2rem 0.6rem; border-radius: 4px; margin: 0.2rem; font-size: 0.8rem; border: none; }
+.seo-desc { font-size: 0.85rem; line-height: 1.6; color: #99aabb; margin-bottom: 0.5rem; }
+.vonote { background: #0f1d33; border-radius: 10px; padding: 1.2rem 1.5rem; box-shadow: 0 1px 4px rgba(0,0,0,0.3); }
+.vonote ul { list-style: none; font-size: 0.92rem; line-height: 1.8; color: #99aabb; }
+.meta-row { display: flex; gap: 1rem; flex-wrap: wrap; margin-bottom: 1rem; }
+.meta-tag { background: #1a2a44; padding: 0.3rem 0.8rem; border-radius: 20px; font-size: 0.85rem; }
+.meta-tag.style { background: #1a2a44; color: #00e5ff; border: 1px solid #00e5ff; }
+footer { margin-top: 3rem; text-align: center; font-size: 0.85rem; color: #556677; padding: 1rem 0; }
+@media (max-width: 700px) { .seo-grid { grid-template-columns: 1fr; } .img-grid { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+<div class="container">
+
+<h1>For the First Time Ever, the World Cup Semifinals Are the Top 4 Ranked Teams in the World. All Four.</h1>
+<div class="subtitle">Stickman sports infographic style — Clean vector illustrations on dark football stadium backgrounds</div>
+
+<div class="meta-row">
+    <span class="meta-tag">Category: WC26 Tournament Analysis</span>
+    <span class="meta-tag">Est. Length: ~3 min</span>
+    <span class="meta-tag style">Style: Stickman Sports Infographic</span>
+    <span class="meta-tag">Scenes: 10</span>
+    <span class="meta-tag">Images: 40</span>
+    <span class="meta-tag">Video Prompts: 40</span>
+    <span class="meta-tag">Voiceover: ~460 words</span>
+</div>
+
+<!-- SCENE 01 -->
+<div class="scene">
+    <div class="scene-header">
+        <span class="scene-num">SCENE 01</span>
+        <span class="scene-desc">Hook — "48 teams started. Only the top 4 remain. Literally."</span>
+    </div>
+    <div class="voiceover">
+        <div class="voiceover-label">Voiceover</div>
+        48 teams started this World Cup. The biggest tournament in history. Every continent represented. Underdogs from every corner of the globe. And after all of it — the four teams left standing are ranked 1, 2, 3, and 4 in the world. France. Argentina. Spain. England. For the first time ever, the World Cup semifinalists are exactly the top four ranked teams entering the tournament. This has literally never happened before. And it's sparking one of the biggest debates in World Cup history: is this the most competitive tournament ever — or the most predictable?
+    </div>
+    <div class="prompt-label image">Image Prompts (4)</div>
+    <div class="img-grid">
+        <div class="img-item">
+            <div class="label">Prompt A — 48 to 4 collapse visual</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a dramatic funnel visual showing 48 small team flag icons at the top funneling down through each round — Round of 32, Round of 16, Quarterfinals — until only 4 flags remain at the bottom, those four flags are France (tricolore), Argentina (blue/white), Spain (red/yellow/red), England (St George's Cross), each with their FIFA ranking number "#1", "#2", "#3", "#4" above them, a "FIRST TIME IN HISTORY" stamp in gold, simple funnel collapse visual with dramatic stadium lighting, bold text "48 TEAMS STARTED. 32 BECAME 16. 16 BECAME 8. 4 REMAIN. THE TOP 4." at top, high contrast infographic composition</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt B — The unbelievable stat</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a giant stat card in the center, big bold text "FIRST TIME IN WORLD CUP HISTORY" as the headline, below "THE 4 SEMIFINALISTS ARE THE TOP 4 FIFA-RANKED TEAMS ENTERING THE TOURNAMENT" in yellow, with the years "1930, 1934, 1938, 1950, 1954, 1958, 1962, 1966, 1970, 1974, 1978, 1982, 1986, 1990, 1994, 1998, 2002, 2006, 2010, 2014, 2018, 2022 — NEVER HAPPENED" scrolling in a list behind the card, simple unbelievable stat visual with stadium floodlights, bold text "22 WORLD CUPS. NEVER ONCE. UNTIL NOW." at bottom, high contrast composition</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt C — The debate split screen</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a split screen showing the two sides of the debate, left side labeled "MOST COMPETITIVE EVER" with stickman fans cheering and a "THE BEST TEAMS SURVIVED — THIS IS HOW IT SHOULD BE" argument in green, right side labeled "MOST PREDICTABLE EVER" with stickman fans yawning and a "48 TEAMS AND NO UPSETS — WHAT WAS THE POINT?" argument in red, a giant "WHICH SIDE ARE YOU ON?" question in the middle with a voting meter showing 50/50 split, simple debate visual with dramatic stadium lighting, bold text "THE BEST TOURNAMENT EVER — OR THE MOST BORING? THE INTERNET IS FIGHTING ABOUT IT." at top, high contrast composition</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt D — The four kings</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, four regal throne chairs in a row, each with a country's flag draped over it, Chair 1 "FRANCE — #1" with World Cup trophy icon, Chair 2 "ARGENTINA — #2" with Copa America icon, Chair 3 "SPAIN — #3" with Euro icon, Chair 4 "ENGLAND — #4" with star icon, all four chairs facing forward, a golden crown floating above each one, simple four kings throne visual with majestic stadium lighting, bold text "FRANCE. ARGENTINA. SPAIN. ENGLAND. THE FOUR KINGS OF WORLD FOOTBALL." at bottom, high contrast emotional composition</div>
+        </div>
+    </div>
+    <div class="prompt-label video">AI Video Prompts (4)</div>
+    <div class="img-grid">
+        <div class="vid-item">
+            <div class="label">Video A — 48 to 4 collapse animation</div>
+            <div class="text">48 flags funnel down through each round, only 4 remain at bottom with their FIFA rankings, FIRST TIME IN HISTORY stamp appears, 6-funnel, one-time with hold</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video B — Unbelievable stat animation</div>
+            <div class="text">Stat card builds with headline, list of all 22 World Cups scrolls behind with NEVER HAPPENED, bold bottom text fades in, 5-stat card, seamless loop</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video C — Debate split screen animation</div>
+            <div class="text">Split screen shows MOST COMPETITIVE on left vs MOST PREDICTABLE on right, voting meter shows 50/50, WHICH SIDE ARE YOU ON appears, 6-debate, one-time with hold</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video D — Four kings animation</div>
+            <div class="text">Four thrones appear with flags draped, each with ranking and trophy icon, golden crowns float above, 6-four kings, seamless loop</div>
+        </div>
+    </div>
+</div>
+
+<!-- SCENE 02 -->
+<div class="scene">
+    <div class="scene-header">
+        <span class="scene-num">SCENE 02</span>
+        <span class="scene-desc">How FIFA rankings work — and why they actually matter this time</span>
+    </div>
+    <div class="voiceover">
+        <div class="voiceover-label">Voiceover</div>
+        First, let's understand the FIFA World Rankings. People love to mock them — and fair, they can be weird. But in this case, the rankings actually reflect reality. France has been dominant for years. Argentina won the last World Cup and hasn't stopped. Spain has the best young generation in the world. England has Bellingham, Kane, and a squad that keeps getting better. The rankings said these were the four best teams before the tournament. And after 48 teams, 120 matches, and thousands of goals — the rankings were right. That almost never happens.
+    </div>
+    <div class="prompt-label image">Image Prompts (4)</div>
+    <div class="img-grid">
+        <div class="img-item">
+            <div class="label">Prompt A — FIFA ranking explained</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a simple explanation card with four bullet points about how FIFA rankings work, Point 1 "POINTS BASED ON MATCH RESULTS — WIN = MORE POINTS" with a trophy icon, Point 2 "BIGGER MATCHES = BIGGER POINTS — WORLD CUP MATCHES WEIGHTED HIGHEST" with a star icon, Point 3 "OPPONENT STRENGTH MATTERS — BEATING A TOP TEAM = MORE POINTS" with a scales icon, Point 4 "RANKINGS UPDATE MONTHLY — CURRENT AS OF NOVEMBER 2026" with a calendar icon, a "ELO-STYLE SYSTEM" label at the bottom, simple explainer visual with stadium floodlights, bold text "HOW FIFA RANKINGS WORK: A SIMPLE EXPLAINER" at top, high contrast infographic composition</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt B — Top 10 rankings screen</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a leaderboard style visual showing the FIFA Top 10 rankings entering the tournament, #1 FRANCE with gold medal and points score, #2 ARGENTINA with silver, #3 SPAIN with bronze, #4 ENGLAND, #5 BRAZIL, #6 NETHERLANDS, #7 PORTUGAL, #8 GERMANY, #9 BELGIUM, #10 ITALY, with the bottom six crossed out in grey with "ELIMINATED" stamps, only the top 4 remaining highlighted in color, simple rankings board with dramatic stadium lighting, bold text "THE FIFA TOP 10 ENTERING WC26: 6 ARE ELIMINATED. THE TOP 4 REMAIN." at top, high contrast composition</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt C — Rankings skepticism visual</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a stickman football fan with a skeptical expression looking at a FIFA ranking list, a thought bubble showing past rankings controversies — "BELGIUM WAS #1 FOR YEARS WITHOUT WINNING ANYTHING", "USA RANKED HIGHER THAN ITALY AT ONE POINT", "THE RANKINGS ARE WEIRD" labels, but then a "WAIT... THIS TIME THEY'RE RIGHT?" realization bubble with the top 4 surviving, simple skepticism to realization visual with stadium floodlights, bold text "EVERYONE MAKES FUN OF FIFA RANKINGS. BUT THIS TIME? THEY NAILED IT." at bottom, high contrast composition</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt D — The ranking accuracy graph</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a bar chart showing previous World Cups and how many of the top 4 ranked teams made the semifinals, 2010 "2 OF TOP 4" with Uruguay and Netherlands as disruptors, 2014 "2 OF TOP 4" with Germany and Argentina, 2018 "3 OF TOP 4" with France and Belgium and Croatia as surprise, 2022 "2 OF TOP 4" with Morocco the biggest surprise, 2026 "4 OF TOP 4 — FIRST TIME EVER" with a star and celebration, simple accuracy graph with dramatic stadium lighting, bold text "HISTORICALLY, ONLY 2-3 TOP-4 RANKED TEAMS MAKE SEMIS. THIS YEAR: ALL 4." at top, high contrast infographic composition</div>
+        </div>
+    </div>
+    <div class="prompt-label video">AI Video Prompts (4)</div>
+    <div class="img-grid">
+        <div class="vid-item">
+            <div class="label">Video A — Ranking explained animation</div>
+            <div class="text">Four bullet points appear one by one explaining FIFA rankings, ELO-STYLE SYSTEM label at bottom, 5-explainer, one-time with hold</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video B — Top 10 rankings animation</div>
+            <div class="text">Top 10 leaderboard appears, bottom 6 fade to grey with ELIMINATED stamps, only top 4 highlighted, 6-leaderboard, seamless loop</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video C — Rankings skepticism animation</div>
+            <div class="text">Skeptical fan thinks about past ranking controversies, realizes THIS TIME THEYRE RIGHT with surprise, 5-skepticism, one-time with hold</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video D — Ranking accuracy graph animation</div>
+            <div class="text">Bar chart builds for 2010 through 2026, last bar shows 4 OF 4 FIRST TIME EVER with star, 6-accuracy graph, seamless loop</div>
+        </div>
+    </div>
+</div>
+
+<!-- SCENE 03 -->
+<div class="scene">
+    <div class="scene-header">
+        <span class="scene-num">SCENE 03</span>
+        <span class="scene-desc">France (#1) — the defending champion that never stopped</span>
+    </div>
+    <div class="voiceover">
+        <div class="voiceover-label">Voiceover</div>
+        Let's meet the semifinalists. France, ranked number one. They won the 2018 World Cup. They reached the 2022 final and lost on penalties. They won Euro 2024. They've been in every single major tournament final for the last eight years. Mbappe is still Mbappe. Their squad depth is terrifying. They are the most consistent national team in the world right now — and they're ranked exactly where they should be. France vs Argentina in one semifinal. The 2022 final rematch. No pressure.
+    </div>
+    <div class="prompt-label image">Image Prompts (4)</div>
+    <div class="img-grid">
+        <div class="img-item">
+            <div class="label">Prompt A — France's dominance timeline</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a horizontal timeline showing France's major tournament results, 2018 "WORLD CUP WINNERS" with trophy, 2022 "WORLD CUP FINALISTS" with silver medal, 2024 "EURO WINNERS" with trophy, 2026 "WORLD CUP SEMIFINAL — STILL CONTENDING" with ongoing arrow, a "CONSISTENCY UNMATCHED" label below the timeline, simple dominance timeline with dramatic stadium lighting, bold text "FRANCE: 2018 WINNERS, 2022 FINALISTS, 2024 EURO WINNERS, 2026 SEMIFINAL" at top, high contrast infographic composition</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt B — Squad depth visual</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a 4-3-3 formation diagram with stickman players in France blue, but the twist is that for each position there's a second player shadowing the first, showing the depth — two world-class players for every position, captain Mbappe at the top with star icon, a "TWO DEPTH FOR EVERY POSITION" label with a "THE ONLY TEAM THAT CAN REST MBAPPE AND STILL WIN" speech bubble from a stickman analyst, simple squad depth visual with stadium floodlights, bold text "FRANCE CAN FIELD TWO COMPLETELY DIFFERENT WORLD-CLASS XI'S" at bottom, high contrast composition</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt C — 2022 final rematch context</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a "2022 FINAL REMATCH" banner across the top, a ghostly image of the 2022 World Cup final scoreboard "ARGENTINA 3-3 FRANCE (ARG 4-2 PENS)" fading in the background, two stickman fighters representing France and Argentina facing each other in the semifinal bracket, with "ROUND 2 — 4 YEARS LATER" text, simple rematch visual with dramatic stadium lighting, bold text "FRANCE vs ARGENTINA IN THE SEMIFINAL: THE 2022 FINAL REMATCH WE ALL WANTED" at top, high contrast emotional composition</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt D — Why France is ranked #1</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a stat card for France, big "#1 — FRANCE" at the top, bullet points "WORLD CUP WINNERS 2018", "WORLD CUP FINALISTS 2022", "EURO WINNERS 2024", "WC26 SEMIFINALISTS (CURRENT)", "FIFA RANKING POINTS: HIGHEST IN THE WORLD", a "DESERVED #1" stamp in gold, simple stat card with stadium floodlights, bold text "WHY FRANCE IS #1: THE NUMBERS DON'T LIE" at top, high contrast infographic composition</div>
+        </div>
+    </div>
+    <div class="prompt-label video">AI Video Prompts (4)</div>
+    <div class="img-grid">
+        <div class="vid-item">
+            <div class="label">Video A — France dominance animation</div>
+            <div class="text">Timeline draws from 2018 to 2026 with trophies and medals at each point, CONSISTENCY UNMATCHED label appears, 6-France timeline, one-time with hold</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video B — Squad depth animation</div>
+            <div class="text">4-3-3 formation appears with starting XI and shadow players showing depth, analyst says they can rest Mbappe and still win, 6-depth, seamless loop</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video C — 2022 final rematch animation</div>
+            <div class="text">Ghost scoreboard fades in with ARGENTINA 3-3 FRANCE 4-2 PENS, two fighters face off, ROUND 2 4 YEARS LATER text, 6-rematch, one-time with hold</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video D — France #1 stat card animation</div>
+            <div class="text">Stat card builds with France credentials, DESERVED NUMBER 1 stamp appears in gold, 4-France stats, seamless loop</div>
+        </div>
+    </div>
+</div>
+
+<!-- SCENE 04 -->
+<div class="scene">
+    <div class="scene-header">
+        <span class="scene-num">SCENE 04</span>
+        <span class="scene-desc">Argentina (#2) — the defending champion rewriting its legacy</span>
+    </div>
+    <div class="voiceover">
+        <div class="voiceover-label">Voiceover</div>
+        Argentina. Ranked number two. The defending World Cup champions. They won in 2022 in the most dramatic final ever. And since then, they haven't stopped. They won the 2024 Copa America. They've built a team that doesn't rely entirely on one player anymore — though their new star Julian Alvarez has been tearing this tournament apart. They knocked out Brazil in the quarterfinal. That alone tells you everything. Argentina believes they're the best team in the world. And in a tournament where rankings have held up perfectly, they have a case.
+    </div>
+    <div class="prompt-label image">Image Prompts (4)</div>
+    <div class="img-grid">
+        <div class="img-item">
+            <div class="label">Prompt A — Argentina's trophy reign</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a pedestal with three trophies displayed, left "COPA AMERICA 2024" with Copa trophy, center "WORLD CUP 2022" with the golden World Cup trophy, right "WC26 SEMIFINAL" with a glowing arrow showing they're still alive, a "DEFENDING CHAMPIONS — STILL CONTENDING" banner beneath them, Argentina blue and white streamers around the pedestal, simple trophy reign visual with dramatic stadium lighting, bold text "ARGENTINA: WORLD CUP CHAMPIONS, COPA AMERICA CHAMPIONS, SEMIFINAL BOUND" at top, high contrast composition</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt B — Julian Alvarez breakout star</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a hero card for Julian Alvarez, a stickman Alvarez in Argentina blue with a #9 jersey, surrounded by stat icons — "GOALS: 5", "ASSISTS: 2", "BIG CHANCES CREATED: 8", "DEFENDERS DRIBBLED PAST: 12", a "THE NEW HERO OF ARGENTINA" label, Messi's ghostly number 10 in the background passing the torch, simple breakout star card with stadium floodlights, bold text "JULIAN ALVAREZ: THE MAN WHO MADE ARGENTINA FORGET ABOUT LIFE AFTER MESSI" at top, high contrast infographic composition</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt C — Knocked out Brazil visual</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a dramatic knockout bracket, Brazil's flag with a red X through it, Argentina's flag with a star next to it and "QUARTERFINAL WINNERS — 2-1" text, a "BRAZIL ELIMINATED BY ARGENTINA — THE BIGGEST RIVALRY IN SOUTH AMERICA" banner, stickman Argentina fans celebrating while Brazil fans look devastated in the background, a crying emoji next to Brazil's flag, simple Brazil knockout visual with dramatic stadium lighting, bold text "ARGENTINA KNOCKED OUT BRAZIL. IN A WORLD CUP. IN THE QUARTERFINAL." at top, high contrast emotional composition</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt D — Why Argentina is ranked #2</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a stat card for Argentina, big "#2 — ARGENTINA" at the top, bullet points "WORLD CUP WINNERS 2022", "COPA AMERICA WINNERS 2024", "WC26 SEMIFINALISTS (CURRENT)", "BEAT BRAZIL IN QUARTERFINAL", "FIFA RANKING: #2 — COULD RISE TO #1 WITH WC26 WIN", a "STILL HUNGRY" stamp in gold, simple stat card with stadium floodlights, bold text "WHY ARGENTINA IS #2: DEFENDING CHAMPIONS WITH A NEW GENERATION RISING" at top, high contrast composition</div>
+        </div>
+    </div>
+    <div class="prompt-label video">AI Video Prompts (4)</div>
+    <div class="img-grid">
+        <div class="vid-item">
+            <div class="label">Video A — Trophy reign animation</div>
+            <div class="text">Pedestal with three trophies: Copa 2024, World Cup 2022, and glowing arrow for semifinal, DEFENDING CHAMPIONS banner appears, 5-trophies, one-time with hold</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video B — Alvarez breakout animation</div>
+            <div class="text">Hero card builds with Alvarez stats, THE NEW HERO label appears, Messi ghost passes torch in background, 6-Alvarez, seamless loop</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video C — Brazil knockout animation</div>
+            <div class="text">Bracket shows Brazil crossed out with red X, Argentina with star, Argentina fans celebrate while Brazil fans devastated, 5-Brazil knockout, one-time with hold</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video D — Argentina #2 stat card animation</div>
+            <div class="text">Stat card builds with Argentina achievements, STILL HUNGRY stamp appears in gold, 4-Argentina stats, seamless loop</div>
+        </div>
+    </div>
+</div>
+
+<!-- SCENE 05 -->
+<div class="scene">
+    <div class="scene-header">
+        <span class="scene-num">SCENE 05</span>
+        <span class="scene-desc">Spain (#3) — the young revolution that arrived early</span>
+    </div>
+    <div class="voiceover">
+        <div class="voiceover-label">Voiceover</div>
+        Spain. Ranked number three. They were supposed to be the team of the future — but the future arrived early. Pedri, Gavi, Yamal. This team plays like they've been together for a decade. They dominated possession in every match. They beat Germany in the round of 32. They dismantled Portugal in the quarterfinal. Spain's tiki-taka evolved into something faster, more direct, more lethal. They're the youngest team in the semifinals. And they're ranked third in the world. If rankings are supposed to predict performance, Spain is the proof.
+    </div>
+    <div class="prompt-label image">Image Prompts (4)</div>
+    <div class="img-grid">
+        <div class="img-item">
+            <div class="label">Prompt A — Spain's young core</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a trio of young stickman players in Spain red — Pedri with #8 and "MIDFIELD MAESTRO", Gavi with #9 and "ENERGY ENGINE", Yamal with #19 and "WONDERKID WINGER" — each with a star icon above them, their ages "22", "22", "19" in bright yellow, a "THE FUTURE IS NOW" banner across them, simple young core visual with dramatic stadium lighting, bold text "PEDRI (22), GAVI (22), YAMAL (19): SPAIN'S FUTURE ARRIVED EARLY" at top, high contrast composition</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt B — Possession stats visual</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a bar chart showing Spain's possession stats across their matches, each bar above 65% — "GROUP STAGE: 72%", "ROUND OF 32: 68%", "QUARTERFINAL: 71%", a "POSSESSION DOMINANCE" label with a football icon, below a "NEW TIKI-TAKA — FASTER AND MORE DIRECT" subtitle explaining the evolution, simple possession visual with stadium floodlights, bold text "SPAIN HASN'T DIPPED BELOW 65% POSSESSION IN ANY MATCH" at top, high contrast infographic composition</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt C — Germany and Portugal knocked out</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a bracket path for Spain showing who they eliminated, "GROUP STAGE: 3 WINS", "ROUND OF 32: BEAT GERMANY 2-0" with Germany flag crossed out, "QUARTERFINAL: BEAT PORTUGAL 3-1" with Portugal flag crossed out, each with a "SPAIN DOMINATED" stamp, a giant arrow pointing to "SEMIFINALS — THE YOUNGEST TEAM STANDING", simple knockout path visual with dramatic stadium lighting, bold text "SPAIN KNOCKED OUT GERMANY AND PORTUGAL. THEY MADE IT LOOK EASY." at bottom, high contrast composition</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt D — Why Spain is ranked #3</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a stat card for Spain, big "#3 — SPAIN" at the top, bullet points "EURO WINNERS 2024 (YOUNGEST TEAM TO WIN IT)", "WC26 SEMIFINALISTS (CURRENT)", "YOUNGEST SQUAD IN SEMIFINALS", "UNDEFEATED IN TOURNAMENT", "FIFA RANKING: #3 — RISING FAST", a "BUILT FOR THE FUTURE" stamp in gold, simple stat card with stadium floodlights, bold text "WHY SPAIN IS #3: THE YOUNGEST, MOST EXCITING TEAM IN THE WORLD" at top, high contrast infographic composition</div>
+        </div>
+    </div>
+    <div class="prompt-label video">AI Video Prompts (4)</div>
+    <div class="img-grid">
+        <div class="vid-item">
+            <div class="label">Video A — Young core animation</div>
+            <div class="text">Three player cards appear for Pedri, Gavi, Yamal with ages and roles, THE FUTURE IS NOW banner, 6-young core, one-time with hold</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video B — Possession stats animation</div>
+            <div class="text">Bar chart builds with each match's possession above 65%, NEW TIKI-TAKA FASTER AND MORE DIRECT subtitle, 5-possession, seamless loop</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video C — Germany Portugal knockout animation</div>
+            <div class="text">Spain's bracket path shows Germany and Portugal flags crossed out, arrow points to semifinals, SPAIN DOMINATED stamps appear, 6-knockout path, one-time with hold</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video D — Spain #3 stat card animation</div>
+            <div class="text">Stat card builds with Spain credentials, BUILT FOR THE FUTURE stamp appears in gold, 4-Spain stats, seamless loop</div>
+        </div>
+    </div>
+</div>
+
+<!-- SCENE 06 -->
+<div class="scene">
+    <div class="scene-header">
+        <span class="scene-num">SCENE 06</span>
+        <span class="scene-desc">England (#4) — the eternal contender finally delivering?</span>
+    </div>
+    <div class="voiceover">
+        <div class="voiceover-label">Voiceover</div>
+        England. Ranked number four. The eternal underachievers who somehow always reach the latter stages now. Semifinal in 2018. Final in 2021. Quarterfinal in 2022. Semifinal in 2024 Euros. And now semifinal in 2026. England has become the most consistent team at reaching the business end of tournaments — without winning any of them. But Bellingham has been unstoppable. Kane is scoring. The defense is solid. And they've been getting results even when playing badly — like the quarterfinal win over Norway that involved a controversial cable. England at #4 feels right. The question is: can they finally finish the job?
+    </div>
+    <div class="prompt-label image">Image Prompts (4)</div>
+    <div class="img-grid">
+        <div class="img-item">
+            <div class="label">Prompt A — England's near-miss history</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a "NEARLY BUT NOT QUITE" timeline for England, 2018 "SEMIFINAL — LOST TO CROATIA", 2021 "FINAL — LOST TO ITALY ON PENS", 2022 "QUARTERFINAL — LOST TO FRANCE", 2024 "SEMIFINAL — LOST TO SPAIN", 2026 "SEMIFINAL — ???" with a giant question mark and a "IS THIS THE YEAR?" hopeful label, each stop with a flag and a close but no cigar icon, simple near-miss timeline with dramatic stadium lighting, bold text "ENGLAND: FOUR TOURNAMENTS, THREE SEMIFINALS, ONE FINAL, ZERO TROPHIES" at top, high contrast emotional composition</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt B — Bellingham and Kane key duo</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, two hero cards side by side, left "JUDE BELLINGHAM — 4 DECISIVE GOALS — THE ENGINE" with a stickman Bellingham in England white with arms raised celebrating, right "HARRY KANE — TOP SCORER — THE FINISHER" with a stickman Kane in England white scoring a goal, a "THE DUO THAT COULD FINALLY END 60 YEARS OF PAIN" label connecting them, simple hero duo visual with stadium floodlights, bold text "BELLINGHAM + KANE: ENGLAND'S BEST CHANCE AT GLORY SINCE 1966" at bottom, high contrast composition</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt C — Winning ugly visual</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a "WINNING UGLY" trophy made of duct tape and determination, with England's path marked by close 1-0 wins and nervy performances, each win with a "NOT PRETTY BUT IT COUNTS" stamp, a stickman England fan with a mixed expression "I DON'T CARE HOW WE WIN — JUST WIN" speech bubble, a "CHAMPIONS FIND A WAY" label, simple winning ugly visual with dramatic stadium lighting, bold text "ENGLAND HASN'T PLAYED WELL. BUT THEY KEEP WINNING. THAT'S A CHAMPION'S HABIT." at top, high contrast composition</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt D — Why England is ranked #4</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a stat card for England, big "#4 — ENGLAND" at the top, bullet points "2018 SEMIFINALISTS", "2021 EURO FINALISTS", "2024 EURO SEMIFINALISTS", "WC26 SEMIFINALISTS (CURRENT)", "FIFA RANKING: #4 — CONSISTENTLY IN THE MIX", a "CAN THEY FINALLY FINISH?" question stamp in gold, simple stat card with stadium floodlights, bold text "WHY ENGLAND IS #4: CONSISTENT CONTENDERS WITHOUT THE SILVERWARE" at top, high contrast infographic composition</div>
+        </div>
+    </div>
+    <div class="prompt-label video">AI Video Prompts (4)</div>
+    <div class="img-grid">
+        <div class="vid-item">
+            <div class="label">Video A — Near-miss timeline animation</div>
+            <div class="text">Timeline draws from 2018 to 2026 with each near-miss and a question mark at 2026, IS THIS THE YEAR appears hopefully, 6-England timeline, one-time with hold</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video B — Bellingham Kane duo animation</div>
+            <div class="text">Two hero cards appear side by side, Bellingham with decisive goals, Kane with top scorer, THE DUO THAT COULD END 60 YEARS OF PAIN label, 6-duo, seamless loop</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video C — Winning ugly animation</div>
+            <div class="text">Duct tape trophy appears with England's 1-0 wins, each with NOT PRETTY BUT IT COUNTS stamp, fan says I don't care how we win, 5-winning ugly, one-time with hold</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video D — England #4 stat card animation</div>
+            <div class="text">Stat card builds with England credentials, CAN THEY FINALLY FINISH question stamp, 4-England stats, seamless loop</div>
+        </div>
+    </div>
+</div>
+
+<!-- SCENE 07 -->
+<div class="scene">
+    <div class="scene-header">
+        <span class="scene-num">SCENE 07</span>
+        <span class="scene-desc">The underdogs that almost made it — and why they fell</span>
+    </div>
+    <div class="voiceover">
+        <div class="voiceover-label">Voiceover</div>
+        But what about the underdogs? 48 teams started — surely some small nation should have crashed the party, right? Norway came closest, taking England to the wire before the cable controversy. Senegal reached the round of 16. Jamaica had their best-ever run, reaching the quarterfinal before France stopped them. But none of them broke through. In past World Cups, we've had Croatia in the final, Morocco in the semifinal, South Korea in the semifinal. This year? The hierarchy held. The big teams didn't slip. And that's what makes this statistic so wild — the system worked exactly as the rankings predicted.
+    </div>
+    <div class="prompt-label image">Image Prompts (4)</div>
+    <div class="img-grid">
+        <div class="img-item">
+            <div class="label">Prompt A — Underdog graveyard</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a graveyard of flags from the underdog nations that fell, each with a tiny tombstone showing their round of elimination, "NORWAY — QUARTERFINAL — CABLE CONTROVERSY" with a cable icon, "SENEGAL — ROUND OF 16 — BRAVE EFFORT", "JAMAICA — QUARTERFINAL — BEST EVER RUN" with a star, "USA — ROUND OF 32 — HOST NATION CURSE", "MOROCCO — GROUP STAGE — 2022 MAGIC NOT REPEATED", each flag half-lowered, simple graveyard visual with dim stadium lighting, bold text "THE UNDERDOG GRAVEYARD: EVERY CINDERELLA STORY ENDED BEFORE THE SEMIFINAL" at top, high contrast emotional composition</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt B — Historical underdogs comparison</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a comparison showing previous World Cups with major underdog semifinalists, 2002 "SOUTH KOREA — SEMIFINALISTS (#20 RANKED)" with shocked emoji, 2014 "COSTA RICA — QUARTERFINALISTS (#28 RANKED)", 2018 "CROATIA — FINALISTS (#18 RANKED)", 2022 "MOROCCO — SEMIFINALISTS (#22 RANKED)", 2026 "NONE — TOP 4 RANKED HELD" with trophy emoji and "FIRST TIME EVER — NO SURPRISE SEMIFINALISTS" label, simple comparison visual with dramatic stadium lighting, bold text "EVERY WORLD CUP HAS A SURPRISE SEMIFINALIST. UNTIL THIS ONE." at bottom, high contrast infographic composition</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt C — Jamaica's Cinderella run</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a special spotlight on Jamaica's run, their tournament path from GROUP STAGE to QUARTERFINAL with "BEST EVER PERFORMANCE BY JAMAICA" label, a stickman Jamaica player with dreadlocks and a passionate celebration, the France flag with a "STOPPED HERE" label at the quarterfinal point, a "BUT THEY MADE THE WORLD NOTICE" banner, simple Jamaica tribute visual with stadium floodlights, bold text "JAMAICA REACHED THE QUARTERFINAL FOR THE FIRST TIME EVER. RESPECT." at top, high contrast composition</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt D — Why no underdog broke through</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a analysis board with reasons the underdogs couldn't break through, Reason 1 "48-TEAM FORMAT DILUTED COMPETITION — EASIER EARLY MATCHES FOR TOP TEAMS" with a funnel icon, Reason 2 "TOP TEAMS CAME PREPARED — FRANCE, ARGENTINA, SPAIN, ENGLAND ALL IN FORM" with a checklist icon, Reason 3 "NO SINGULAR GENIUS MOMENT — NO MARADONA 1986 OR MESSI 2022 MOMENT FOR UNDERDOGS" with a star icon, a "THE GAP DIDN'T CLOSE — IT WIDENED" conclusion, simple analysis board with dramatic stadium lighting, bold text "WHY THE UNDERDOGS COULDN'T DO IT: THREE THEORIES" at top, high contrast infographic composition</div>
+        </div>
+    </div>
+    <div class="prompt-label video">AI Video Prompts (4)</div>
+    <div class="img-grid">
+        <div class="vid-item">
+            <div class="label">Video A — Underdog graveyard animation</div>
+            <div class="text">Flag tombstones appear one by one with elimination rounds, each with epitaph, dim stadium lighting, 6-graveyard, one-time with hold</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video B — Historical underdogs animation</div>
+            <div class="text">Previous World Cups appear with underdog semifinalists, 2026 shows NONE with FIRST TIME EVER NO SURPRISE SEMIFINALISTS label, 6-comparison, seamless loop</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video C — Jamaica tribute animation</div>
+            <div class="text">Jamaica's tournament path builds to quarterfinal, player celebrates passionately, BUT THEY MADE THE WORLD NOTICE banner, 5-Jamaica, one-time with hold</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video D — Why no underdog animation</div>
+            <div class="text">Three analysis reasons appear one by one: diluted competition, top teams prepared, no genius moment, THE GAP DIDN'T CLOSE conclusion, 7-analysis, seamless loop</div>
+        </div>
+    </div>
+</div>
+
+<!-- SCENE 08 -->
+<div class="scene">
+    <div class="scene-header">
+        <span class="scene-num">SCENE 08</span>
+        <span class="scene-desc">Did the 48-team format help the top teams?</span>
+    </div>
+    <div class="voiceover">
+        <div class="voiceover-label">Voiceover</div>
+        Here's the question nobody can agree on. The 2026 World Cup expanded to 48 teams. More teams meant more minnows. More minnows meant the top teams had easier group stage matches. France beat a team ranked 120th. Argentina won 4-0 against a debutant. The argument is that the big teams cruised through the early rounds, rested their stars, and arrived at the knockout stage fresher than ever. Meanwhile, the mid-tier teams had to fight tooth and nail just to get out of their groups, exhausting themselves before facing the giants. Did the format make the top even stronger?
+    </div>
+    <div class="prompt-label image">Image Prompts (4)</div>
+    <div class="img-grid">
+        <div class="img-item">
+            <div class="label">Prompt A — 48-team bracket diagram</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a visual representation of the 48-team format showing how top seeds get easier paths, top seeds (France, Argentina, etc.) with green arrows to low-ranked opponents in group stage "RANKED 100+ — EASY WIN", mid-tier teams with yellow arrows to balanced opponents, low seeds with red arrows to top seeds, a "TOP SEEDS HAD SIGNIFICANTLY EASIER GROUP PATHS" label, a "BYE TO ROUND OF 32 FOR TOP 16 SEEDS" footnote, simple bracket analysis visual with dramatic stadium lighting, bold text "THE 48-TEAM FORMAT: DID IT GIVE THE TOP 4 AN UNFAIR ADVANTAGE?" at top, high contrast infographic composition</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt B — Rest advantage chart</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a chart comparing average rest days between matches for top 4 teams vs underdog teams, "TOP 4 AVERAGE REST: 5.2 DAYS BETWEEN MATCHES" with a bed/rest icon in green, "UNDERDOG AVERAGE REST: 3.4 DAYS BETWEEN MATCHES" with a tired face icon in red, the difference shown as a gap, a "FRESH LEGS = BETTER PERFORMANCE" analysis label, simple rest comparison visual with stadium floodlights, bold text "TOP TEAMS HAD NEARLY 2 MORE DAYS OF REST BETWEEN MATCHES" at bottom, high contrast infographic composition</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt C — The counterargument: more teams = more competition</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a counterargument board, PRO side "MORE TEAMS = MORE COMPETITION — EVERY MATCH IS A CUP FINAL FOR UNDERDOGS", CON side "MORE TEAMS = MORE EASY GAMES — TOP TEAMS FACE LITTLE RESISTANCE UNTIL KNOCKOUTS", a stickman analyst with a "THE FORMAT DIDN'T CREATE THE RESULT — THE QUALITY OF THE TOP 4 DID" speech bubble trying to settle the debate, simple debate visual with dramatic stadium lighting, bold text "THE 48-TEAM DEBATE: DID IT HELP OR HURT THE COMPETITION?" at top, high contrast composition</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt D — The format's impact on the final four</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a four-quadrant visual showing how each of the top 4 benefited from the format, France "FACED 2 DEBUTANTS — RESTED MBAPPE FOR KNOCKOUTS", Argentina "WON GROUP BY 6 POINTS — CRUISED TO QUARTERFINALS", Spain "YOUNG TEAM BUILT CONFIDENCE AGAINST WEAKER OPPONENTS", England "NERVY WINS BUT ADVANCED — FRESH FOR SEMIFINAL", a "EACH TEAM BENEFITED DIFFERENTLY FROM THE EXPANDED FORMAT" analysis, simple format impact visual with stadium floodlights, bold text "HOW THE 48-TEAM FORMAT HELPED EACH OF THE TOP 4 REACH THE SEMIFINAL" at top, high contrast infographic composition</div>
+        </div>
+    </div>
+    <div class="prompt-label video">AI Video Prompts (4)</div>
+    <div class="img-grid">
+        <div class="vid-item">
+            <div class="label">Video A — 48-team bracket animation</div>
+            <div class="text">Bracket diagram shows top seeds with green arrows to low-ranked opponents, mid-teams yellow, low seeds red, TOP SEEDS EASIER PATH label, 6-bracket, one-time with hold</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video B — Rest advantage animation</div>
+            <div class="text">Bar chart compares rest days, top 4 show 5.2 days in green, underdogs show 3.4 days in red, FRESH LEGS BETTER PERFORMANCE label, 5-rest, seamless loop</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video C — Counterargument animation</div>
+            <div class="text">PRO and CON sides of the format debate appear, analyst settles with quality of top 4 argument, 5-debate, one-time with hold</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video D — Format impact four-quadrant animation</div>
+            <div class="text">Four quadrants show each top-4 team and how format benefited them, EACH TEAM BENEFITED DIFFERENTLY analysis, 7-four quadrant, seamless loop</div>
+        </div>
+    </div>
+</div>
+
+<!-- SCENE 09 -->
+<div class="scene">
+    <div class="scene-header">
+        <span class="scene-num">SCENE 09</span>
+        <span class="scene-desc">What this says about world football's hierarchy</span>
+    </div>
+    <div class="voiceover">
+        <div class="voiceover-label">Voiceover</div>
+        The bigger story here isn't just about one World Cup. It's about the changing landscape of football. The gap between the elite and the rest is growing. Money, infrastructure, player development — the top nations have pulled away. France has a production line of talent that never ends. Argentina has a footballing culture that produces world-class players by default. Spain rebuilt their entire system after 2014 and now it's paying off. England has the most expensive league in the world feeding their national team. The four richest, most developed football nations are the four left standing. That's not an accident.
+    </div>
+    <div class="prompt-label image">Image Prompts (4)</div>
+    <div class="img-grid">
+        <div class="img-item">
+            <div class="label">Prompt A — The football wealth gap</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a comparison of the four semifinalists vs the rest, left side "TOP 4 SEMIFINALISTS" with a giant pile of gold coins and icons representing "ELITE ACADEMIES", "BEST LEAGUES", "TOP COACHES", "BILLION $$ INVESTMENT", right side "ELIMINATED NATIONS" with a smaller pile of coins and icons representing "LIMITED RESOURCES", "FEWER TOP-LEAGUE PLAYERS", "LESS INFRASTRUCTURE", a giant gap between them labeled "THE GROWING DIVIDE IN WORLD FOOTBALL", simple wealth gap visual with dramatic stadium lighting, bold text "THE TOP 4 SPEND MORE, DEVELOP MORE, AND WIN MORE. THE GAP IS WIDENING." at top, high contrast composition</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt B — The production lines of each nation</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a factory/factory belt visual for each country, France "CLAIREFONTAINE ACADEMY" churning out Mbappe, Tchouameni, Camavinga, Argentina "ARGENTINE FOOTBALL CULTURE" producing Alvarez, Mac Allister, Enzo, Spain "LA MASIA & SPANISH ACADEMIES" creating Pedri, Gavi, Yamal, England "PREMIER LEAGUE ACADEMIES" producing Bellingham, Foden, Saka, a "TALENT FACTORIES — NEVER STOP PRODUCING" label, simple production line visual with stadium floodlights, bold text "FOUR NATIONS WITH FACTORY-LIKE TALENT PRODUCTION LINES" at bottom, high contrast infographic composition</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt C — The future of World Cup competition</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a crystal ball looking into the future of World Cups, showing a vision of the same four nations dominating again — France, Argentina, Spain, England — with other nations like Brazil, Germany, Netherlands unable to break through, a "IS THIS THE NEW NORMAL?" question mark, a "WILL THE 48-TEAM FORMAT MAKE IT HARDER FOR UNDERDOGS FOREVER?" smaller question, simple future gazing visual with dramatic stadium lighting, bold text "IS THIS A ONE-TIME STATISTICAL FLUKE — OR THE NEW NORMAL?" at top, high contrast emotional composition</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt D — The fans' perspective</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a split fan reaction, some fans happy "I WANT TO SEE THE BEST PLAY THE BEST — THIS IS PERFECT", other fans disappointed "WORLD CUP IS ABOUT DREAMS — WHERE ARE THE UNDERDOGS?", a middle-ground fan "BOTH ARE VALID — BUT THIS IS WHAT HAPPENED, LET'S ENJOY IT", a "THE WORLD CUP IS CHANGING — AND FANS ARE DIVIDED ON WHETHER THAT'S GOOD" label, simple fan perspective visual with stadium floodlights, bold text "SOME FANS LOVE THE ELITE SHOWDOWN. OTHERS MISS THE MAGIC OF THE UNDERDOG." at top, high contrast composition</div>
+        </div>
+    </div>
+    <div class="prompt-label video">AI Video Prompts (4)</div>
+    <div class="img-grid">
+        <div class="vid-item">
+            <div class="label">Video A — Football wealth gap animation</div>
+            <div class="text">Two piles of coins side by side, top 4 with giant pile and elite icons, eliminated with smaller pile, THE GROWING DIVIDE label, 6-wealth gap, one-time with hold</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video B — Production lines animation</div>
+            <div class="text">Four factory belts appear for each nation, churning out player names and icons, TALENT FACTORIES NEVER STOP PRODUCING label, 7-factories, seamless loop</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video C — Future of competition animation</div>
+            <div class="text">Crystal ball shows same four nations dominating future, Brazil Germany Netherlands unable to break through, IS THIS THE NEW NORMAL appears, 6-future, one-time with hold</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video D — Fan perspective animation</div>
+            <div class="text">Three fans with different opinions about the elite dominance, THE WORLD CUP IS CHANGING label, 5-fans, seamless loop</div>
+        </div>
+    </div>
+</div>
+
+<!-- SCENE 10 -->
+<div class="scene">
+    <div class="scene-header">
+        <span class="scene-num">SCENE 10</span>
+        <span class="scene-desc">Closing — the most competitive or most predictable? Maybe both.</span>
+    </div>
+    <div class="voiceover">
+        <div class="voiceover-label">Voiceover</div>
+        So here's the truth. This World Cup semifinal lineup is both incredible and disappointing depending on how you look at it. Incredible because the four best teams in the world are playing each other. Every match is a final. Every matchup is a blockbuster. Disappointing because the magic of the World Cup has always been the possibility of the impossible. A small nation making a run. A story that defies the rankings. But maybe that's the thing about magic — you can't force it. This year, the rankings won. And for the first time ever, the four best teams in the world are the four teams left standing. 48 teams started. The top 4 remain. And now we get to see who's really number one.
+    </div>
+    <div class="prompt-label image">Image Prompts (4)</div>
+    <div class="img-grid">
+        <div class="img-item">
+            <div class="label">Prompt A — The final four showdown</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a dramatic poster-style visual with all four flags side by side in order, France (tricolore) with "#1", Argentina (blue/white) with "#2", Spain (red/yellow) with "#3", England (St George's Cross) with "#4", a golden World Cup trophy floating above all four, tagline "48 TEAMS STARTED. THE TOP 4 REMAIN." across the bottom, a "WORLD CUP SEMIFINALS — THE ELITE FOUR" banner at the top, simple final four poster with majestic stadium lighting, bold text "FRANCE. ARGENTINA. SPAIN. ENGLAND. THE FINAL FOUR OF WC26." at top, high contrast emotional composition</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt B — The dual perspective</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a two-sided coin visual, one side of the coin "MOST COMPETITIVE EVER — THE BEST 4 TEAMS IN THE WORLD ARE PLAYING EACH OTHER" in gold, the other side of the coin "MOST PREDICTABLE EVER — WHERE ARE THE SURPRISES?" in silver, the coin spinning in the air so you can see both sides, a "IT DEPENDS ON HOW YOU LOOK AT IT" label, simple dual perspective visual with dramatic stadium lighting, bold text "IT'S BOTH. THE BEST VS THE BEST — AND NO SURPRISES. BOTH ARE TRUE." at bottom, high contrast composition</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt C — The invitation to watch</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a giant TV screen or stadium screen with the words "SEMIFINALS START WEDNESDAY — DON'T MISS A MINUTE" in bold yellow, four match dates listed "WEDNESDAY: FRANCE vs ARGENTINA", "THURSDAY: SPAIN vs ENGLAND", a calendar with both dates circled, a stickman fan with popcorn and a "THIS IS GOING TO BE INCREDIBLE" speech bubble, simple invitation visual with stadium floodlights, bold text "SEMIFINALS START WEDNESDAY. THE FOUR BEST TEAMS ON EARTH. DON'T MISS IT." at top, high contrast composition</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt D — Final title card with call to action</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a final end card with the WC26Matrix logo at the top, center text "48 TEAMS STARTED. THE TOP 4 REMAIN." in bold yellow, below "SUBSCRIBE FOR MORE WC26 STORIES YOU DIDN'T HEAR ANYWHERE ELSE", a call-to-action button "SUBSCRIBE" with a bell icon, the four semifinalist flags fading into each other in a circle, the words "RANKINGS DON'T LIE. BUT FOOTBALL ISN'T PLAYED ON PAPER." fading in at the bottom, simple powerful end card with stadium floodlights fading to black, bold text "SUBSCRIBE. WC26MATRIX. THE NUMBERS DON'T LIE. BUT THE GAME DOES." at bottom, high contrast call-to-action composition</div>
+        </div>
+    </div>
+    <div class="prompt-label video">AI Video Prompts (4)</div>
+    <div class="img-grid">
+        <div class="vid-item">
+            <div class="label">Video A — Final four showdown animation</div>
+            <div class="text">Four flags appear side by side with rankings, World Cup trophy floats above, 48 TEAMS STARTED THE TOP 4 REMAIN tagline, 6-final four, one-time with hold</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video B — Dual perspective coin animation</div>
+            <div class="text">Two-sided coin spins showing competitive vs predictable, IT DEPENDS ON HOW YOU LOOK AT IT label, 5-dual perspective, seamless loop</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video C — Invitation to watch animation</div>
+            <div class="text">Giant screen shows semifinal schedule Wednesday and Thursday, fan with popcorn excited, THIS IS GOING TO BE INCREDIBLE speech bubble, 6-invitation, one-time with hold</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video D — Final title card animation</div>
+            <div class="text">WC26Matrix logo appears, 48 TEAMS STARTED TOP 4 REMAIN in bold, subscribe button, four flags fade into circle, RANKINGS DONT LIE BUT FOOTBALL ISNT PLAYED ON PAPER fades in, 7-end card, seamless loop</div>
+        </div>
+    </div>
+</div>
+
+<!-- THUMBNAIL -->
+<div class="thumbnail-box">
+    <div class="label gold">Thumbnail</div>
+    <div class="img-grid">
+        <div class="img-item">
+            <div class="label">Thumbnail Design</div>
+            <div class="text">stickman sports infographic style, dramatic wide composition on dark stadium background, four flag poles in a row with France (tricolore), Argentina (blue/white), Spain (red/yellow), England (St George's Cross) waving prominently, each flag with a gold number above it: "#1", "#2", "#3", "#4" in bold, a giant funnel graphic showing 48 tiny flags collapsing down to these 4 at the bottom, bold text at top "48 TEAMS STARTED." and bottom "THE TOP 4 REMAIN." in yellow bold font, the text "FIRST TIME IN HISTORY" in a red banner across the center, stadium floodlights casting dramatic light on the four flags, high contrast gold and blue color scheme, infographic hierarchy style with the number 4 prominently featured</div>
+        </div>
+    </div>
+</div>
+
+<!-- SEO -->
+<div class="section-header">
+    <span>SEO & Metadata</span>
+    <span class="badge gold">Video 10</span>
+    <span class="badge blue">40 Images</span>
+    <span class="badge video">40 Video Prompts</span>
+</div>
+<div class="seo-grid">
+    <div class="seo-card">
+        <h3>Title (70 chars)</h3>
+        <div class="seo-desc">Top 4 Ranked Teams in World Cup Semifinals for First Time Ever | WC26</div>
+    </div>
+    <div class="seo-card">
+        <h3>Description</h3>
+        <div class="seo-desc">For the first time in World Cup history, the four semifinalists are exactly the top 4 FIFA-ranked teams entering the tournament: France (#1), Argentina (#2), Spain (#3), and England (#4). This video breaks down how each team earned their ranking, why the 48-team format may have helped the elite, the underdog teams that almost broke through, and the big debate — is this the most competitive World Cup ever, or the most predictable?</div>
+        <div class="seo-desc">We analyze France's sustained dominance, Argentina's title defense, Spain's young revolution, and England's never-ending near-misses. We examine FIFA ranking accuracy, the growing wealth gap in world football, and what this means for the future of World Cup competition. 48 teams started. The top 4 remain. Here's how — and why it matters.</div>
+    </div>
+    <div class="seo-card tags">
+        <h3>Tags (30)</h3>
+        <ul>
+            <li>top 4 ranked world cup semifinals first time</li><li>france number 1 ranked world cup semifinal</li><li>argentina number 2 ranked defending champion</li><li>spain number 3 ranked young generation</li><li>england number 4 ranked always contending</li><li>world cup 2026 semifinalists ranked analysis</li><li>fifa world rankings accuracy world cup 2026</li><li>48 team format helped top teams debate</li><li>underdogs eliminated world cup 2026 analysis</li><li>world cup 2026 most predictable or competitive</li><li>france world cup dominance 2018 2022 2026</li><li>argentina title defense world cup 2026</li><li>spain pedri gavi yamal young core semifinal</li><li>england bellingham kane semifinal streak</li><li>growing gap elite football nations world cup</li><li>world cup underdog graveyard 2026 fallen teams</li><li>jamaica quarterfinal best ever run world cup</li><li>norway cable controversy eliminated world cup</li><li>fifa rankings explained how they work</li><li>world cup 2026 bracket top seeds path</li><li>rest advantage top teams 48 team format</li><li>world cup future elite dominance normal</li><li>world cup semifinals france argentina preview</li><li>world cup semifinals spain england preview</li><li>2022 final rematch france argentina semifinal</li><li>france squad depth best in the world</li><li>argentina knocked out brazil quarterfinal</li><li>spain knocked out germany portugal world cup</li><li>england winning ugly world cup 2026</li><li>wc26matrix top 4 ranked semifinal breakdown</li>
+        </ul>
+    </div>
+    <div class="seo-card">
+        <h3>Keywords (15)</h3>
+        <ul>
+            <li>top 4 ranked world cup semifinals first time history 2026</li><li>world cup 2026 semifinalists france argentina spain england analysis</li><li>fifa world rankings accuracy world cup semifinal prediction 2026</li><li>48 team world cup format helped elite teams debate explained</li><li>france world cup dominance 2018 2022 2026 semifinal run</li><li>argentina defending world cup champions 2022 2026 title defense</li><li>spain young generation pedri gavi yamal world cup semifinal</li><li>england consistent contenders semifinal streak world cup euros</li><li>world cup underdogs eliminated 2026 why no cinderella story</li><li>growing wealth gap football elite nations world football hierarchy</li><li>jamaica world cup quarterfinal 2026 best ever performance</li><li>world cup 2026 predictable vs competitive debate explained</li><li>how 48 team format changed world cup competitive balance analysis</li><li>france argentina spain england football production lines academies</li><li>world cup future elite dominance new normal underdog dreams</li>
+        </ul>
+    </div>
+    <div class="seo-card" style="grid-column: span 2;">
+        <h3>Hashtags (7)</h3>
+        <ul>
+            <li>#Top4Remain</li><li>#WorldCup2026</li><li>#FRANCE</li><li>#ARGENTINA</li><li>#SPAIN</li><li>#ENGLAND</li><li>#WC26Matrix</li>
+        </ul>
+    </div>
+</div>
+
+<!-- VOICEOVER NOTES -->
+<div style="margin-top:1.5rem;">
+    <div class="section-header">AI Voiceover Notes <span class="badge gold">Video 10</span></div>
+    <div class="vonote">
+        <ul>
+            <li><strong>Tone:</strong> Shocked and intrigued during the hook at the unbelievable stat, educational and analytical during the FIFA rankings explanation, confident and praising during each team profile, slightly mournful during the underdog graveyard, questioning and critical during the 48-team format debate, philosophical and forward-looking during the hierarchy discussion, balanced and accepting at the finale with a "both sides are valid" resolution</li>
+            <li><strong>Pace:</strong> Fast and energetic at the hook with the shocking stat reveal, measured and detailed through the rankings explanation and team profiles, slower and respectful during the underdog section, building energy during the format debate, contemplative during the football hierarchy discussion, deliberate and conclusive at the finale with intentional pauses before each key closing statement</li>
+            <li><strong>Emphasis:</strong> "first time in history", "48 teams", "top 4", "France #1", "Argentina #2", "Spain #3", "England #4", "underdogs", "48-team format", "gap is widening", "predictable", "competitive", "both", "don't miss it"</li>
+            <li><strong>Duration:</strong> ~460 words at 140 wpm spoken = ~3 min 17 seconds (with pauses and visual gaps, est. ~3 min 30 sec final video)</li>
+        </ul>
+    </div>
+</div>
+
+<div style="margin-top:1.5rem; padding:1rem; background:#111d33; border-radius:8px; border-left:4px solid #00e5ff;">
+    <strong style="color:#00e5ff;">Generated from <code>Master Prompt.md</code> • WC26Matrix — 10-Scene Format</strong>
+    <p style="color:#8899aa; font-size:0.85rem; margin-top:0.3rem;">10 scenes · 4 image prompts + 4 video prompts per scene · Total: 40 images · 40 video prompts · ~460 words voiceover (~3 min 30 sec) · Stickman sports infographic style · Dark stadium background theme · Thumbnail per thumbnail-master.md</p>
+</div>
+
+<footer>WC26Matrix &mdash; Changing how you watch the game &bull; World Cup 2026 breakdowns &bull; Stickman football analysis</footer>
+
+</div>
+</body>
+</html>
