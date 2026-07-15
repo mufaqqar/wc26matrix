@@ -796,3 +796,40 @@ What you explain: What "decisive goal" actually means statistically across a tou
 Thumbnail text: "4 Decisive Goals. Manager Still Unhappy."
 
 Virality score: 🔥 9.5/10
+
+
+Idea 93
+
+Title: France Had 8 Goals and Mbappé. Spain Had One Plan. Spain Won 2-0.
+
+Why it'll explode: Spain just dismantled the tournament's most dominant team in the most clinical way possible — Oyarzabal penalty in the 22nd minute, Pedro Porro making it 2-0 in the 58th, and then Spain simply shut the door. Mbappé — who had 8 goals going into the match — had the fewest touches of any player on the pitch. France had 10 attempts. Got zero goals. Spain had 10 attempts. Got two. The most dangerous attack in the tournament couldn't score against the best defence. This is the perfect stick-figure tactical breakdown.
+
+What you explain: Why Mbappé was completely suffocated by Spain's defensive press — Spain gave him no space between the lines, collapsed on him every time he received the ball, and forced France into wide areas where they created nothing dangerous. How Spain's counter-press works — they win the ball back within 6 seconds of losing it on average. Why only two sides in World Cup history have come back from a halftime deficit to win a semifinal — and France couldn't be the third. Stick figures showing Mbappé surrounded by three Spanish defenders every time he touched the ball, and Spain's two-goal route to the final.
+
+Thumbnail text: "Mbappé. 8 Goals. Then Zero."
+
+Virality score: 🔥 10/10
+
+Idea 94
+
+Title: England vs Argentina Is Tonight. Here Is Every Single Time These Two Countries Have Destroyed Each Other.
+
+Why it'll explode: England vs Argentina at the World Cup is the most historically loaded rivalry in football. Tonight in Atlanta it happens again — 40 years after the Hand of God, 24 years after Beckham's red card, 8 years after Messi's last England encounter. Jude Bellingham vs Lionel Messi. The winner goes to the final. The loser's greatest player retires from international football. This is THE match of the entire tournament and the #1 trending sports story on the planet right now.
+
+What you explain: Every major England-Argentina World Cup clash broken down in stick figures — 1966 (Rattin sent off, called "animals" by Alf Ramsey), 1986 (Hand of God + Goal of the Century in the same match, same man), 1998 (Beckham red card, England lose on penalties), 2002 (Beckham penalty revenge, England win), 2006 (Rooney red card, England lose on penalties again). Then tonight — Bellingham with 6 goals, Kane with 6 goals, vs Messi with 8 assists and a record-breaking tournament, Álvarez with the extra-time goals that keep coming. The history isn't just context. It IS the match.
+
+Thumbnail text: "1966. 1986. 1998. 2026. Tonight."
+
+Virality score: 🔥 10/10
+
+Idea 95 
+
+Title: Messi Has Set the All-Time World Cup Assists Record. And He Hasn't Even Played Tonight Yet.
+
+Why it'll explode: Across this tournament Lionel Messi has set the all-time World Cup assists record — surpassing every player in the history of the competition. He's done this while also being tied for the Golden Boot lead at 8 goals alongside Mbappé. Tonight against England he needs one more goal to break the record outright. The greatest player in football history is breaking records in what is almost certainly his final World Cup tournament — and his next match is against England, the most emotional fixture in the entire sport for Argentina fans.
+
+What you explain: What "assists" means statistically and why this record is harder to break than the goals record (you depend on teammates finishing), how Messi's tournament compares to his previous five World Cups statistically, and what tonight means for his legacy if Argentina reach the final — stick figures showing Messi's assist map across the tournament, with arrows from his feet to every goalscorer he's set up.
+
+Thumbnail text: "Most Assists Ever. One Game Left."
+
+Virality score: 🔥 9.5/10
