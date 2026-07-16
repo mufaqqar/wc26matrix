@@ -833,3 +833,46 @@ What you explain: What "assists" means statistically and why this record is hard
 Thumbnail text: "Most Assists Ever. One Game Left."
 
 Virality score: 🔥 9.5/10
+
+Idea 96
+
+Production ready: ✅ Storyboard
+
+Title: England Led 1-0 With 5 Minutes Left. Then Messi Assisted Twice. England Are Out.
+
+Why it'll explode: England led Argentina 1-0 after Anthony Gordon tapped home Morgan Rogers' cross in the 55th minute — then Argentina scored twice in the final seven minutes. Enzo Fernández bent in a stunning long-range strike from outside the box in the 85th minute, and Lautaro Martínez headed home in the 92nd minute — both assisted by Lionel Messi.  England had the win. They defended too deep. Argentina never stopped. Argentina had scored nine goals at this World Cup after the 75th minute entering this match — making it ten.  England's 60-year wait for a World Cup trophy continues. The most devastating possible way to lose — with the trophy in sight. This is #1 trending globally right now.
+
+What you explain: Why England's decision to sit deep after going 1-0 up was the tactical mistake that cost them everything — Tuchel threw on two 6-foot-plus defenders to protect the lead, giving Argentina exactly the aerial delivery target they needed for the 92nd-minute header. How Argentina's pattern of scoring after the 75th minute has now defined their entire tournament — four comebacks in seven matches. And what Messi's two assists in the final seven minutes mean for his legacy in what is almost certainly his last match in a World Cup semifinal ever — stick figures showing England's defensive block dropping deeper and deeper as Argentina's attacks got more and more dangerous.
+
+Thumbnail text: "1-0 Up. 5 Minutes Left. Then Messi."
+
+Virality score: 🔥 10/10
+
+
+Idea 97
+
+Production ready: ✅ Storyboard
+
+Title: Argentina Have Scored 10 Goals After the 75th Minute. They Are the Team of Destiny.
+
+Why it'll explode: Argentina scored nine goals after the 75th minute entering the England match — and made it ten with the 92nd-minute winner tonight.  They came from behind against Cape Verde, Switzerland, Egypt, and now England.  Four comebacks in seven matches. Argentina are attempting to repeat as World Cup champions — a feat that hasn't happened in 70 years.  The "team of destiny" narrative is the single most powerful sports content format on YouTube — and Argentina have now built it over seven consecutive matches.
+
+What you explain: Every single late comeback Argentina have pulled off at this tournament broken down one by one — the Cape Verde extra-time escape, the Egypt VAR controversy and three goals in 15 minutes, the Switzerland red card twist, and now Messi's two assists in the 85th and 92nd minutes against England. Why late-game comebacks happen physically (fatigue in defending teams, substitution surges from attacking teams) and why Argentina specifically are built for them — their squad depth, Scaloni's attacking substitutions, and Messi's ability to create when space opens up in the final minutes. Stick figures showing a clock ticking toward 90 minutes with Argentina's goal counter accelerating.
+
+Thumbnail text: "10 Goals After Minute 75. Not Luck."
+
+Virality score: 🔥 9.5/10
+
+Idea 98
+
+Production ready: ✅ Storyboard
+
+Title: Messi Just Faced England for the Very First Time in His Career. He Won With Two Assists.
+
+Why it'll explode: This was the first time in Lionel Messi's entire career that he faced England in a senior international match.  He waited until the World Cup semifinal, in what is almost certainly his last World Cup, to play against the country that has been Argentina's greatest rival for 60 years. He didn't score. He didn't need to. He finished the match with two assists  — both in the final seven minutes — sending Argentina to the final against Spain. The greatest player in football history's first-ever England match ended with him deciding the outcome. This is the most poetic story of the entire tournament.
+
+What you explain: Why Messi had never faced England before tonight — the draw had kept them apart across six previous World Cups and they were in different UEFA/CONMEBOL qualification paths — and what it means that their one meeting ended with Messi producing the decisive moments in a World Cup semifinal in the final minutes. Argentina and England hadn't faced each other in a knockout match since 1998 — 28 years apart.  Now the final is set: Argentina vs Spain — Argentina defending three titles to Spain's one, with Messi facing Lamine Yamal, the 19-year-old who may be his successor as the best player on earth.  Stick figures showing Messi's six World Cup timelines, five of them without an England match, and the sixth ending with two assists in seven minutes.
+
+Thumbnail text: "First Time vs England. Two Assists. Final."
+
+Virality score: 🔥 9.5/10

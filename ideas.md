@@ -82,6 +82,9 @@ Idea 80 [■■■■■■■■■■] 100% — Storyboard done (10 scenes)
 Idea 81 [■■■■■■■■■■] 100% — Storyboard done (10 scenes)
 Idea 82 [■■■■■■■■■■] 100% — Storyboard done (10 scenes)
 Idea 83 [■■■■■■■■■■] 100% — Storyboard done (10 scenes)
+Idea 96 [■■■■■■■■■■] 100% — Storyboard done (10 scenes)
+Idea 97 [■■■■■■■■■■] 100% — Storyboard done (10 scenes)
+Idea 98 [■■■■■■■■■■] 100% — Storyboard done (10 scenes)
 ```
 
-**Total progress:** 71/83 ideas storyboarded (86%)
+**Total progress:** 74/86 ideas storyboarded (86%)
