@@ -1,4 +1,4 @@
-# WC26Matrix — Master Video Creation Prompt
+# TheFootballRepublics— Master Video Creation Prompt
 
 ## CHANNEL IDENTITY
 
