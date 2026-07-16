@@ -2,7 +2,7 @@
 
 ## CHANNEL IDENTITY
 
-**Channel:** World Cup 2026 Matrix (@WC26Matrix)
+**Channel:** The Football Republics (@TheFootballRepublics)
 
 **Mission:** Break down every position, tactic, formation, and rule of the 2026 FIFA World Cup — explained through stick figures. No jargon. No lectures. Just clear, simple breakdowns anyone can follow.
 
@@ -10,7 +10,7 @@
 
 **Target Audience:** Football fans who want to understand the game deeply but find traditional analysis too dense or technical. Beginners welcome.
 
-**Channel Keywords:** FIFA World Cup 2026, WC26, football tactics explained, football for beginners, World Cup tactics, football formations explained, how football works, football positions explained, stick figure football, World Cup 2026 analysis, football breakdown, soccer explained, understand football, World Cup groups 2026, football rules simplified, WC26 highlights, football strategy, soccer tactics beginners, World Cup predictions, football animation
+**Channel Keywords:** FIFA World Cup 2026, TheFootballRepublics, football tactics explained, football for beginners, World Cup tactics, football formations explained, how football works, football positions explained, stick figure football, World Cup 2026 analysis, football breakdown, soccer explained, understand football, World Cup groups 2026, football rules simplified, TheFootballRepublics highlights, football strategy, soccer tactics beginners, World Cup predictions, football animation
 
 ---
 
