@@ -67,9 +67,9 @@ Use these as topic seeds. Each video should pick ONE clear confusion and resolve
 - Every sentence easy to read aloud
 
 ### Word Count & Duration
-- **Total voiceover: 360–450 words** (3 minutes at ~130-150 wpm)
+- **Total voiceover: 300–400 words** (2.5 minutes at ~130-150 wpm)
 - **10 scenes total** — Scene 1 = Hook, Scenes 2-9 = Body, Scene 10 = Ending + CTA
-- Each scene voiceover: ~35-50 words average
+- **Each scene voiceover: 30–40 words MAX — absolutely no exceptions**
 - Prioritize tight, punchy sentences over completeness
 
 ---
@@ -164,7 +164,7 @@ Video Prompt B: "[AI video animation description]"
 | Item | Value |
 |------|-------|
 | Scenes | 10 |
-| Voiceover | 360–450 words (~3 min) |
+| Voiceover | 300–400 words (~2.5 min, 30-40 words per scene max) |
 | Image prompts per scene | 2 |
 | Video prompts per scene | 2 |
 | Total image prompts | 20 |
