@@ -101,3 +101,51 @@ Channel: The Football Republics
 Hashtags: #WorldCup2026 #EnglandVsArgentina #Tuchel #WC26 #FIFA2026 #FootballTactics #TheFootballRepublics
 
 Virality score: 🔥 9.5/10
+
+
+
+
+Idea 102
+
+Title: Spain Won the World Cup With One Shot on Target. Argentina Had Zero.
+
+Why it'll explode: The most statistically dominant final in World Cup history just ended. Spain had 20 total shots and 12 on target. Argentina had 2 shots total and zero on target for the entire match. Spain had 60% possession. Argentina's expected goals figure was 0.20 — barely a chance across 120 minutes. One goal. One shot on target. World Champions. The numbers are so extreme they sound made-up — and that's exactly why every football fan clicks this.
+
+What you explain: How Spain's press completely suffocated every Argentine attack — Messi registered just 15 touches in the entire match compared to Yamal's 26, Argentina didn't take a single shot in the first half, and didn't have a touch inside Spain's box for the first 45 minutes. How Ferran Torres' 106th-minute winner was Spain's only shot on target that went in across 120 minutes — and why one moment of quality was all Spain needed after building relentless pressure. Why this final will be studied in football coaching academies for the next decade — stick figures showing Spain's 20-shot attack vs Argentina's 2-shot response, and the single goal that decided everything.
+
+Thumbnail text: "20 Shots vs 2. Spain Won The World Cup."
+
+Channel: The Football Republics
+Hashtags: #WorldCup2026 #SpainVsArgentina #WC26Final #SpainWorldCup #FIFA2026 #FootballTactics #TheFootballRepublics
+
+Virality score: 🔥 10/10
+
+Idea 103
+
+Title: Messi's Last World Cup Ended Watching Spain Celebrate at MetLife. The Same Stadium Where He Once Retired.
+
+Why it'll explode: Lionel Messi's final World Cup ended in heartbreak at MetLife Stadium in East Rutherford, New Jersey — the exact same stadium where in 2016 he stood on the pitch after losing the Copa América final and announced his retirement from international football. He came back from that retirement and won everything. Now at 38, having confirmed this is his final World Cup, Messi stood in the same building watching Spain celebrate instead of Argentina. The full circle of his entire international career — announced retirement in 2016, triumphant return, 2022 World Cup winner, and now final goodbye — happened in one single stadium. The most poetic ending in football history.
+
+What you explain: Messi finished the tournament with 8 goals and the all-time World Cup assists record — but Argentina had 0.20 expected goals in the final, meaning his teammates barely created a chance around him. Why Messi's 15 touches in the final is one of the lowest figures ever recorded for a player of his status in a World Cup final — Spain's press cut off his supply completely. His best moment came in the 5th minute when Álvarez found him through — but Spain's goalkeeper Simón sprinted out and beat him to the ball. And what 2028 Copa América might still hold for him as the only remaining major title timeline left — stick figures showing Messi's full international career arc from 2005 debut to 2026 goodbye, beginning and ending at the same stadium.
+
+Thumbnail text: "Same Stadium. 2016 Retirement. 2026 Goodbye."
+
+Channel: The Football Republics
+Hashtags: #Messi #WorldCup2026 #WC26Final #ArgentinaVsSpain #FIFA2026 #MessiLastWorldCup #TheFootballRepublics
+
+Virality score: 🔥 10/10
+
+Idea 104
+
+Title: Argentina's Goalkeeper Made 11 Saves and Still Lost. A World Cup Final Record That Means Nothing.
+
+Why it'll explode: Emiliano Martínez made 11 saves in the World Cup final — breaking the all-time record for saves in a championship match. He was the only reason the final went to extra time. He was the only reason Argentina were still in the match at 0-0 after 90 minutes. And he still lost. A goalkeeper breaks a 100-year-old record, produces the greatest individual performance in a World Cup final by a keeper — and goes home empty-handed. The cruelest individual story of the entire tournament.
+
+What you explain: Every single one of Martínez's 11 saves broken down — what made each one difficult, which ones were world-class and which were routine, and how Spain managed to generate 12 shots on target against a goalkeeper who stopped every single one until the 106th minute. Why the previous record of 8 saves in a final had stood for decades and what Martínez's performance means for his legacy despite the defeat. And how Enzo Fernández's 90th-minute red card for a second bookable offence changed the entire dynamic — Argentina down to 10 men, Martínez making saves, Torres finally finding a way through — stick figures showing each of the 11 saves in sequence, then the 106th-minute goal that ended it all.
+
+Thumbnail text: "11 Saves. World Record. Still Lost."
+
+Channel: The Football Republics
+Hashtags: #WorldCup2026 #EmilianoMartinez #WC26Final #ArgentinaVsSpain #FIFA2026 #FootballHistory #TheFootballRepublics
+
+Virality score: 🔥 9.5/10
