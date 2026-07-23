@@ -31,33 +31,34 @@ Use these as topic seeds. Each video should pick ONE clear confusion and resolve
 ## SCRIPT STYLE & STRUCTURE
 
 ### Voice
-- Smart, curious, slightly sarcastic, friendly, confident, fast-paced
-- "Your knowledgeable friend explaining something interesting"
-- 8th-grade reading level
-- Short sentences, conversational wording
+- Minimal, punchy, visual-first
+- "You're watching something wild — here's what it means"
+- 5th-grade reading level — as short as possible
+- 1-2 lines per scene, conversational
 - Never academic, never like Wikipedia
+- **If a line doesn't describe what's on screen, delete it**
 
 ### Script Structure
 
-**HOOK (first 15-25 seconds)**
-- Bold statement
-- Immediately establish why the topic matters
-- Create curiosity with an open loop
-- Promise a fast explanation
+**HOOK (first 10-15 seconds)**
+- Bold visual with 1-2 line caption
+- Establish why the topic matters in one sentence
+- Create curiosity instantly
+- Promise a fast visual breakdown
 
-**BODY (~2-2.5 minutes, 8-10 sections)**
-- Each section: short label → simple explanation → observation/analogy/joke
+**BODY (~1.5-2 minutes, 8-10 sections)**
+- Each section: short label → 1-2 line visual description → punchy observation
+- **Visual-first rule: the image tells the story, the voiceover only captions it**
 - Assume audience knows nothing
-- Use pattern interrupts every 10-15 seconds
-- Every paragraph introduces info, creates curiosity, or delivers a payoff
-- Sprinkle in: "In theory...", "In practice...", "Here's where it gets interesting", "This sounds simple. It isn't."
-- Keep momentum high — prioritize retention over completeness
+- Every line must describe what's happening on screen
+- No lengthy explanations, no analogies, no jokes in voiceover
+- Keep momentum high — let the visuals carry the retention
 
 **ENDING**
-- Loop back to the hook
-- Summarize in one memorable sentence
-- End with thought-provoking question, prediction, or takeaway
-- Natural subscribe CTA
+- Loop back to the hook visual
+- One sentence that reframes what was seen
+- End with a thought-provoking visual + one-line question
+- Natural subscribe CTA (1 line max)
 
 ### Formatting Rules
 - No scene directions
@@ -67,10 +68,12 @@ Use these as topic seeds. Each video should pick ONE clear confusion and resolve
 - Every sentence easy to read aloud
 
 ### Word Count & Duration
-- **Total voiceover: 300–400 words** (2.5 minutes at ~130-150 wpm)
+- **Total voiceover: 150–200 words** (1.5-2 minutes at ~130-150 wpm)
 - **10 scenes total** — Scene 1 = Hook, Scenes 2-9 = Body, Scene 10 = Ending + CTA
-- **Each scene voiceover: 30–40 words MAX — absolutely no exceptions**
-- Prioritize tight, punchy sentences over completeness
+- **Each scene voiceover: 15–20 words MAX — absolutely no exceptions**
+- **1-2 short lines per scene** — explain what the viewer is seeing, nothing more
+- **Visuals do the heavy lifting** — voiceover only describes the action on screen
+- Every sentence must be a visual caption, not a narration
 
 ---
 
@@ -93,10 +96,20 @@ Use these as topic seeds. Each video should pick ONE clear confusion and resolve
 - No photorealism, no cinematic lighting
 - No 3D rendering, no anime
 
+### On-Screen Text Rules (MANDATORY)
+- **Minimal text on images** — only essential headings if absolutely needed for clarity
+- **NO speech bubbles** with long quotes — let the visuals speak
+- **NO bold text labels** at top/bottom of images — no decorative text overlays
+- **NO on-screen paragraphs** — no stats, no quotes, no descriptions as text on the image
+- **If you must add text:** 1-2 word label max per image (e.g. "CHOKE", "TROPHY", "ALONE")
+- **The stickman composition tells the story** — text should almost never be needed
+- **Video prompts:** keep to 4-6 words max, describe the action simply
+
 ### Prompt Generation Process
 - Generate prompts for **all 10 scenes at once** (not in batches)
-- For each scene provide: Scene Number, Voiceover text, 2 Nano Banana Image Prompts, 2 AI Video Prompts
-- Each prompt must: visually represent the scene's voiceover, include stickman style, include background details, include on-screen text, mention composition, mention camera angle, mention icons/arrows/timers if needed
+- For each scene provide: Scene Number, Voiceover text (15-20 words), 4 Nano Banana Image Prompts, 4 AI Video Prompts
+- Each prompt must: visually represent the scene's voiceover, include stickman style, include background details, include composition, include camera angle, include icons/arrows/timers if needed
+- **NO on-screen text in prompts unless absolutely essential (1-2 word label max)**
 
 ### Social Share Card (MANDATORY)
 
@@ -140,11 +153,15 @@ Every video needs a YouTube thumbnail following this exact specification:
 ### Prompt Format
 ```
 SCENE 1
-Voiceover: "[voiceover text]"
-Image Prompt A: "[Nano Banana prompt]"
-Image Prompt B: "[Nano Banana prompt]"
-Video Prompt A: "[AI video animation description]"
-Video Prompt B: "[AI video animation description]"
+Voiceover: "[15-20 word voiceover]"
+Image Prompt A: "[Nano Banana prompt — visual captioning the voiceover]"
+Image Prompt B: "[Nano Banana prompt — alternate angle/focus]"
+Image Prompt C: "[Nano Banana prompt — detail or reaction shot]"
+Image Prompt D: "[Nano Banana prompt — wider context or graphic]"
+Video Prompt A: "[AI video animation — 4-6 words, one-time with hold]"
+Video Prompt B: "[AI video animation — 4-6 words, seamless loop]"
+Video Prompt C: "[AI video animation — 4-6 words, one-time with hold]"
+Video Prompt D: "[AI video animation — 4-6 words, seamless loop]"
 ```
 
 ---
@@ -152,8 +169,8 @@ Video Prompt B: "[AI video animation description]"
 ## VIDEO PRODUCTION WORKFLOW
 
 1. **Choose an idea** from the Content Ideas section (or propose new topic)
-2. **Generate script** (10 scenes, 360-450 words total)
-3. **Generate image & video prompts** (2 Image + 2 Video per scene = 20 Image + 20 Video prompts total)
+2. **Generate script** (10 scenes, 150-200 words total, 15-20 per scene)
+3. **Generate image & video prompts** (4 Image + 4 Video per scene = 40 Image + 40 Video prompts total)
 4. **Review and refine** — I will provide feedback at each stage
 5. **Proceed to next stage** only when I confirm
 
@@ -164,14 +181,14 @@ Video Prompt B: "[AI video animation description]"
 | Item | Value |
 |------|-------|
 | Scenes | 10 |
-| Voiceover | 300–400 words (~2.5 min, 30-40 words per scene max) |
-| Image prompts per scene | 2 |
-| Video prompts per scene | 2 |
-| Total image prompts | 20 |
-| Total video prompts | 20 |
+| Voiceover | 150–200 words (~1.5-2 min, 15-20 words per scene max, 1-2 lines per scene) |
+| Image prompts per scene | 4 |
+| Video prompts per scene | 4 |
+| Total image prompts | 40 |
+| Total video prompts | 40 |
 | Art style | Stickman sports infographic |
 | Background | Dark blue / football stadium |
 
 ---
 
-*Last updated: June 2026 — Updated to 10-scene format*
+*Last updated: July 2026 — Updated to minimal voiceover + minimal on-screen text format (visual-first, text-free images)*

@@ -88,6 +88,7 @@ Idea 98 [■■■■■■■■■■] 100% — Storyboard done (10 scenes)
 Idea 99 [■■■■■■■■■■] 100% — Storyboard done (10 scenes)
 Idea 100 [■■■■■■■■■■] 100% — Storyboard done (10 scenes)
 Idea 101 [■■■■■■■■■■] 100% — Storyboard done (10 scenes)
+Idea 105 [■■■■■■■■■■] 100% — Storyboard done (10 scenes) — minimal voiceover format
 ```
 
-**Total progress:** 77/86 ideas storyboarded (89%)
+**Total progress:** 78/87 ideas storyboarded (90%)
