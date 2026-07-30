@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The 2030 World Cup Starts in South America and Ends in Europe. Nobody Has Ever Done This. | TheFootballRepublics</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; background: #0a1628; color: #e0e8f0; padding: 2rem 1rem; }
+.container { max-width: 1000px; margin: 0 auto; }
+h1 { font-size: 2rem; font-weight: 700; color: #00e5ff; margin-bottom: 0.3rem; }
+.subtitle { color: #8899aa; font-size: 1rem; margin-bottom: 2rem; border-left: 4px solid #ff6b35; padding-left: 1rem; }
+.badge { font-size: 0.75rem; font-weight: 600; background: #ff6b35; color: #fff; padding: 0.2rem 0.7rem; border-radius: 20px; display: inline-block; }
+.badge.gold { background: #ff6b35; }
+.badge.blue { background: #0088ff; }
+.badge.image { background: #9b59b6; color: #fff; }
+.badge.video { background: #e74c3c; color: #fff; }
+.section-header { font-size: 1.2rem; font-weight: 600; color: #00e5ff; background: #111d33; padding: 0.7rem 1.2rem; border-radius: 8px; margin-bottom: 1rem; display: flex; align-items: center; gap: 0.6rem; flex-wrap: wrap; }
+.scene { background: #0f1d33; border-radius: 10px; padding: 1.2rem 1.5rem; margin-bottom: 1rem; box-shadow: 0 1px 4px rgba(0,0,0,0.3); border-left: 4px solid #00e5ff; }
+.scene-header { display: flex; align-items: center; gap: 0.8rem; margin-bottom: 0.8rem; flex-wrap: wrap; }
+.scene-num { font-weight: 700; color: #00e5ff; font-size: 0.9rem; }
+.scene-desc { font-style: italic; color: #8899aa; font-size: 0.9rem; }
+.voiceover { background: #0d1a2e; border-radius: 6px; padding: 0.8rem 1rem; margin-top: 0.7rem; font-size: 0.95rem; line-height: 1.6; color: #e0e8f0; border-left: 3px solid #0088ff; }
+.voiceover-label { font-size: 0.75rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; color: #0088ff; margin-bottom: 0.3rem; }
+.prompt-label { font-size: 0.75rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; color: #fff; margin-bottom: 0.2rem; margin-top: 0.6rem; padding: 0.15rem 0.6rem; border-radius: 4px; display: inline-block; }
+.prompt-label.image { background: #9b59b6; }
+.prompt-label.video { background: #e74c3c; }
+.prompt-box { background: #0d1a2e; border-radius: 6px; padding: 0.8rem 1rem; font-size: 0.88rem; line-height: 1.5; color: #99aabb; font-family: 'Courier New', monospace; border-left: 3px solid #00e5ff; white-space: pre-wrap; margin-bottom: 0.5rem; }
+.prompt-box.video-prompt { border-left-color: #e74c3c; background: #1a0d0d; }
+.img-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0.8rem; margin-top: 0.5rem; }
+.img-item { background: #0d1a2e; border-radius: 6px; padding: 0.7rem; border-left: 3px solid #9b59b6; }
+.img-item .label { font-size: 0.7rem; font-weight: 600; color: #9b59b6; margin-bottom: 0.2rem; }
+.img-item .text { font-size: 0.82rem; color: #99aabb; font-family: 'Courier New', monospace; line-height: 1.4; white-space: pre-wrap; }
+.vid-item { background: #1a0d0d; border-radius: 6px; padding: 0.7rem; border-left: 3px solid #e74c3c; }
+.vid-item .label { font-size: 0.7rem; font-weight: 600; color: #e74c3c; margin-bottom: 0.2rem; }
+.vid-item .text { font-size: 0.82rem; color: #99aabb; font-family: 'Courier New', monospace; line-height: 1.4; }
+.thumbnail-box { background: #0f1d33; border-radius: 10px; padding: 1.2rem 1.5rem; box-shadow: 0 1px 4px rgba(0,0,0,0.3); border-left: 4px solid #ff6b35; margin-bottom: 1rem; }
+.thumbnail-box .label { font-size: 0.75rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 0.2rem; }
+.thumbnail-box .label.gold { color: #ff6b35; }
+.thumbnail-box .label.blue { color: #0088ff; }
+.seo-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+.seo-card { background: #0f1d33; border-radius: 10px; padding: 1rem 1.2rem; box-shadow: 0 1px 4px rgba(0,0,0,0.3); }
+.seo-card h3 { font-size: 0.9rem; color: #00e5ff; margin-bottom: 0.5rem; }
+.seo-card ul { list-style: none; }
+.seo-card li { font-size: 0.88rem; color: #99aabb; padding: 0.25rem 0; border-bottom: 1px solid #1a2a44; }
+.seo-card li:last-child { border-bottom: none; }
+.seo-card.tags li { display: inline-block; background: #1a2a44; padding: 0.2rem 0.6rem; border-radius: 4px; margin: 0.2rem; font-size: 0.8rem; border: none; }
+.seo-desc { font-size: 0.85rem; line-height: 1.6; color: #99aabb; margin-bottom: 0.5rem; }
+.vonote { background: #0f1d33; border-radius: 10px; padding: 1.2rem 1.5rem; box-shadow: 0 1px 4px rgba(0,0,0,0.3); }
+.vonote ul { list-style: none; font-size: 0.92rem; line-height: 1.8; color: #99aabb; }
+.meta-row { display: flex; gap: 1rem; flex-wrap: wrap; margin-bottom: 1rem; }
+.meta-tag { background: #1a2a44; padding: 0.3rem 0.8rem; border-radius: 20px; font-size: 0.85rem; }
+.meta-tag.style { background: #1a2a44; color: #00e5ff; border: 1px solid #00e5ff; }
+footer { margin-top: 3rem; text-align: center; font-size: 0.85rem; color: #556677; padding: 1rem 0; }
+@media (max-width: 700px) { .seo-grid { grid-template-columns: 1fr; } .img-grid { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+<div class="container">
+
+<h1>The 2030 World Cup Starts in South America and Ends in Europe. Nobody Has Ever Done This.</h1>
+<div class="subtitle">Stickman sports infographic style — Clean vector illustrations on dark football stadium backgrounds</div>
+
+<div class="meta-row">
+    <span class="meta-tag">Category: TheFootballRepublics Geography</span>
+    <span class="meta-tag">Est. Length: ~3.5 min</span>
+    <span class="meta-tag style">Style: Stickman Sports Infographic</span>
+    <span class="meta-tag">Scenes: 10</span>
+    <span class="meta-tag">Images: 40</span>
+    <span class="meta-tag">Video Prompts: 40</span>
+    <span class="meta-tag">Voiceover: ~400 words (35-45 per scene)</span>
+</div>
+
+<!-- SCENE 01 -->
+<div class="scene">
+    <div class="scene-header">
+        <span class="scene-num">SCENE 01</span>
+        <span class="scene-desc">Hook — Three continents, one tournament</span>
+    </div>
+    <div class="voiceover">
+        <div class="voiceover-label">Voiceover</div>
+        The 2030 World Cup will be the first men's tournament ever played across three continents. Opening matches in Uruguay, Argentina and Paraguay on June 8 and 9. Then crossing the Atlantic to Morocco, Portugal and Spain for the main tournament. A match in Montevideo on Monday. A match in Madrid on Friday. Same tournament. Three continents. This has never happened in 100 years of World Cup history.
+    </div>
+    <div class="prompt-label image">Image Prompts (4)</div>
+    <div class="img-grid">
+        <div class="img-item">
+            <div class="label">Prompt A — Three-continent world map</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a world map highlighting three continents in bright colors: South America in green with "JUNE 8-9: CENTENARY OPENERS" label, Europe in blue with "MAIN TOURNAMENT" label, Africa in orange with "MOROCCO HOSTS" label, curved arrows showing the tournament path from South America across the Atlantic to Europe and Africa, a "FIRST WORLD CUP ACROSS THREE CONTINENTS — 100 YEARS OF HISTORY — NEVER BEFORE" gold banner, a stickman geographer with a "A MATCH IN MONTEVIDEO. A MATCH IN MADRID. SAME TOURNAMENT. THREE CONTINENTS. THIS HAS NEVER HAPPENED BEFORE." amazed speech bubble, stadium floodlights on the world map, bold text "3 CONTINENTS. 6 NATIONS. 1 TOURNAMENT. THE MOST SPREAD OUT WORLD CUP IN HISTORY." at top, high contrast infographic composition</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt B — The calendar contrast</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a calendar showing two dates: "JUNE 8 — URUGUAY vs OPPONENT AT ESTADIO CENTENARIO — MONTEVIDEO, SOUTH AMERICA" in gold, then "JUNE 13 — SPAIN vs OPPONENT AT CAMP NOU — BARCELONA, EUROPE" in blue, a "FIVE DAYS. 10,000 KM. SAME TOURNAMENT. DIFFERENT CONTINENTS." connecting note, a stickman fan with a "MONDAY IN MONTEVIDEO. FRIDAY IN BARCELONA. THE SAME WORLD CUP. I STILL CAN'T BELIEVE THIS IS REAL." amazed speech bubble, stadium floodlights on the calendar, bold text "MONDAY: SOUTH AMERICA. FRIDAY: EUROPE. SAME WEEK. SAME WORLD CUP." at bottom, high contrast infographic composition</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt C — The centenary celebration</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a celebratory graphic showing "100 YEARS OF WORLD CUP FOOTBALL — 1930 TO 2030" with the number 100 in gold, the 1930 and 2030 World Cup trophies on either side, a timeline from Uruguay 1930 to the six-nation 2030 hosts, a "WHY THREE CONTINENTS? BECAUSE IT'S THE CENTENARY — AND FIFA WANTED TO HONOR THE TOURNAMENT'S BIRTHPLACE" explanation, a stickman historian with a "THE WORLD CUP WAS BORN IN SOUTH AMERICA IN 1930. A CENTURY LATER, THE TOURNAMENT RETURNS TO ITS BIRTHPLACE — THEN CONTINUES TO EUROPE AND AFRICA. A CENTENARY JOURNEY." historic speech bubble, stadium floodlights on the centenary celebration, bold text "100 YEARS. 1930 URUGUAY → 2030 SOUTH AMERICA OPENER. THE CENTENARY COMES HOME." at top, high contrast infographic composition</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt D — The hook: never been done</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a "NEVER IN WORLD CUP HISTORY" record book being opened, pages showing previous World Cups all confined to one continent: "1930 URUGUAY — ONE COUNTRY", "1950 BRAZIL — ONE COUNTRY", "1966 ENGLAND — ONE COUNTRY", "1982 SPAIN — ONE COUNTRY", "1998 FRANCE — ONE COUNTRY", "2002 JAPAN/KOREA — TWO COUNTRIES ONE CONTINENT", "2026 USA/CANADA/MEXICO — THREE COUNTRIES ONE CONTINENT", then "2030 — FIRST EVER ACROSS THREE CONTINENTS", a stickman record keeper with a "SIX HOST NATIONS. THREE CONTINENTS. TWO HEMISPHERES. THE 2030 WORLD CUP BREAKS A RECORD THAT HAS STOOD FOR 100 YEARS." record speech bubble, stadium floodlights on the open record book, bold text "1930: ONE COUNTRY. 2030: THREE CONTINENTS. THE BIGGEST EXPANSION IN WC HISTORY." at top, high contrast infographic composition</div>
+        </div>
+    </div>
+    <div class="prompt-label video">AI Video Prompts (4)</div>
+    <div class="img-grid">
+        <div class="vid-item">
+            <div class="label">Video A — World map animation</div>
+            <div class="text">World map three continents highlighted SA green Europe blue Africa orange, arrows crossing Atlantic, geographer says never happened before, 6-world map, one-time with hold</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video B — Calendar animation</div>
+            <div class="text">Calendar June 8 Uruguay Montevideo to June 13 Spain Barcelona, fan says same world cup different continents, 5-calendar, seamless loop</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video C — Centenary animation</div>
+            <div class="text">100 years gold number 1930 trophy to 2030 trophy timeline Uruguay to six nations, historian says centenary journey, 6-centenary, one-time with hold</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video D — Record book animation</div>
+            <div class="text">Record book opening showing previous WCs all one continent, 2030 first across three, record keeper says biggest expansion in history, 5-record book, seamless loop</div>
+        </div>
+    </div>
+</div>
+
+<!-- SCENE 02 -->
+<div class="scene">
+    <div class="scene-header">
+        <span class="scene-num">SCENE 02</span>
+        <span class="scene-desc">The centenary openers — South America's celebration</span>
+    </div>
+    <div class="voiceover">
+        <div class="voiceover-label">Voiceover</div>
+        It all starts in South America. Three centenary celebration matches on June 8 and 9. Uruguay at Estadio Centenario — the same stadium where the first World Cup final was played in 1930. Argentina at the Monumental in Buenos Aires. Paraguay at Defensores del Chaco in Asunción. Three matches. Three nations. One continent saying thank you for 100 years of World Cup history.
+    </div>
+    <div class="prompt-label image">Image Prompts (4)</div>
+    <div class="img-grid">
+        <div class="img-item">
+            <div class="label">Prompt A — Uruguay's homecoming</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, Estadio Centenario in Montevideo bathed in golden light, a massive tifo reading "100 AÑOS DE COPA DEL MUNDO — 1930-2030 — URUGUAY" unfurled across one entire stand, stickman fans in sky blue waving Uruguay flags, fireworks exploding above the iconic tower, a "JUNE 8, 2030 — URUGUAY KICKS OFF THE CENTENARY WORLD CUP AT THE SAME STADIUM WHERE THEY WON THE FIRST ONE IN 1930" emotional banner, a stickman Uruguayan fan with tears in eyes, "MY ABUELO WATCHED THE 1930 FINAL HERE. NOW I WATCH THE 2030 OPENER HERE. SAME STADIUM. SAME COLORS. 100 YEARS. THIS IS EVERYTHING." emotional speech bubble, stadium floodlights on the emotional scene, bold text "ESTADIO CENTENARIO. JUNE 8, 2030. 100 YEARS AFTER THE FIRST WORLD CUP. URUGUAY WELCOMES THE WORLD HOME." at top, high contrast infographic composition</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt B — Argentina's Monumental</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, Estadio Monumental in Buenos Aires packed with stickman Argentina fans in blue and white, a massive "2030 CENTENARY" banner, Lionel Messi imagery in the design with a "GRACIAS, LEO" banner, fireworks over the stadium, a "JUNE 9, 2030 — ARGENTINA HOSTS A CENTENARY MATCH AT THE MONUMENTAL — THE 2022 CHAMPIONS RETURN TO SOUTH AMERICAN SOIL" gold note, a stickman Argentina fan with "ARGENTINA IN ARGENTINA. THE WORLD CUP RETURNS TO OUR HOME. THE MONUMENTAL WILL SHAKE. THIS IS OUR CENTENARY GIFT TO FOOTBALL." proud speech bubble, stadium floodlights on the monumental stadium, bold text "MONUMENTAL, BUENOS AIRES. ARGENTINA'S CENTENARY NIGHT. THE 2022 CHAMPIONS HONOR THE PAST." at bottom, high contrast infographic composition</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt C — Paraguay's moment</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, Estadio Defensores del Chaco in Asunción lit up in red and white, stickman Paraguay fans creating a sea of color, a "PARAGUAY — THE THIRD CENTENARY HOST — THEIR FIRST WORLD CUP MATCH ON HOME SOIL IN HISTORY" historic banner, the stadium's iconic columns visible in the night sky, a stickman Paraguay fan with "PARAGUAY HAS NEVER HOSTED A WORLD CUP MATCH. NEVER. AFTER 100 YEARS, WE FINALLY WELCOME THE WORLD. THIS IS OUR FOOTBALL DREAM COME TRUE." emotional speech bubble, stadium floodlights on the historic moment, bold text "DEFENSORES DEL CHACO, ASUNCIÓN. PARAGUAY'S FIRST EVER WORLD CUP MATCH AT HOME. 100 YEARS IN THE MAKING." at top, high contrast infographic composition</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt D — South America united</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a map of South America with three nations glowing: Uruguay, Argentina, Paraguay, connected by a golden triangle, each with their stadium icon, a "THREE NATIONS. THREE STADIUMS. TWO DAYS. SOUTH AMERICA OPENS THE CENTENNIAL WORLD CUP." unifying banner, a stickman South American commentator with "FOR TWO DAYS IN JUNE 2030, THE EYES OF THE FOOTBALL WORLD WILL BE ON SOUTH AMERICA. THE CONTINENT THAT GAVE BIRTH TO THE WORLD CUP 100 YEARS AGO WELCOMES IT HOME. URUGUAY, ARGENTINA, PARAGUAY — THREE PROUD NATIONS, ONE SHARED HISTORY." commentator speech bubble, stadium floodlights on the united continent, bold text "URUGUAY — ARGENTINA — PARAGUAY. THREE NATIONS. ONE CONTINENT. ONE CENTENARY CELEBRATION." at top, high contrast infographic composition</div>
+        </div>
+    </div>
+    <div class="prompt-label video">AI Video Prompts (4)</div>
+    <div class="img-grid">
+        <div class="vid-item">
+            <div class="label">Video A — Uruguay animation</div>
+            <div class="text">Centenario golden light massive tifo 100 años fireworks tower, fan says same stadium 100 years everything, 6-uruguay, one-time with hold</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video B — Argentina animation</div>
+            <div class="text">Monumental packed blue white fans Gracias Leo banner, fan says Argentina returns to home soil, 5-argentina, seamless loop</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video C — Paraguay animation</div>
+            <div class="text">Defensores del Chaco red white fans sea of color, fan says first WC match on home soil ever, 6-paraguay, one-time with hold</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video D — SA united animation</div>
+            <div class="text">South America map Uruguay Argentina Paraguay glowing triangle, stadium icons, commentator says continent that gave birth welcomes home, 5-sa united, seamless loop</div>
+        </div>
+    </div>
+</div>
+
+<!-- SCENE 03 -->
+<div class="scene">
+    <div class="scene-header">
+        <span class="scene-num">SCENE 03</span>
+        <span class="scene-desc">The Atlantic crossing — from SA to Europe in 5 days</span>
+    </div>
+    <div class="voiceover">
+        <div class="voiceover-label">Voiceover</div>
+        After the centenary openers, the World Cup packs its bags and crosses the Atlantic. The main tournament opens on June 13 and 14 in Spain, Portugal and Morocco. Teams that played in South America now fly 10,000 kilometers to continue the same tournament. Five days between matches on different continents. The logistics are staggering.
+    </div>
+    <div class="prompt-label image">Image Prompts (4)</div>
+    <div class="img-grid">
+        <div class="img-item">
+            <div class="label">Prompt A — The transatlantic journey</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a dramatic visual of the Atlantic Ocean with a flight path curving from Montevideo, Uruguay to Barcelona, Spain, a plane icon on the path, a "5 DAYS. 10,000 KM. THE WORLD CUP CROSSES THE ATLANTIC." gold banner, distance markers: "MONTEVIDEO → BARCELONA: 10,200 KM — 12 HOUR FLIGHT", a stickman travel analyst with "TEAMS PLAY IN SOUTH AMERICA ON JUNE 9. THEY PLAY IN EUROPE ON JUNE 13. FIVE DAYS. 10,000 KM. THE LOGISTICS OF THIS TOURNAMENT ARE UNPRECEDENTED." travel speech bubble, stadium floodlights on the transatlantic route, bold text "JUNE 9: MONTEVIDEO. JUNE 13: BARCELONA. 10,000 KM. 5 DAYS. SAME WORLD CUP." at top, high contrast infographic composition</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt B — The time zone challenge</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a world clock visual showing time zones: "MONTEVIDEO: UTC-3 — 8:00 PM KICKOFF", "MADRID: UTC+2 — 9:00 PM KICKOFF", "CASABLANCA: UTC+1 — 8:00 PM KICKOFF", a "5-HOUR TIME DIFFERENCE BETWEEN SOUTH AMERICA AND EUROPE — PLAYERS MUST ADAPT IN DAYS" note, a stickman player with a jet lag clock, bleary eyes, a "I PLAYED IN URUGUAY ON SATURDAY. NOW I'M IN SPAIN ON THURSDAY. MY BODY DOESN'T KNOW WHAT TIME IT IS. BUT THE MATCH DOESN'T CARE." tired speech bubble, stadium floodlights on the time zone map, bold text "UTC-3 → UTC+2. 5 HOUR SHIFT. BODY CLOCKS BROKEN. MATCHES DON'T WAIT." at bottom, high contrast infographic composition</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt C — The double-prep problem</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a split screen showing two different training sessions: left side "SOUTH AMERICAN PREP — SUMMER IN MONTEVIDEO — 25°C — HUMID" with stickman players training in warm conditions, right side "EUROPEAN PREP — SUMMER IN MADRID — 35°C — DRY" with stickman players training in heat, a gap between them labeled "THE SAME TEAM. DIFFERENT CLIMATES. DIFFERENT CONTINENTS. SAME TOURNAMENT." a stickman sports scientist with "PREPARING FOR A WORLD CUP IS HARD ENOUGH IN ONE LOCATION. NOW TEAMS MUST PREPARE FOR TWO DIFFERENT CLIMATES, TWO DIFFERENT TIME ZONES, TWO DIFFERENT CONTINENTS. THE SCIENTIFIC DEMAND IS EXTRAORDINARY." science speech bubble, stadium floodlights on the split-screen prep, bold text "MONTEVIDEO 25°C HUMID → MADRID 35°C DRY. SAME TEAM. DIFFERENT WORLDS." at top, high contrast infographic composition</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt D — The World Cup caravan</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a caravan visual: the World Cup trophy loaded onto a plane, followed by team buses, equipment trucks, broadcast vans, all crossing the Atlantic on a map, a "THE WORLD CUP CARAVAN — THE ENTIRE TOURNAMENT PACKS UP AND MOVES ACROSS THE OCEAN" label, a stickman logistics coordinator with "I'VE WORKED ON FIVE WORLD CUPS. NOTHING PREPARED ME FOR THIS. WE'RE MOVING AN ENTIRE TOURNAMENT ACROSS AN OCEAN. STADIUMS. TEAMS. BROADCAST EQUIPMENT. TICKET OFFICES. EVERYTHING. MID-TOURNAMENT." exhausted speech bubble, stadium floodlights on the moving caravan, bold text "ENTIRE TOURNAMENT MOVES MID-STREAM. STADIUMS, TEAMS, BROADCAST — ALL CROSS THE ATLANTIC." at top, high contrast infographic composition</div>
+        </div>
+    </div>
+    <div class="prompt-label video">AI Video Prompts (4)</div>
+    <div class="img-grid">
+        <div class="vid-item">
+            <div class="label">Video A — Flight path animation</div>
+            <div class="text">Atlantic Ocean flight path Montevideo to Barcelona, plane icon, distance markers 10200 km 12 hours, analyst says unprecedented logistics, 6-flight path, one-time with hold</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video B — Time zone animation</div>
+            <div class="text">World clock UTC-3 Montevideo 8PM, UTC+2 Madrid 9PM, UTC+1 Casablanca 8PM, player jet lagged says body doesn't know time, 5-time zone, seamless loop</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video C — Double prep animation</div>
+            <div class="text">Split screen Montevideo 25C humid vs Madrid 35C dry, same team different climates, scientist says extraordinary demand, 6-double prep, one-time with hold</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video D — Caravan animation</div>
+            <div class="text">WC trophy on plane team buses equipment trucks crossing Atlantic map, coordinator says moving entire tournament mid-stream, 5-caravan, seamless loop</div>
+        </div>
+    </div>
+</div>
+
+<!-- SCENE 04 -->
+<div class="scene">
+    <div class="scene-header">
+        <span class="scene-num">SCENE 04</span>
+        <span class="scene-desc">The three European/African hosts</span>
+    </div>
+    <div class="voiceover">
+        <div class="voiceover-label">Voiceover</div>
+        Once the tournament lands in Europe and Africa, play continues across Spain, Portugal and Morocco. Spain brings the biggest venues — Camp Nou, Santiago Bernabéu, Metropolitano. Portugal offers the passionate Estádio da Luz and Estádio do Dragão. Morocco debuts the stunning Hassan II Stadium. Three nations, two continents, one World Cup.
+    </div>
+    <div class="prompt-label image">Image Prompts (4)</div>
+    <div class="img-grid">
+        <div class="img-item">
+            <div class="label">Prompt A — Spain's stadium lineup</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a row of Spain's iconic stadiums: Camp Nou in Barcelona "105,000 CAPACITY — LARGEST IN EUROPE", Santiago Bernabéu in Madrid "84,000 — RETRACTABLE ROOF — STADIUM OF THE FUTURE", Metropolitano in Madrid "70,000 — ATLÉTICO'S HOME", a "SPAIN HOSTS THE MAIN TOURNAMENT WITH SOME OF THE WORLD'S GREATEST STADIUMS" gold banner, a stickman Spanish fan with "FROM THE NOU CAMP TO THE BERNABÉU. FROM BARCELONA TO MADRID. SPAIN IS READY TO WELCOME THE WORLD. THIS IS OUR MOMENT." proud speech bubble, stadium floodlights on the Spanish stadiums, bold text "CAMP NOU. BERNABÉU. METROPOLITANO. THREE OF THE WORLD'S GREATEST STADIUMS. ALL IN SPAIN." at top, high contrast infographic composition</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt B — Portugal's passion</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a lineup of Portugal's World Cup venues: Estádio da Luz in Lisbon "65,000 CAPACITY — BENFICA'S HOME — THE LIGHT", Estádio do Dragão in Porto "50,000 — PORTO'S HOME", a "PORTUGAL — SMALL COUNTRY, HUGE FOOTBALL HEART" label, a stickman Portuguese fan waving a Portugal flag, "PORTUGAL IS NOT THE BIGGEST HOST. BUT OUR PASSION IS THE BIGGEST. THE WORLD CUP COMES TO OUR SHORES AND WE WILL SHOW THE WORLD WHAT PORTUGUESE FOOTBALL REALLY MEANS." passionate speech bubble, stadium floodlights on Portugal's venues, bold text "ESTÁDIO DA LUZ. ESTÁDIO DO DRAGÃO. PORTUGAL'S PASSION. SMALL NATION. HUGE HEART." at bottom, high contrast infographic composition</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt C — Morocco's debut</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, the grand Stade Hassan II in Casablanca, Morocco's new 95,000-capacity stadium, architectural details with Moroccan design elements, modern floodlights, a "MOROCCO DEBUTS THE STADE HASSAN II — 95,000 CAPACITY — AFRICA'S LARGEST STADIUM" gold label, a stickman Moroccan fan in traditional attire holding a Morocco flag, "MOROCCO HAS WAITED DECADES FOR THIS. AFTER THE QUARTERFINALS IN 2026, WE NOW HOST THE WORLD. THE HASSAN II STADIUM IS OUR GIFT TO FOOTBALL." proud speech bubble, stadium floodlights on the massive stadium, bold text "STADE HASSAN II, CASABLANCA. MOROCCO'S WORLD CUP DREAM. 95,000 SEATS. AFRICA'S CATHEDRAL." at top, high contrast infographic composition</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt D — Two continents united</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a map of the Strait of Gibraltar showing Europe and Africa separated by just 14 km of water, Spain on the north side, Morocco on the south side, a bridge icon connecting them labeled "THE 2030 WORLD CUP — THE BRIDGE BETWEEN CONTINENTS", a "14 KM BETWEEN EUROPE AND AFRICA — THE CLOSEST TWO CONTINENTS GET IN THE WORLD CUP" note, a stickman commentator with "SPAIN AND MOROCCO ARE SEPARATED BY JUST 14 KILOMETERS. FANS CAN WATCH A MATCH IN TANGIER AND BE IN MADRID IN HOURS. THE 2030 WORLD CUP IS TRULY A FESTIVAL OF TWO CONTINENTS." commentator speech bubble, stadium floodlights on the strait, bold text "14 KM BETWEEN EUROPE AND AFRICA. THE CLOSEST TWO CONTINENTS HAVE EVER BEEN IN WC HISTORY." at top, high contrast infographic composition</div>
+        </div>
+    </div>
+    <div class="prompt-label video">AI Video Prompts (4)</div>
+    <div class="img-grid">
+        <div class="vid-item">
+            <div class="label">Video A — Spain stadiums animation</div>
+            <div class="text">Row of Camp Nou Bernabeu Metropolitano with capacities, Spanish fan says Spain ready to welcome world our moment, 6-spain, one-time with hold</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video B — Portugal animation</div>
+            <div class="text">Estadio da Luz Estadio do Dragao, Portuguese fan says passion biggest, 5-portugal, seamless loop</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video C — Morocco animation</div>
+            <div class="text">Hassan II Casablanca 95000 Moroccan design, Moroccan fan says gift to football, 6-morocco, one-time with hold</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video D — Gibraltar animation</div>
+            <div class="text">Strait of Gibraltar map Europe north Africa south, 14km bridge icon, commentator says true festival of two continents, 5-gibraltar, seamless loop</div>
+        </div>
+    </div>
+</div>
+
+<!-- SCENE 05 -->
+<div class="scene">
+    <div class="scene-header">
+        <span class="scene-num">SCENE 05</span>
+        <span class="scene-desc">The broadcast challenge — three time zones</span>
+    </div>
+    <div class="voiceover">
+        <div class="voiceover-label">Voiceover</div>
+        For broadcasters, this tournament is a nightmare. Matches in South America kick off in the evening local time, which is early morning in Europe. Matches in Europe kick off in prime time, which is afternoon in the Americas. And matches in Morocco sit on a different time zone again. FIFA has to schedule everything to maximize global viewership.
+    </div>
+    <div class="prompt-label image">Image Prompts (4)</div>
+    <div class="img-grid">
+        <div class="img-item">
+            <div class="label">Prompt A — The global broadcast clock</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a world clock showing simultaneous times across three continents: "MONTEVIDEO: 8:00 PM — PRIME TIME SA" in gold, "MADRID: 1:00 AM (NEXT DAY) — LATE NIGHT EUROPE" in blue, "TOKYO: 8:00 AM — MORNING ASIA" in red, a "FIFA MUST SCHEDULE MATCHES TO MAXIMIZE GLOBAL VIEWERSHIP — IMPOSSIBLE MATH" note, a stickman broadcaster with a "THREE TIME ZONES MEAN THREE DIFFERENT PRIME TIMES. SOME MATCHES WILL BE AT 3 AM FOR MILLIONS OF FANS. THE BROADCAST PUZZLE IS THE MOST COMPLEX IN WC HISTORY." broadcaster speech bubble, stadium floodlights on the world clock, bold text "MONTEVIDEO 8PM = MADRID 1AM = TOKYO 8AM. SOMEONE ALWAYS WATCHES AT 3AM." at top, high contrast infographic composition</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt B — The early morning SA match</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a split screen: left side "SOUTH AMERICA — 8:00 PM — ELECTRIC ATMOSPHERE — FANS IN STADIUM ROCKING" showing a packed stadium with floodlights, right side "EUROPE — 1:00 AM — FANS AT HOME — COFFEE IN HAND — DARK LIVING ROOM" showing a stickman fan watching on TV at night with coffee, a "EUROPEAN FANS STAY UP PAST MIDNIGHT TO WATCH THE SA OPENERS. WORTH IT." note, a stickman European fan with a "THE SOUTH AMERICAN OPENERS KICK OFF AT 1 AM IN MADRID. I'LL BE THERE. COFFEE IN HAND. PYJAMAS ON. THIS IS HISTORY." dedicated speech bubble, stadium floodlights on the night owl fan, bold text "SA FANS: EVENING PARTY. EUROPEAN FANS: MIDNIGHT COFFEE. THE WORLD ADAPTS." at bottom, high contrast infographic composition</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt C — The European prime time</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a split screen: left side "EUROPE — 9:00 PM — PEAK VIEWING — STADIUM ROARING" showing a packed Camp Nou, right side "AMERICAS — 3:00 PM — AFTERNOON VIEWING — FANS AT WORK/BAR" showing stickman fans watching on phones at work and in bars, a "EUROPEAN PRIME TIME IS THE GOLDEN SLOT — BILLIONS WATCH" note, a stickman American fan with "THE EUROPEAN MATCHES ARE AT 3 PM FOR US. PERFECT FOR WATCHING AT WORK. MY BOSS WILL UNDERSTAND. IT'S THE WORLD CUP." strategic speech bubble, stadium floodlights on the afternoon viewer, bold text "EUROPE 9PM = USA 3PM. THE AFTERNOON WORLD CUP. PERFECT FOR WORK BREAKS." at top, high contrast infographic composition</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt D — The time zone matrix</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a complex matrix grid showing: rows of time zones "UTC-3 (SA)", "UTC+1 (MOROCCO)", "UTC+2 (EUROPE)", columns of match slots "EARLY SLOT — 12PM UTC", "MID SLOT — 3PM UTC", "PRIME SLOT — 7PM UTC", "LATE SLOT — 9PM UTC", each cell shows which region gets prime time and which gets early morning, a "FIFA'S SCHEDULING NIGHTMARE — NO PERFECT SOLUTION EXISTS" note, a stickman FIFA scheduler with a "EVERY TIME ZONE SOLUTION ANNOYS SOMEONE. AFRICA WANTS PRIME TIME. ASIA WANTS MORNING. EUROPE WANTS EVENING. AMERICAS WANTS AFTERNOON. SOMEONE WILL ALWAYS WATCH AT 4 AM." stressed speech bubble, stadium floodlights on the complex matrix, bold text "NO PERFECT TIME EXISTS. SOMEONE WATCHES AT 4AM. THE SCHEDULER'S NIGHTMARE." at top, high contrast infographic composition</div>
+        </div>
+    </div>
+    <div class="prompt-label video">AI Video Prompts (4)</div>
+    <div class="img-grid">
+        <div class="vid-item">
+            <div class="label">Video A — World clock animation</div>
+            <div class="text">World clock Montevideo 8PM Madrid 1AM Tokyo 8AM, broadcaster says complex puzzle in history, 6-world clock, one-time with hold</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video B — Early morning animation</div>
+            <div class="text">Split SA 8PM electric packed vs Europe 1AM coffee dark room, fan says history in pyjamas, 5-early, seamless loop</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video C — Prime time animation</div>
+            <div class="text">Split Europe 9PM packed Camp Nou vs Americas 3PM phones at work bars, American fan says perfect work break, 6-prime, one-time with hold</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video D — Matrix animation</div>
+            <div class="text">Grid UTC-3 UTC+1 UTC+2, match slots early mid prime late, scheduler says no perfect solution someone watches at 4 AM, 5-matrix, seamless loop</div>
+        </div>
+    </div>
+</div>
+
+<!-- SCENE 06 -->
+<div class="scene">
+    <div class="scene-header">
+        <span class="scene-num">SCENE 06</span>
+        <span class="scene-desc">The travel schedule for teams</span>
+    </div>
+    <div class="voiceover">
+        <div class="voiceover-label">Voiceover</div>
+        For the teams, this is a logistical marathon. A team that opens in South America and progresses deep into the tournament could travel over 25,000 kilometers. Buenos Aires to Madrid. Madrid to Casablanca. Casablanca back to Barcelona for the final. This is the most physically demanding World Cup ever.
+    </div>
+    <div class="prompt-label image">Image Prompts (4)</div>
+    <div class="img-grid">
+        <div class="img-item">
+            <div class="label">Prompt A — The 25,000 km journey</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a world map tracing a team's potential journey: BUENOS AIRES → MADRID → CASABLANCA → BARCELONA, each leg labeled with distance and flight time, total at bottom "TOTAL POTENTIAL TRAVEL: 25,000+ KM — HALFWAY AROUND THE EARTH", a stickman team walking off a plane looking exhausted, a "A TEAM THAT REACHES THE FINAL COULD FLY THE EQUIVALENT OF ROUND-TRIP TO THE MOON AND BACK" staggering note, a stickman travel analyst with "25,000 KILOMETERS. THAT'S LIKE FLYING FROM LONDON TO SYDNEY AND BACK. DURING A WORLD CUP. WHILE PLAYING FOOTBALL. ABSOLUTELY UNPRECEDENTED." analyst speech bubble, stadium floodlights on the global journey, bold text "25,000 KM. HALFWAY AROUND THE EARTH. ALL WHILE PLAYING THE HARDEST FOOTBALL OF YOUR LIFE." at top, high contrast infographic composition</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt B — The base camp dilemma</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a "TEAM BASE CAMP DILEMMA" diagram: Option A "ONE BASE CAMP — STAY IN SPAIN — FLY TO SA FOR OPENER THEN RETURN" with plane icons showing back-and-forth flights, Option B "TWO BASE CAMPS — SA BASE THEN EUROPE BASE — MOVE ENTIRE SQUAD MID-TOURNAMENT" showing two separate camp locations, pros and cons of each, a "NO TEAM HAS EVER HAD TO DECIDE WHERE TO 'LIVE' DURING A WORLD CUP MID-TOURNAMENT" note, a stickman team manager with "WE'VE NEVER FACED THIS DECISION. DO WE SET UP ONE CAMP AND FLY BACK AND FORTH? OR DO WE PACK EVERYTHING AND MOVE MID-TOURNAMENT? EITHER WAY, SOMEONE IS UNHAPPY AND TIRED." manager speech bubble, stadium floodlights on the base camp dilemma, bold text "ONE CAMP OR TWO? FLY BACK OR MOVE? THE MOST LOGISTICAL DECISION IN WC HISTORY." at bottom, high contrast infographic composition</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt C — The recovery time problem</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a timeline showing: "JUNE 9: MATCH IN MONTEVIDEO — 90 MINUTES + EXTRA TIME + TRAVEL", "JUNE 10: TRAVEL DAY — 12 HOUR FLIGHT TO MADRID", "JUNE 11: RECOVERY + ADAPTATION — LIGHT TRAINING", "JUNE 12: FINAL PREPARATION — TACTICAL SESSION", "JUNE 13: MATCH IN MADRID — 90 MINUTES", a "5 DAYS BETWEEN MATCHES INCLUDING 10,000 KM OF TRAVEL" note, a stickman physio with "NORMALLY, TEAMS HAVE 4-5 DAYS BETWEEN MATCHES. THAT'S FOR RECOVERY ALONE. NOW THEY HAVE TO TRAVEL 10,000 KM IN THAT WINDOW. RECOVERY BECOMES SECONDARY." physio speech bubble, stadium floodlights on the tight timeline, bold text "5 DAYS. 10,000 KM TRAVEL. 2 MATCHES ON DIFFERENT CONTINENTS. RECOVERY? NOT PRIORITY." at top, high contrast infographic composition</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt D — The advantage for European/S.A. teams</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a "WHO BENEFITS FROM THIS FORMAT?" analysis: "SOUTH AMERICAN TEAMS — ALREADY IN SA FOR OPENER — THEN TRAVEL TO EUROPE WHERE MANY PLAYERS ARE BASED — FAMILIAR ENVIRONMENT" with a thumbs up icon, "EUROPEAN TEAMS — OPEN IN EUROPE — ONLY CROSS TO MOROCCO (14KM) — MINIMAL TRAVEL" with a thumbs up icon, "ASIAN/AFRICAN TEAMS — MUST TRAVEL TO SA FOR OPENER — THEN TO EUROPE — DOUBLE JOURNEY" with a stressed icon, a stickman analyst with "THE FORMAT IMBALANCE IS CLEAR. SOUTH AMERICAN AND EUROPEAN TEAMS HAVE A LOGISTICAL ADVANTAGE. TEAMS FROM ASIA AND AFRICA FACE A MUCH HARDER JOURNEY. IS THIS FAIR?" analysis speech bubble, stadium floodlights on the advantage analysis, bold text "SA & EUROPE TEAMS: ADVANTAGE. ASIA & AFRICA TEAMS: DOUBLE JOURNEY. IS THIS FAIR?" at top, high contrast infographic composition</div>
+        </div>
+    </div>
+    <div class="prompt-label video">AI Video Prompts (4)</div>
+    <div class="img-grid">
+        <div class="vid-item">
+            <div class="label">Video A — Journey animation</div>
+            <div class="text">Map tracing Buenos Aires Madrid Casablanca Barcelona, 25000km total, analyst says half way around earth, 6-journey, one-time with hold</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video B — Base camp animation</div>
+            <div class="text">Option A one camp Spain fly SA return vs Option B two camps move squad, manager says unprecedented decision, 5-base camp, seamless loop</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video C — Recovery animation</div>
+            <div class="text">Timeline June 9 match Montevideo to June 13 match Madrid, travel day 12 hour flight, physio says recovery becomes secondary, 6-recovery, one-time with hold</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video D — Advantage animation</div>
+            <div class="text">SA teams thumbs up, European teams thumbs up, Asian African teams stressed double journey, analyst asks is this fair, 5-advantage, seamless loop</div>
+        </div>
+    </div>
+</div>
+
+<!-- SCENE 07 -->
+<div class="scene">
+    <div class="scene-header">
+        <span class="scene-num">SCENE 07</span>
+        <span class="scene-desc">The fan travel question</span>
+    </div>
+    <div class="voiceover">
+        <div class="voiceover-label">Voiceover</div>
+        For fans, the three-continent format is a nightmare or a dream. A nightmare because following your team across three continents costs a fortune. A dream because you get three World Cup experiences in one. South American passion. European sophistication. African energy. One tournament, three distinct football cultures.
+    </div>
+    <div class="prompt-label image">Image Prompts (4)</div>
+    <div class="img-grid">
+        <div class="img-item">
+            <div class="label">Prompt A — The superfan's journey</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a stickman superfan with a giant backpack, passport in hand, a map marking three destinations: "MONTEVIDEO — JUNE 8", "MADRID — JUNE 15", "CASABLANCA — JUNE 22", a calculator showing "$15,000+ ESTIMATED COST — FLIGHTS, ACCOMMODATION, TICKETS", a "FOLLOWING YOUR TEAM ACROSS THREE CONTINENTS COSTS MORE THAN A CAR" note, a stickman superfan with a mix of excitement and exhaustion, "I'VE SAVED FOR FOUR YEARS. I'M SELLING MY CAR. BUT I WILL WATCH MY TEAM PLAY ON THREE CONTINENTS. THIS IS A ONCE IN A LIFETIME TRIP. LITERALLY. I CAN'T AFFORD TO DO IT TWICE." dedicated speech bubble, stadium floodlights on the superfan's journey, bold text "3 CONTINENTS. 15,000 KM. $15,000+. THE SUPERFAN'S DREAM OR NIGHTMARE." at top, high contrast infographic composition</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt B — Three football cultures</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, three panels showing different fan cultures: "SOUTH AMERICA — DRUMS, FLARES, CHANTS, TIFOS — 90 MINUTES OF NON-STOP NOISE — RELIGIOUS ATMOSPHERE" with stickman fans jumping and singing, "EUROPE — CHOREOGRAPHY, SONG, ORGANIZED SUPPORT — MODERN STADIUMS — SOPHISTICATED ATMOSPHERE" with stickman fans doing coordinated displays, "AFRICA — DANCING, VUVUZELAS, COLORFUL ATTIRE — JOYFUL CELEBRATION — COMMUNITY ENERGY" with stickman fans dancing in colorful attire, a "THREE CONTINENTS. THREE ATMOSPHERES. ONE TOURNAMENT." unifying banner, a stickman cultural commentator with "YOU'LL EXPERIENCE THREE COMPLETELY DIFFERENT FOOTBALL CULTURES IN ONE WORLD CUP. THE DRUMS OF SOUTH AMERICA. THE CHOREOGRAPHY OF EUROPE. THE DANCE OF AFRICA. THIS IS THE WORLD CUP AS A GLOBAL FESTIVAL." cultural speech bubble, stadium floodlights on the three cultures, bold text "DRUMS. CHOREOGRAPHY. DANCE. THREE FOOTBALL CULTURES. ONE INCREDIBLE TOURNAMENT." at bottom, high contrast infographic composition</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt C — The armchair traveler</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a stickman fan at home on a couch with snacks, a giant TV showing three different World Cup matches in split screen from three continents, a "FOR MOST FANS, THIS IS THE SOLUTION — WATCH FROM HOME, EXPERIENCE THE WORLD" note, virtual watch party icons connecting fans across continents, a "THE WORLD CUP BRINGS THE WORLD TO YOUR LIVING ROOM — THREE CONTINENTS, ONE TV" label, a stickman home viewer with a "I CAN'T AFFORD TO TRAVEL TO THREE CONTINENTS. BUT MY COUCH IS COMFORTABLE. I'LL WATCH MONTEVIDEO IN THE MORNING, MADRID IN THE AFTERNOON, CASABLANCA IN THE EVENING. ALL FROM MY LIVING ROOM." cozy speech bubble, stadium floodlights on the home setup, bold text "MONTEVIDEO MORNING. MADRID AFTERNOON. CASABLANCA EVENING. ALL FROM YOUR COUCH." at top, high contrast infographic composition</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt D — The ultimate road trip</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a "THE ULTIMATE WORLD CUP ROAD TRIP" itinerary in a passport: "JUNE 8: MONTEVIDEO, URUGUAY — CENTENARY OPENER", "JUNE 10-12: EXPLORE SOUTH AMERICA", "JUNE 13: FLY TO MADRID, SPAIN — MAIN TOURNAMENT BEGINS", "JUNE 14-20: TOUR SPAIN/PORTUGAL MATCHES", "JUNE 22: CROSS TO MOROCCO — HASSAN II STADIUM", "JULY 21: FINAL IN SPAIN", a "THREE CONTINENTS IN 44 DAYS. THE GREATEST FOOTBALL ADVENTURE EVER." gold stamp, a stickman traveler with a "I'VE BOOKED FLIGHTS TO THREE CONTINENTS. I'VE SAVED FOR YEARS. BUT I WILL EXPERIENCE A WORLD CUP LIKE NO ONE BEFORE ME. THREE WORLDS. ONE DREAM. THIS IS MY JOURNEY." adventurous speech bubble, stadium floodlights on the passport itinerary, bold text "44 DAYS. 3 CONTINENTS. 6 NATIONS. THE GREATEST FOOTBALL ROAD TRIP IN HISTORY." at top, high contrast infographic composition</div>
+        </div>
+    </div>
+    <div class="prompt-label video">AI Video Prompts (4)</div>
+    <div class="img-grid">
+        <div class="vid-item">
+            <div class="label">Video A — Superfan animation</div>
+            <div class="text">Superfan backpack passport map Montevideo Madrid Casablanca, calculator 15000+, fan says once in lifetime selling car, 6-superfan, one-time with hold</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video B — Cultures animation</div>
+            <div class="text">Three panels SA drums flares, Europe choreography song, Africa dance vuvuzelas, commentator says global festival, 5-cultures, seamless loop</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video C — Armchair animation</div>
+            <div class="text">Fan couch TV split screen three continents, virtual watch party, viewer says all from living room, 6-armchair, one-time with hold</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video D — Road trip animation</div>
+            <div class="text">Passport itinerary Montevideo Madrid Casablanca final, adventurer says greatest road trip in history, 5-road trip, seamless loop</div>
+        </div>
+    </div>
+</div>
+
+<!-- SCENE 08 -->
+<div class="scene">
+    <div class="scene-header">
+        <span class="scene-num">SCENE 08</span>
+        <span class="scene-desc">The 64-team question makes this harder</span>
+    </div>
+    <div class="voiceover">
+        <div class="voiceover-label">Voiceover</div>
+        Now imagine adding 64 teams to this three-continent puzzle. More teams means more matches. More matches means more venues. More venues means more travel. If FIFA expands to 64 teams for 2030, the logistical challenge goes from unprecedented to impossible. The three-continent format is beautiful in theory. With 64 teams, it becomes a nightmare.
+    </div>
+    <div class="prompt-label image">Image Prompts (4)</div>
+    <div class="img-grid">
+        <div class="img-item">
+            <div class="label">Prompt A — 64 teams on three continents</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a world map with 64 tiny team icons spread across three continents, South America swarming with icons, Europe packed, Morocco crowded, a "64 TEAMS ACROSS THREE CONTINENTS = LOGISTICAL CHAOS" warning label, airline routes crisscrossing everywhere, a stickman logistics expert looking overwhelmed, "64 TEAMS ON THREE CONTINENTS MEANS THOUSANDS OF FLIGHTS. HUNDREDS OF BUS JOURNEYS. STADIUMS BOOKED SOLID FOR 45 DAYS. THE INFRASTRUCTURE DEMAND IS BEYOND ANYTHING SPORT HAS EVER SEEN." overwhelmed speech bubble, stadium floodlights on the chaotic map, bold text "64 TEAMS. 3 CONTINENTS. THOUSANDS OF FLIGHTS. INFRASTRUCTURE DEMAND OFF THE CHARTS." at top, high contrast infographic composition</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt B — The 23-stadium problem</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a "23 STADIUMS ACROSS 6 NATIONS" diagram, stadium icons scattered across Argentina, Uruguay, Paraguay, Spain, Portugal, Morocco, connecting lines showing distances, a "23 STADIUMS IS MORE THAN ANY PREVIOUS WORLD CUP — 2026 HAD 16" comparison, a "EACH STADIUM NEEDS SECURITY, TRANSPORT, BROADCAST INFRASTRUCTURE" checklist, a stickman stadium manager with "23 STADIUMS ACROSS THREE CONTINENTS. EACH WITH DIFFERENT LAWS, DIFFERENT LANGUAGES, DIFFERENT CURRENCIES. THE COORDINATION REQUIRED IS UNPRECEDENTED." manager speech bubble, stadium floodlights on the scattered stadiums, bold text "23 STADIUMS. 6 NATIONS. 3 CONTINENTS. 4 CURRENCIES. COORDINATION NIGHTMARE." at bottom, high contrast infographic composition</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt C — The infrastructure gap</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a comparison of infrastructure across the three hosting regions: "SOUTH AMERICA — EXISTING STADIUMS NEED RENOVATION — TRANSPORT INFRASTRUCTURE DEVELOPING" with a construction icon, "EUROPE — MODERN STADIUMS — EXCELLENT TRANSPORT — HIGH-SPEED RAIL CONNECTIONS" with a train icon, "MOROCCO — NEW STADIUMS BEING BUILT — EXPANDING AIRPORT CAPACITY — HIGH-SPEED RAIL TO CITIES" with a building icon, a "EACH CONTINENT HAS DIFFERENT INFRASTRUCTURE READINESS LEVELS" note, a stickman infrastructure analyst with "SOUTH AMERICA NEEDS RENOVATION. EUROPE IS READY. MOROCCO IS BUILDING. THREE DIFFERENT READINESS LEVELS. THREE DIFFERENT APPROACHES. AND THEY ALL MUST BE READY BY 2030." analyst speech bubble, stadium floodlights on the infrastructure comparison, bold text "SA: RENOVATING. EUROPE: READY. MOROCCO: BUILDING. THREE DIFFERENT STORIES. ONE DEADLINE." at top, high contrast infographic composition</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt D — Why it's worth it</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a "WHY THREE CONTINENTS IS WORTH THE CHAOS" counter-argument card: "CENTENARY CELEBRATION — HONORING THE 1930 WORLD CUP IN ITS BIRTHPLACE" with a trophy icon, "GLOBAL REACH — THE WORLD CUP TRULY SPANS THE GLOBE — MORE FANS ENGAGED THAN EVER" with a globe icon, "UNITY — THREE CONTINENTS COMING TOGETHER FOR ONE TOURNAMENT — FOOTBALL AS A BRIDGE" with a handshake icon, a "FOR THE FIRST TIME IN HISTORY, THE WORLD CUP LITERALLY BELONGS TO THE WORLD" gold closing note, a stickman optimist with "YES, IT'S CHAOTIC. YES, IT'S EXPENSIVE. YES, THE LOGISTICS ARE NIGHTMARISH. BUT THE SYMBOLISM OF THREE CONTINENTS SHARING ONE WORLD CUP IS THE MOST BEAUTIFUL STATEMENT FOOTBALL HAS EVER MADE." optimistic speech bubble, stadium floodlights on the hopeful message, bold text "CHAOS IS WORTH IT. THREE CONTINENTS. ONE WORLD CUP. ONE HUMANITY. THIS IS FOOTBALL." at top, high contrast infographic composition</div>
+        </div>
+    </div>
+    <div class="prompt-label video">AI Video Prompts (4)</div>
+    <div class="img-grid">
+        <div class="vid-item">
+            <div class="label">Video A — 64 teams chaos animation</div>
+            <div class="text">World map 64 team icons three continents airline crisscross, logistics expert overwhelmed says beyond anything ever seen, 6-64 chaos, one-time with hold</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video B — Stadiums animation</div>
+            <div class="text">23 stadium icons scattered across 6 nations, connecting lines, manager says coordination unprecedented, 5-stadiums, seamless loop</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video C — Infrastructure animation</div>
+            <div class="text">SA renovating icon, Europe ready train, Morocco building new, analyst says three different readiness same deadline, 6-infrastructure, one-time with hold</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video D — Worth it animation</div>
+            <div class="text">Trophy globe handshake icons, centenary celebration global reach unity, optimist says beautiful statement football ever made, 5-worth it, seamless loop</div>
+        </div>
+    </div>
+</div>
+
+<!-- SCENE 09 -->
+<div class="scene">
+    <div class="scene-header">
+        <span class="scene-num">SCENE 09</span>
+        <span class="scene-desc">What this means for the future</span>
+    </div>
+    <div class="voiceover">
+        <div class="voiceover-label">Voiceover</div>
+        The three-continent format could be a one-off for the centenary. Or it could be the future. If this works, future World Cups might spread across even more nations and continents. Saudi Arabia in 2034 is one country. But after 2030, anything seems possible. The genie is out of the bottle. World Cups will never be simple again.
+    </div>
+    <div class="prompt-label image">Image Prompts (4)</div>
+    <div class="img-grid">
+        <div class="img-item">
+            <div class="label">Prompt A — The future of World Cup hosting</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a timeline showing World Cup hosting trends: "1930-1998: SINGLE NATION HOSTS" with one flag icon per World Cup, "2002: TWO NATIONS (JAPAN/KOREA)", "2026: THREE NATIONS (USA/CANADA/MEXICO)", "2030: SIX NATIONS, THREE CONTINENTS", a "EACH WORLD CUP EXPANDS THE HOSTING CONCEPT — WHERE DOES IT GO NEXT?" question mark at the end, a stickman futurist with "IN 1930, ONE NATION HOSTED. IN 2030, SIX NATIONS ON THREE CONTINENTS. IN 2050, COULD WE SEE A WORLD CUP HOSTED BY EVERY CONTINENT SIMULTANEOUSLY? THE TREND IS CLEAR — BIGGER AND MORE SPREAD." futurist speech bubble, stadium floodlights on the hosting timeline, bold text "SINGLE NATION → SIX NATIONS → THREE CONTINENTS. THE HOSTING CONCEPT KEEPS EXPANDING." at top, high contrast infographic composition</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt B — The commercial appeal</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a "WHY FIFA LOVES MULTI-CONTINENT HOSTING" analysis: "MORE BROADCAST SLOTS ACROSS TIME ZONES — 24-HOUR WORLD CUP COVERAGE" with a TV icon, "MORE SPONSORSHIP OPPORTUNITIES — EACH CONTINENT HAS DIFFERENT SPONSOR MARKETS" with a money icon, "MORE GOVERNMENT INVESTMENT — MULTIPLE NATIONS COMPETE TO HOST — FIFA GETS BETTER DEALS" with a building icon, a stickman business analyst with "FROM A COMMERCIAL PERSPECTIVE, THREE CONTINENTS IS A DREAM. SPONSORS GET THREE DIFFERENT MARKETS. BROADCASTERS GET 24-HOUR COVERAGE. FIFA GETS MULTIPLE GOVERNMENTS COMPETING TO IMPRESS THEM." business speech bubble, stadium floodlights on the commercial appeal, bold text "24-HOUR COVERAGE. 3 SPONSOR MARKETS. MULTIPLE GOVERNMENTS. FIFA'S COMMERCIAL DREAM." at bottom, high contrast infographic composition</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt C — The environmental cost</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a carbon footprint visual showing: "THOUSANDS OF FLIGHTS ACROSS CONTINENTS", "CARBON EMISSIONS: ESTIMATED 2.5M+ TONS CO2", "COMPARISON: EQUIVALENT TO 500,000 CARS DRIVEN FOR A YEAR", with a CO2 cloud icon growing larger, a "THE MOST EXPANSIVE WORLD CUP IS ALSO THE MOST ENVIRONMENTALLY DAMAGING" warning note, a stickman environmental analyst with "WE CELEBRATE THE THREE-CONTINENT FORMAT AS A SYMBOL OF UNITY. BUT THE ENVIRONMENTAL COST IS STAGGERING. THOUSANDS OF EXTRA FLIGHTS. THOUSANDS OF TONS OF CO2. IS THIS THE MESSAGE WE WANT TO SEND?" environmental speech bubble, stadium floodlights on the carbon footprint, bold text "2.5M+ TONS CO2. THOUSANDS OF EXTRA FLIGHTS. THE ENVIRONMENTAL COST OF GLOBAL AMBITION." at top, high contrast infographic composition</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt D — The legacy question</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a "WHAT LEGACY DOES A THREE-CONTINENT WORLD CUP LEAVE?" question card: "SOUTH AMERICA — RENOVATED STADIUMS, IMPROVED INFRASTRUCTURE, TOURISM BOOST", "EUROPE — ALREADY MODERN INFRASTRUCTURE, BUT INCREASED INTERNATIONAL PROFILE", "MOROCCO — BRAND NEW STADIUMS, AIRPORT EXPANSIONS, HIGH-SPEED RAIL, TOURISM REVOLUTION", a "EACH CONTINENT GETS A DIFFERENT LEGACY — THE FIRST UNEVEN LEGACY WORLD CUP" note, a stickman legacy analyst with "THIS IS THE FIRST WORLD CUP WHERE THE LEGACY ISN'T THE SAME FOR ALL HOSTS. MOROCCO GETS INFRASTRUCTURE TRANSFORMATION. EUROPE GETS A PARTY. SOUTH AMERICA GETS A RENOVATION. THREE DIFFERENT LEGACIES. ONE TOURNAMENT." analyst speech bubble, stadium floodlights on the legacy question, bold text "DIFFERENT LEGACIES FOR DIFFERENT CONTINENTS. THE FIRST UNEVEN LEGACY WORLD CUP." at top, high contrast infographic composition</div>
+        </div>
+    </div>
+    <div class="prompt-label video">AI Video Prompts (4)</div>
+    <div class="img-grid">
+        <div class="vid-item">
+            <div class="label">Video A — Future timeline animation</div>
+            <div class="text">Timeline single to six nations three continents, futurist says trend bigger more spread, 6-future, one-time with hold</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video B — Commercial animation</div>
+            <div class="text">24 hour coverage icon, 3 sponsor markets money, multiple govts buildings, analyst says FIFA's commercial dream, 5-commercial, seamless loop</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video C — Environmental animation</div>
+            <div class="text">CO2 cloud thousands flights 2.5M tons, analyst says environmental cost staggering, 6-environmental, one-time with hold</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video D — Legacy animation</div>
+            <div class="text">SA renovated stadiums, Europe international profile, Morocco new infra tourism, analyst says different legacies, 5-legacy, seamless loop</div>
+        </div>
+    </div>
+</div>
+
+<!-- SCENE 10 -->
+<div class="scene">
+    <div class="scene-header">
+        <span class="scene-num">SCENE 10</span>
+        <span class="scene-desc">Closing — The most ambitious World Cup ever</span>
+    </div>
+    <div class="voiceover">
+        <div class="voiceover-label">Voiceover</div>
+        The 2030 World Cup is the most ambitious tournament in history. Three continents. Six nations. 100 years of history honored with the most geographically spread celebration football has ever seen. It's chaotic. It's expensive. It's logistically insane. But it's also beautiful. The World Cup finally belongs to the entire world. And that's worth celebrating.
+    </div>
+    <div class="prompt-label image">Image Prompts (4)</div>
+    <div class="img-grid">
+        <div class="img-item">
+            <div class="label">Prompt A — The three-continent trophy</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, the World Cup trophy sitting at the center of a three-continent world map, South America Europe and Africa illuminated around it, golden rays radiating from the trophy to each continent, a "THE WORLD CUP BELONGS TO THE ENTIRE WORLD — THREE CONTINENTS. ONE TROPHY. ONE HUMANITY." epic gold banner, a stickman narrator with a "THE TROPHY THAT STARTED IN ONE SMALL STADIUM IN URUGUAY NOW BELONGS TO THREE CONTINENTS. THE WORLD CUP HAS FINALLY BECOME A TRULY GLOBAL CELEBRATION. AND IT IS BEAUTIFUL." epic speech bubble, stadium floodlights on the trophy radiating across the world, bold text "THREE CONTINENTS. ONE TROPHY. ONE HUMANITY. THE WORLD CUP BELONGS TO EVERYONE." at top, high contrast infographic composition</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt B — The emotional farewell</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a stickman narrator looking out at a sunset over the Atlantic Ocean, the three continents' silhouettes visible on the horizon, a "FROM MONTEVIDEO TO MADRID TO CASABLANCA — THE 2030 WORLD CUP JOURNEY" caption, a globe spinning showing the three hosting continents, a "NOBODY HAS EVER DONE THIS BEFORE. BUT AFTER 2030, EVERYONE WILL WANT TO." prophetic note, a stickman narrator with a "ONE HUNDRED YEARS FROM THE FIRST KICK IN MONTEVIDEO, THE WORLD CUP FINALLY CAME HOME — TO THREE HOMES. SOUTH AMERICA. EUROPE. AFRICA. UNITED BY THE BEAUTIFUL GAME." emotional speech bubble, stadium floodlights on the sunset horizon, bold text "1930: ONE STADIUM. 2030: THREE CONTINENTS. THE BEAUTIFUL GAME FINALLY BELONGS TO THE WORLD." at bottom, high contrast infographic composition</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt C — The numbers recap</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a "THE 2030 WORLD CUP BY THE NUMBERS" infographic: "3 CONTINENTS", "6 NATIONS", "23 STADIUMS", "44+ DAYS", "64 TEAMS (PROPOSED)", "128+ MATCHES (PROPOSED)", "25,000+ KM TRAVEL", "100 YEARS OF HISTORY", each with an icon, a "THE BIGGEST, MOST SPREAD OUT, MOST AMBITIOUS WORLD CUP EVER" gold label, a stickman statistician with "THREE CONTINENTS. SIX NATIONS. 100 YEARS OF HISTORY. THE 2030 WORLD CUP IS NOT JUST A TOURNAMENT. IT'S THE MOST AMBITIOUS EVENT IN SPORTS HISTORY." statistician speech bubble, stadium floodlights on the infographic, bold text "3 CONTINENTS. 6 NATIONS. 23 STADIUMS. 100 YEARS. THE BIGGEST WC EVER." at top, high contrast infographic composition</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt D — The call to action</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a "THIS IS HISTORY IN THE MAKING — WATCH THE JOURNEY" call to action, a stickman narrator pointing at the viewer, a calendar countdown showing "2030 — 4 YEARS AWAY — START PLANNING NOW", three continents' flags waving side by side: Uruguay, Spain, Morocco, a "SUBSCRIBE TO THE FOOTBALL REPUBLICS — WE'LL FOLLOW THE JOURNEY FROM MONTEVIDEO TO MADRID TO CASABLANCA" gold CTA, a stickman channel host with "THE 2030 WORLD CUP IS FOUR YEARS AWAY. BUT THE JOURNEY STARTS NOW. SUBSCRIBE TO THE FOOTBALL REPUBLICS AND WE'LL FOLLOW THIS INCREDIBLE STORY TOGETHER. FROM THE CENTENARIO TO THE HASSAN II. FROM SOUTH AMERICA TO EUROPE TO AFRICA. THIS IS THE WORLD CUP LIKE NEVER BEFORE." CTA speech bubble, stadium floodlights on the call to action, bold text "SUBSCRIBE. FOLLOW THE JOURNEY. FROM MONTEVIDEO TO MADRID TO CASABLANCA. WE'LL BE THERE." at top, high contrast infographic composition</div>
+        </div>
+    </div>
+    <div class="prompt-label video">AI Video Prompts (4)</div>
+    <div class="img-grid">
+        <div class="vid-item">
+            <div class="label">Video A — Trophy world animation</div>
+            <div class="text">WC trophy center of three-continent map, golden rays to SA Europe Africa, narrator says truly global celebration beautiful, 6-trophy world, one-time with hold</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video B — Farewell animation</div>
+            <div class="text">Sunset Atlantic three continent silhouettes, globe spinning, narrator says finally came home to three homes, 5-farewell, seamless loop</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video C — Numbers animation</div>
+            <div class="text">Infographic 3 continents 6 nations 23 stadiums 44 days 64 teams 128 matches 25000km 100 years, statistician says most ambitious event in sports, 6-numbers, one-time with hold</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video D — CTA animation</div>
+            <div class="text">Calendar 2030 4 years, Uruguay Spain Morocco flags waving, channel host says subscribe follow journey, 5-cta, seamless loop</div>
+        </div>
+    </div>
+</div>
+
+<!-- THUMBNAIL SECTION -->
+<div class="thumbnail-box">
+    <div class="label gold">Thumbnail Design</div>
+    <div class="voiceover">
+        <strong>Thumbnail Text:</strong> "One Tournament. Three Continents. How?"
+    </div>
+    <div class="prompt-label image">Image Prompts (2)</div>
+    <div class="img-grid">
+        <div class="img-item">
+            <div class="label">Thumbnail A — Main concept</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a dramatic world map showing three continents glowing in different colors: South America green "JUNE 8", Europe blue "JUNE 13", Africa orange "JUNE 22", a curved golden arrow showing the tournament path across the Atlantic, the World Cup trophy at the center of the Atlantic with golden rays hitting all three continents, a stickman narrator in the corner with a shocked/excited expression, a "ONE TOURNAMENT. THREE CONTINENTS. HOW?" bold gold text in large font at the bottom, the stickman narrator with a "NEVER IN 100 YEARS OF WORLD CUP HISTORY HAS THIS HAPPENED" speech bubble, high contrast lighting on the continents, the three-continent path is the main visual hook that immediately communicates the unprecedented nature, dark blue background with golden accents for premium feel, high contrast infographic composition</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Thumbnail B — Alternative focus</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a split screen of two iconic stadiums: left side Estadio Centenario in Montevideo with "1930" in sepia text and "SOUTH AMERICA" label, right side Camp Nou in Barcelona with "2030" in bright text and "EUROPE" label, the Atlantic Ocean in the middle with a plane flying across, a "HOW DO YOU PLAY A WORLD CUP ACROSS THREE CONTINENTS?" bold text at bottom in gold, a stickman narrator with a look of amazement, the contrast between the historic and modern stadiums tells the story visually, stadium floodlights illuminating both sides, the Atlantic gap between them creates visual tension, bold text "THE SAME TOURNAMENT. THREE CONTINENTS. HOW IS THIS POSSIBLE?" at top, high contrast infographic composition</div>
+        </div>
+    </div>
+</div>
+
+<!-- SEO SECTION -->
+<div class="seo-grid">
+    <div class="seo-card">
+        <h3>SEO Title</h3>
+        <div class="seo-desc">The 2030 World Cup Starts in South America and Ends in Europe. Nobody Has Ever Done This.</div>
+        <h3>SEO Description</h3>
+        <div class="seo-desc">The 2030 World Cup will be played across three continents for the first time in history. Opening in Uruguay, Argentina and Paraguay before crossing to Spain, Portugal and Morocco. Here's how it works.</div>
+    </div>
+    <div class="seo-card tags">
+        <h3>Tags</h3>
+        <li>WorldCup2030</li>
+        <li>FIFA2030</li>
+        <li>FootballHistory</li>
+        <li>WC2030</li>
+        <li>FIFA</li>
+        <li>Morocco</li>
+        <li>Spain</li>
+        <li>Portugal</li>
+        <li>Uruguay</li>
+        <li>Argentina</li>
+        <li>Paraguay</li>
+        <li>ThreeContinents</li>
+        <li>TheFootballRepublics</li>
+        <li>WorldCup</li>
+        <li>FootballGeography</li>
+    </div>
+</div>
+
+<!-- VOICEOVER NOTES -->
+<div class="vonote" style="margin-top: 1rem;">
+    <h3 style="color: #00e5ff; margin-bottom: 0.5rem; font-size: 1rem;">Voiceover Notes</h3>
+    <ul>
+        <li><strong>Tone:</strong> Excited, curious, slightly awed by the scale of the operation</li>
+        <li><strong>Pacing:</strong> Start fast with the hook, slow down for the explanation sections, build energy toward the closing</li>
+        <li><strong>Key emphasis points:</strong> "Three continents" (repeat for retention), "first time in history" (establish uniqueness), "100 years" (connect to centenary)</li>
+        <li><strong>Estimated duration:</strong> ~3.5 minutes with current voiceover</li>
+        <li><strong>Call to action:</strong> Encourage subscribers to follow the 2030 build-up journey</li>
+    </ul>
+</div>
+
+<footer>TheFootballRepublics — Stickman sports infographic storytelling</footer>
+</div>
+</body>
+</html>
