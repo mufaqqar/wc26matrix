@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ESPN's Way-Too-Early 2030 Power Rankings Just Put Spain First. Here's Who They Think Wins. | TheFootballRepublics</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; background: #0a1628; color: #e0e8f0; padding: 2rem 1rem; }
+.container { max-width: 1000px; margin: 0 auto; }
+h1 { font-size: 2rem; font-weight: 700; color: #00e5ff; margin-bottom: 0.3rem; }
+.subtitle { color: #8899aa; font-size: 1rem; margin-bottom: 2rem; border-left: 4px solid #ff6b35; padding-left: 1rem; }
+.badge { font-size: 0.75rem; font-weight: 600; background: #ff6b35; color: #fff; padding: 0.2rem 0.7rem; border-radius: 20px; display: inline-block; }
+.badge.gold { background: #ff6b35; }
+.badge.blue { background: #0088ff; }
+.badge.image { background: #9b59b6; color: #fff; }
+.badge.video { background: #e74c3c; color: #fff; }
+.section-header { font-size: 1.2rem; font-weight: 600; color: #00e5ff; background: #111d33; padding: 0.7rem 1.2rem; border-radius: 8px; margin-bottom: 1rem; display: flex; align-items: center; gap: 0.6rem; flex-wrap: wrap; }
+.scene { background: #0f1d33; border-radius: 10px; padding: 1.2rem 1.5rem; margin-bottom: 1rem; box-shadow: 0 1px 4px rgba(0,0,0,0.3); border-left: 4px solid #00e5ff; }
+.scene-header { display: flex; align-items: center; gap: 0.8rem; margin-bottom: 0.8rem; flex-wrap: wrap; }
+.scene-num { font-weight: 700; color: #00e5ff; font-size: 0.9rem; }
+.scene-desc { font-style: italic; color: #8899aa; font-size: 0.9rem; }
+.voiceover { background: #0d1a2e; border-radius: 6px; padding: 0.8rem 1rem; margin-top: 0.7rem; font-size: 0.95rem; line-height: 1.6; color: #e0e8f0; border-left: 3px solid #0088ff; }
+.voiceover-label { font-size: 0.75rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; color: #0088ff; margin-bottom: 0.3rem; }
+.prompt-label { font-size: 0.75rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; color: #fff; margin-bottom: 0.2rem; margin-top: 0.6rem; padding: 0.15rem 0.6rem; border-radius: 4px; display: inline-block; }
+.prompt-label.image { background: #9b59b6; }
+.prompt-label.video { background: #e74c3c; }
+.prompt-box { background: #0d1a2e; border-radius: 6px; padding: 0.8rem 1rem; font-size: 0.88rem; line-height: 1.5; color: #99aabb; font-family: 'Courier New', monospace; border-left: 3px solid #00e5ff; white-space: pre-wrap; margin-bottom: 0.5rem; }
+.prompt-box.video-prompt { border-left-color: #e74c3c; background: #1a0d0d; }
+.img-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0.8rem; margin-top: 0.5rem; }
+.img-item { background: #0d1a2e; border-radius: 6px; padding: 0.7rem; border-left: 3px solid #9b59b6; }
+.img-item .label { font-size: 0.7rem; font-weight: 600; color: #9b59b6; margin-bottom: 0.2rem; }
+.img-item .text { font-size: 0.82rem; color: #99aabb; font-family: 'Courier New', monospace; line-height: 1.4; white-space: pre-wrap; }
+.vid-item { background: #1a0d0d; border-radius: 6px; padding: 0.7rem; border-left: 3px solid #e74c3c; }
+.vid-item .label { font-size: 0.7rem; font-weight: 600; color: #e74c3c; margin-bottom: 0.2rem; }
+.vid-item .text { font-size: 0.82rem; color: #99aabb; font-family: 'Courier New', monospace; line-height: 1.4; }
+.thumbnail-box { background: #0f1d33; border-radius: 10px; padding: 1.2rem 1.5rem; box-shadow: 0 1px 4px rgba(0,0,0,0.3); border-left: 4px solid #ff6b35; margin-bottom: 1rem; }
+.thumbnail-box .label { font-size: 0.75rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 0.2rem; }
+.thumbnail-box .label.gold { color: #ff6b35; }
+.thumbnail-box .label.blue { color: #0088ff; }
+.seo-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+.seo-card { background: #0f1d33; border-radius: 10px; padding: 1rem 1.2rem; box-shadow: 0 1px 4px rgba(0,0,0,0.3); }
+.seo-card h3 { font-size: 0.9rem; color: #00e5ff; margin-bottom: 0.5rem; }
+.seo-card ul { list-style: none; }
+.seo-card li { font-size: 0.88rem; color: #99aabb; padding: 0.25rem 0; border-bottom: 1px solid #1a2a44; }
+.seo-card li:last-child { border-bottom: none; }
+.seo-card.tags li { display: inline-block; background: #1a2a44; padding: 0.2rem 0.6rem; border-radius: 4px; margin: 0.2rem; font-size: 0.8rem; border: none; }
+.seo-desc { font-size: 0.85rem; line-height: 1.6; color: #99aabb; margin-bottom: 0.5rem; }
+.vonote { background: #0f1d33; border-radius: 10px; padding: 1.2rem 1.5rem; box-shadow: 0 1px 4px rgba(0,0,0,0.3); }
+.vonote ul { list-style: none; font-size: 0.92rem; line-height: 1.8; color: #99aabb; }
+.meta-row { display: flex; gap: 1rem; flex-wrap: wrap; margin-bottom: 1rem; }
+.meta-tag { background: #1a2a44; padding: 0.3rem 0.8rem; border-radius: 20px; font-size: 0.85rem; }
+.meta-tag.style { background: #1a2a44; color: #00e5ff; border: 1px solid #00e5ff; }
+footer { margin-top: 3rem; text-align: center; font-size: 0.85rem; color: #556677; padding: 1rem 0; }
+@media (max-width: 700px) { .seo-grid { grid-template-columns: 1fr; } .img-grid { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+<div class="container">
+
+<h1>ESPN's Way-Too-Early 2030 Power Rankings Just Put Spain First. Here's Who They Think Wins.</h1>
+<div class="subtitle">Stickman sports infographic style — Clean vector illustrations on dark football stadium backgrounds</div>
+
+<div class="meta-row">
+    <span class="meta-tag">Category: 2030 Predictions</span>
+    <span class="meta-tag">Est Length: ~3 min</span>
+    <span class="meta-tag style">Style: Stickman Infographic</span>
+    <span class="meta-tag">10 Scenes</span>
+    <span class="meta-tag">40 Images</span>
+    <span class="meta-tag">40 Video</span>
+    <span class="meta-tag">~370 words</span>
+</div>
+
+<div class="section-header"><span class="badge gold">📋</span> Storyboard — 10 Scenes</div>
+
+<!-- SCENE 01 -->
+<div class="scene">
+<div class="scene-header"><span class="scene-num">SCENE 01</span><span class="badge blue">HOOK</span><span class="scene-desc">ESPN ranked 2030 and Spain tops the list</span></div>
+<div class="voiceover"><div class="voiceover-label">🎙️ VOICE OVER</div>ESPN just ranked the 2030 World Cup favorites. Four years away. Way too early, and everybody cares. Spain are number one. But the list hides the real story — rebuilding giants, rising dark horses, and questions nobody can answer yet. Let's break down every contender.</div>
+<div class="prompt-label image">🖼️ IMAGE PROMPTS</div>
+<div class="img-grid">
+<div class="img-item"><div class="label">Image 01</div><div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a giant leaderboard titled "ESPN WAY-TOO-EARLY 2030 POWER RANKINGS" with Spain flag at the #1 slot in gold, stickman broadcaster pointing at the board, stadium floodlights on the top spot, speech bubble: "Spain. Number one.", high contrast infographic composition</div></div>
+<div class="img-item"><div class="label">Image 02</div><div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a clock labeled "4 YEARS UNTIL 2030" spinning fast while the leaderboard sits confidently, stickman fan raising an eyebrow, stadium floodlights on the impossible timing, speech bubble: "Way too early? Absolutely.", high contrast infographic composition</div></div>
+<div class="img-item"><div class="label">Image 03</div><div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a comments bar filling with debate emoji and flags beneath the rankings, stickman host reading the flood of responses, stadium floodlights on the arguing crowd, speech bubble: "Everyone's arguing already", high contrast infographic composition</div></div>
+<div class="img-item"><div class="label">Image 04</div><div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a pile of nation flags rising behind the ranking list as contenders, stickman analyst fanning them out, stadium floodlights on the contenders, speech bubble: "Ten stories behind the list", high contrast infographic composition</div></div>
+</div>
+<div class="prompt-label video">🎬 VIDEO PROMPTS</div>
+<div class="img-grid">
+<div class="vid-item"><div class="label">Video 01</div><div class="text">Leaderboard pops with Spain gold at #1. 5s. One-time with hold.</div></div>
+<div class="vid-item"><div class="label">Video 02</div><div class="text">Four-year clock spins while board stays still. 5s. Seamless loop.</div></div>
+<div class="vid-item"><div class="label">Video 03</div><div class="text">Comment icons flood the board with debate emoji. 5s. Seamless loop.</div></div>
+<div class="vid-item"><div class="label">Video 04</div><div class="text">Analyst fans out a stack of contender flags. 5s. One-time with hold.</div></div>
+</div>
+</div>
+
+<!-- SCENE 02 -->
+<div class="scene">
+<div class="scene-header"><span class="scene-num">SCENE 02</span><span class="badge blue">SPAIN</span><span class="scene-desc">Spain — the golden generation at its peak</span></div>
+<div class="voiceover"><div class="voiceover-label">🎙️ VOICE OVER</div>Spain first, and it's easy to see why. Their 2026 core peaks exactly in 2030. Yamal at 23. Pedri 27. Gavi 27. Hosts in 2030. Defending champions. Same stadiums, same generation, same system. That's not arrogance — it's simply the strongest hand on the table.</div>
+<div class="prompt-label image">🖼️ IMAGE PROMPTS</div>
+<div class="img-grid">
+<div class="img-item"><div class="label">Image 01</div><div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a golden-age roster card with ages hitting peak: "YAMAL 23", "PEDRI 27", "GAVI 27", all glowing at prime, stickman Spain fan pointing proudly, stadium floodlights on the peak ages, speech bubble: "The peak lines up exactly", high contrast infographic composition</div></div>
+<div class="img-item"><div class="label">Image 02</div><div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a calendar showing 2030 with a "HOME WORLD CUP" stamp, Spain flags waving from Spanish stadiums, stickman host captain waving, stadium floodlights on home soil, speech bubble: "Hosts. At home. In prime.", high contrast infographic composition</div></div>
+<div class="img-item"><div class="label">Image 03</div><div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a champions shield stacked with "2026 DEFENDING CHAMPION" gold banner beside it, stickman trophy guard polishing the shield, stadium floodlights on the title defense, speech bubble: "Already the reining champs", high contrast infographic composition</div></div>
+<div class="img-item"><div class="label">Image 04</div><div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a poker table with Spain pushing a huge stack labeled "THE BEST HAND", other nations' stacks smaller, stickman dealer nodding, stadium floodlights on the dominant hand, speech bubble: "Strongest hand. Simple.", high contrast infographic composition</div></div>
+</div>
+<div class="prompt-label video">🎬 VIDEO PROMPTS</div>
+<div class="img-grid">
+<div class="vid-item"><div class="label">Video 01</div><div class="text">Ages light up at prime on the golden roster card. 5s. One-time with hold.</div></div>
+<div class="vid-item"><div class="label">Video 02</div><div class="text">HOME WORLD CUP stamp lands on the 2030 calendar. 5s. One-time with hold.</div></div>
+<div class="vid-item"><div class="label">Video 03</div><div class="text">Defending champion shield gleams beside the title banner. 5s. Seamless loop.</div></div>
+<div class="vid-item"><div class="label">Video 04</div><div class="text">Spain pushes the biggest poker stack to center. 5s. One-time with hold.</div></div>
+</div>
+</div>
+
+<!-- SCENE 03 -->
+<div class="scene">
+<div class="scene-header"><span class="scene-num">SCENE 03</span><span class="badge blue">FRANCE</span><span class="scene-desc">France — Mbappé at 27, rebuilt around him</span></div>
+<div class="voiceover"><div class="voiceover-label">🎙️ VOICE OVER</div>France slot high. A 27-year-old Mbappé is the best version of himself. The squad rebuilds young around him, with a flooding talent pool. But France's ceiling depends on one question: can the supporting cast match Mbappé's level in the biggest games?</div>
+<div class="prompt-label image">🖼️ IMAGE PROMPTS</div>
+<div class="img-grid">
+<div class="img-item"><div class="label">Image 01</div><div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a Mbappé silhouette at age 27 glowing at the center of a "PERFECT PEAK" target, stickman French scout pointing at the bullseye, stadium floodlights on the prime star, speech bubble: "27 is the best Mbappé", high contrast infographic composition</div></div>
+<div class="img-item"><div class="label">Image 02</div><div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a French youth talent river filling around a central star, new stickman stars rising from the stream, stadium floodlights on the French pipeline, speech bubble: "The talent keeps coming", high contrast infographic composition</div></div>
+<div class="img-item"><div class="label">Image 03</div><div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, the star at the center with a question mark over the supporting cast positions, stickman coach assessing the circle, stadium floodlights sharp on the gap, speech bubble: "The real question: the cast", high contrast infographic composition</div></div>
+<div class="img-item"><div class="label">Image 04</div><div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a final-scene spotlight: the star and new teammates stepping under the KO lights, "BIG GAME TEST" label, stadium floodlights tense, speech bubble: "The biggest games decide", high contrast infographic composition</div></div>
+</div>
+<div class="prompt-label video">🎬 VIDEO PROMPTS</div>
+<div class="img-grid">
+<div class="vid-item"><div class="label">Video 01</div><div class="text">Mbappé silhouette glows inside a perfect-peak target. 5s. One-time with hold.</div></div>
+<div class="vid-item"><div class="label">Video 02</div><div class="text">French talent river fills around the central star. 5s. Seamless loop.</div></div>
+<div class="vid-item"><div class="label">Video 03</div><div class="text">Question mark hovers over the supporting cast circle. 5s. Seamless loop.</div></div>
+<div class="vid-item"><div class="label">Video 04</div><div class="text">Star steps under the expected big-game spotlights. 5s. One-time with hold.</div></div>
+</div>
+</div>
+
+<!-- SCENE 04 -->
+<div class="scene">
+<div class="scene-header"><span class="scene-num">SCENE 04</span><span class="badge blue">BRAZIL</span><span class="scene-desc">Brazil — back in real contention</span></div>
+<div class="voiceover"><div class="voiceover-label">🎙️ VOICE OVER</div>Brazil climbed back into genuine contention. A new generation finally answered the call after a shaky 2026. Real depth, real playmakers, a traditional football nation rebuilding its swagger. The samba revival is bubbling — and 2030 is their window to prove it.</div>
+<div class="prompt-label image">🖼️ IMAGE PROMPTS</div>
+<div class="img-grid">
+<div class="img-item"><div class="label">Image 01</div><div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, Brazil climbing up the rankings ladder with a golden "RISING" arrow, stickman Brazilian fan cheering the ascent, stadium floodlights on the climb, speech bubble: "Back into real contention", high contrast infographic composition</div></div>
+<div class="img-item"><div class="label">Image 02</div><div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, the new generation answering: young samba player icons stepping forward where the old guard stood, "NEW ERA ANSWERS" banner, stadium floodlights on the fresh faces, speech bubble: "The kids answered the call", high contrast infographic composition</div></div>
+<div class="img-item"><div class="label">Image 03</div><div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, creative playmaker icons glowing across the Brazilian midfield, samba rhythm notes floating, stadium floodlights warm on the artistry, speech bubble: "Swagger is back", high contrast infographic composition</div></div>
+<div class="img-item"><div class="label">Image 04</div><div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a golden window calendar for 2030 with a Samba drum beat icon, stickman Brazilian player beating the drum, stadium floodlights on the open window, speech bubble: "2030 is the window", high contrast infographic composition</div></div>
+</div>
+<div class="prompt-label video">🎬 VIDEO PROMPTS</div>
+<div class="img-grid">
+<div class="vid-item"><div class="label">Video 01</div><div class="text">Brazil climbs the ranking ladder with a rising arrow. 6s. One-time with hold.</div></div>
+<div class="vid-item"><div class="label">Video 02</div><div class="text">New generation steps forward past the old guard. 5s. One-time with hold.</div></div>
+<div class="vid-item"><div class="label">Video 03</div><div class="text">Playmaker icons pulse across the midfield with samba notes. 5s. Seamless loop.</div></div>
+<div class="vid-item"><div class="label">Video 04</div><div class="text">2030 window glows as samba drum beats pulse. 5s. Seamless loop.</div></div>
+</div>
+</div>
+
+<!-- SCENE 05 -->
+<div class="scene">
+<div class="scene-header"><span class="scene-num">SCENE 05</span><span class="badge blue">ARGENTINA</span><span class="scene-desc">Argentina — the post-Messi question</span></div>
+<div class="voiceover"><div class="voiceover-label">🎙️ VOICE OVER</div>Argentina is the biggest unknown. The post-Messi era is coming. Their 2026 core ages out, and without the greatest ever, who carries the battles? Argentina will stay dangerous — but the rankings have to guess at life after the king, and nobody really knows the answer.</div>
+<div class="prompt-label image">🖼️ IMAGE_PROMPTS</div>
+<div class="img-grid">
+<div class="img-item"><div class="label">Image 01</div><div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, an empty throne with a crown floating above it and a "POST-MESSI" question mark on the seat, stickman Argentine fan looking up, stadium floodlights shimmering on the empty throne, speech bubble: "Life after the king", high contrast infographic composition</div></div>
+<div class="img-item"><div class="label">Image 02</div><div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a generation-clock showing the 2026 core's candles dimming, young Argentina faces stepping out of the dark, stickman scout holding up options, stadium floodlights on the transition, speech bubble: "Does anyone carry the baton?", high contrast infographic composition</div></div>
+<div class="img-item"><div class="label">Image 03</div><div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a wedding of unknowns: Argentina still dangerous with battling icons ready, "STILL DANGEROUS" label, stickman analyst hedging, stadium floodlights steady on the fight, speech bubble: "Never count Argentina out", high contrast infographic composition</div></div>
+<div class="img-item"><div class="label">Image 04</div><div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a crystal ball with fog and a huge question mark above Argentina's flag, stickman ranking host shrugging, stadium floodlights on the mysterious future, speech bubble: "The biggest unknown", high contrast infographic composition</div></div>
+</div>
+<div class="prompt-label video">🎬 VIDEO PROMPTS</div>
+<div class="img-grid">
+<div class="vid-item"><div class="label">Video 01</div><div class="text">Empty throne holds a floating crown and question mark. 5s. Seamless loop.</div></div>
+<div class="vid-item"><div class="label">Video 02</div><div class="text">Generation clock dims the 2026 core as young faces emerge. 6s. One-time with hold.</div></div>
+<div class="vid-item"><div class="label">Video 03</div><div class="text">Dangerous battle icons keep moving under Argentina flag. 5s. Seamless loop.</div></div>
+<div class="vid-item"><div class="label">Video 04</div><div class="text">Crystal ball fills with fog and a big question mark. 5s. One-time with hold.</div></div>
+</div>
+</div>
+
+<!-- SCENE 06 -->
+<div class="scene">
+<div class="scene-header"><span class="scene-num">SCENE 06</span><span class="badge blue">ENGLAND</span><span class="scene-desc">England — Tuchel or a new era</span></div>
+<div class="voiceover"><div class="voiceover-label">🎙️ VOICE OVER</div>England sit there with more potential than certainty. Tuchel or a new manager by 2030 — and a golden midfield that's still growing. England always have the talent to win it in theory. In practice, they keep coming up one game short. 2030 is another chance to change that script.</div>
+<div class="prompt-label image">🖼️ IMAGE PROMPTS</div>
+<div class="img-grid">
+<div class="img-item"><div class="label">Image 01</div><div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a manager seat with two name plates spinning: "TUCHEL" → "OR A NEW ERA", stickman FA official picking between plates, stadium floodlights on the jumper seat, speech bubble: "Coach? Unknown. Talent? Yes.", high contrast infographic composition</div></div>
+<div class="img-item"><div class="label">Image 02</div><div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a luxurious English midfield diamond glowing with creative young stickmen, "A GOLDEN MIDFIELD" label, stadium floodlights on the diamond, speech bubble: "The engine room is elite", high contrast infographic composition</div></div>
+<div class="img-item"><div class="label">Image 03</div><div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a "SO CLOSE AGAIN" trophy-just-missed moment with English players at the edge of glory, stickman fan with hand over face, stadium floodlights on the near miss, speech bubble: "One step short. Again.", high contrast infographic composition</div></div>
+<div class="img-item"><div class="label">Image 04</div><div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, an open book titled "ENGLAND 2030 — REWRITE THE SCRIPT" with a blank final page, stickman writer holding a pen, stadium floodlights on the blank page, speech bubble: "2030: rewrite the ending", high contrast infographic composition</div></div>
+</div>
+<div class="prompt-label video">🎬 VIDEO PROMPTS</div>
+<div class="img-grid">
+<div class="vid-item"><div class="label">Video 01</div><div class="text">Manager seat nameplate spins between TUCHEL and NEW ERA. 5s. One-time with hold.</div></div>
+<div class="vid-item"><div class="label">Video 02</div><div class="text">Midfield diamond glows with creative young players. 5s. Seamless loop.</div></div>
+<div class="vid-item"><div class="label">Video 03</div><div class="text">Trophy-miss replay shows England just short'. 5s. Seamless loop.</div></div>
+<div class="vid-item"><div class="label">Video 04</div><div class="text">Blank final page waits under the 2030 book title. 5s. Seamless loop.</div></div>
+</div>
+</div>
+
+<!-- SCENE 07 -->
+<div class="scene">
+<div class="scene-header"><span class="scene-num">SCENE 07</span><span class="badge blue">PORTUGAL</span><span class="scene-desc">Portugal — the end of an era, and new deputies</span></div>
+<div class="voiceover"><div class="voiceover-label">🎙️ VOICE OVER</div>Portugal's list entry reads like a warning. Bruno Fernandes, Bernardo Silva, Rúben Dias, João Cancelo — all 32 or older by 2030. The Ronaldo-Fernandes era is ending. Portugal need deputies for all of them, or the transition swallows a golden generation of their own.</div>
+<div class="prompt-label image">🖼️ IMAGE PROMPTS</div>
+<div class="img-grid">
+<div class="img-item"><div class="label">Image 01</div><div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, four aging star name cards "BRUNO", "BERNARDO", "RÚBEN", "CANCELO" each with clock past 32, stickman coach checking the ages, stadium floodlights on the ticking star cards, speech bubble: "All 32 by 2030", high contrast infographic composition</div></div>
+<div class="img-item"><div class="label">Image 02</div><div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a sunset silhouette of the Ronaldo-Fernandes era walking off the pitch, "AN ERA ENDS" label, stadium floodlights warm but dimming, speech bubble: "A golden era walks away", high contrast infographic composition</div></div>
+<div class="img-item"><div class="label">Image 03</div><div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, empty deputy slots on the Portuguese formation with "DEPUTIES NEEDED" flashing, stickman manager searching the squad, stadium floodlights on the vacant posts, speech bubble: "Who replaces the engine?", high contrast infographic composition</div></div>
+<div class="img-item"><div class="label">Image 04</div><div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a transition bridge from a golden past to a built future with young Portuguese fillers stepping in, "TRAIN THE REPLACEMENTS" banner, stadium floodlights on the bridge, speech bubble: "The transition is the test", high contrast infographic composition</div></div>
+</div>
+<div class="prompt-label video">🎬 VIDEO PROMPTS</div>
+<div class="img-grid">
+<div class="vid-item"><div class="label">Video 01</div><div class="text">Four star name cards tick past age 32. 5s. One-time with hold.</div></div>
+<div class="vid-item"><div class="label">Video 02</div><div class="text">Two silhouettes walk off into an era-ending sunset. 5s. Seamless loop.</div></div>
+<div class="vid-item"><div class="label">Video 03</div><div class="text">DEPUTIES NEEDED flashes on empty formation slots. 5s. Seamless loop.</div></div>
+<div class="vid-item"><div class="label">Video 04</div><div class="text">Young replacements cross the transition bridge. 5s. One-time with hold.</div></div>
+</div>
+</div>
+
+<!-- SCENE 08 -->
+<div class="scene">
+<div class="scene-header"><span class="scene-num">SCENE 08</span><span class="badge blue">DARK HORSES</span><span class="scene-desc">Dark horses — Norway, Morocco, the USA</span></div>
+<div class="voiceover"><div class="voiceover-label">🎙️ VOICE OVER</div>The dark horses are the fun part. Norway at 19th in the rankings, with Haaland at 30 — the predator at peak hunger. Morocco, sixth in the world, co-hosts in 2030. And a USA side four years more experienced under Pochettino. Flip a coin — any of these could crash the top four.</div>
+<div class="prompt-label image">🖼️ IMAGE PROMPTS</div>
+<div class="img-grid">
+<div class="img-item"><div class="label">Image 01</div><div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, three "DARK HORSE" cards: Norway 19th, Morocco 6th, USA Experienced, each with a rising arrow, stickman commentator fanning the cards, stadium floodlights on the trio, speech bubble: "Three horses at the gate", high contrast infographic composition</div></div>
+<div class="img-item"><div class="label">Image 02</div><div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, Haaland silhouette at 30 with a hungry predator icon, Norway flag roaring behind, stickman striker licking lips, stadium floodlights hungry red, speech bubble: "Haaland at peak hunger", high contrast infographic composition</div></div>
+<div class="img-item"><div class="label">Image 03</div><div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, Morocco sixth in the world with a home World Cup grip over the list, Atlas Lion icon, stadium floodlights on the 2030 hosts, speech bubble: "Sixth. And at home.", high contrast infographic composition</div></div>
+<div class="img-item"><div class="label">Image 04</div><div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a coin flip over three flags — Norway, Morocco, USA — each showing a chance to crash the top four, stickman fan watching the toss, stadium floodlights on the gamble, speech bubble: "Any of them could shock the top four", high contrast infographic composition</div></div>
+</div>
+<div class="prompt-label video">🎬 VIDEO PROMPTS</div>
+<div class="img-grid">
+<div class="vid-item"><div class="label">Video 01</div><div class="text">Three dark-horse cards raise with rising arrows. 5s. One-time with hold.</div></div>
+<div class="vid-item"><div class="label">Video 02</div><div class="text">Haaland predator icon growls at the peak-hunger mark. 5s. Seamless loop.</div></div>
+<div class="vid-item"><div class="label">Video 03</div><div class="text">Morocco flag grips the 2030 home cup. 5s. Seamless loop.</div></div>
+<div class="vid-item"><div class="label">Video 04</div><div class="text">Coin flip hovers over the three dark-horse flags. 5s. One-time with hold.</div></div>
+</div>
+</div>
+
+<!-- SCENE 09 -->
+<div class="scene">
+<div class="scene-header"><span class="scene-num">SCENE 09</span><span class="badge blue">GERMANY</span><span class="scene-desc">Germany — the teenage rebuild nobody can rank</span></div>
+<div class="voiceover"><div class="voiceover-label">🎙️ VOICE OVER</div>Germany are the wildcard of the whole list. Sixteen under-21 players, a new system, a four-year bet. ESPN can't rank a team still being built. If the kids mature, Germany climb the list fast. If they don't, they vanish from it entirely. That's why they're the hardest team to place.</div>
+<div class="prompt-label image">🖼️ IMAGE PROMPTS</div>
+<div class="img-grid">
+<div class="img-item"><div class="label">Image 01</div><div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a wildcard symbol "?" the size of a German flag on the rankings board, stickman ranking editor erasing and rewriting the slot, stadium floodlights flickering on the spot, speech bubble: "Can't rank a building project", high contrast infographic composition</div></div>
+<div class="img-item"><div class="label">Image 02</div><div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, sixteen teenage icons ranked as a block with an "UNKNOWN CEILING" banner, stickman coach holding the block, stadium floodlights on the mystery squad, speech bubble: "The whole block's an unknown", high contrast infographic composition</div></div>
+<div class="img-item"><div class="label">Image 03</div><div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a rocket icon with two arrows: up labeled "KIDS MATURE", down labeled "PROJECT FAILS", stickman fan watching both rockets, stadium floodlights on the fork, speech bubble: "Up, or gone entirely", high contrast infographic composition</div></div>
+<div class="img-item"><div class="label">Image 04</div><div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, an "UNRANKABLE" stamp being placed over Germany's slot with caution tape, stickman editor shrugging at the tape, stadium floodlights on the caution zone, speech bubble: "ESPN's hardest slot", high contrast infographic composition</div></div>
+</div>
+<div class="prompt-label video">🎬 VIDEO PROMPTS</div>
+<div class="img-grid">
+<div class="vid-item"><div class="label">Video 01</div><div class="text">Wildcard question erases and rewrites the Germany slot. 5s. Seamless loop.</div></div>
+<div class="vid-item"><div class="label">Video 02</div><div class="text">Sixteen teenage icons form an unknown-ceiling block. 5s. One-time with hold.</div></div>
+<div class="vid-item"><div class="label">Video 03</div><div class="text">Rocket goes both up and down along the fork. 5s. One-time with hold.</div></div>
+<div class="vid-item"><div class="label">Video 04</div><div class="text">UNRANKABLE stamp lands with caution tape over the slot. 5s. One-time with hold.</div></div>
+</div>
+</div>
+
+<!-- SCENE 10 -->
+<div class="scene">
+<div class="scene-header"><span class="scene-num">SCENE 10</span><span class="badge blue">CLOSING</span><span class="scene-desc">The rankings are early. The arguing is eternal.</span></div>
+<div class="voiceover"><div class="voiceover-label">🎙️ VOICE OVER</div>Here's the truth about ESPN's list — it's four years too early and four years too perfect to ignore. Spain top it today. But tournaments are won by the teams that grow fastest, not the teams ranked highest. The 2030 winner is probably not on this list yet. That's what makes it so much fun to argue about.</div>
+<div class="prompt-label image">🖼️ IMAGE PROMPTS</div>
+<div class="img-grid">
+<div class="img-item"><div class="label">Image 01</div><div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, the ranking board dissolving into a cloud of flags swirling, stickman analyst caught mid-argument with a fan, stadium floodlights chaotic on the blowing-up board, speech bubble: "Four years. Nothing is fixed.", high contrast infographic composition</div></div>
+<div class="img-item"><div class="label">Image 02</div><div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a speed race metaphor: two teams — ranked #1 slow turtle vs unranked fast hare, the hare overtaking the trophy, stickman fan pointing at the upset, stadium floodlights on the overtake, speech bubble: "Growth beats rankings", high contrast infographic composition</div></div>
+<div class="img-item"><div class="label">Image 03</div><div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a blank trophy with a silhouette emerging from the deep dark of an unranked nation, stickman seer peering out, stadium floodlights aiming at the mystery silhouette, speech bubble: "The real 2030 winner is hidden", high contrast infographic composition</div></div>
+<div class="img-item"><div class="label">Image 04</div><div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a giant "LET'S ARGUE" banner over the rankings with fans raising flags and cups, stadium floodlights partying on the debate, speech bubble: "Arguing is half the fun", high contrast infographic composition</div></div>
+</div>
+<div class="prompt-label video">🎬 VIDEO PROMPTS</div>
+<div class="img-grid">
+<div class="vid-item"><div class="label">Video 01</div><div class="text">Ranking board scatters into a swirl of flags. 6s. One-time with hold.</div></div>
+<div class="vid-item"><div class="label">Video 02</div><div class="text">Fast hare overtakes the slow-ranked-turtle to the trophy. 5s. One-time with hold.</div></div>
+<div class="vid-item"><div class="label">Video 03</div><div class="text">Silhouette rises from darkness toward the blank trophy. 5s. Seamless loop.</div></div>
+<div class="vid-item"><div class="label">Video 04</div><div class="text">LET'S ARGUE banner drops, crowd waves flags. 5s. Seamless loop.</div></div>
+</div>
+</div>
+
+<div class="section-header"><span class="badge gold">🖼️</span> Thumbnail</div>
+
+<div class="thumbnail-box">
+<div class="label gold">📸 THUMBNAIL PROMPT</div>
+<div class="prompt-box">stickman sports infographic style, giant ESPN-style power ranking board with Spain's flag glowing gold at #1, bold white text "2030 POWER RANKINGS" at top with red text "WAY TOO EARLY. LET'S ARGUE." below, stickman analyst pointing at the board with a challenge gesture, other flags in a blur of debate behind, stadium floodlights on the board, high contrast infographic composition, vibrant cyan and orange color scheme, YouTube thumbnail optimized, 16:9 aspect ratio</div>
+</div>
+
+<div class="thumbnail-box">
+<div class="label blue">📸 THUMBNAIL ALTERNATE</div>
+<div class="prompt-box">stickman sports infographic style, stacked podium with Spain at gold #1, France silver, Brazil bronze and a question mark for the rest, bold white text "SPAIN #1" and red "FOR 2030?", stickman fan arguing with a host beside the podium, stadium floodlights on the podium, high contrast infographic composition, 16:9 YouTube thumbnail ratio</div>
+</div>
+
+<div class="section-header"><span class="badge gold">🔍</span> SEO &amp; Metadata</div>
+
+<div class="seo-grid">
+<div class="seo-card">
+<h3>📌 SEO Title</h3>
+<div class="seo-desc">ESPN's Way-Too-Early 2030 Power Rankings Put Spain First — Full Breakdown | TheFootballRepublics</div>
+<h3>📝 SEO Description</h3>
+<div class="seo-desc">ESPN's early 2030 World Cup power rankings put Spain on top. We break down the full top 10 — Spain's golden generation peaking, Mbappé at 27, Brazil's revival, post-Messi Argentina, England, Portugal's transition, and the dark horses plus Germany's teenage wildcard.</div>
+</div>
+<div class="seo-card tags">
+<h3>🏷️ Hashtags / Tags</h3>
+<li>#WorldCup2030</li>
+<li>#FIFA2030</li>
+<li>#Spain</li>
+<li>#France</li>
+<li>#Brazil</li>
+<li>#WC2030</li>
+<li>#TheFootballRepublics</li>
+<li>#PowerRankings</li>
+<li>#FootballPredictions</li>
+<li>#ESPN</li>
+<li>#Argentina</li>
+<li>#Germany</li>
+</div>
+</div>
+
+<div class="section-header"><span class="badge gold">🎙️</span> Voiceover Notes</div>
+
+<div class="vonote">
+<ul>
+<li><strong>Tone:</strong> Playful, opinionated, debating-nature — this is a rankings video, the whole point is the argument</li>
+<li><strong>Pacing:</strong> Punchy hook on the list, one fast beat per contender nation, a shift for the dark horses, strong opinionated close</li>
+<li><strong>Key phrases:</strong> "Way too early", "Spain on top", "the post-Messi question", "all 32 by 2030", "the wildcard", "growth beats rankings"</li>
+<li><strong>Emphasis:</strong> Sell the "way too early, everybody argues" framing as the engine. Name-check each nation crisply so fans hear their country in the middle of the video</li>
+<li><strong>Music:</strong> Bouncy energetic sports debate track, a beat for each nation reveal</li>
+<li><strong>SFX:</strong> Leaderboard slot snap, coin flip for the dark horses, rocket whoosh for Germany, banner drop on LET'S ARGUE</li>
+<li><strong>Runtime target:</strong> 2:45 – 3:15</li>
+</ul>
+</div>
+
+<footer>
+    TheFootballRepublics — WC26 Storyboard · Idea 129 · ESPN 2030 Power Rankings Breakdown<br>
+    Stickman Sports Infographic Style · 10 Scenes · 40 Images · 40 Video Prompts
+</footer>
+
+</div>
+</body>
+</html>

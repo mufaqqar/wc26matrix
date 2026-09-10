@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>UEFA Is Boycotting FIFA Events. The World Cup Is Already Breaking Apart. | TheFootballRepublics</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; background: #0a1628; color: #e0e8f0; padding: 2rem 1rem; }
+.container { max-width: 1000px; margin: 0 auto; }
+h1 { font-size: 2rem; font-weight: 700; color: #00e5ff; margin-bottom: 0.3rem; }
+.subtitle { color: #8899aa; font-size: 1rem; margin-bottom: 2rem; border-left: 4px solid #ff6b35; padding-left: 1rem; }
+.badge { font-size: 0.75rem; font-weight: 600; background: #ff6b35; color: #fff; padding: 0.2rem 0.7rem; border-radius: 20px; display: inline-block; }
+.badge.gold { background: #ff6b35; }
+.badge.blue { background: #0088ff; }
+.badge.image { background: #9b59b6; color: #fff; }
+.badge.video { background: #e74c3c; color: #fff; }
+.section-header { font-size: 1.2rem; font-weight: 600; color: #00e5ff; background: #111d33; padding: 0.7rem 1.2rem; border-radius: 8px; margin-bottom: 1rem; display: flex; align-items: center; gap: 0.6rem; flex-wrap: wrap; }
+.scene { background: #0f1d33; border-radius: 10px; padding: 1.2rem 1.5rem; margin-bottom: 1rem; box-shadow: 0 1px 4px rgba(0,0,0,0.3); border-left: 4px solid #00e5ff; }
+.scene-header { display: flex; align-items: center; gap: 0.8rem; margin-bottom: 0.8rem; flex-wrap: wrap; }
+.scene-num { font-weight: 700; color: #00e5ff; font-size: 0.9rem; }
+.scene-desc { font-style: italic; color: #8899aa; font-size: 0.9rem; }
+.voiceover { background: #0d1a2e; border-radius: 6px; padding: 0.8rem 1rem; margin-top: 0.7rem; font-size: 0.95rem; line-height: 1.6; color: #e0e8f0; border-left: 3px solid #0088ff; }
+.voiceover-label { font-size: 0.75rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; color: #0088ff; margin-bottom: 0.3rem; }
+.prompt-label { font-size: 0.75rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; color: #fff; margin-bottom: 0.2rem; margin-top: 0.6rem; padding: 0.15rem 0.6rem; border-radius: 4px; display: inline-block; }
+.prompt-label.image { background: #9b59b6; }
+.prompt-label.video { background: #e74c3c; }
+.prompt-box { background: #0d1a2e; border-radius: 6px; padding: 0.8rem 1rem; font-size: 0.88rem; line-height: 1.5; color: #99aabb; font-family: 'Courier New', monospace; border-left: 3px solid #00e5ff; white-space: pre-wrap; margin-bottom: 0.5rem; }
+.prompt-box.video-prompt { border-left-color: #e74c3c; background: #1a0d0d; }
+.img-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0.8rem; margin-top: 0.5rem; }
+.img-item { background: #0d1a2e; border-radius: 6px; padding: 0.7rem; border-left: 3px solid #9b59b6; }
+.img-item .label { font-size: 0.7rem; font-weight: 600; color: #9b59b6; margin-bottom: 0.2rem; }
+.img-item .text { font-size: 0.82rem; color: #99aabb; font-family: 'Courier New', monospace; line-height: 1.4; white-space: pre-wrap; }
+.vid-item { background: #1a0d0d; border-radius: 6px; padding: 0.7rem; border-left: 3px solid #e74c3c; }
+.vid-item .label { font-size: 0.7rem; font-weight: 600; color: #e74c3c; margin-bottom: 0.2rem; }
+.vid-item .text { font-size: 0.82rem; color: #99aabb; font-family: 'Courier New', monospace; line-height: 1.4; }
+.thumbnail-box { background: #0f1d33; border-radius: 10px; padding: 1.2rem 1.5rem; box-shadow: 0 1px 4px rgba(0,0,0,0.3); border-left: 4px solid #ff6b35; margin-bottom: 1rem; }
+.thumbnail-box .label { font-size: 0.75rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 0.2rem; }
+.thumbnail-box .label.gold { color: #ff6b35; }
+.thumbnail-box .label.blue { color: #0088ff; }
+.seo-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+.seo-card { background: #0f1d33; border-radius: 10px; padding: 1rem 1.2rem; box-shadow: 0 1px 4px rgba(0,0,0,0.3); }
+.seo-card h3 { font-size: 0.9rem; color: #00e5ff; margin-bottom: 0.5rem; }
+.seo-card ul { list-style: none; }
+.seo-card li { font-size: 0.88rem; color: #99aabb; padding: 0.25rem 0; border-bottom: 1px solid #1a2a44; }
+.seo-card li:last-child { border-bottom: none; }
+.seo-card.tags li { display: inline-block; background: #1a2a44; padding: 0.2rem 0.6rem; border-radius: 4px; margin: 0.2rem; font-size: 0.8rem; border: none; }
+.seo-desc { font-size: 0.85rem; line-height: 1.6; color: #99aabb; margin-bottom: 0.5rem; }
+.vonote { background: #0f1d33; border-radius: 10px; padding: 1.2rem 1.5rem; box-shadow: 0 1px 4px rgba(0,0,0,0.3); }
+.vonote ul { list-style: none; font-size: 0.92rem; line-height: 1.8; color: #99aabb; }
+.meta-row { display: flex; gap: 1rem; flex-wrap: wrap; margin-bottom: 1rem; }
+.meta-tag { background: #1a2a44; padding: 0.3rem 0.8rem; border-radius: 20px; font-size: 0.85rem; }
+.meta-tag.style { background: #1a2a44; color: #00e5ff; border: 1px solid #00e5ff; }
+footer { margin-top: 3rem; text-align: center; font-size: 0.85rem; color: #556677; padding: 1rem 0; }
+@media (max-width: 700px) { .seo-grid { grid-template-columns: 1fr; } .img-grid { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+<div class="container">
+
+<h1>UEFA Is Boycotting FIFA Events. The World Cup Is Already Breaking Apart.</h1>
+<div class="subtitle">Stickman sports infographic style — Clean vector illustrations on dark football stadium backgrounds</div>
+
+<div class="meta-row">
+    <span class="meta-tag">Category: Football Governance</span>
+    <span class="meta-tag">Est Length: ~3 min</span>
+    <span class="meta-tag style">Style: Stickman Infographic</span>
+    <span class="meta-tag">10 Scenes</span>
+    <span class="meta-tag">40 Images</span>
+    <span class="meta-tag">40 Video</span>
+    <span class="meta-tag">~370 words</span>
+</div>
+
+<div class="section-header"><span class="badge gold">📋</span> Storyboard — 10 Scenes</div>
+
+<!-- SCENE 01 -->
+<div class="scene">
+<div class="scene-header"><span class="scene-num">SCENE 01</span><span class="badge blue">HOOK</span><span class="scene-desc">FIFA is selling the World Cup. UEFA said no.</span></div>
+<div class="voiceover"><div class="voiceover-label">🎙️ VOICE OVER</div>FIFA is trying to sell the World Cup. To private investors. A $20 billion subsidiary. Outside money running football's biggest tournament. And UEFA — the most powerful federation in the sport — just said no. Two giants, one trophy, and three weeks after the final, the World Cup is already breaking apart.</div>
+<div class="prompt-label image">🖼️ IMAGE PROMPTS</div>
+<div class="img-grid">
+<div class="img-item"><div class="label">Image 01</div><div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, the World Cup trophy floating between two giant hands with "FIFA SELLS" and "UEFA SAYS NO" labels, a tug-of-war over the golden trophy, "$20 BILLION" price tag attached, stadium floodlights on the standoff, speech bubble: "The fight for football's soul", high contrast infographic composition</div></div>
+<div class="img-item"><div class="label">Image 02</div><div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a giant bank vault with the FIFA logo opening while a stickman private investor in a suit walks in carrying a briefcase labeled "$20B", golden trophy inside the vault, stadium floodlights on the exchange, speech bubble: "Privatise the World Cup?", high contrast infographic composition</div></div>
+<div class="img-item"><div class="label">Image 03</div><div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, UEFA and FIFA logos as two boxers in opposite corners of a ring, the World Cup trophy as the championship belt between them, stadium floodlights on the boxing ring, speech bubble: "Round one. Open conflict.", high contrast infographic composition</div></div>
+<div class="img-item"><div class="label">Image 04</div><div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a calendar just three weeks after the final date, gold confetti still on the floor, an empty boardroom with two empty chairs labeled FIFA and UEFA, stadium floodlights on the abandoned table, speech bubble: "Three weeks after the confetti", high contrast infographic composition</div></div>
+</div>
+<div class="prompt-label video">🎬 VIDEO PROMPTS</div>
+<div class="img-grid">
+<div class="vid-item"><div class="label">Video 01</div><div class="text">Two giant hands tug the trophy with a $20 billion tag. 5s. Seamless loop.</div></div>
+<div class="vid-item"><div class="label">Video 02</div><div class="text">Investor walks briefcase into the FIFA vault, trophy inside. 6s. One-time with hold.</div></div>
+<div class="vid-item"><div class="label">Video 03</div><div class="text">UEFA and FIFA boxers take corners, trophy belt between. 5s. One-time with hold.</div></div>
+<div class="vid-item"><div class="label">Video 04</div><div class="text">Confetti drops onto an empty boardroom table. 5s. Seamless loop.</div></div>
+</div>
+</div>
+
+<!-- SCENE 02 -->
+<div class="scene">
+<div class="scene-header"><span class="scene-num">SCENE 02</span><span class="badge blue">THE PLAN</span><span class="scene-desc">The $20 billion subsidiary — FIFA's plan explained</span></div>
+<div class="voiceover"><div class="voiceover-label">🎙️ VOICE OVER</div>Here's the plan. FIFA announced a new $20 billion subsidiary to run the World Cup and other events, with external investors. Right now FIFA is an association of federations — not-for-profit, owned by its members. This structure would hand a slice of the World Cup to people who want a return on that billion-dollar investment.</div>
+<div class="prompt-label image">🖼️ IMAGE PROMPTS</div>
+<div class="img-grid">
+<div class="img-item"><div class="label">Image 01</div><div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, an org chart with FIFA at the top and a new giant box "WC HOLDINGS — $20B SUBSIDIARY" splitting off, stickman officials pointing at the new box, stadium floodlights on the corporate restructure, speech bubble: "This is new. This is different.", high contrast infographic composition</div></div>
+<div class="img-item"><div class="label">Image 02</div><div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a conveyor belt: from FIFA HQ, the World Cup event moves into an "EXTERNAL INVESTORS" building with dollar signs, stickman accountant with calculator tracking the flow, stadium floodlights on the money pipeline, speech bubble: "Outside money runs the tournament?", high contrast infographic composition</div></div>
+<div class="img-item"><div class="label">Image 03</div><div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a balance sheet illustration "OWNERSHIP TODAY: 211 MEMBER FEDERATIONS" vs "OWNERSHIP PROPOSED: FIFA + PRIVATE INVESTORS", stickman delegate looking confused between the two columns, stadium floodlights on the shifting balance, speech bubble: "Who owns it now vs after?", high contrast infographic composition</div></div>
+<div class="img-item"><div class="label">Image 04</div><div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a "WORLD CUP" brand on a corporate building with FOR SALE sign, stickman realtor showing the trophy to an investor in a suit, stadium floodlights on the sales pitch, speech bubble: "For sale: football's crown jewel", high contrast infographic composition</div></div>
+</div>
+<div class="prompt-label video">🎬 VIDEO PROMPTS</div>
+<div class="img-grid">
+<div class="vid-item"><div class="label">Video 01</div><div class="text">Org chart animates, new $20B subsidiary box splits off. 6s. One-time with hold.</div></div>
+<div class="vid-item"><div class="label">Video 02</div><div class="text">World Cup moves down a conveyor belt into an investor building. 5s. One-time with hold.</div></div>
+<div class="vid-item"><div class="label">Video 03</div><div class="text">Ownership balance tips from federations toward investors. 5s. Seamless loop.</div></div>
+<div class="vid-item"><div class="label">Video 04</div><div class="text">FOR SALE sign plants into a corporate-styled World Cup. 5s. Seamless loop.</div></div>
+</div>
+</div>
+
+<!-- SCENE 03 -->
+<div class="scene">
+<div class="scene-header"><span class="scene-num">SCENE 03</span><span class="badge blue">MONEY TRAIL</span><span class="scene-desc">Kushner, Trump and the investors being considered</span></div>
+<div class="voiceover"><div class="voiceover-label">🎙️ VOICE OVER</div>Who are these investors? Reports say Joshua Kushner's name is in the mix. And it's claimed President Trump himself has been approached. When the most political World Cup in history gets a private ownership pitch, football governance and global politics stop being separate stories.</div>
+<div class="prompt-label image">🖼️ IMAGE PROMPTS</div>
+<div class="img-grid">
+<div class="img-item"><div class="label">Image 01</div><div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a money trail map connecting FIFA headquarters to names on golden briefcases: "KUSHNER FUND", "POTENTIAL INVESTORS — ?", stickman detective with a magnifying glass following the trail, stadium floodlights on the paper trail, speech bubble: "Follow the money", high contrast infographic composition</div></div>
+<div class="img-item"><div class="label">Image 02</div><div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a boardroom table with the World Cup trophy in the center, stickman investors in sharp suits leaning in, FIFA logo and political flags in the background, stadium floodlights on the private meeting, speech bubble: "A seat at the table", high contrast infographic composition</div></div>
+<div class="img-item"><div class="label">Image 03</div><div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a newsstand with newspapers: "$20B WC DEAL — WHO'S IN?", "KUSHNER REPORTEDLY CONSIDERED", "TRUMP APPROACHED: DENIES &amp; ANNOYS", stickman reader scanning headlines, stadium floodlights on the front pages, speech bubble: "It's everywhere", high contrast infographic composition</div></div>
+<div class="img-item"><div class="label">Image 04</div><div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, football and politics puzzle pieces interlocking above the World Cup trophy, stickman commentator pointing at the joined pieces, stadium floodlights on the overlap, speech bubble: "Football and politics, merged", high contrast infographic composition</div></div>
+</div>
+<div class="prompt-label video">🎬 VIDEO PROMPTS</div>
+<div class="img-grid">
+<div class="vid-item"><div class="label">Video 01</div><div class="text">Money trail glows from FIFA HQ to two name-tagged briefcases. 6s. One-time with hold.</div></div>
+<div class="vid-item"><div class="label">Video 02</div><div class="text">Investors circle a boardroom trophy, leaning in closer. 5s. Seamless loop.</div></div>
+<div class="vid-item"><div class="label">Video 03</div><div class="text">Headlines flash across a newsstand one after another. 5s. One-time with hold.</div></div>
+<div class="vid-item"><div class="label">Video 04</div><div class="text">Football and politics puzzle pieces click together. 5s. Seamless loop.</div></div>
+</div>
+</div>
+
+<!-- SCENE 04 -->
+<div class="scene">
+<div class="scene-header"><span class="scene-num">SCENE 04</span><span class="badge blue">UEFA REACTS</span><span class="scene-desc">UEFA's boycott — unprecedented in football history</span></div>
+<div class="voiceover"><div class="voiceover-label">🎙️ VOICE OVER</div>UEFA's answer was the loudest possible: a boycott of FIFA events. European clubs and leagues are the financial engine of football. If UEFA pulls out, the World Cup loses its biggest stars. That's not a protest — it's a threat the tournament can't ignore.</div>
+<div class="prompt-label image">🖼️ IMAGE PROMPTS</div>
+<div class="img-grid">
+<div class="img-item"><div class="label">Image 01</div><div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a giant "BOYCOTT" banner unrolled by stickman UEFA delegates across a FIFA event stage, FIFA officials stepping back in surprise, stadium floodlights on the banner drop, speech bubble: "Unprecedented", high contrast infographic composition</div></div>
+<div class="img-item"><div class="label">Image 02</div><div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a power gauge: UEFA clubs with massive "EUROPEAN MONEY" bar on one side vs FIFA event income on the other, stickman economist pointing at the imbalance, stadium floodlights on the power comparison, speech bubble: "Europe is football's bank", high contrast infographic composition</div></div>
+<div class="img-item"><div class="label">Image 03</div><div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, star players labeled "EUROPE-BASED STARS" standing behind a UEFA shield, World Cup trophy behind a FIFA door that looks suddenly empty, stadium floodlights on the star exodus, speech bubble: "The stars are European", high contrast infographic composition</div></div>
+<div class="img-item"><div class="label">Image 04</div><div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a history timeline of football conflicts with no boycott precedent, and "UEFA 2026: FIRST EVER BOYCOTT" in red at the end, stickman historian circling the new marker, stadium floodlights on the history-changing event, speech bubble: "Has this ever happened? No.", high contrast infographic composition</div></div>
+</div>
+<div class="prompt-label video">🎬 VIDEO PROMPTS</div>
+<div class="img-grid">
+<div class="vid-item"><div class="label">Video 01</div><div class="text">BOYCOTT banner drops across a FIFA event stage. 5s. One-time with hold.</div></div>
+<div class="vid-item"><div class="label">Video 02</div><div class="text">Power gauge tips heavily toward European money. 5s. Seamless loop.</div></div>
+<div class="vid-item"><div class="label">Video 03</div><div class="text">Star player stickmen walk behind the UEFA shield one by one. 6s. One-time with hold.</div></div>
+<div class="vid-item"><div class="label">Video 04</div><div class="text">Empty feud timeline gains one red marker at the end. 5s. One-time with hold.</div></div>
+</div>
+</div>
+
+<!-- SCENE 05 -->
+<div class="scene">
+<div class="scene-header"><span class="scene-num">SCENE 05</span><span class="badge blue">STAKEHOLDERS</span><span class="scene-desc">Who owns the World Cup — and what private ownership changes</span></div>
+<div class="voiceover"><div class="voiceover-label">🎙️ VOICE OVER</div>Today, 211 member federations own the World Cup through FIFA. Every federation gets a share of revenue. Private investors don't buy trophies for love — they need returns. Ticket prices. Broadcasting rights. Sponsorship slots. All of it suddenly has to pay for a profit margin none of this was designed to have.</div>
+<div class="prompt-label image">🖼️ IMAGE PROMPTS</div>
+<div class="img-grid">
+<div class="img-item"><div class="label">Image 01</div><div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a giant pie chart "WORLD CUP REVENUE — 211 FEDERATIONS TODAY" vs a slice being cut out labeled "PRIVATE PROFIT", stickman accountant with a knife cutting the slice, stadium floodlights on the shrinking pie, speech bubble: "Where does that slice go?", high contrast infographic composition</div></div>
+<div class="img-item"><div class="label">Image 02</div><div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a stadium ticket price that inflates like a balloon from "$80" to "$400" with a stickman fan's face stretching in alarm, stadium floodlights on the rising ticket, speech bubble: "The fan pays the profit", high contrast infographic composition</div></div>
+<div class="img-item"><div class="label">Image 03</div><div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a small nation's flag fading while a big broadcast bidding war rises, stickman from a small federation watching money flow past him to giants, stadium floodlights on the imbalance, speech bubble: "Small nations lose a voice", high contrast infographic composition</div></div>
+<div class="img-item"><div class="label">Image 04</div><div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a justice scale: one side "FANS + LEAGUES + SMALL FEDERATIONS", other side "INVESTOR RETURNS", tipping toward investors, stickman refugee looking at the tilt, stadium floodlights on the unequal scale, speech bubble: "Who football works for", high contrast infographic composition</div></div>
+</div>
+<div class="prompt-label video">🎬 VIDEO PROMPTS</div>
+<div class="img-grid">
+<div class="vid-item"><div class="label">Video 01</div><div class="text">Revenue pie shrinks as a private-profit slice is cut out. 6s. One-time with hold.</div></div>
+<div class="vid-item"><div class="label">Video 02</div><div class="text">Ticket price balloon inflates as the fan's face stretches. 5s. Seamless loop.</div></div>
+<div class="vid-item"><div class="label">Video 03</div><div class="text">Broadcast money flows past a shrinking small-nation flag. 5s. One-time with hold.</div></div>
+<div class="vid-item"><div class="label">Video 04</div><div class="text">Scale tips slowly toward the investor-retur profits side. 5s. Seamless loop.</div></div>
+</div>
+</div>
+
+<!-- SCENE 06 -->
+<div class="scene">
+<div class="scene-header"><span class="scene-num">SCENE 06</span><span class="badge blue">CONFLICT</span><span class="scene-desc">The conflict of interest at the heart of it all</span></div>
+<div class="voiceover"><div class="voiceover-label">🎙️ VOICE OVER</div>Here's where it gets uncomfortable. Reports say Infantino could personally earn tens of millions from the deal. The man running FIFA would profit from selling FIFA's crown jewel. That's not a governance question anymore. That's a conflict of interest the whole world can see.</div>
+<div class="prompt-label image">🖼️ IMAGE PROMPTS</div>
+<div class="img-grid">
+<div class="img-item"><div class="label">Image 01</div><div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a stickman Infantino sitting between two chairs: one labeled "FIFA PRESIDENT", the other "PERSONAL PROFIT", a spotlight shaking between the two, stadium floodlights on the split loyalty, speech bubble: "Who is he working for?", high contrast infographic composition</div></div>
+<div class="img-item"><div class="label">Image 02</div><div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a $ sign balloon labeled "TENS OF MILLIONS" floating above the FIFA presidency seat, stickman auditor reaching for it, stadium floodlights on the floating conflict, speech bubble: "Tens of millions. For him.", high contrast infographic composition</div></div>
+<div class="img-item"><div class="label">Image 03</div><div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a rules book "FIFA STATUTES: NEUTRALITY &amp; NO SELF-DEALING" open with the page glowing while a shadow sells the trophy, stickman lawyer pointing at the text, stadium floodlights on the open rulebook, speech bubble: "The statutes say what?", high contrast infographic composition</div></div>
+<div class="img-item"><div class="label">Image 04</div><div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a magnifying glass over the deal's fine print revealing a dollar sign on every clause, many eyes of the football world watching, stadium floodlights on the scrutiny, speech bubble: "Everyone's watching now", high contrast infographic composition</div></div>
+</div>
+<div class="prompt-label video">🎬 VIDEO PROMPTS</div>
+<div class="img-grid">
+<div class="vid-item"><div class="label">Video 01</div><div class="text">Stickman President wobbles between two chairs, spotlight shakes. 5s. Seamless loop.</div></div>
+<div class="vid-item"><div class="label">Video 02</div><div class="text">Tens-of-millions balloon hovers above the presidency seat. 5s. Seamless loop.</div></div>
+<div class="vid-item"><div class="label">Video 03</div><div class="text">Open statute page glows while a shadow hands over the trophy. 6s. One-time with hold.</div></div>
+<div class="vid-item"><div class="label">Video 04</div><div class="text">Magnifying glass reveals dollar signs all over the fine print. 5s. One-time with hold.</div></div>
+</div>
+</div>
+
+<!-- SCENE 07 -->
+<div class="scene">
+<div class="scene-header"><span class="scene-num">SCENE 07</span><span class="badge blue">EUROPE</span><span class="scene-desc">What UEFA's boycott means for clubs and competitions</span></div>
+<div class="voiceover"><div class="voiceover-label">🎙️ VOICE OVER</div>What actually happens if UEFA boycotts FIFA events? European clubs stop sending players. The Champions League keeps running. FIFA's competitions lose their biggest attractions. The losers wouldn't just be FIFA — they'd be every fan waiting to watch the best players in the world.</div>
+<div class="prompt-label image">🖼️ IMAGE PROMPTS</div>
+<div class="img-grid">
+<div class="img-item"><div class="label">Image 01</div><div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, two competition logos side by side: the Champions League trophy glowing bright "STAYS IN UEFA", the World Cup trophy dimming "NOEUROPEAN PLAYERS", stadium floodlights on the glowing contrast, speech bubble: "One thrives. One empties.", high contrast infographic composition</div></div>
+<div class="img-item"><div class="label">Image 02</div><div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, an empty busses with "EUROPEAN STARS — NOT BOARDING" label and player silhouettes waving goodbye, stadium floodlights on the empty coach, speech bubble: "The stars stay home", high contrast infographic composition</div></div>
+<div class="img-item"><div class="label">Image 03</div><div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, club calendar calendar with "CHAMPIONS LEAGUE" kept and "FIFA EVENTS" crossed out, stickman club board nodding approval, stadium floodlights on the calendar, speech bubble: "Clubs back UEFA", high contrast infographic composition</div></div>
+<div class="img-item"><div class="label">Image 04</div><div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a fan in the stands holding an "I JUST WANT TO WATCH FOOTBALL" sign while the two giants argue above, stadium floodlights showing the collateral damage, speech bubble: "The fans pay the price", high contrast infographic composition</div></div>
+</div>
+<div class="prompt-label video">🎬 VIDEO PROMPTS</div>
+<div class="img-grid">
+<div class="vid-item"><div class="label">Video 01</div><div class="text">UCL trophy glows bright while World Cup trophy dims beside it. 5s. Seamless loop.</div></div>
+<div class="vid-item"><div class="label">Video 02</div><div class="text">Empty star-stickman busses pull away, players wave goodbye. 6s. One-time with hold.</div></div>
+<div class="vid-item"><div class="label">Video 03</div><div class="text">Calendar keeps UCL dates but crosses out FIFA events. 5s. One-time with hold.</div></div>
+<div class="vid-item"><div class="label">Video 04</div><div class="text">Fan holds a sign while arguing giants loom overhead. 5s. Seamless loop.</div></div>
+</div>
+</div>
+
+<!-- SCENE 08 -->
+<div class="scene">
+<div class="scene-header"><span class="scene-num">SCENE 08</span><span class="badge blue">REACTIONS</span><span class="scene-desc">The football world reacts — who stands where</span></div>
+<div class="voiceover"><div class="voiceover-label">🎙️ VOICE OVER</div>The rest of football is picking sides. Player unions warn about welfare and integrity. Leagues worry about control. Small federations worry about their share. Some back UEFA. Some fear for the World Cup's survival. But the one thing nobody says? That this is a good idea.</div>
+<div class="prompt-label image">🖼️ IMAGE PROMPTS</div>
+<div class="img-grid">
+<div class="img-item"><div class="label">Image 01</div><div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a meeting table with representatives mapped around it: player union, league boards, confederations, each with their own concern bubble, stickman moderator trying to keep order, stadium floodlights on the divided table, speech bubble: "Everyone's got a worry", high contrast infographic composition</div></div>
+<div class="img-item"><div class="label">Image 02</div><div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a warning meter with "INTEGRITY" dropping while "MONEY" rises, stickman player union rep pointing at the meter, stadium floodlights on the swinging needle, speech bubble: "Watch the integrity needle", high contrast infographic composition</div></div>
+<div class="img-item"><div class="label">Image 03</div><div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, small federations grouped under one umbrella with "OUR SHARE" written on it, a hand trying to pull the umbrella away, stadium floodlights on the tug, speech bubble: "Smaller voices, smaller share", high contrast infographic composition</div></div>
+<div class="img-item"><div class="label">Image 04</div><div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a poll board "IS THIS A GOOD IDEA?" with zero thumbs-up and a row of thumbs-down, stickman pollster surprised, stadium floodlights on the unanimous verdict, speech bubble: "Not one yes", high contrast infographic composition</div></div>
+</div>
+<div class="prompt-label video">🎬 VIDEO PROMPTS</div>
+<div class="img-grid">
+<div class="vid-item"><div class="label">Video 01</div><div class="text">Concern bubbles pop above each representative at the table. 5s. Seamless loop.</div></div>
+<div class="vid-item"><div class="label">Video 02</div><div class="text">Integrity needle drops as the money needle rises. 5s. Seamless loop.</div></div>
+<div class="vid-item"><div class="label">Video 03</div><div class="text">Hand tries to pull away the umbrella over small federations. 5s. One-time with hold.</div></div>
+<div class="vid-item"><div class="label">Video 04</div><div class="text">Poll board fills with zero yes and many no votes. 5s. One-time with hold.</div></div>
+</div>
+</div>
+
+<!-- SCENE 09 -->
+<div class="scene">
+<div class="scene-header"><span class="scene-num">SCENE 09</span><span class="badge blue">FUTURE</span><span class="scene-desc">What the split means for the World Cup's future</span></div>
+<div class="voiceover"><div class="voiceover-label">🎙️ VOICE OVER</div>So where does this go? FIFA could push ahead and fund the subsidiary anyway. UEFA could keep boycotting. Champions League European teams might keep winning world tournaments anyway. And a World Cup missing its biggest names stops being the greatest show on earth. The prize for everyone — UEFA included — is a World Cup that stays whole.</div>
+<div class="prompt-label image">🖼️ IMAGE PROMPTS</div>
+<div class="img-grid">
+<div class="img-item"><div class="label">Image 01</div><div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a crystal ball showing two futures: left a full stadium "EDITION 2030 WHOLE", right an empty stadium "EDITION 2030 SPLIT", stickman seer looking at both, stadium floodlights on the prophecy, speech bubble: "Two possible futures", high contrast infographic composition</div></div>
+<div class="img-item"><div class="label">Image 02</div><div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a domino chain with FIFA, Infantino, UEFA, Stars as dominoes beginning to fall, stickman official rushing to steady the first tile, stadium floodlights on the falling sequence, speech bubble: "Everything tips together", high contrast infographic composition</div></div>
+<div class="img-item"><div class="label">Image 03</div><div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a "greatest show on earth" theater banner beginning to crumble while a negotiation table is set beneath it, stickman mediators walking in, stadium floodlights on the repair attempt, speech bubble: "Build a bridge or watch it fall", high contrast infographic composition</div></div>
+<div class="img-item"><div class="label">Image 04</div><div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, the World Cup trophy on a negotiation table between FIFA and UEFA chairs, both stickman chairs empty, a pen and paper waiting, stadium floodlights on the open table, speech bubble: "The deal that saves it", high contrast infographic composition</div></div>
+</div>
+<div class="prompt-label video">🎬 VIDEO PROMPTS</div>
+<div class="img-grid">
+<div class="vid-item"><div class="label">Video 01</div><div class="text">Crystal ball pans between a full and an empty stadium. 6s. One-time with hold.</div></div>
+<div class="vid-item"><div class="label">Video 02</div><div class="text">Four dominoes tip in sequence, one tries to stop them. 5s. One-time with hold.</div></div>
+<div class="vid-item"><div class="label">Video 03</div><div class="text">Crumbling banner stops as mediators sit at a table. 6s. One-time with hold.</div></div>
+<div class="vid-item"><div class="label">Video 04</div><div class="text">Trophy sits on an empty negotiation table under floodlights. 5s. Seamless loop.</div></div>
+</div>
+</div>
+
+<!-- SCENE 10 -->
+<div class="scene">
+<div class="scene-header"><span class="scene-num">SCENE 10</span><span class="badge blue">CLOSING</span><span class="scene-desc">The biggest governance fight in football history</span></div>
+<div class="voiceover"><div class="voiceover-label">🎙️ VOICE OVER</div>The World Cup is the one event that unites the entire planet every four years. Now it's at the center of the biggest governance fight in football history. UEFA says no to selling football's soul. FIFA says the money's too big to ignore. The trophy hasn't been handed to investors yet. But the battle for who owns it has already begun.</div>
+<div class="prompt-label image">🖼️ IMAGE PROMPTS</div>
+<div class="img-grid">
+<div class="img-item"><div class="label">Image 01</div><div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, the World Cup trophy shining as a globe with all continents drawn on it, a crowd of fans below gazing up, stadium floodlights on the global symbol, speech bubble: "The event that unites us all", high contrast infographic composition</div></div>
+<div class="img-item"><div class="label">Image 02</div><div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, two giant wall paintings of FIFA vs UEFA across a canyon with the trophy bridge between them cracking, stickman negotiators on the bridge, stadium floodlights on the fissure, speech bubble: "The bridge is cracking", high contrast infographic composition</div></div>
+<div class="img-item"><div class="label">Image 03</div><div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a "NOT SOLD — YET" sign over the trophy with the word YET highlighted, an investor silhouette lingering at the edge, stadium floodlights on the unresolved sale, speech bubble: "The deal's not done", high contrast infographic composition</div></div>
+<div class="img-item"><div class="label">Image 04</div><div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a question mark formed by two shaking hands over the trophy, bold text "WHO WILL OWN THE WORLD CUP?", stadium floodlights on the unanswered question, speech bubble: "The fight has begun", high contrast infographic composition</div></div>
+</div>
+<div class="prompt-label video">🎬 VIDEO PROMPTS</div>
+<div class="img-grid">
+<div class="vid-item"><div class="label">Video 01</div><div class="text">Trophy globe rotates with continents, fans gaze up. 6s. Seamless loop.</div></div>
+<div class="vid-item"><div class="label">Video 02</div><div class="text">Trophy bridge cracks between the FIFA and UEFA walls. 5s. One-time with hold.</div></div>
+<div class="vid-item"><div class="label">Video 03</div><div class="text">NOT SOLD sign's YET glows as investor lurks. 5s. Seamless loop.</div></div>
+<div class="vid-item"><div class="label">Video 04</div><div class="text">Two hands shake into a question mark above the trophy. 5s. One-time with hold.</div></div>
+</div>
+</div>
+
+<div class="section-header"><span class="badge gold">🖼️</span> Thumbnail</div>
+
+<div class="thumbnail-box">
+<div class="label gold">📸 THUMBNAIL PROMPT</div>
+<div class="prompt-box">stickman sports infographic style, FIFA logo and UEFA logo as two giant fists on either side of the World Cup trophy, bold red text "FIFA IS SELLING THE WORLD CUP" at top with "UEFA SAID NO" in white below, "$20 BILLION" sticker on the trophy, stickman president figures yelling across the prize, stadium floodlights on the standoff, high contrast infographic composition, vibrant cyan and orange color scheme, YouTube thumbnail optimized, 16:9 aspect ratio</div>
+</div>
+
+<div class="thumbnail-box">
+<div class="label blue">📸 THUMBNAIL ALTERNATE</div>
+<div class="prompt-box">stickman sports infographic style, World Cup trophy sitting on a FOR SALE sign with a giant "$20B" price tag, huge white text "THE TROPHY IS FOR SALE" and red text "EUROPE SAID NO", stickman investor in a suit reaching for the trophy while UEFA figure blocks him, stadium floodlights on the conflict, high contrast infographic composition, 16:9 YouTube thumbnail ratio</div>
+</div>
+
+<div class="section-header"><span class="badge gold">🔍</span> SEO &amp; Metadata</div>
+
+<div class="seo-grid">
+<div class="seo-card">
+<h3>📌 SEO Title</h3>
+<div class="seo-desc">UEFA Is Boycotting FIFA Events After the $20 Billion World Cup Sale Plan — The Tournament Is Breaking Apart | TheFootballRepublics</div>
+<h3>📝 SEO Description</h3>
+<div class="seo-desc">FIFA announced a $20 billion subsidiary to run the World Cup with external investors — and UEFA responded by boycotting FIFA events. This is the biggest football governance fight in decades. We explain the privatization plan, the names reportedly involved, and what it means for fans, clubs and the 2030 tournament.</div>
+</div>
+<div class="seo-card tags">
+<h3>🏷️ Hashtags / Tags</h3>
+<li>#FIFA</li>
+<li>#UEFA</li>
+<li>#WorldCup2030</li>
+<li>#FootballPolitics</li>
+<li>#FIFA2030</li>
+<li>#FootballNews</li>
+<li>#TheFootballRepublics</li>
+<li>#WorldCup</li>
+<li>#Infantino</li>
+<li>#FootballGovernance</li>
+<li>#Boycott</li>
+<li>#SoccerNews</li>
+</div>
+</div>
+
+<div class="section-header"><span class="badge gold">🎙️</span> Voiceover Notes</div>
+
+<div class="vonote">
+<ul>
+<li><strong>Tone:</strong> Serious, investigative, slightly alarmed — this is a corruption-watch story told clearly, not a gossip story</li>
+<li><strong>Pacing:</strong> Explosive hook on the sale + boycott, clear step-by-step explanations of the plan and ownership, rising tension through the conflict-of-interest scene, measured close on the future</li>
+<li><strong>Key phrases:</strong> "$20 billion", "selling the World Cup", "UEFA said no", "private investors", "conflict of interest", "who owns the trophy"</li>
+<li><strong>Emphasis:</strong> Hit the numbers hard — "$20 billion" in the hook, "tens of millions" in Scene 6, "first ever boycott" in Scene 4</li>
+<li><strong>Music:</strong> Low suspenseful undercurrent building through the plan, sting on the boycott reveal, serious orchestral close</li>
+<li><strong>SFX:</strong> Gavel slam, cash register on the money trail, banner drop on the boycott, creaking bridge in the future scene</li>
+<li><strong>Runtime target:</strong> 2:50 – 3:20</li>
+</ul>
+</div>
+
+<footer>
+    TheFootballRepublics — WC26 Storyboard · Idea 124 · UEFA Boycotting FIFA Events<br>
+    Stickman Sports Infographic Style · 10 Scenes · 40 Images · 40 Video Prompts
+</footer>
+
+</div>
+</body>
+</html>
