@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Messi Is Nominated for the Ballon d'Or. He Lost the World Cup Final. He Still Might Win It. | TheFootballRepublics</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; background: #0a1628; color: #e0e8f0; padding: 2rem 1rem; }
+.container { max-width: 1000px; margin: 0 auto; }
+h1 { font-size: 2rem; font-weight: 700; color: #00e5ff; margin-bottom: 0.3rem; }
+.subtitle { color: #8899aa; font-size: 1rem; margin-bottom: 2rem; border-left: 4px solid #ff6b35; padding-left: 1rem; }
+.badge { font-size: 0.75rem; font-weight: 600; background: #ff6b35; color: #fff; padding: 0.2rem 0.7rem; border-radius: 20px; display: inline-block; }
+.badge.gold { background: #ff6b35; }
+.badge.blue { background: #0088ff; }
+.badge.image { background: #9b59b6; color: #fff; }
+.badge.video { background: #e74c3c; color: #fff; }
+.section-header { font-size: 1.2rem; font-weight: 600; color: #00e5ff; background: #111d33; padding: 0.7rem 1.2rem; border-radius: 8px; margin-bottom: 1rem; display: flex; align-items: center; gap: 0.6rem; flex-wrap: wrap; }
+.scene { background: #0f1d33; border-radius: 10px; padding: 1.2rem 1.5rem; margin-bottom: 1rem; box-shadow: 0 1px 4px rgba(0,0,0,0.3); border-left: 4px solid #00e5ff; }
+.scene-header { display: flex; align-items: center; gap: 0.8rem; margin-bottom: 0.8rem; flex-wrap: wrap; }
+.scene-num { font-weight: 700; color: #00e5ff; font-size: 0.9rem; }
+.scene-desc { font-style: italic; color: #8899aa; font-size: 0.9rem; }
+.voiceover { background: #0d1a2e; border-radius: 6px; padding: 0.8rem 1rem; margin-top: 0.7rem; font-size: 0.95rem; line-height: 1.6; color: #e0e8f0; border-left: 3px solid #0088ff; }
+.voiceover-label { font-size: 0.75rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; color: #0088ff; margin-bottom: 0.3rem; }
+.prompt-label { font-size: 0.75rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; color: #fff; margin-bottom: 0.2rem; margin-top: 0.6rem; padding: 0.15rem 0.6rem; border-radius: 4px; display: inline-block; }
+.prompt-label.image { background: #9b59b6; }
+.prompt-label.video { background: #e74c3c; }
+.prompt-box { background: #0d1a2e; border-radius: 6px; padding: 0.8rem 1rem; font-size: 0.88rem; line-height: 1.5; color: #99aabb; font-family: 'Courier New', monospace; border-left: 3px solid #00e5ff; white-space: pre-wrap; margin-bottom: 0.5rem; }
+.prompt-box.video-prompt { border-left-color: #e74c3c; background: #1a0d0d; }
+.img-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0.8rem; margin-top: 0.5rem; }
+.img-item { background: #0d1a2e; border-radius: 6px; padding: 0.7rem; border-left: 3px solid #9b59b6; }
+.img-item .label { font-size: 0.7rem; font-weight: 600; color: #9b59b6; margin-bottom: 0.2rem; }
+.img-item .text { font-size: 0.82rem; color: #99aabb; font-family: 'Courier New', monospace; line-height: 1.4; white-space: pre-wrap; }
+.vid-item { background: #1a0d0d; border-radius: 6px; padding: 0.7rem; border-left: 3px solid #e74c3c; }
+.vid-item .label { font-size: 0.7rem; font-weight: 600; color: #e74c3c; margin-bottom: 0.2rem; }
+.vid-item .text { font-size: 0.82rem; color: #99aabb; font-family: 'Courier New', monospace; line-height: 1.4; }
+.thumbnail-box { background: #0f1d33; border-radius: 10px; padding: 1.2rem 1.5rem; box-shadow: 0 1px 4px rgba(0,0,0,0.3); border-left: 4px solid #ff6b35; margin-bottom: 1rem; }
+.thumbnail-box .label { font-size: 0.75rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 0.2rem; }
+.thumbnail-box .label.gold { color: #ff6b35; }
+.thumbnail-box .label.blue { color: #0088ff; }
+.seo-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+.seo-card { background: #0f1d33; border-radius: 10px; padding: 1rem 1.2rem; box-shadow: 0 1px 4px rgba(0,0,0,0.3); }
+.seo-card h3 { font-size: 0.9rem; color: #00e5ff; margin-bottom: 0.5rem; }
+.seo-card ul { list-style: none; }
+.seo-card li { font-size: 0.88rem; color: #99aabb; padding: 0.25rem 0; border-bottom: 1px solid #1a2a44; }
+.seo-card li:last-child { border-bottom: none; }
+.seo-card.tags li { display: inline-block; background: #1a2a44; padding: 0.2rem 0.6rem; border-radius: 4px; margin: 0.2rem; font-size: 0.8rem; border: none; }
+.seo-desc { font-size: 0.85rem; line-height: 1.6; color: #99aabb; margin-bottom: 0.5rem; }
+.vonote { background: #0f1d33; border-radius: 10px; padding: 1.2rem 1.5rem; box-shadow: 0 1px 4px rgba(0,0,0,0.3); }
+.vonote ul { list-style: none; font-size: 0.92rem; line-height: 1.8; color: #99aabb; }
+.meta-row { display: flex; gap: 1rem; flex-wrap: wrap; margin-bottom: 1rem; }
+.meta-tag { background: #1a2a44; padding: 0.3rem 0.8rem; border-radius: 20px; font-size: 0.85rem; }
+.meta-tag.style { background: #1a2a44; color: #00e5ff; border: 1px solid #00e5ff; }
+footer { margin-top: 3rem; text-align: center; font-size: 0.85rem; color: #556677; padding: 1rem 0; }
+@media (max-width: 700px) { .seo-grid { grid-template-columns: 1fr; } .img-grid { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+<div class="container">
+
+<h1>Messi Is Nominated for the Ballon d'Or. He Lost the World Cup Final. He Still Might Win It.</h1>
+<div class="subtitle">Stickman sports infographic style — Clean vector illustrations on dark football stadium backgrounds</div>
+
+<div class="meta-row">
+<span class="meta-tag">Category: Ballon d'Or Race 2026</span>
+<span class="meta-tag">Est Length: ~2 min</span>
+<span class="meta-tag style">Style: Stickman Infographic</span>
+<span class="meta-tag">10 Scenes</span>
+<span class="meta-tag">40 Images</span>
+<span class="meta-tag">40 Video</span>
+<span class="meta-tag">~195 words</span>
+</div>
+
+<div class="section-header"><span class="badge gold">📋</span> Storyboard — 10 Scenes</div>
+
+<div class="scene">
+<div class="scene-header"><span class="scene-num">SCENE 01</span><span class="badge blue">HOOK</span><span class="scene-desc">Nominated again. Lost the final. Still could win it all.</span></div>
+<div class="voiceover"><div class="voiceover-label">🎙️ VOICE OVER</div>Messi is nominated again. He lost the World Cup final. He might still win the Ballon d'Or. Four names, one trophy.</div>
+<div class="prompt-label image">🖼️ IMAGE PROMPTS</div>
+<div class="img-grid">
+<div class="img-item"><div class="label">Image 01</div><div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, four stickman candidates lined up at a starting line racing toward a glowing golden ball trophy, stickman Messi slightly behind but in the frame, stadium floodlights on the race, high contrast infographic composition</div></div>
+<div class="img-item"><div class="label">Image 02</div><div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a nomination card with Messi's name and "17TH NOMINATION" label, stuck on a golden trophy, stadium floodlights on the card, high contrast infographic composition</div></div>
+<div class="img-item"><div class="label">Image 03</div><div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, split — left a World Cup final scoreboard "SPAIN 1 ARGENTINA 0", right a glowing Ballon d'Or still within reach, stickman Messi looking between them, stadium floodlights on the tension, high contrast infographic composition</div></div>
+<div class="img-item"><div class="label">Image 04</div><div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, "FOUR NAMES. ONE TROPHY." text with four numbered racing lanes and a golden ball at the finish, stadium floodlights on the lanes, high contrast infographic composition</div></div>
+</div>
+<div class="prompt-label video">🎬 VIDEO PROMPTS</div>
+<div class="img-grid">
+<div class="vid-item"><div class="label">Video 01</div><div class="text">Four racers sprint toward golden ball. 5s. One-time with hold.</div></div>
+<div class="vid-item"><div class="label">Video 02</div><div class="text">Nomination card pins onto trophy. 5s. One-time with hold.</div></div>
+<div class="vid-item"><div class="label">Video 03</div><div class="text">Scoreboard and trophy swing between. 5s. Seamless loop.</div></div>
+<div class="vid-item"><div class="label">Video 04</div><div class="text">Four lanes, golden ball glows at finish. 5s. Seamless loop.</div></div>
+</div>
+</div>
+
+<div class="scene">
+<div class="scene-header"><span class="scene-num">SCENE 02</span><span class="badge blue">MESSI</span><span class="scene-desc">Messi's case — goals, assists, a record that stands</span></div>
+<div class="voiceover"><div class="voiceover-label">🎙️ VOICE OVER</div>Nineteen MLS goals. Eight at the World Cup. The all-time assists record. Only the final is missing.</div>
+<div class="prompt-label image">🖼️ IMAGE PROMPTS</div>
+<div class="img-grid">
+<div class="img-item"><div class="label">Image 01</div><div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, three stacked stat cards — "19 MLS GOALS", "8 WORLD CUP GOALS", "ASSISTS RECORD" — each glowing, stickman Messi beside the stack, stadium floodlights on the stats, high contrast infographic composition</div></div>
+<div class="img-item"><div class="label">Image 02</div><div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, 19 goal balls lined up in MLS style, then 8 in World Cup style, stickman Messi boot ready, stadium floodlights on both collections, high contrast infographic composition</div></div>
+<div class="img-item"><div class="label">Image 03</div><div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a record book open with "ALL-TIME ASSISTS" at the top and Messi's name stamped, stickman Messi pointing at the entry, stadium floodlights on the record, high contrast infographic composition</div></div>
+<div class="img-item"><div class="label">Image 04</div><div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, the one missing piece — an empty World Cup trophy slot with "THE ONLY GAP" label, stickman Messi glancing at it, stadium floodlights on the gap, high contrast infographic composition</div></div>
+</div>
+<div class="prompt-label video">🎬 VIDEO PROMPTS</div>
+<div class="img-grid">
+<div class="vid-item"><div class="label">Video 01</div><div class="text">Three stat cards light up one by one. 5s. One-time with hold.</div></div>
+<div class="vid-item"><div class="label">Video 02</div><div class="text">Goal balls stack in two waves. 5s. One-time with hold.</div></div>
+<div class="vid-item"><div class="label">Video 03</div><div class="text">Assists record stamps into the book. 5s. One-time with hold.</div></div>
+<div class="vid-item"><div class="label">Video 04</div><div class="text">Empty trophy slot stays hollow. 5s. Seamless loop.</div></div>
+</div>
+</div>
+
+<div class="scene">
+<div class="scene-header"><span class="scene-num">SCENE 03</span><span class="badge blue">YAMAL</span><span class="scene-desc">Yamal — World Cup winner at 19, history in waiting</span></div>
+<div class="voiceover"><div class="voiceover-label">🎙️ VOICE OVER</div>Lamine Yamal won the World Cup at nineteen. He'd be the youngest Ballon d'Or winner ever.</div>
+<div class="prompt-label image">🖼️ IMAGE PROMPTS</div>
+<div class="img-grid">
+<div class="img-item"><div class="label">Image 01</div><div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, stickman Yamal lifting the World Cup trophy at nineteen, confetti, "AGE 19" badge glowing, stadium floodlights on the young champion, high contrast infographic composition</div></div>
+<div class="img-item"><div class="label">Image 02</div><div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, "YOUNGEST EVER" trophy case with golden ball inside, a date marker "WOULD BE UNPRECEDENTED", stickman handing the ball to Yamal, stadium floodlights on the case, high contrast infographic composition</div></div>
+<div class="img-item"><div class="label">Image 03</div><div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, Yamal's season highlights as glowing cards — World Cup title, club best player, goal count, stickman analyst fanning them out, stadium floodlights on the portfolio, high contrast infographic composition</div></div>
+<div class="img-item"><div class="label">Image 04</div><div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, stickman Yamal smiling with a golden ball ahead, younger generation wave behind him, stadium floodlights on the future, high contrast infographic composition</div></div>
+</div>
+<div class="prompt-label video">🎬 VIDEO PROMPTS</div>
+<div class="img-grid">
+<div class="vid-item"><div class="label">Video 01</div><div class="text">Trophy lifts, confetti, AGE 19 badge. 5s. One-time with hold.</div></div>
+<div class="vid-item"><div class="label">Video 02</div><div class="text">Golden ball enters YOUNGEST EVER case. 5s. One-time with hold.</div></div>
+<div class="vid-item"><div class="label">Video 03</div><div class="text">Season cards fan out across the screen. 5s. One-time with hold.</div></div>
+<div class="vid-item"><div class="label">Video 04</div><div class="text">Yamal walks toward golden ball glow. 5s. Seamless loop.</div></div>
+</div>
+</div>
+
+<div class="scene">
+<div class="scene-header"><span class="scene-num">SCENE 04</span><span class="badge blue">MBAPPÉ</span><span class="scene-desc">Mbappé — ten World Cup goals, a club rebuilt for him</span></div>
+<div class="voiceover"><div class="voiceover-label">🎙️ VOICE OVER</div>Mbappé scored ten World Cup goals. His club was rebuilt around him. His case is loud.</div>
+<div class="prompt-label image">🖼️ IMAGE PROMPTS</div>
+<div class="img-grid">
+<div class="img-item"><div class="label">Image 01</div><div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, ten goal markers lined like a machine output, "10 WORLD CUP GOALS" label, stickman Mbappé striker silhouette, stadium floodlights on the count, high contrast infographic composition</div></div>
+<div class="img-item"><div class="label">Image 02</div><div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a rebuilt club diagram with all arrows pointing to Mbappé at the center, "REBUILT AROUND HIM" label, stadium floodlights on the hub, high contrast infographic composition</div></div>
+<div class="img-item"><div class="label">Image 03</div><div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a loudspeaker icon blasting "MBAPPÉ" across the stadium, stickman fans turning heads, stadium floodlights on the noise, high contrast infographic composition</div></div>
+<div class="img-item"><div class="label">Image 04</div><div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, speed lines and a streaking stickman Mbappé sprinting with a golden ball target, stadium floodlights on the dash, high contrast infographic composition</div></div>
+</div>
+<div class="prompt-label video">🎬 VIDEO PROMPTS</div>
+<div class="img-grid">
+<div class="vid-item"><div class="label">Video 01</div><div class="text">Ten goal markers count up rapidly. 5s. One-time with hold.</div></div>
+<div class="vid-item"><div class="label">Video 02</div><div class="text">Club diagram arrows converge on him. 5s. One-time with hold.</div></div>
+<div class="vid-item"><div class="label">Video 03</div><div class="text">Loudspeaker ripples, fans turn. 5s. Seamless loop.</div></div>
+<div class="vid-item"><div class="label">Video 04</div><div class="text">Speed streak sprints to golden target. 5s. One-time with hold.</div></div>
+</div>
+</div>
+
+<div class="scene">
+<div class="scene-header"><span class="scene-num">SCENE 05</span><span class="badge blue">RODRI</span><span class="scene-desc">Rodri — captain, champions, an ACL comeback for the ages</span></div>
+<div class="voiceover"><div class="voiceover-label">🎙️ VOICE OVER</div>Rodri captained champions. He came back from an ACL. He's in the race too. Four legitimate claims.</div>
+<div class="prompt-label image">🖼️ IMAGE PROMPTS</div>
+<div class="img-grid">
+<div class="img-item"><div class="label">Image 01</div><div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, stickman Rodri lifting the World Cup trophy with captain's armband, "CAPTAIN" label, stadium floodlights on the lift, high contrast infographic composition</div></div>
+<div class="img-item"><div class="label">Image 02</div><div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, an ACL recovery road with a hospital bed at the start and a trophy at the end, stickman Rodri walking the whole road, stadium floodlights on the journey, high contrast infographic composition</div></div>
+<div class="img-item"><div class="label">Image 03</div><div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, four candidates arranged around a central golden ball, all holding their trophy claims, "FOUR LEGITIMATE CLAIMS" label, stadium floodlights on the four, high contrast infographic composition</div></div>
+<div class="img-item"><div class="label">Image 04</div><div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a resilience shield with a golden ball core, "COMEBACK + TROPHY" combo icon, stickman Rodri tapping it, stadium floodlights on the shield, high contrast infographic composition</div></div>
+</div>
+<div class="prompt-label video">🎬 VIDEO PROMPTS</div>
+<div class="img-grid">
+<div class="vid-item"><div class="label">Video 01</div><div class="text">Trophy lift with captain armband glows. 5s. One-time with hold.</div></div>
+<div class="vid-item"><div class="label">Video 02</div><div class="text">Recovery road draws from bed to trophy. 5s. One-time with hold.</div></div>
+<div class="vid-item"><div class="label">Video 03</div><div class="text">Four claims circle the golden ball. 5s. Seamless loop.</div></div>
+<div class="vid-item"><div class="label">Video 04</div><div class="text">Resilience shield pulses over comeback. 5s. Seamless loop.</div></div>
+</div>
+</div>
+
+<div class="scene">
+<div class="scene-header"><span class="scene-num">SCENE 06</span><span class="badge blue">CRITERIA</span><span class="scene-desc">What the Ballon d'Or actually judges</span></div>
+<div class="voiceover"><div class="voiceover-label">🎙️ VOICE OVER</div>The Ballon d'Or weighs individual brilliance, team success, and the whole year. Not just one final.</div>
+<div class="prompt-label image">🖼️ IMAGE PROMPTS</div>
+<div class="img-grid">
+<div class="img-item"><div class="label">Image 01</div><div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, three scales pan labeled "INDIVIDUAL", "TEAM", "WHOLE YEAR", a golden ball weighing across all three, stadium floodlights on the balance, high contrast infographic composition</div></div>
+<div class="img-item"><div class="label">Image 02</div><div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a 12-month calendar shown in full while a single final scoreboard shrinks to a tiny tile, stickman analyst pointing at the calendar, stadium floodlights on the year, high contrast infographic composition</div></div>
+<div class="img-item"><div class="label">Image 03</div><div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, checkboxes "BRILLIANCE ✔", "TROPHIES ✔", "CONSISTENCY ✔" being ticked by a stickman voter, stadium floodlights on the checklist, high contrast infographic composition</div></div>
+<div class="img-item"><div class="label">Image 04</div><div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, "ONE FINAL ≠ THE AWARD" message with a single match card crossed out, a full season book glowing, stadium floodlights on the message, high contrast infographic composition</div></div>
+</div>
+<div class="prompt-label video">🎬 VIDEO PROMPTS</div>
+<div class="img-grid">
+<div class="vid-item"><div class="label">Video 01</div><div class="text">Golden ball balances across three pans. 5s. Seamless loop.</div></div>
+<div class="vid-item"><div class="label">Video 02</div><div class="text">Whole year calendar expands, final shrinks. 5s. One-time with hold.</div></div>
+<div class="vid-item"><div class="label">Video 03</div><div class="text">Checklist ticks off one by one. 5s. One-time with hold.</div></div>
+<div class="vid-item"><div class="label">Video 04</div><div class="text">Single card crosses out, season glows. 5s. One-time with hold.</div></div>
+</div>
+</div>
+
+<div class="scene">
+<div class="scene-header"><span class="scene-num">SCENE 07</span><span class="badge blue">HISTORY</span><span class="scene-desc">You can lose a final and still win the Ballon d'Or</span></div>
+<div class="voiceover"><div class="voiceover-label">🎙️ VOICE OVER</div>History says you can lose the final and still win it. And losing Messi is dangerous. He has done it before.</div>
+<div class="prompt-label image">🖼️ IMAGE PROMPTS</div>
+<div class="img-grid">
+<div class="img-item"><div class="label">Image 01</div><div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a history book of Ballon d'Or winners, several pages flagged showing runners-up who still won, stickman historian pointing, stadium floodlights on the precedent, high contrast infographic composition</div></div>
+<div class="img-item"><div class="label">Image 02</div><div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a "LOST THE FINAL BUT WON THE BALL" precedence gallery of stickman winners holding both a sad scoreboard and a gold ball, stadium floodlights on the gallery, high contrast infographic composition</div></div>
+<div class="img-item"><div class="label">Image 03</div><div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a danger sign with Messi silhouette on it, "NEVER COUNT HIM OUT" warning, stadium floodlights on the warning, high contrast infographic composition</div></div>
+<div class="img-item"><div class="label">Image 04</div><div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a trophy case showing Messi's eight Ballon d'Or balls, a slot open for a ninth, stadium floodlights on the collection, high contrast infographic composition</div></div>
+</div>
+<div class="prompt-label video">🎬 VIDEO PROMPTS</div>
+<div class="img-grid">
+<div class="vid-item"><div class="label">Video 01</div><div class="text">History pages flip, flagged precedents. 5s. One-time with hold.</div></div>
+<div class="vid-item"><div class="label">Video 02</div><div class="text">Gallery of lost-final winners scrolls. 5s. One-time with hold.</div></div>
+<div class="vid-item"><div class="label">Video 03</div><div class="text">Danger sign flashes with Messi silhouette. 5s. Seamless loop.</div></div>
+<div class="vid-item"><div class="label">Video 04</div><div class="text">Eighth gold ball glows, ninth slot waits. 5s. Seamless loop.</div></div>
+</div>
+</div>
+
+<div class="scene">
+<div class="scene-header"><span class="scene-num">SCENE 08</span><span class="badge blue">THE VOTE</span><span class="scene-desc">Who decides — journalists, club form, country form</span></div>
+<div class="voiceover"><div class="voiceover-label">🎙️ VOICE OVER</div>Journalists vote. Club and country count. A lost final hurts. It does not always decide it.</div>
+<div class="prompt-label image">🖼️ IMAGE PROMPTS</div>
+<div class="img-grid">
+<div class="img-item"><div class="label">Image 01</div><div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a row of stickman journalists each holding a ballot ballot card with a golden ball icon, an urn collecting votes, stadium floodlights on the voters, high contrast infographic composition</div></div>
+<div class="img-item"><div class="label">Image 02</div><div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a pie of contributions — club season slice and national team slice, both feeding one golden ball, stickman analyst slicing the pie, stadium floodlights on the mix, high contrast infographic composition</div></div>
+<div class="img-item"><div class="label">Image 03</div><div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, the lost final shown as a wound with a small noose on Messi's case, but the rest of his season unbroken, stadium floodlights on the balanced view, high contrast infographic composition</div></div>
+<div class="img-item"><div class="label">Image 04</div><div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, "IT HURTS. IT DOESN'T DECIDE IT." split text, stickman voter weighing the whole file, stadium floodlights on the decision, high contrast infographic composition</div></div>
+</div>
+<div class="prompt-label video">🎬 VIDEO PROMPTS</div>
+<div class="img-grid">
+<div class="vid-item"><div class="label">Video 01</div><div class="text">Ballots drop one by one into urn. 5s. Seamless loop.</div></div>
+<div class="vid-item"><div class="label">Video 02</div><div class="text">Club and country slices merge into ball. 5s. One-time with hold.</div></div>
+<div class="vid-item"><div class="label">Video 03</div><div class="text">Final wound closes, season stays whole. 5s. One-time with hold.</div></div>
+<div class="vid-item"><div class="label">Video 04</div><div class="text">Voter weighs full file, ball glows. 5s. Seamless loop.</div></div>
+</div>
+</div>
+
+<div class="scene">
+<div class="scene-header"><span class="scene-num">SCENE 09</span><span class="badge blue">HISTORY II</span><span class="scene-desc">Seventeen nominations. Eight wins. Nobody comes close.</span></div>
+<div class="voiceover"><div class="voiceover-label">🎙️ VOICE OVER</div>Seventeen nominations. Eight wins. Nobody close. This nomination is already a record of its own.</div>
+<div class="prompt-label image">🖼️ IMAGE PROMPTS</div>
+<div class="img-grid">
+<div class="img-item"><div class="label">Image 01</div><div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, seventeen nomination medals lined up in a row, eight of them shining gold, stickman Messi standing behind them, stadium floodlights on the wall, high contrast infographic composition</div></div>
+<div class="img-item"><div class="label">Image 02</div><div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a comparison bar — Messi eight gold balls vs nearest rival much shorter, stadium floodlights on the gap, high contrast infographic composition</div></div>
+<div class="img-item"><div class="label">Image 03</div><div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, "17TH NOMINATION" banner unfurling, stickman Messi walking under it, stadium floodlights on the banner, high contrast infographic composition</div></div>
+<div class="img-item"><div class="label">Image 04</div><div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a record plaque "MOST BALLON D'OR WINS — 8" with Messi name, stickman fans admiring the plaque, stadium floodlights on the record, high contrast infographic composition</div></div>
+</div>
+<div class="prompt-label video">🎬 VIDEO PROMPTS</div>
+<div class="img-grid">
+<div class="vid-item"><div class="label">Video 01</div><div class="text">Seventeen medals light, eight gold. 5s. One-time with hold.</div></div>
+<div class="vid-item"><div class="label">Video 02</div><div class="text">Bar chart shows eight vs nearest. 5s. One-time with hold.</div></div>
+<div class="vid-item"><div class="label">Video 03</div><div class="text">Banner unfurls as Messi walks under. 5s. Seamless loop.</div></div>
+<div class="vid-item"><div class="label">Video 04</div><div class="text">Plaque engraves eight wins in gold. 5s. One-time with hold.</div></div>
+</div>
+</div>
+
+<div class="scene">
+<div class="scene-header"><span class="scene-num">SCENE 10</span><span class="badge blue">CLOSING</span><span class="scene-desc">Messi, Yamal, Mbappé, Rodri — one golden ball, still open</span></div>
+<div class="voiceover"><div class="voiceover-label">🎙️ VOICE OVER</div>Messi. Yamal. Mbappé. Rodri. One golden ball. Messi lost the final — but he's still in the frame. Subscribe.</div>
+<div class="prompt-label image">🖼️ IMAGE PROMPTS</div>
+<div class="img-grid">
+<div class="img-item"><div class="label">Image 01</div><div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, four stickman candidates side by side facing a single glowing golden ball, a trophy spotlight, stadium floodlights on the final four, high contrast infographic composition</div></div>
+<div class="img-item"><div class="label">Image 02</div><div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, the golden ball in the center with "WHO TAKES IT?" question, stickman four around it looking up, stadium floodlights on the question, high contrast infographic composition</div></div>
+<div class="img-item"><div class="label">Image 03</div><div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, stickman Messi positioned slightly behind but with equal glow, "STILL IN THE FRAME" ribbon under him, stadium floodlights on the hope, high contrast infographic composition</div></div>
+<div class="img-item"><div class="label">Image 04</div><div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, subscribe button with a golden ball icon and stickman waving, "SEE THE RESULT WITH US" text, stadium floodlights closing, high contrast infographic composition</div></div>
+</div>
+<div class="prompt-label video">🎬 VIDEO PROMPTS</div>
+<div class="img-grid">
+<div class="vid-item"><div class="label">Video 01</div><div class="text">Four candidates face the golden ball. 5s. One-time with hold.</div></div>
+<div class="vid-item"><div class="label">Video 02</div><div class="text">Question hovers above the center ball. 5s. Seamless loop.</div></div>
+<div class="vid-item"><div class="label">Video 03</div><div class="text">Messi glows equal despite distance. 5s. Seamless loop.</div></div>
+<div class="vid-item"><div class="label">Video 04</div><div class="text">Subscribe button pulses, ball glows. 5s. One-time with hold.</div></div>
+</div>
+</div>
+
+<div class="section-header"><span class="badge gold">🖼️</span> Thumbnail</div>
+
+<div class="thumbnail-box">
+<div class="label gold">📸 THUMBNAIL PROMPT</div>
+<div class="prompt-box">stickman sports infographic style, close-up of stickman Messi in Argentina colors reaching toward a giant glowing golden ball, three other candidate stickman silhouettes (Yamal, Mbappé, Rodri) behind him, bold white text "MESSI" on top line and "STILL IN THE RACE?" on bottom line, lost final scoreboard "0-1" faded in corner, stadium floodlights dramatic golden spotlight, high contrast infographic composition, vibrant cyan and orange color scheme, YouTube thumbnail optimized, 16:9 aspect ratio</div>
+</div>
+
+<div class="thumbnail-box">
+<div class="label blue">📸 THUMBNAIL ALTERNATE</div>
+<div class="prompt-box">stickman sports infographic style, four racing lanes each with a candidate stickman — Messi, Yamal, Mbappé, Rodri — sprinting toward one golden ball at the finish, bold white text "FOUR NAMES" on top line and "ONE TROPHY" on bottom line, lost final scoreboard small in corner, stadium floodlights on the lanes, high contrast infographic composition, 16:9 YouTube thumbnail ratio</div>
+</div>
+
+<div class="section-header"><span class="badge gold">📤</span> Social Share Card</div>
+
+<div class="thumbnail-box">
+<div class="label gold">📸 SHARE THUMBNAIL AI PROMPT</div>
+<div class="prompt-box">stickman sports infographic style, 1200x630 share card, stickman Messi reaching for a glowing golden ball with three candidate silhouettes behind, bold white text "MESSI" on top line and "STILL IN THE RACE" on bottom line, lost final scoreboard faded, dark blue stadium background, stadium floodlights, high contrast infographic composition, 16:9 aspect ratio</div>
+</div>
+
+<div class="thumbnail-box">
+<div class="label blue">📤 SHARE COPY</div>
+<div style="padding: 0.8rem 1rem; font-size: 0.9rem; color: #99aabb; line-height: 1.6;">
+<p><strong>Title:</strong> Messi. Yamal. Mbappé. Rodri. One Trophy.</p>
+<p><strong>Description:</strong> Messi lost the World Cup final — yet he's nominated for a record 17th Ballon d'Or. We break down all four candidates' cases and whether a lost final actually decides it.</p>
+<p><strong>Tags:</strong> #BallonDor #Messi #LamineYamal #Mbappe #Rodri #TheFootballRepublics</p>
+</div>
+</div>
+
+<div class="section-header"><span class="badge gold">🔍</span> SEO &amp; Metadata</div>
+
+<div class="seo-grid">
+<div class="seo-card">
+<h3>📌 SEO Title</h3>
+<div class="seo-desc">Messi Is Nominated for the Ballon d'Or. He Lost the World Cup Final. He Still Might Win It. | TheFootballRepublics</div>
+<h3>📝 SEO Description</h3>
+<div class="seo-desc">Messi is nominated for a record 17th Ballon d'Or despite Argentina losing the World Cup final. His 19 MLS goals, 8 World Cup goals and all-time assists record vs Yamal, Mbappé and Rodri. Who wins? We break down every case and the real criteria.</div>
+</div>
+<div class="seo-card tags">
+<h3>🏷️ Hashtags / Tags</h3>
+<li>#BallonDor</li>
+<li>#Messi</li>
+<li>#LamineYamal</li>
+<li>#Mbappe</li>
+<li>#Rodri</li>
+<li>#TheFootballRepublics</li>
+<li>#WorldCup2026</li>
+<li>#GoldenBall</li>
+</div>
+</div>
+
+<div class="section-header"><span class="badge gold">🎙️</span> Voiceover Notes</div>
+
+<div class="vonote">
+<ul>
+<li><strong>Tone:</strong> Debate energy — fair to all four candidates, leaning into the Messi comeback narrative without overclaiming</li>
+<li><strong>Pacing:</strong> Fast hook naming all four, one clean beat per candidate, slowing for criteria and history, confident close on the open race</li>
+<li><strong>Key phrases:</strong> "Four names, one trophy", "Only the final is missing", "Youngest winner ever", "One final doesn't decide the award", "Still in the frame"</li>
+<li><strong>Music:</strong> Ticking clock drum intro, separate motif per candidate, dramatic swell on precedent history, warm close</li>
+<li><strong>SFX:</strong> Ballot drop, trophy gleam, crowd roar, record book thump, golden ball chime</li>
+<li><strong>Transitions:</strong> "Then there's Yamal...", "And Mbappé...", "Don't forget Rodri...", "Here's the catch...", "But here's the history..."</li>
+<li><strong>Runtime target:</strong> 1:45 – 2:15</li>
+</ul>
+</div>
+
+<footer>TheFootballRepublics — Stickman Sports Infographics. Built for YouTube Shorts &amp; Vertical Video.</footer>
+
+</div>
+</body>
+</html>

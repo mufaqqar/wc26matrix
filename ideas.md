@@ -91,6 +91,8 @@ Idea 101 [■■■■■■■■■■] 100% — Storyboard done (10 scenes)
 Idea 105 [■■■■■■■■■■] 100% — Storyboard done (10 scenes) — minimal voiceover format
 Idea 131 [■■■■■■■■■■] 100% — Storyboard done (10 scenes)
 Idea 132 [■■■■■■■■■■] 100% — Storyboard done (10 scenes)
+Idea 133 [■■■■■■■■■■] 100% — Storyboard done (10 scenes)
+Idea 134 [■■■■■■■■■■] 100% — Storyboard done (10 scenes)
 ```
 
-**Total progress:** 80/87 ideas storyboarded (92%)
+**Total progress:** 82/87 ideas storyboarded (94%)
