@@ -1,15 +1,13 @@
-YouTube thumbnail, flat vector illustration style, no photography, no gradients.
+Template 1
 
-BACKGROUND: Dark night football stadium. Wet green grass pitch visible along the bottom edge. Four bright white floodlight beams shoot down from upper corners creating a dramatic spotlight cone in the center. Atmospheric dark haze/fog. The large stylized text "26" fills the left-center background in dark charcoal — the number "2" has a 3D golden FIFA World Cup trophy sitting inside it, gleaming with warm gold light. Small white text "FIFA" in a clean label sits at the bottom-left corner.
+Photorealistic digital illustration, YouTube thumbnail style, dark moody background with subtle stadium crowd blur, single spotlight shining down from above center, 3D rendered stick figure character with round white head and simple black dot eyes standing in spotlight holding [CULTURAL PROP related to country/league], wearing [LEAGUE/COUNTRY themed costume], league logo [LEAGUE LOGO NAME] displayed prominently bottom left with bold color, large bold white text "PICK ME?" on right side in Impact or Anton font, bright neon yellow-green accent color on "ME?", slight vignette around edges, cinematic lighting, 16:9 ratio YouTube thumbnail, no watermarks
 
-STICK FIGURE CHARACTER: One single black stick figure, simple and iconic — round white circle head, two small black dot eyes, flat straight mouth showing [EMOTION: e.g. deadpan neutral / shocked / smirking confidently / confused head tilt]. Stick figure body is thin black lines only, no fill, standing upright in the spotlight center. The figure is [PROP: e.g. holding a large golden trophy at arm's length / unrolling a long scroll that trails to the floor / holding a tactical clipboard with formation lines drawn / raising a red card with one arm / holding multiple country flag signs like a fan]. The spotlight casts a soft circular glow around the figure's feet.
 
-TEXT: [HEADLINE LINE 1] on one line, [HEADLINE LINE 2] on the next line if needed — massive condensed bold sans-serif font, pure white letters, black outline stroke, positioned on the RIGHT SIDE of the frame (or upper-right). Letter height roughly 1/3 the total thumbnail height. NO decorative effects on text — flat solid white only.
+Templte 2
 
-COMPOSITION: Stick figure left-of-center, text right side. Strong visual balance. The figure appears to interact with or gesture toward the text. High contrast black-and-white figure pops against the dark moody background. Clean and bold — must read clearly at 200px mobile thumbnail size.
+Photorealistic digital illustration, YouTube thumbnail style, dark stadium background with green pitch visible, single stick figure character center-left holding a large red card, bold white text "NEW RULES" on right side in heavy Impact font, FIFA World Cup 2026 trophy or Premier League trophy bottom left, large league or tournament logo visible, dramatic spotlight from above, deep shadow contrast, cinematic mood, bright red accent color on card, 16:9 YouTube thumbnail format, no text overlays besides title text
 
-COLOUR PALETTE: Background near-black (#0D0D0D to #1A1A1A). Spotlight warm amber-white. Trophy gold (#D4A017). Text pure white (#FFFFFF). Single accent color [ACCENT: e.g. red / yellow / green] used only for one highlighted word or underline element if needed.
 
-STYLE REFERENCE: Flat editorial vector. Resembles a minimalist animated explainer graphic. No photorealism. No human faces. No detailed textures. The overall feel is dramatic, punchy, and curiosity-triggering.
+Templte 3 
 
-ASPECT RATIO: 16:9 (1280x720px)
+Photorealistic digital illustration, YouTube thumbnail style, split background — left side [TEAM 1 COLOR], right side [TEAM 2 COLOR], diagonal lightning bolt dividing the two halves center, stick figure character center overlapping both sides with neutral expression, bold white text "PURE" top left, bold yellow text "[EMOTION WORD]." bottom right in massive Impact font with period, both team jerseys visible on either side, dramatic lighting, slight motion blur on background, 16:9 YouTube thumbnail, high contrast, cinematic quality
