@@ -530,4 +530,14 @@ Hashtags: #Liverpool #ArneSlot #ChampionsLeague
 
 Virality: 🔥 10/10
 
+Idea # 151
+
+Why Frances Next Generation Golden Generation Might Be Unstoppable in 2030
+Expands on your successful breakdowns of international dynasties and tactical dominance seen in your Spain and Germany coverage
+
+idea # 152
+
+The Tactical Breakdown of Why Traditional Strikers Are Disappearing From Modern Football
+Fits your analytical style exploring macro tactical shifts and positional evolution across top leagues
+
 

@@ -28,7 +28,7 @@ VIDEO LENGTH TARGET: 9-13 minutes of spoken content (approximately 1,350-1,950 w
 
 
 
- Title starts with hook word (Every / Don't / Why / Pure / New)
+ ✅ Title starts with hook word (Every / Don't / Why / Pure / New)
 ✅ Title under 60 characters
 ✅ Script follows 5-part structure (cold open → context → main → climax → close)
 ✅ Cold open under 20 seconds — no intro, straight into story

@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Tactical Breakdown of Why Traditional Strikers Are Disappearing From Modern Football | TheFootballRepublics</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; background: #0a1628; color: #e0e8f0; padding: 2rem 1rem; }
+.container { max-width: 1000px; margin: 0 auto; }
+h1 { font-size: 2rem; font-weight: 700; color: #00e5ff; margin-bottom: 0.3rem; }
+.subtitle { color: #8899aa; font-size: 1rem; margin-bottom: 2rem; border-left: 4px solid #ff6b35; padding-left: 1rem; }
+.badge { font-size: 0.75rem; font-weight: 600; background: #ff6b35; color: #fff; padding: 0.2rem 0.7rem; border-radius: 20px; display: inline-block; }
+.badge.gold { background: #ff6b35; }
+.badge.blue { background: #0088ff; }
+.badge.image { background: #9b59b6; color: #fff; }
+.badge.video { background: #e74c3c; color: #fff; }
+.section-header { font-size: 1.2rem; font-weight: 600; color: #00e5ff; background: #111d33; padding: 0.7rem 1.2rem; border-radius: 8px; margin-bottom: 1rem; display: flex; align-items: center; gap: 0.6rem; flex-wrap: wrap; }
+.scene { background: #0f1d33; border-radius: 10px; padding: 1.2rem 1.5rem; margin-bottom: 1rem; box-shadow: 0 1px 4px rgba(0,0,0,0.3); border-left: 4px solid #00e5ff; }
+.scene-header { display: flex; align-items: center; gap: 0.8rem; margin-bottom: 0.8rem; flex-wrap: wrap; }
+.scene-num { font-weight: 700; color: #00e5ff; font-size: 0.9rem; }
+.scene-desc { font-style: italic; color: #8899aa; font-size: 0.9rem; }
+.voiceover { background: #0d1a2e; border-radius: 6px; padding: 0.8rem 1rem; margin-top: 0.7rem; font-size: 0.95rem; line-height: 1.6; color: #e0e8f0; border-left: 3px solid #0088ff; }
+.voiceover-label { font-size: 0.75rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; color: #0088ff; margin-bottom: 0.3rem; }
+.prompt-label { font-size: 0.75rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; color: #fff; margin-bottom: 0.2rem; margin-top: 0.6rem; padding: 0.15rem 0.6rem; border-radius: 4px; display: inline-block; }
+.prompt-label.image { background: #9b59b6; }
+.prompt-label.video { background: #e74c3c; }
+.prompt-box { background: #0d1a2e; border-radius: 6px; padding: 0.8rem 1rem; font-size: 0.88rem; line-height: 1.5; color: #99aabb; font-family: 'Courier New', monospace; border-left: 3px solid #00e5ff; white-space: pre-wrap; margin-bottom: 0.5rem; }
+.prompt-box.video-prompt { border-left-color: #e74c3c; background: #1a0d0d; }
+.img-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0.8rem; margin-top: 0.5rem; }
+.img-item { background: #0d1a2e; border-radius: 6px; padding: 0.7rem; border-left: 3px solid #9b59b6; }
+.img-item .label { font-size: 0.7rem; font-weight: 600; color: #9b59b6; margin-bottom: 0.2rem; }
+.img-item .text { font-size: 0.82rem; color: #99aabb; font-family: 'Courier New', monospace; line-height: 1.4; white-space: pre-wrap; }
+.vid-item { background: #1a0d0d; border-radius: 6px; padding: 0.7rem; border-left: 3px solid #e74c3c; }
+.vid-item .label { font-size: 0.7rem; font-weight: 600; color: #e74c3c; margin-bottom: 0.2rem; }
+.vid-item .text { font-size: 0.82rem; color: #99aabb; font-family: 'Courier New', monospace; line-height: 1.4; }
+.thumbnail-box { background: #0f1d33; border-radius: 10px; padding: 1.2rem 1.5rem; box-shadow: 0 1px 4px rgba(0,0,0,0.3); border-left: 4px solid #ff6b35; margin-bottom: 1rem; }
+.thumbnail-box .label { font-size: 0.75rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 0.2rem; }
+.thumbnail-box .label.gold { color: #ff6b35; }
+.thumbnail-box .label.blue { color: #0088ff; }
+.seo-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+.seo-card { background: #0f1d33; border-radius: 10px; padding: 1rem 1.2rem; box-shadow: 0 1px 4px rgba(0,0,0,0.3); }
+.seo-card h3 { font-size: 0.9rem; color: #00e5ff; margin-bottom: 0.5rem; }
+.seo-card ul { list-style: none; }
+.seo-card li { font-size: 0.88rem; color: #99aabb; padding: 0.25rem 0; border-bottom: 1px solid #1a2a44; }
+.seo-card li:last-child { border-bottom: none; }
+.seo-card.tags li { display: inline-block; background: #1a2a44; padding: 0.2rem 0.6rem; border-radius: 4px; margin: 0.2rem; font-size: 0.8rem; border: none; }
+.seo-desc { font-size: 0.85rem; line-height: 1.6; color: #99aabb; margin-bottom: 0.5rem; }
+.vonote { background: #0f1d33; border-radius: 10px; padding: 1.2rem 1.5rem; box-shadow: 0 1px 4px rgba(0,0,0,0.3); }
+.vonote ul { list-style: none; font-size: 0.92rem; line-height: 1.8; color: #99aabb; }
+.meta-row { display: flex; gap: 1rem; flex-wrap: wrap; margin-bottom: 1rem; }
+.meta-tag { background: #1a2a44; padding: 0.3rem 0.8rem; border-radius: 20px; font-size: 0.85rem; }
+.meta-tag.style { background: #1a2a44; color: #00e5ff; border: 1px solid #00e5ff; }
+footer { margin-top: 3rem; text-align: center; font-size: 0.85rem; color: #556677; padding: 1rem 0; }
+@media (max-width: 700px) { .seo-grid { grid-template-columns: 1fr; } .img-grid { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+<div class="container">
+
+<h1>The Tactical Breakdown of Why Traditional Strikers Are Disappearing From Modern Football</h1>
+<div class="subtitle">Stickman sports infographic style — Clean vector illustrations on dark football stadium backgrounds</div>
+
+<div class="meta-row">
+    <span class="meta-tag">Category: Tactical Analysis &amp; Football Evolution</span>
+    <span class="meta-tag">Est. Length: ~3 min</span>
+    <span class="meta-tag style">Style: Stickman Sports Infographic</span>
+    <span class="meta-tag">Scenes: 10</span>
+    <span class="meta-tag">Images: 20</span>
+    <span class="meta-tag">Video Prompts: 20</span>
+    <span class="meta-tag">Voiceover: ~350 words</span>
+</div>
+
+<!-- SCENE 01 -->
+<div class="scene">
+    <div class="scene-header">
+        <span class="scene-num">SCENE 01</span>
+        <span class="scene-desc">Hook — The number 9 shirt is going extinct</span>
+    </div>
+    <div class="voiceover">
+        <div class="voiceover-label">Voiceover</div>
+        The most famous shirt in football is disappearing. The number nine. The striker. The goal poacher. The man who stood in the six-yard box and waited. In 2026 he was nowhere. In 2030 he might not exist at all.
+    </div>
+    <div class="prompt-label image">Image Prompts (2)</div>
+    <div class="img-grid">
+        <div class="img-item">
+            <div class="label">Prompt A — The fading number nine</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a large football jersey hanging on a rack with a bold "9" on the back, the jersey fading from solid color at the bottom to transparent at the top as if dissolving into mist, a ghostly stickman silhouette standing behind the jersey looking over its shoulder, a "2006" date stamp on the left side of the rack and "2026" on the right where the jersey becomes see-through, stadium floodlights creating an eerie glow through the dissolving fabric, bold text "THE NUMBER 9 IS GOING EXTINCT" at bottom in orange, high contrast infographic composition</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt B — The empty penalty box</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, an empty penalty area drawn from a high angle, the six-yard box completely vacant with a single large red question mark in the center where a striker would stand, ghostly footprints walking away from the spot toward the edge of the frame, a formation diagram in the corner showing "4-4-2" with the second striker slot crossed out, stadium floodlights on the empty box, bold text "THE BOX IS EMPTY. WHERE DID THEY GO?" at top in cyan, high contrast infographic composition</div>
+        </div>
+    </div>
+    <div class="prompt-label video">AI Video Prompts (2)</div>
+    <div class="img-grid">
+        <div class="vid-item">
+            <div class="label">Video A — Jersey dissolves upward</div>
+            <div class="text">The number 9 jersey hangs solid at first, then dissolves from top to bottom into mist, the ghostly striker silhouette behind it becomes visible and fades away, the year stamp rolls from 2006 to 2026, 5-second dissolve, one-time with hold</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video B — Empty box reveal</div>
+            <div class="text">Camera pushes down into the empty penalty box from above, the red question mark pulses in the center, ghostly footprints draw themselves walking away from the six-yard box, 5-second reveal, one-time with hold</div>
+        </div>
+    </div>
+</div>
+
+<!-- SCENE 02 -->
+<div class="scene">
+    <div class="scene-header">
+        <span class="scene-num">SCENE 02</span>
+        <span class="scene-desc">Context — What the traditional number 9 actually was</span>
+    </div>
+    <div class="voiceover">
+        <div class="voiceover-label">Voiceover</div>
+        For decades the striker had one job. Stand in the box. Wait for the cross. Put it in the net. Shearer. Van Nistelrooy. Batistuta. They did not drop deep. They did not press. They waited. And when the ball arrived, they scored. That is what a striker was.
+    </div>
+    <div class="prompt-label image">Image Prompts (2)</div>
+    <div class="img-grid">
+        <div class="img-item">
+            <div class="label">Prompt A — The classic number 9</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a stickman striker standing alone in the penalty box with arms slightly raised and ready posture, three labelled arrows pointing at him — "WAIT", "POACH", "SCORE" — a timeline strip along the bottom showing "SHEARER", "VAN NISTELROUY", "BATISTUTA" with classic trophy icons, stadium floodlights on the striker, bold text "THE CLASSIC NUMBER 9" at top in orange, high contrast infographic composition</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt B — The simple instructions</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a coaching tactics board showing a simple three-step instruction card — Step 1: stickman stands in box, Step 2: ball arrives at feet, Step 3: ball goes in net — each step in its own panel with a green checkmark, a "NO PRESSING", "NO DROPPING DEEP", "NO CREATING" list crossed out on the side, stadium floodlights on the board, bold text "ONE JOB. ONE JOB ONLY." at bottom in cyan, high contrast infographic composition</div>
+        </div>
+    </div>
+    <div class="prompt-label video">AI Video Prompts (2)</div>
+    <div class="img-grid">
+        <div class="vid-item">
+            <div class="label">Video A — Classic striker waits and scores</div>
+            <div class="text">The striker stickman stands motionless in the box, a cross flies in from the left, he turns and the ball hits the net, the three label arrows "WAIT" "POACH" "SCORE" appear in sequence, 5-second cycle, one-time with hold</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video B — Three-step instruction board</div>
+            <div class="text">Three instruction panels slide in one by one with green checkmarks, the crossed-out list of "NO PRESSING" etc. appears with red X marks, the tactics board locks into its final state, 5-second build, seamless loop</div>
+        </div>
+    </div>
+</div>
+
+<!-- SCENE 03 -->
+<div class="scene">
+    <div class="scene-header">
+        <span class="scene-num">SCENE 03</span>
+        <span class="scene-desc">The data — Premier League striker usage has collapsed since 2010</span>
+    </div>
+    <div class="voiceover">
+        <div class="voiceover-label">Voiceover</div>
+        In the 2010-11 Premier League season, sixty-eight percent of goals were scored by players wearing the number nine or number ten. In 2025-26 that number was thirty-one percent. The goals did not stop. The man scoring them changed. Wingers score now. Midfielders score now. Even defenders score now. The striker did not disappear. He was replaced.
+    </div>
+    <div class="prompt-label image">Image Prompts (2)</div>
+    <div class="img-grid">
+        <div class="img-item">
+            <div class="label">Prompt A — The goalshare collapse</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a dramatic line chart showing goal share percentage declining — 2010 at "68%" at the top left, 2015 at "52%", 2020 at "39%", 2026 at "31%" at the bottom right — the line colored orange with a red downward arrow at the end, four position icons along the declining line showing striker → winger → midfielder → defender as the new scorers, stadium floodlights on the chart, bold text "68% → 31% — THE STRIKER'S SHARE COLLAPSED" at top in orange, high contrast infographic composition</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt B — Who scores now</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a pie chart split into five slices — "WINGERS 28%", "MIDFIELDERS 22%", "STRIKERS 31%", "DEFENDERS 12%", "OWN GOALS 7%" — each slice in a different color with a stickman icon representing the position, the striker slice shrinking visibly compared to the others, a "2010 vs 2026" label at the top, stadium floodlights on the pie chart, bold text "EVERYONE SCORES NOW. NOT JUST THE NINE." at bottom in cyan, high contrast infographic composition</div>
+        </div>
+    </div>
+    <div class="prompt-label video">AI Video Prompts (2)</div>
+    <div class="img-grid">
+        <div class="vid-item">
+            <div class="label">Video A — Line chart crashes down</div>
+            <div class="text">The line chart draws itself from 68% at the top left downward to 31% at the bottom right, each percentage label pops in at the data points, the position icons slide along the declining line, the red arrow pulses at the end, 5-second chart build, one-time with hold</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video B — Pie chart morphs</div>
+            <div class="text">Pie chart draws in as the 2010 version with a large striker slice, the slices rearrange and resize to the 2026 version with the striker slice visibly smaller, position labels slide to their new percentages, 5-second morph, seamless loop</div>
+        </div>
+    </div>
+</div>
+
+<!-- SCENE 04 -->
+<div class="scene">
+    <div class="scene-header">
+        <span class="scene-num">SCENE 04</span>
+        <span class="scene-desc">Reason 1 — Pressing demands make static strikers a liability</span>
+    </div>
+    <div class="voiceover">
+        <div class="voiceover-label">Voiceover</div>
+        Modern football presses from the front. Every team does it. The striker is the first defender. If he does not press, the entire system breaks. A striker who stands in the box and waits now leaves his team with ten players out of possession. The cost of laziness at the top is a goal at the bottom.
+    </div>
+    <div class="prompt-label image">Image Prompts (2)</div>
+    <div class="img-grid">
+        <div class="img-item">
+            <div class="label">Prompt A — The pressing chain</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a chain of five stickman players linked by red pressing arrows starting from the striker at the top, the first link (striker) glowing red and pulsing, the remaining four links connected below with green check marks, a "SYSTEM" label beside the chain, a broken chain link shown as an alternative with the striker standing still and a red X through the first arrow, stadium floodlights on the chain, bold text "THE STRIKER IS THE FIRST DEFENDER" at top in orange, high contrast infographic composition</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt B — 10 vs 11 problem</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a pitch diagram split in two — left side "WITH PRESSING: 11v11" showing all blue dots pressing forward in a connected shape, right side "WITHOUT STRIKER PRESSING: 10v11" showing ten blue dots pressing while one red dot (the striker) stands still in the box disconnected from the shape, a red gap in the pressing shape on the right, stadium floodlights on both diagrams, bold text "ONE LAZY STRIKER = ONE BROKEN SYSTEM" at bottom in red, high contrast infographic composition</div>
+        </div>
+    </div>
+    <div class="prompt-label video">AI Video Prompts (2)</div>
+    <div class="img-grid">
+        <div class="vid-item">
+            <div class="label">Video A — Pressing chain activates</div>
+            <div class="text">The chain of five players lights up from top to bottom with pressing arrows activating one by one, the striker pulses red as the first link, the system runs smoothly, then the striker disconnects and the chain shatters, 5-second activation, one-time with hold</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video B — 10v11 split diagram</div>
+            <div class="text">Both pitch diagrams appear, the left side shows all dots connected in a pressing shape, the right side shows the striker dot disconnecting and the pressing shape developing a red gap, the "10v11" label flashes, 5-second comparison, seamless loop</div>
+        </div>
+    </div>
+</div>
+
+<!-- SCENE 05 -->
+<div class="scene">
+    <div class="scene-header">
+        <span class="scene-num">SCENE 05</span>
+        <span class="scene-desc">Reason 2 — The false 9 replaces waiting with creating</span>
+    </div>
+    <div class="voiceover">
+        <div class="voiceover-label">Voiceover</div>
+        The false 9 killed the traditional striker. Instead of standing in the box, the false 9 drops into midfield. He collects the ball. He turns. He creates space for others to run into. Messi did it at Barcelona. Firmino did it at Liverpool. Now every top team has one. The striker stopped being the destination. He became the source.
+    </div>
+    <div class="prompt-label image">Image Prompts (2)</div>
+    <div class="img-grid">
+        <div class="img-item">
+            <div class="label">Prompt A — False 9 movement diagram</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a pitch diagram showing a red "X" where the traditional striker would stand in the box, then a curved arrow showing the false 9 dropping back into the midfield zone, the stickman false 9 now standing in a pocket of space between the lines, two blue running arrows showing wingers exploiting the space created behind, stadium floodlights on the movement diagram, bold text "FROM DESTINATION TO SOURCE" at top in cyan, high contrast infographic composition</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt B — The three false 9s</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, three stickman profiles side by side — "MESSI — BARCELONA" dropping into midfield with a curved arrow, "FIRMINO — LIVERPOOL" dropping with a curved arrow, "A MODERN STRIKER — 2026" dropping with a curved arrow — each with a small club badge icon and the same movement pattern, a "COPY THIS" stamp at the bottom, stadium floodlights on the profiles, bold text "ONE MOVEMENT. EVERY TOP TEAM." at bottom in orange, high contrast infographic composition</div>
+        </div>
+    </div>
+    <div class="prompt-label video">AI Video Prompts (2)</div>
+    <div class="img-grid">
+        <div class="vid-item">
+            <div class="label">Video A — False 9 drops and creates</div>
+            <div class="text">The red X stays in the box as the false 9 stickman drops backward with a curved arrow, the wingers' running arrows activate behind him as space opens, the false 9 collects the ball and turns, 5-second tactical movement, one-time with hold</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video B — Three false 9s sync</div>
+            <div class="text">Three stickmen drop into midfield simultaneously from three different positions, each with a curved arrow and club badge, the "COPY THIS" stamp lands, all three movements sync, 5-second parallel build, seamless loop</div>
+        </div>
+    </div>
+</div>
+
+<!-- SCENE 06 -->
+<div class="scene">
+    <div class="scene-header">
+        <span class="scene-num">SCENE 06</span>
+        <span class="scene-desc">Reason 3 — Wide forwards now cut inside and score more than strikers</span>
+    </div>
+    <div class="voiceover">
+        <div class="voiceover-label">Voiceover</div>
+        The wingers are the new strikers. They cut inside from wide positions. They shoot from the edge of the box. They arrive unmarked because the defence is focused on the space where the striker used to be. Salah. Son. Vinicius. The goals shifted from the centre to the channels. The striker's territory was colonised by faster players arriving from wider angles.
+    </div>
+    <div class="prompt-label image">Image Prompts (2)</div>
+    <div class="img-grid">
+        <div class="img-item">
+            <div class="label">Prompt A — Inverted winger movement</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a pitch diagram showing two red arrows cutting inside from wide positions toward the centre — left arrow labelled "SALAH" curving from right wing into the box, right arrow labelled "SON" curving from left wing into the box — the central striker zone empty with a dashed ghost outline, the cutting arrows converge on the goal, stadium floodlights on the movement, bold text "THE WINGERS ARE THE NEW STRIKERS" at top in orange, high contrast infographic composition</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt B — Goal distribution shift</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a goal mouth seen from above with goal-scoring zones marked — central zone "STRIKER ZONE" shown in faded red with fewer dots, wide channel zones "WINGER ZONE" shown in bright orange with more dots, arrows showing the migration of goals from centre to channels, a "2010 → 2026" label at the top, stadium floodlights on the goal zones, bold text "THE GOALS MOVED WIDE" at bottom in cyan, high contrast infographic composition</div>
+        </div>
+    </div>
+    <div class="prompt-label video">AI Video Prompts (2)</div>
+    <div class="img-grid">
+        <div class="vid-item">
+            <div class="label">Video A — Wingers cut inside</div>
+            <div class="text">Two wingers' arrows draw themselves from wide positions cutting inward toward the box, the central striker zone fades to a ghost outline, the arrows converge on the goal and score, 5-second movement build, one-time with hold</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video B — Goal zones migrate</div>
+            <div class="text">The central striker zone dots fade and dissolve, the wide channel zone dots brighten and multiply, arrows show the migration from centre to channels, the "2010 → 2026" label ticks forward, 5-second zone shift, seamless loop</div>
+        </div>
+    </div>
+</div>
+
+<!-- SCENE 07 -->
+<div class="scene">
+    <div class="scene-header">
+        <span class="scene-num">SCENE 07</span>
+        <span class="scene-desc">Reason 4 — Midfield goals mean the striker is no longer the primary finisher</span>
+    </div>
+    <div class="voiceover">
+        <div class="voiceover-label">Voiceover</div>
+        Modern midfielders score from distance. They arrive late in the box. They arrive unmarked. Bellingham scored twenty goals in his debut season at Real Madrid. De Bruyne averaged double figures for years. The striker used to be the only player who shot. Now six or seven players shoot in every match. The striker's monopoly on finishing is gone.
+    </div>
+    <div class="prompt-label image">Image Prompts (2)</div>
+    <div class="img-grid">
+        <div class="img-item">
+            <div class="label">Prompt A — Midfield goalscorers</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a formation diagram showing eleven positions with shooting icons — the striker in the centre with one shooting icon, but the midfield three behind him each with two shooting icons, and the fullbacks on the sides each with one shooting icon — total icons showing "7 SHOOTERS, NOT 1", a comparison sidebar showing "2010: 1 PRIMARY SHOOTER" vs "2026: 7 SHOOTERS", stadium floodlights on the diagram, bold text "SEVEN PLAYERS SHOOT NOW. NOT JUST ONE." at top in orange, high contrast infographic composition</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt B — Late-arriving midfielders</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a penalty area from the side with three stickman midfielders arriving from deep positions with motion trails — one labelled "BELLINGHAM", one "DE BRUYNE", one "MODERN MIDFIELDER" — each arriving at the edge of the box unmarked, the striker standing in the box with a confused posture as the ball arrives at the midfielders' feet instead, stadium floodlights on the arriving runners, bold text "THE LATE RUN BEATS THE STANDING STRIKER" at bottom in cyan, high contrast infographic composition</div>
+        </div>
+    </div>
+    <div class="prompt-label video">AI Video Prompts (2)</div>
+    <div class="img-grid">
+        <div class="vid-item">
+            <div class="label">Video A — Seven shooters activate</div>
+            <div class="text">Formation diagram appears, the striker gets one shooting icon, then the midfielders get their icons one by one, the fullbacks get theirs, the counter climbs from 1 to 7, the "7 SHOOTERS" label locks in, 5-second build, one-time with hold</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video B — Late runs arrive</div>
+            <div class="text">Three midfielder stickmen run from deep positions with motion trails, they arrive at the box edge unmarked, the striker looks confused, the ball arrives at the midfielders' feet, 5-second run build, seamless loop</div>
+        </div>
+    </div>
+</div>
+
+<!-- SCENE 08 -->
+<div class="scene">
+    <div class="scene-header">
+        <span class="scene-num">SCENE 08</span>
+        <span class="scene-desc">The evidence — Top scorers in 2026 were not traditional strikers</span>
+    </div>
+    <div class="voiceover">
+        <div class="voiceover-label">Voiceover</div>
+        Look at the 2026 World Cup. The top scorer was not a traditional number nine. Mbappé plays wide and cuts inside. Messi is a deep-lying forward. The golden boot race was won by players who would never have been called strikers ten years ago. The data is not subtle. The position is being erased.
+    </div>
+    <div class="prompt-label image">Image Prompts (2)</div>
+    <div class="img-grid">
+        <div class="img-item">
+            <div class="label">Prompt A — 2026 top scorers</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a golden boot trophy at the top, below it a top-scorer leaderboard with three entries — "1. MBAPPÉ — 10 GOALS — POSITION: WIDE FORWARD", "2. MESSI — 8 GOALS — POSITION: DEEP FORWARD", "3. [STRIKER] — 6 GOALS — POSITION: CENTRE FORWARD" — the top two positions highlighted in gold with their true positions visible, the third in muted silver, stadium floodlights on the leaderboard, bold text "THE TOP SCORERS ARE NOT STRIKERS" at top in orange, high contrast infographic composition</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt B — Position identity crisis</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, three stickman player cards each with a question mark over the position label — Card 1: "MBAPPÉ — IS HE A STRIKER? A WINGER? BOTH?", Card 2: "MESSI — IS HE A FORWARD? A MIDFIELDER? BOTH?", Card 3: "MODERN #9 — WHAT EVEN IS THIS NOW?" — each card with a blurred position label, stadium floodlights on the cards, bold text "POSITIONS DON'T MEAN WHAT THEY USED TO" at bottom in cyan, high contrast infographic composition</div>
+        </div>
+    </div>
+    <div class="prompt-label video">AI Video Prompts (2)</div>
+    <div class="img-grid">
+        <div class="vid-item">
+            <div class="label">Video A — Golden boot leaderboard</div>
+            <div class="text">Leaderboard slides in from right, the three entries appear one by one, the top two positions "WIDE FORWARD" and "DEEP FORWARD" highlight in gold, the "CENTRE FORWARD" stays muted, the golden boot trophy glows above, 5-second reveal, one-time with hold</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video B — Position identity cards</div>
+            <div class="text">Three player cards flip in one by one, the position labels blur and question marks appear, the "WHAT EVEN IS THIS NOW?" text types in at the bottom, 5-second identity reveal, seamless loop</div>
+        </div>
+    </div>
+</div>
+
+<!-- SCENE 09 -->
+<div class="scene">
+    <div class="scene-header">
+        <span class="scene-num">SCENE 09</span>
+        <span class="scene-desc">The last survivors — Who still plays as a traditional number 9</span>
+    </div>
+    <div class="voiceover">
+        <div class="voiceover-label">Voiceover</div>
+        A few survive. Haaland at Manchester City. Osimhen at Napoli. They score fifty goals a season standing in the box and waiting. But they are becoming rare species. Every top club now wants their striker to press, drop deep, and create. The pure number nine is not dead. But he is endangered. And his habitat is shrinking.
+    </div>
+    <div class="prompt-label image">Image Prompts (2)</div>
+    <div class="img-grid">
+        <div class="img-item">
+            <div class="label">Prompt A — The last survivors</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, two stickman strikers standing tall in a spotlight — labelled "HAALAND" and "OSIMHEN" — both with gold goal-scoring icons ("50 GOALS") above their heads, around them a fading forest of ghostly striker silhouettes disappearing into mist, a "LAST OF THEIR KIND" banner across the top, stadium floodlights creating the spotlight effect, bold text "THE PURE NINE: ENDANGERED SPECIES" at bottom in orange, high contrast infographic composition</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt B — Shrinking habitat</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a habitat map of a football pitch showing the striker's traditional zone — the penalty box and six-yard box — shrinking from a large green area to a small red dot, surrounding zones labelled "PRESSING ZONE", "CREATION ZONE", "MIDFIELD DROP ZONE" expanding in blue, a single stickman striker standing on the shrinking red dot, stadium floodlights on the pitch, bold text "HABITAT: SHRINKING. SPECIES: ENDANGERED." at top in cyan, high contrast infographic composition</div>
+        </div>
+    </div>
+    <div class="prompt-label video">AI Video Prompts (2)</div>
+    <div class="img-grid">
+        <div class="vid-item">
+            <div class="label">Video A — Last survivors in spotlight</div>
+            <div class="text">Two strikers appear in a spotlight with "50 GOALS" icons above, ghostly striker silhouettes fade into mist around them, the spotlight narrows, the "LAST OF THEIR KIND" banner draws itself, 5-second endangered reveal, one-time with hold</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video B — Habitat shrinks</div>
+            <div class="text">The green striker zone shrinks to a small red dot, the surrounding blue zones expand inward, the striker stickman shrinks with the zone, the labels appear one by one, 5-second habitat reduction, seamless loop</div>
+        </div>
+    </div>
+</div>
+
+<!-- SCENE 10 -->
+<div class="scene">
+    <div class="scene-header">
+        <span class="scene-num">SCENE 10</span>
+        <span class="scene-desc">Ending + CTA — The number 9 is not dead. He evolved. And evolution does not stop.</span>
+    </div>
+    <div class="voiceover">
+        <div class="voiceover-label">Voiceover</div>
+        The number nine did not die. He evolved. The game demanded more — pressing, creation, movement, intelligence. The striker who stands and waits is gone. The striker who does everything is the future. Football always changes. The positions that refuse to change disappear. Subscribe. The next tactical evolution breakdown is coming and it changes how you see the game.
+    </div>
+    <div class="prompt-label image">Image Prompts (2)</div>
+    <div class="img-grid">
+        <div class="img-item">
+            <div class="label">Prompt A — The evolution timeline</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, an evolution-style progression diagram showing four stages — Stage 1: "THE WAITER" stickman standing still in the box, Stage 2: "THE PRESSER" stickman running and pressing, Stage 3: "THE CREATOR" stickman dropping deep with the ball, Stage 4: "THE COMPLETE FORWARD" stickman doing everything simultaneously — connected by forward arrows, a DNA helix running along the bottom, stadium floodlights on each stage, bold text "THE NUMBER 9 DID NOT DIE. HE EVOLVED." at top in cyan, high contrast infographic composition</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt B — Subscribe finale</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a giant glowing red subscribe button with a white bell and "SUBSCRIBE" text, a stickman pressing it, TheFootballRepublics branded icons floating around — a formation diagram, a tactical board, a football, a stopwatch and a "9" jersey — the channel name "TheFootballRepublics" in bold below, tiny stickman players running different tactical movements in the stands behind, bold text "NEXT EVOLUTION. NEXT BREAKDOWN." at bottom in gold, high contrast composition</div>
+        </div>
+    </div>
+    <div class="prompt-label video">AI Video Prompts (2)</div>
+    <div class="img-grid">
+        <div class="vid-item">
+            <div class="label">Video A — Evolution stages build</div>
+            <div class="text">Four evolution stages appear one by one from left to right — waiter, presser, creator, complete forward — each with a chime, the DNA helix draws along the bottom, the final stage glows brightest, 5-second evolution build, one-time with hold</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video B — Subscribe CTA</div>
+            <div class="text">Red subscribe button pulses with the bell shaking, stickman presses it and a green tick pops, TheFootballRepublics icons float around, tactical movement stickmen run in the background, 5-second call to action, seamless loop</div>
+        </div>
+    </div>
+</div>
+
+<!-- THUMBNAIL -->
+<div style="margin-top:1.5rem;">
+    <div class="section-header">Thumbnail <span class="badge gold">Video 10</span></div>
+    <div class="thumbnail-box">
+        <div class="label gold">Thumbnail Idea</div>
+        <p style="margin:0.3rem 0 0.8rem; color:#99aabb; font-size:0.95rem;">Flat vector illustration thumbnail in the "NEW RULES" template style. Dark night stadium background with a floodlit pitch along the bottom edge and a large red "✕" mark over the centre of the penalty area. Center-left: a single stickman striker standing in the six-yard box with a giant red "DELETED" stamp over him, his silhouette dissolving into pixels at the edges. On the right side, two lines of massive condensed bold white text with black outline: "THE #9" on top and "IS GONE" below in red accent. A ghostly "9" shirt number fading away in the background. Must read clearly at 200px mobile thumbnail size. Color palette: dark navy background, white text, red accent (#DC2626), yellow caution.</p>
+        <div class="label blue">Thumbnail Text</div>
+        <p style="margin:0.3rem 0 0.8rem; font-size:1.3rem; font-weight:700; color:#00e5ff;">"THE #9 IS GONE."</p>
+        <div class="label gold">AI Image Prompt</div>
+        <div class="prompt-box">YouTube thumbnail, flat vector illustration style, no photography no gradients, dark night football stadium background, floodlit green pitch visible along the bottom edge with a large red circle-slash mark over the centre of the penalty area, one single black stick figure center-left with round white circle head, two wide black dot eyes, standing in the six-yard box in a striker pose, a giant red "DELETED" stamp overlaid across his body, his silhouette dissolving into small pixels at the edges, right side of frame has massive condensed bold sans-serif white text with black outline stroke "THE #9" on the top line and "IS GONE" on the second line with "GONE" highlighted in red (#DC2626), letter height roughly one-third thumbnail height, a ghostly faded "9" jersey number fading away in the background behind the text, no decorative text effects, strong visual balance stick figure left text right, reads clearly at 200px, colour palette near-black background (#0D0D0D to #1A1A1A), cool white floodlights, red accent (#DC2626), yellow caution, aspect ratio 16:9 1280x720px</div>
+    </div>
+</div>
+
+<!-- SEO -->
+<div style="margin-top:1.5rem;">
+    <div class="section-header">SEO <span class="badge gold">Video 10</span></div>
+    <div class="seo-grid">
+        <div class="seo-card">
+            <h3>Title Options</h3>
+            <ul>
+                <li>Why Traditional Strikers Are Disappearing From Modern Football</li>
+                <li>The Number 9 Is Going Extinct — Here's the Tactical Reason</li>
+                <li>How the False 9 Killed the Traditional Striker</li>
+                <li>Why Wingers Score More Goals Than Strikers Now</li>
+                <li>The Tactical Death of the Number 9 Shirt</li>
+                <li>Modern Football Killed the Striker — The Full Breakdown</li>
+                <li>The Position That Disappeared: Why #9 Is Endangered</li>
+            </ul>
+        </div>
+        <div class="seo-card">
+            <h3>Description</h3>
+            <div class="seo-desc">The most famous shirt in football is disappearing. The number nine — the striker who stood in the box and waited — scored sixty-eight percent of Premier League goals in 2010. In 2026 that number was thirty-one percent. The goals did not stop. The man scoring them changed.</div>
+            <div class="seo-desc">We break down the four tactical reasons traditional strikers are vanishing from modern football — pressing demands, the false 9 revolution, inverted wingers colonising the box, and midfielders arriving late to score. From Shearer to Mbappé, this is the full tactical death of the number 9.</div>
+        </div>
+        <div class="seo-card tags">
+            <h3>Tags (30)</h3>
+            <ul>
+                <li>traditional striker disappearing</li><li>number 9 football</li><li>false 9 tactics</li><li>why strikers are dying</li><li>modern football tactics</li><li>inverted wingers</li><li>football positions explained</li><li>striker evolution</li><li>tactical analysis football</li><li>haaland traditional striker</li><li>mbappe position</li><li>football formations</li><li>false 9 messi</li><li>premier league tactics</li><li>football explained</li><li>why wingers score more</li><li>number 9 extinct</li><li>football tactics breakdown</li><li>stick figure football</li><li>the football republics</li><li>football position evolution</li><li>pressing football tactics</li><li>modern striker role</li><li>football analysis 2026</li><li>why strikers don't score</li><li>football tactical trends</li><li>deep lying forward</li><li>football for beginners</li><li>attacking tactics explained</li><li>the football republics tactics</li>
+            </ul>
+        </div>
+        <div class="seo-card">
+            <h3>Keywords (15)</h3>
+            <ul>
+                <li>why traditional strikers are disappearing</li><li>false 9 tactical explained</li><li>number 9 position dying football</li><li>modern striker role change</li><li>inverted wingers vs strikers</li><li>pressing and striker liability</li><li>football position evolution analysis</li><li>why wingers score more goals</li><li>haaland traditional number 9</li><li>false 9 messi firmino</li><li>midfield goals modern football</li><li>strikers disappearing data statistics</li><li>tactical breakdown number 9</li><li>football formations explained 2026</li><li>the football republics tactical analysis</li>
+            </ul>
+        </div>
+        <div class="seo-card" style="grid-column: span 2;">
+            <h3>Hashtags (7)</h3>
+            <ul>
+                <li>#TacticalBreakdown</li><li>#Number9</li><li>#ModernFootball</li><li>#False9</li><li>#FootballTactics</li><li>#TheFootballRepublics</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!-- VOICEOVER NOTES -->
+<div style="margin-top:1.5rem;">
+    <div class="section-header">AI Voiceover Notes <span class="badge gold">Video 10</span></div>
+    <div class="vonote">
+        <ul>
+            <li><strong>Tone:</strong> Analytical and slightly elegiac — the narrator sounds like they are documenting a species going extinct. Measured and factual in the data sections, slightly more animated when describing the tactical reasons, quiet and reflective at the close. The hook should feel like an alarm bell.</li>
+            <li><strong>Pace:</strong> 155–165 wpm baseline, drop to ~120 wpm on the hook ("nowhere… might not exist at all") and the closing line. Data-heavy sections can run slightly faster at ~170 wpm. Pause 1.2s after "sixty-eight percent" and "thirty-one percent".</li>
+            <li><strong>Emphasis:</strong> Max one word per sentence — "disappearing", "replaced", "colonised", "endangered", "evolved". Key percentages get a very slight pause before them.</li>
+            <li><strong>Pronunciation:</strong> Shearer — "SHEER-er"; Van Nistelrooy — "van NIS-tel-roy"; Batistuta — "ba-tis-TOO-ta"; Haaland — "HAR-land"; Osimhen — "OH-seem-en"; Bellingham — "BELL-in-gum"; De Bruyne — "deh BROY-nuh"; Vinicius — "vee-NEE-see-us"; all standard English pronunciation for Premier League names.</li>
+            <li><strong>Pauses:</strong> 0.8s after each scene header, 1.2s after "sixty-eight percent" and "thirty-one percent" and "endangered species", 0.5s before "The striker did not disappear. He was replaced." and the closing CTA, ~0.3s between sentences in normal flow.</li>
+            <li><strong>Duration:</strong> ~350 words at ~140 wpm spoken = ~2 min 30 seconds, plus pauses and visual gaps = est. ~2:50–3:00 final video.</li>
+        </ul>
+    </div>
+</div>
+
+<div style="margin-top:1.5rem; padding:1rem; background:#111d33; border-radius:8px; border-left:4px solid #00e5ff;">
+    <strong style="color:#00e5ff;">Generated from <code>Master Prompt.md</code> • TheFootballRepublics — 10-Scene Format</strong>
+    <p style="color:#8899aa; font-size:0.85rem; margin-top:0.3rem;">10 scenes · 2 image prompts + 2 video prompts per scene · Total: 20 images · 20 video prompts · ~350 words voiceover (~3 min) · Stickman sports infographic style · Dark stadium background theme</p>
+</div>
+
+<footer>TheFootballRepublics&mdash; Changing how you watch the game &bull; Tactical analysis &bull; Stickman football breakdowns</footer>
+
+</div>
+</body>
+</html>

@@ -93,6 +93,8 @@ Idea 131 [■■■■■■■■■■] 100% — Storyboard done (10 scenes)
 Idea 132 [■■■■■■■■■■] 100% — Storyboard done (10 scenes)
 Idea 133 [■■■■■■■■■■] 100% — Storyboard done (10 scenes)
 Idea 134 [■■■■■■■■■■] 100% — Storyboard done (10 scenes)
+Idea 151 [■■■■■■■■■■] 100% — Storyboard done (10 scenes)
+Idea 152 [■■■■■■■■■■] 100% — Storyboard done (10 scenes)
 ```
 
 **Total progress:** 82/87 ideas storyboarded (94%)
