@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Why Spain Never Runs Out of Golden Generations | TheFootballRepublics</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; background: #0a1628; color: #e0e8f0; padding: 2rem 1rem; }
+.container { max-width: 1000px; margin: 0 auto; }
+h1 { font-size: 2rem; font-weight: 700; color: #00e5ff; margin-bottom: 0.3rem; }
+.subtitle { color: #8899aa; font-size: 1rem; margin-bottom: 2rem; border-left: 4px solid #ff6b35; padding-left: 1rem; }
+.badge { font-size: 0.75rem; font-weight: 600; background: #ff6b35; color: #fff; padding: 0.2rem 0.7rem; border-radius: 20px; display: inline-block; }
+.badge.gold { background: #ff6b35; }
+.badge.blue { background: #0088ff; }
+.badge.image { background: #9b59b6; color: #fff; }
+.badge.video { background: #e74c3c; color: #fff; }
+.section-header { font-size: 1.2rem; font-weight: 600; color: #00e5ff; background: #111d33; padding: 0.7rem 1.2rem; border-radius: 8px; margin-bottom: 1rem; display: flex; align-items: center; gap: 0.6rem; flex-wrap: wrap; }
+.scene { background: #0f1d33; border-radius: 10px; padding: 1.2rem 1.5rem; margin-bottom: 1rem; box-shadow: 0 1px 4px rgba(0,0,0,0.3); border-left: 4px solid #00e5ff; }
+.scene-header { display: flex; align-items: center; gap: 0.8rem; margin-bottom: 0.8rem; flex-wrap: wrap; }
+.scene-num { font-weight: 700; color: #00e5ff; font-size: 0.9rem; }
+.scene-desc { font-style: italic; color: #8899aa; font-size: 0.9rem; }
+.voiceover { background: #0d1a2e; border-radius: 6px; padding: 0.8rem 1rem; margin-top: 0.7rem; font-size: 0.95rem; line-height: 1.6; color: #e0e8f0; border-left: 3px solid #0088ff; }
+.voiceover-label { font-size: 0.75rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; color: #0088ff; margin-bottom: 0.3rem; }
+.prompt-label { font-size: 0.75rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; color: #fff; margin-bottom: 0.2rem; margin-top: 0.6rem; padding: 0.15rem 0.6rem; border-radius: 4px; display: inline-block; }
+.prompt-label.image { background: #9b59b6; }
+.prompt-label.video { background: #e74c3c; }
+.prompt-box { background: #0d1a2e; border-radius: 6px; padding: 0.8rem 1rem; font-size: 0.88rem; line-height: 1.5; color: #99aabb; font-family: 'Courier New', monospace; border-left: 3px solid #00e5ff; white-space: pre-wrap; margin-bottom: 0.5rem; }
+.prompt-box.video-prompt { border-left-color: #e74c3c; background: #1a0d0d; }
+.img-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0.8rem; margin-top: 0.5rem; }
+.img-item { background: #0d1a2e; border-radius: 6px; padding: 0.7rem; border-left: 3px solid #9b59b6; }
+.img-item .label { font-size: 0.7rem; font-weight: 600; color: #9b59b6; margin-bottom: 0.2rem; }
+.img-item .text { font-size: 0.82rem; color: #99aabb; font-family: 'Courier New', monospace; line-height: 1.4; white-space: pre-wrap; }
+.vid-item { background: #1a0d0d; border-radius: 6px; padding: 0.7rem; border-left: 3px solid #e74c3c; }
+.vid-item .label { font-size: 0.7rem; font-weight: 600; color: #e74c3c; margin-bottom: 0.2rem; }
+.vid-item .text { font-size: 0.82rem; color: #99aabb; font-family: 'Courier New', monospace; line-height: 1.4; }
+.thumbnail-box { background: #0f1d33; border-radius: 10px; padding: 1.2rem 1.5rem; box-shadow: 0 1px 4px rgba(0,0,0,0.3); border-left: 4px solid #ff6b35; margin-bottom: 1rem; }
+.thumbnail-box .label { font-size: 0.75rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 0.2rem; }
+.thumbnail-box .label.gold { color: #ff6b35; }
+.thumbnail-box .label.blue { color: #0088ff; }
+.seo-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+.seo-card { background: #0f1d33; border-radius: 10px; padding: 1rem 1.2rem; box-shadow: 0 1px 4px rgba(0,0,0,0.3); }
+.seo-card h3 { font-size: 0.9rem; color: #00e5ff; margin-bottom: 0.5rem; }
+.seo-card ul { list-style: none; }
+.seo-card li { font-size: 0.88rem; color: #99aabb; padding: 0.25rem 0; border-bottom: 1px solid #1a2a44; }
+.seo-card li:last-child { border-bottom: none; }
+.seo-card.tags li { display: inline-block; background: #1a2a44; padding: 0.2rem 0.6rem; border-radius: 4px; margin: 0.2rem; font-size: 0.8rem; border: none; }
+.seo-desc { font-size: 0.85rem; line-height: 1.6; color: #99aabb; margin-bottom: 0.5rem; }
+.vonote { background: #0f1d33; border-radius: 10px; padding: 1.2rem 1.5rem; box-shadow: 0 1px 4px rgba(0,0,0,0.3); }
+.vonote ul { list-style: none; font-size: 0.92rem; line-height: 1.8; color: #99aabb; }
+.meta-row { display: flex; gap: 1rem; flex-wrap: wrap; margin-bottom: 1rem; }
+.meta-tag { background: #1a2a44; padding: 0.3rem 0.8rem; border-radius: 20px; font-size: 0.85rem; }
+.meta-tag.style { background: #1a2a44; color: #00e5ff; border: 1px solid #00e5ff; }
+footer { margin-top: 3rem; text-align: center; font-size: 0.85rem; color: #556677; padding: 1rem 0; }
+@media (max-width: 700px) { .seo-grid { grid-template-columns: 1fr; } .img-grid { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+<div class="container">
+
+<h1>Why Spain Never Runs Out of Golden Generations</h1>
+<div class="subtitle">Stickman sports infographic style — Clean vector illustrations on dark football stadium backgrounds</div>
+
+<div class="meta-row">
+    <span class="meta-tag">Category: International Football Analysis</span>
+    <span class="meta-tag">Est. Length: ~3 min</span>
+    <span class="meta-tag style">Style: Stickman Sports Infographic</span>
+    <span class="meta-tag">Scenes: 10</span>
+    <span class="meta-tag">Images: 20</span>
+    <span class="meta-tag">Video Prompts: 20</span>
+    <span class="meta-tag">Voiceover: ~400 words</span>
+</div>
+
+<!-- SCENE 01 -->
+<div class="scene">
+    <div class="scene-header">
+        <span class="scene-num">SCENE 01</span>
+        <span class="scene-desc">Hook — Spain's perpetual reload machine</span>
+    </div>
+    <div class="voiceover">
+        <div class="voiceover-label">Voiceover</div>
+        Spain won the World Cup in 2026. Most of that squad came through Spanish academies. While other giants collapse between generations, Spain just... reloads. Teenage midfielders walk in looking like ten-year veterans. Here's the machine behind it.
+    </div>
+    <div class="prompt-label image">Image Prompts (2)</div>
+    <div class="img-grid">
+        <div class="img-item">
+            <div class="label">Prompt A — The reload conveyor</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a conveyor belt running across the scene with stickman players standing on it in Spanish red jerseys, at the left end a faded grey golden generation squad is retiring and stepping off, at the right end a brand new batch of young stickmen with bright white heads is arriving on the belt with a glowing number circle on each chest, a spinning gear icon labeled "THE MACHINE" in the center connecting both ends, stadium floodlights above the belt, bold text "GENERATION 1 → GENERATION 2" at top in cyan, high contrast infographic composition</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt B — The teenage veteran</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a young stickman player in a Spanish kit who looks small standing next to three tall veteran stickmen, the teenager is being handed a captain's armband labeled "10 YEARS OF EXPERIENCE" by a coach stickman, a floating badge over the teenager reads "AGE 17", the veterans step back with surprised looks, stadium floodlights creating a spotlight on the teenager, bold text "LOOKS LIKE A ROOKIE. PLAYS LIKE A VETERAN." at bottom in orange, high contrast infographic composition</div>
+        </div>
+    </div>
+    <div class="prompt-label video">AI Video Prompts (2)</div>
+    <div class="img-grid">
+        <div class="vid-item">
+            <div class="label">Video A — Reload conveyor animation</div>
+            <div class="text">The conveyor belt moves left to right, faded grey veterans step off and dissolve as fresh young stickmen slide on one by one with glowing number circles, the center gear icon spins and "GENERATION 1 → GENERATION 2" text writes itself, 6-second reload reveal, seamless loop</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video B — Armband handover animation</div>
+            <div class="text">Young stickman walks forward as three veteran stickmen step aside, the coach hands over the captain's armband with a glow, the AGE 17 badge pops above the teenager's head, 5-second passing-of-the-torch moment, one-time with hold</div>
+        </div>
+    </div>
+</div>
+
+<!-- SCENE 02 -->
+<div class="scene">
+    <div class="scene-header">
+        <span class="scene-num">SCENE 02</span>
+        <span class="scene-desc">Context — Spain's trophy era: Euro 2024 to World Cup 2026</span>
+    </div>
+    <div class="voiceover">
+        <div class="voiceover-label">Voiceover</div>
+        Spain won Euro 2024. Then they won the World Cup in 2026. Two trophies, two years apart, and both squads built the same way. The senior team isn't the start of the story. It's the end of it. The story begins decades earlier.
+    </div>
+    <div class="prompt-label image">Image Prompts (2)</div>
+    <div class="img-grid">
+        <div class="img-item">
+            <div class="label">Prompt A — Two trophy cards</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, two large trophy display cards side by side, left card labeled "EURO 2024" with a European Championship trophy in gold and a checkmark, right card labeled "WORLD CUP 2026" with a FIFA World Cup trophy in gold and a checkmark, between them a red arrow pointing from left to right labeled "TWO YEARS APART", below the cards a line of stickman players in Spanish kits stretching backward into the distance toward a small glowing academy building, stadium floodlights lighting both cards, bold text "BOTH SQUADS. BUILT THE SAME WAY." at top in orange, high contrast infographic composition</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt B — The iceberg</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, an iceberg floating amid stadium floodlight glow, above the waterline two golden trophies sit on the iceberg tip labeled "SENIOR TEAM", below the waterline a huge hidden structure of academy buildings, cones, rondos and training grids labeled "THE MACHINE", a dotted line connects the trophies down to the hidden base, stadium floodlights casting across the water, bold text "THE TROPHIES ARE THE TIP" at right in cyan, high contrast infographic composition</div>
+        </div>
+    </div>
+    <div class="prompt-label video">AI Video Prompts (2)</div>
+    <div class="img-grid">
+        <div class="vid-item">
+            <div class="label">Video A — Trophy cards animation</div>
+            <div class="text">Left trophy card slides in with EURO 2024, right trophy card slides in with WORLD CUP 2026, the red arrow draws between them, the line of stickman players stretches backward toward the glowing academy building, 5-second context reveal, one-time with hold</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video B — Iceberg depth animation</div>
+            <div class="text">The iceberg rises from the water revealing two trophies on the tip, the camera tilts down below the waterline revealing the massive hidden academy machine, the dotted connection line draws downward, 6-second depth reveal, seamless loop</div>
+        </div>
+    </div>
+</div>
+
+<!-- SCENE 03 -->
+<div class="scene">
+    <div class="scene-header">
+        <span class="scene-num">SCENE 03</span>
+        <span class="scene-desc">Context — the drop-off problem other nations can't solve</span>
+    </div>
+    <div class="voiceover">
+        <div class="voiceover-label">Voiceover</div>
+        Other powerhouses cycle through good and bad eras. England have waited sixty years. Italy kept missing World Cups. Spain never drops off. Because the next generation is ready before the old one retires. That timing is the whole trick.
+    </div>
+    <div class="prompt-label image">Image Prompts (2)</div>
+    <div class="img-grid">
+        <div class="img-item">
+            <div class="label">Prompt A — The cycle disaster</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a long zigzag line graph running across the scene representing different football nations, the line rises high to a trophy icon then crashes down to a low valley labeled "EMPTY GENERATION" then slowly climbs again, a second Spanish line beside it drawn in red stays flat and high the entire way with no valleys, small flag icons on each line, a stickman analyst pointing at the flat red line with a speech bubble "NO CRASH LANDING", stadium floodlights above the graph, bold text "OTHER NATIONS CYCLE. SPAIN HOVERS." at top in cyan, high contrast infographic composition</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt B — The timing trick</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, three stacked stage platforms labeled "U17", "U19", "U21" with younger stickman players climbing up each level toward the top senior platform, while a grey veteran stickman on the top steps down the opposite side, the younger players are already waiting near the top platform, arrows showing continuous upward movement, stadium floodlights on the platforms, bold text "READY BEFORE THEY'RE NEEDED" at bottom in orange, high contrast infographic composition</div>
+        </div>
+    </div>
+    <div class="prompt-label video">AI Video Prompts (2)</div>
+    <div class="img-grid">
+        <div class="vid-item">
+            <div class="label">Video A — Graph contrast animation</div>
+            <div class="text">The zigzag line graph draws itself crashing up and down for other nations, then the flat red Spanish line draws across staying high, the analyst pointer taps the red line, 5-second contrast reveal, seamless loop</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video B — Platform climb animation</div>
+            <div class="text">Young stickmen climb the U17, U19, U21 platforms one by one, the grey veteran steps down the other side, the young players reach the top platform before he leaves, arrows pulse upward, 6-second system timing sequence, one-time with hold</div>
+        </div>
+    </div>
+</div>
+
+<!-- SCENE 04 -->
+<div class="scene">
+    <div class="scene-header">
+        <span class="scene-num">SCENE 04</span>
+        <span class="scene-desc">The foundation — rondo culture and cognitive speed</span>
+    </div>
+    <div class="voiceover">
+        <div class="voiceover-label">Voiceover</div>
+        It starts with the rondo. Five players, one ball, keep it moving. Spanish kids learn it before they can reach the top shelf. Academies there reward the player who decides fast, not the one who runs fast. Brain beats brawn... it's the national philosophy.
+    </div>
+    <div class="prompt-label image">Image Prompts (2)</div>
+    <div class="img-grid">
+        <div class="img-item">
+            <div class="label">Prompt A — The rondo ring</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a circle of five stickman players passing a glowing ball to each other with arrow lines showing quick passing triangles, in the center a smaller stickman defender lunging at the ball, above the circle a brain icon glowing and a leg muscle icon faded grey with an arrow pointing at the brain labeled "FASTER", a chalkboard beside the circle with X and O diagrams, stadium floodlights above the rondo ring, bold text "DECIDE FAST. THE BRAIN WINS." at top in cyan, high contrast infographic composition</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt B — Brain beats brawn</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a balance scale with a large grey weight on the left labeled "SPEED" and a small glowing brain icon on the right labeled "DECISION-MAKING", the brain side tips the scale all the way down, a stickman coach pointing at the brain side with a "THIS IS THE SPANISH WAY" speech bubble, two young stickmen watching and learning, stadium floodlights lighting the scale, bold text "NOT THE FASTEST. THE SMARTEST." at bottom in orange, high contrast infographic composition</div>
+        </div>
+    </div>
+    <div class="prompt-label video">AI Video Prompts (2)</div>
+    <div class="img-grid">
+        <div class="vid-item">
+            <div class="label">Video A — Rondo pass animation</div>
+            <div class="text">Five stickmen form a circle, the glowing ball zips between them along arrow lines, the center defender lunges, the brain icon lights up while the muscle icon fades, 5-second philosophy reveal, seamless loop</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video B — Scale tilt animation</div>
+            <div class="text">The scale tilts slowly as the glowing brain outweighs the speed weight, the coach points and the speech bubble appears, the two young stickmen nod, 4-second concept moment, one-time with hold</div>
+        </div>
+    </div>
+</div>
+
+<!-- SCENE 05 -->
+<div class="scene">
+    <div class="scene-header">
+        <span class="scene-num">SCENE 05</span>
+        <span class="scene-desc">The shared national curriculum — one football language</span>
+    </div>
+    <div class="voiceover">
+        <div class="voiceover-label">Voiceover</div>
+        Clubs all teach the same language. RFEF and La Liga aligned their academies years ago. A kid at Real Sociedad and a kid in Madrid learn the same movements. So when they meet in the national team, integration is instant. U17 to senior — same ideas, no translation needed.
+    </div>
+    <div class="prompt-label image">Image Prompts (2)</div>
+    <div class="img-grid">
+        <div class="img-item">
+            <div class="label">Prompt A — One language</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, four academy buildings in a row labeled "LA MASIA", "LA FÁBRICA", "ZUBIETA", "LEZAMA" with four stickman players wearing different club colours stepping out of each building holding the same identical football textbook labeled "THE CURRICULUM", above each building the same glowing tactical diagram of triangles and passing arrows, a central la roja crest connecting all four buildings, stadium floodlights over the row, bold text "FOUR ACADEMIES. ONE LANGUAGE." at top in cyan, high contrast infographic composition</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt B — Instant integration</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, two stickman players in different club kits labeled "REAL SOCIEDAD" and "MADRID" meeting at a crossroads, when they shake hands their kits instantly swap to the same red Spain national kit, a speech bubble between them containing matching puzzle pieces connecting, small badges labeled "U17" "U19" "U21" floating above the road like signposts, stadium floodlights lighting the crossroads, bold text "NO TRANSLATION NEEDED" at bottom in orange, high contrast infographic composition</div>
+        </div>
+    </div>
+    <div class="prompt-label video">AI Video Prompts (2)</div>
+    <div class="img-grid">
+        <div class="vid-item">
+            <div class="label">Video A — Four academy reveal</div>
+            <div class="text">Four academy buildings pop in one by one with their names, each player steps out holding the same textbook, the same tactical diagram glows above each building, the central la roja crest pulses, 6-second rule reveal, seamless loop</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video B — Kit swap animation</div>
+            <div class="text">Two stickmen in different club kits walk toward each other at the crossroads, their kits fade and reform into the same red Spain kit at the handshake, the puzzle pieces snap together in the speech bubble, 5-second instant integration, one-time with hold</div>
+        </div>
+    </div>
+</div>
+
+<!-- SCENE 06 -->
+<div class="scene">
+    <div class="scene-header">
+        <span class="scene-num">SCENE 06</span>
+        <span class="scene-desc">La Masia modernization — positional play with faster legs</span>
+    </div>
+    <div class="voiceover">
+        <div class="voiceover-label">Voiceover</div>
+        Barcelona's La Masia wrote the blueprint. For decades it produced the tiki-taka school. Now it's changed. Modern La Masia keeps positional play, then adds direct, high-tempo transitions. Same brain. Faster legs. The result? Wingers who dribble and press in seconds.
+    </div>
+    <div class="prompt-label image">Image Prompts (2)</div>
+    <div class="img-grid">
+        <div class="img-item">
+            <div class="label">Prompt A — Old vs new La Masia</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a split school building labeled "LA MASIA", left half labeled "CLASSIC" showing a stickman diagram of slow passing triangles in blue, right half labeled "MODERN" showing the same triangles but with a red arrow shooting vertically up the field with motion lines and a winger stickman sprinting past defenders, a glowing seam down the middle of the building, stadium floodlights over the building, bold text "SAME BRAIN. FASTER LEGS." at top in orange, high contrast infographic composition</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt B — The new product</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a winger stickman in a Barcelona kit mid-dribble with motion lines, directly behind him a glowing fragment of the classic positional lattice diagram, ahead of him a vertical red arrow pointing at the opponent's goal, a clock icon showing seconds ticking, stadium floodlights tracking the winger, bold text "DRIBBLE. PRESS. IN SECONDS." at bottom in cyan, high contrast infographic composition</div>
+        </div>
+    </div>
+    <div class="prompt-label video">AI Video Prompts (2)</div>
+    <div class="img-grid">
+        <div class="vid-item">
+            <div class="label">Video A — La Masia evolution</div>
+            <div class="text">The La Masia building splits open, the classic blue passing triangles on the left, red vertical arrows with motion lines burst through the modern side, a winger stickman sprints past defenders, 5-second evolution moment, one-time with hold</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video B — Dribble and press animation</div>
+            <div class="text">The winger dribbles forward with motion lines, the old positional lattice glows ghost-like behind him, the red arrow points ahead at the goal, the seconds clock ticks rapidly, 4-second speed reveal, seamless loop</div>
+        </div>
+    </div>
+</div>
+
+<!-- SCENE 07 -->
+<div class="scene">
+    <div class="scene-header">
+        <span class="scene-num">SCENE 07</span>
+        <span class="scene-desc">The Basque model — Zubieta and Lezama</span>
+    </div>
+    <div class="voiceover">
+        <div class="voiceover-label">Voiceover</div>
+        Then there's the Basque country. Real Sociedad's Zubieta and Athletic Bilbao's Lezama scout their own region and stay patient. Martín Zubimendi stayed home. Nico Williams came through Lezama. Both became internationals. Loyalty plus patience is a superpower.
+    </div>
+    <div class="prompt-label image">Image Prompts (2)</div>
+    <div class="img-grid">
+        <div class="img-item">
+            <div class="label">Prompt A — Regional roots</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a map of the Basque region in northern Spain with a glowing border, two academy buildings planted inside the region labeled "ZUBIETA" and "LEZAMA", a web of small community nodes and village icons connected by dotted lines feeding into the two buildings, a net symbol labeled "REGIONAL SCOUTING NET" over the whole map, a Basque flag icon in the corner, stadium floodlights above the map, bold text "SCOUT YOUR OWN REGION. WAIT." at top in cyan, high contrast infographic composition</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt B — Two products of patience</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, two stickman players standing side by side in Spanish red kits with name labels under them, left label "MARTÍN ZUBIMENDI — REAL SOCIEDAD" with a home icon and a "STAYED HOME" checkmark above him, right label "NICO WILLIAMS — ATHLETIC" with a passing-through-gates icon and a "LEZAMA GRADUATE" checkmark above him, behind them the two academy buildings glowing, a patience hourglass icon in the center, stadium floodlights on the players, bold text "LOYALTY + PATIENCE = SUPERPOWER" at bottom in orange, high contrast infographic composition</div>
+        </div>
+    </div>
+    <div class="prompt-label video">AI Video Prompts (2)</div>
+    <div class="img-grid">
+        <div class="vid-item">
+            <div class="label">Video A — Region scouting animation</div>
+            <div class="text">The Basque region map lights up, dotted scouting lines draw from village nodes into the two glowing academy buildings, the regional net icon forms over the map, 6-second roots reveal, seamless loop</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video B — Patience payoff animation</div>
+            <div class="text">Zubimendi and Williams stickmen pop in one by one under spotlight with their academy checkmarks, the hourglass empties slowly then flips to full, both step forward into Spain red kits, 5-second payoff moment, one-time with hold</div>
+        </div>
+    </div>
+</div>
+
+<!-- SCENE 08 -->
+<div class="scene">
+    <div class="scene-header">
+        <span class="scene-num">SCENE 08</span>
+        <span class="scene-desc">The scale — one country, hundreds of academies</span>
+    </div>
+    <div class="voiceover">
+        <div class="voiceover-label">Voiceover</div>
+        Multiply this across the whole country. Clubs everywhere run academies on the same drills. Kids learn decision-making from a young age. When one academy fades, others feed the national team. There's no gap. Spain doesn't have one academy. It has a system.
+    </div>
+    <div class="prompt-label image">Image Prompts (2)</div>
+    <div class="img-grid">
+        <div class="img-item">
+            <div class="label">Prompt A — The country-wide web</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a map of Spain covered in dozens of small glowing academy dots connected by a web of lines all feeding into one central la roja crest at the centre, a few dots dimming at the edge while five new dots light up elsewhere, arrows flowing from every dot into the crest, an outline of a factory stamped over the map labeled "THE SPANISH SYSTEM", stadium floodlights across the whole map, bold text "ONE NATION. HUNDREDS OF FACTORIES." at top in cyan, high contrast infographic composition</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt B — No gap</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a conveyor belt of young stickman players labeled with age numbers 8 to 18 moving along, at the end an older veteran stickman steps off the belt into a grey eclipse, immediately a fresh young player steps onto the senior stage with no empty space between, a magnifying glass over the seam showing there is no gap, stadium floodlights over the belt, bold text "THE BELT NEVER STOPS" at bottom in orange, high contrast infographic composition</div>
+        </div>
+    </div>
+    <div class="prompt-label video">AI Video Prompts (2)</div>
+    <div class="img-grid">
+        <div class="vid-item">
+            <div class="label">Video A — Nation-wide web animation</div>
+            <div class="text">The map of Spain fills with glowing academy dots one by one, lines connect them into a web, edge dots dim while five new dots spark elsewhere, all arrows flow into the central crest, 7-second nation scale reveal, seamless loop</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video B — Endless belt animation</div>
+            <div class="text">The conveyor belt moves age-labeled players forward, the grey veteran steps off and dissolves as the fresh young player steps up simultaneously, the magnifying glass scans the seam showing no gap, 5-second continuity moment, one-time with hold</div>
+        </div>
+    </div>
+</div>
+
+<!-- SCENE 09 -->
+<div class="scene">
+    <div class="scene-header">
+        <span class="scene-num">SCENE 09</span>
+        <span class="scene-desc">Road to 2030 — the machine's next output</span>
+    </div>
+    <div class="voiceover">
+        <div class="voiceover-label">Voiceover</div>
+        Look ahead to 2030. Spain co-hosts and defends. The machine is already producing the next wave. Yamal will be twenty-three, Pedri twenty-seven — players hitting their peak in front of home crowds. Other nations can build a squad. Only Spain can reload one.
+    </div>
+    <div class="prompt-label image">Image Prompts (2)</div>
+    <div class="img-grid">
+        <div class="img-item">
+            <div class="label">Prompt A — Peak at home</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a stadium silhouette with a giant red cross of Spain on the roof labeled "HOSTS 2030", on an age timeline inside the pitch two stickman players labeled "YAMAL 23" and "PEDRI 27" standing at the glowing peak of a mountain curve labeled "PEAK ZONE", a World Cup trophy hovering above the centre circle, crowds of tiny stickmen in the stands, stadium floodlights blazing, bold text "TWO PLAYERS. TWO PEAKS. ONE HOME CUP." at top in cyan, high contrast infographic composition</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt B — Reload vs build</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, two machines side by side, on the left a rival nation stickman holding a hammer and chisel carving a squad of players from stone labeled "BUILDING A SQUAD", on the right a Spanish machine with a conveyor belt producing finished stickman players labeled "RELOADING ONE", the rival's hammer breaks as the belt keeps running, a scoreboard comparing "BUILD" vs "RELOAD" above both, stadium floodlights on both scenes, bold text "OTHER NATIONS BUILD. SPAIN RELOADS." at bottom in orange, high contrast infographic composition</div>
+        </div>
+    </div>
+    <div class="prompt-label video">AI Video Prompts (2)</div>
+    <div class="img-grid">
+        <div class="vid-item">
+            <div class="label">Video A — Host peak animation</div>
+            <div class="text">The stadium roof lights up with the red cross of Spain, the mountain curve draws with YAMAL 23 and PEDRI 27 standing on the glowing peak, the trophy fades in above the centre circle, 6-second host advantage reveal, one-time with hold</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video B — Reload machine animation</div>
+            <div class="text">Left machine chips at stone players with a cracking hammer, right conveyor belt produces finished players steadily, the hammer head flies off, the RELOAD side keeps running, 5-second closing contrast, seamless loop</div>
+        </div>
+    </div>
+</div>
+
+<!-- SCENE 10 -->
+<div class="scene">
+    <div class="scene-header">
+        <span class="scene-num">SCENE 10</span>
+        <span class="scene-desc">Ending + CTA — Subscribe for more TheFootballRepublics stories</span>
+    </div>
+    <div class="voiceover">
+        <div class="voiceover-label">Voiceover</div>
+        So yes, Spain won. But look past the trophy. The real Spanish secret isn't one generation. It's the permanent conveyor belt underneath. While rivals rebuild, Spain reloads. That's why the machine rules world football. Subscribe because Spain's biggest rival is next, and it gets tense.
+    </div>
+    <div class="prompt-label image">Image Prompts (2)</div>
+    <div class="img-grid">
+        <div class="img-item">
+            <div class="label">Prompt A — Summary cards</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, three summary cards floating in a row, Card 1 "RONDOS — DECIDE FAST" with a brain icon, Card 2 "FOUR ACADEMIES — ONE CURRICULUM" with a textbook icon, Card 3 "THE BELT NEVER STOPS" with a conveyor icon, each card has a red checkmark, below the cards a Spanish stickman celebrating with arms raised, stadium floodlights highlighting the cards, bold text "NOT A GENERATION. A MACHINE." at bottom in gold, high contrast infographic composition</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt B — Subscribe finale</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a giant glowing subscribe button with red notification bell and "SUBSCRIBE" text, a stickman pressing the button with excitement, around the button floating TheFootballRepublics branded icons — stickman players, academy buildings, trophies, a map of Spain, a rondo circle, the channel name "TheFootballRepublics" in bold with tagline "YOUR GUIDE TO THE BIGGEST WORLD CUP EVER", a stadium full of tiny stickman fans cheering in the background, bold CTA composition with high contrast</div>
+        </div>
+    </div>
+    <div class="prompt-label video">AI Video Prompts (2)</div>
+    <div class="img-grid">
+        <div class="vid-item">
+            <div class="label">Video A — Summary cards animation</div>
+            <div class="text">Three cards slide in from left to right with red checkmarks appearing, the Spanish celebration stickman rises below with arms raised, all cards glow gold when complete, 5-second summary reveal, one-time with hold</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video B — Subscribe CTA animation</div>
+            <div class="text">Subscribe button pulses with the red bell shaking, stickman presses it with enthusiasm, TheFootballRepublics branded icons float around, stadium crowd cheers in the background, channel name appears bold, 5-second call to action, seamless loop</div>
+        </div>
+    </div>
+</div>
+
+<!-- THUMBNAIL -->
+<div style="margin-top:1.5rem;">
+    <div class="section-header">Thumbnail <span class="badge gold">Video 10</span></div>
+    <div class="thumbnail-box">
+        <div class="label gold">Thumbnail Idea</div>
+        <p style="margin:0.3rem 0 0.8rem; color:#99aabb; font-size:0.95rem;">Flat vector illustration thumbnail. Dark night football stadium background with subtle crowd blur and a single spotlight beaming down from above center. One stick figure stands in the spotlight — round white head, simple black dot eyes — holding a rolled red-and-yellow Spanish flag like a scarf and wearing a red La Roja jersey. The La Liga logo is displayed prominently bottom left. On the right side, large bold white text "PICK ME?" with "ME?" in bright neon yellow-green. Slight vignette around the edges, cinematic lighting, 16:9 YouTube thumbnail, no watermarks.</p>
+        <div class="label blue">Thumbnail Text</div>
+        <p style="margin:0.3rem 0 0.8rem; font-size:1.3rem; font-weight:700; color:#00e5ff;">"PICK ME?" — "SPAIN'S YOUTH MACHINE"</p>
+        <div class="label gold">AI Image Prompt</div>
+        <div class="prompt-box">YouTube thumbnail, flat vector illustration style, no photography no gradients, dark moody night football stadium background with subtle crowd blur, a single bright spotlight beaming down from above centre, one black stick figure with a round white circle head and two simple black dot eyes standing in the spotlight, the figure holds a rolled red and yellow horizontal-striped Spanish flag like a scarf and wears a red Spain La Roja jersey, league logo "La Liga" displayed prominently bottom left, large bold white text "PICK ME?" on the right side in Impact or Anton font with "ME?" in bright neon yellow-green accent, slight vignette around edges, cinematic lighting, reads clearly at 200px mobile thumbnail size, strong visual balance stick figure left text right, colour palette near-black background, warm amber spotlight, La Roja red, flag gold, text pure white with neon yellow-green accent, aspect ratio 16:9 1280x720px, no watermarks</div>
+    </div>
+</div>
+
+<!-- SEO -->
+<div style="margin-top:1.5rem;">
+    <div class="section-header">SEO <span class="badge gold">Video 10</span></div>
+    <div class="seo-grid">
+        <div class="seo-card">
+            <h3>Title Options</h3>
+            <ul>
+                <li>Why Spain Never Runs Out of Golden Generations</li>
+                <li>Why Spanish Academies Produce Veterans Before Age 20</li>
+                <li>Every Academy Kid in Spain Learns the Same Secret</li>
+                <li>How Spain Reloads Golden Generations Instead of Rebuilding</li>
+                <li>The Blueprint Behind Spain's 2026 World Cup Win</li>
+                <li>Inside Spain's Youth Machine That Rules World Football</li>
+                <li>Don't Call Spain Lucky — They Built a Factory</li>
+            </ul>
+        </div>
+        <div class="seo-card">
+            <h3>Description</h3>
+            <div class="seo-desc">Spain won the World Cup in 2026, and nearly every player in that squad came from a Spanish youth academy — while their rivals collapse between generations, Spain simply reloads.</div>
+            <div class="seo-desc">This video breaks down the machine behind it: the rondo culture that rewards quick decisions over raw speed, RFEF's shared national curriculum, La Masia's modern evolution, and the Basque academies of Zubieta and Lezama. By the end you'll understand why Spain never runs out of golden generations — and why the 2030 World Cup on home soil could be the machine's greatest output yet.</div>
+        </div>
+        <div class="seo-card tags">
+            <h3>Tags (30)</h3>
+            <ul>
+                <li>spain youth academy</li><li>spanish golden generation</li><li>spain world cup 2026</li><li>la masia</li><li>la fabrica real madrid</li><li>zubieta real sociedad</li><li>lezama athletic bilbao</li><li>spain academy system</li><li>spanish football tactics</li><li>why spain always has talent</li><li>rondo football training</li><li>juego de posicion</li><li>spain national team youth</li><li>how spain develops players</li><li>spanish midfielders</li><li>spain 2030 world cup</li><li>lamine yamal</li><li>spanish football philosophy</li><li>spain tactical analysis</li><li>rfef academy</li><li>spain football documentary</li><li>basque football academies</li><li>martin zubimendi</li><li>nico williams</li><li>spain euro 2024</li><li>spanish football culture</li><li>world cup 2026 analysis</li><li>stickman football explainer</li><li>spain squad depth</li><li>the football republics</li>
+            </ul>
+        </div>
+        <div class="seo-card">
+            <h3>Keywords (15)</h3>
+            <ul>
+                <li>spain youth academy system</li><li>why spain keeps producing talent</li><li>spain golden generation 2026</li><li>la masia academy explained</li><li>real sociedad zubieta academy</li><li>athletic bilbao lezama academy</li><li>spanish rondo training methods</li><li>spain national team academy pipeline</li><li>juego de posicion explained</li><li>how spain develops young midfielders</li><li>spain 2030 world cup hosts</li><li>lamine yamal development spain</li><li>rfef national curriculum football</li><li>basque football academy culture</li><li>spain football tactics breakdown</li>
+            </ul>
+        </div>
+        <div class="seo-card" style="grid-column: span 2;">
+            <h3>Hashtags (7)</h3>
+            <ul>
+                <li>#Spain</li><li>#LaMasia</li><li>#SpanishFootball</li><li>#YouthAcademy</li><li>#WorldCup2026</li><li>#LaRoja</li><li>#TheFootballRepublics</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!-- VOICEOVER NOTES -->
+<div style="margin-top:1.5rem;">
+    <div class="section-header">AI Voiceover Notes <span class="badge gold">Video 10</span></div>
+    <div class="vonote">
+        <ul>
+            <li><strong>Tone:</strong> Calm, intelligent, British-neutral documentary narrator. Slightly awed during the hook, warm and explanatory through the academy sections, dry and deadpan on the punchlines ("Spain doesn't have one academy. It has a system."), quiet and final on the closing verdict.</li>
+            <li><strong>Pace:</strong> Steady 155–165 wpm baseline. Slow down on reveals: "just... reloads", "no gap", "it has a system". Slight speed-up on the academy name sequences (La Masia, La Fábrica, Zubieta, Lezama). Drop volume slightly on the closing reload line.</li>
+            <li><strong>Emphasis:</strong> Max one word per sentence — "reloads", "rondo", "instant", "patience", "system", "peak", "reload". No upspeak, no filler, every sentence ends with a downward inflection.</li>
+            <li><strong>Pronunciation:</strong> "La Masia" — La MAH-see-ah. "La Fábrica" — La FAH-bree-kah. "Zubieta" — Zoo-BYE-tah. "Lezama" — Leh-ZAH-mah. "Zubimendi" — Zoo-bee-MEN-dee. "Juego de Posición" — HWAY-go day poh-si-THYON. All other names in standard English pronunciation.</li>
+            <li><strong>Duration:</strong> ~400 words at 140 wpm spoken = ~2 min 50 seconds (with pauses and visual gaps, est. ~3 min final video)</li>
+        </ul>
+    </div>
+</div>
+
+<div style="margin-top:1.5rem; padding:1rem; background:#111d33; border-radius:8px; border-left:4px solid #00e5ff;">
+    <strong style="color:#00e5ff;">Generated from <code>Master Prompt.md</code> • TheFootballRepublics— 10-Scene Format</strong>
+    <p style="color:#8899aa; font-size:0.85rem; margin-top:0.3rem;">10 scenes · 2 image prompts + 2 video prompts per scene · Total: 20 images · 20 video prompts · ~400 words voiceover (~3 min) · Stickman sports infographic style · Dark stadium background theme</p>
+</div>
+
+<footer>TheFootballRepublics— Changing how you watch the game &bull; World Cup 2026 breakdowns &bull; Stickman football analysis</footer>
+
+</div>
+</body>
+</html>
