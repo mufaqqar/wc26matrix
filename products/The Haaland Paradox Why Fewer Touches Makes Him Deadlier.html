@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Haaland Paradox: Why Fewer Touches Makes Him Deadlier | TheFootballRepublics</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; background: #0a1628; color: #e0e8f0; padding: 2rem 1rem; }
+.container { max-width: 1000px; margin: 0 auto; }
+h1 { font-size: 2rem; font-weight: 700; color: #00e5ff; margin-bottom: 0.3rem; }
+.subtitle { color: #8899aa; font-size: 1rem; margin-bottom: 2rem; border-left: 4px solid #ff6b35; padding-left: 1rem; }
+.badge { font-size: 0.75rem; font-weight: 600; background: #ff6b35; color: #fff; padding: 0.2rem 0.7rem; border-radius: 20px; display: inline-block; }
+.badge.gold { background: #ff6b35; }
+.badge.blue { background: #0088ff; }
+.badge.image { background: #9b59b6; color: #fff; }
+.badge.video { background: #e74c3c; color: #fff; }
+.section-header { font-size: 1.2rem; font-weight: 600; color: #00e5ff; background: #111d33; padding: 0.7rem 1.2rem; border-radius: 8px; margin-bottom: 1rem; display: flex; align-items: center; gap: 0.6rem; flex-wrap: wrap; }
+.scene { background: #0f1d33; border-radius: 10px; padding: 1.2rem 1.5rem; margin-bottom: 1rem; box-shadow: 0 1px 4px rgba(0,0,0,0.3); border-left: 4px solid #00e5ff; }
+.scene-header { display: flex; align-items: center; gap: 0.8rem; margin-bottom: 0.8rem; flex-wrap: wrap; }
+.scene-num { font-weight: 700; color: #00e5ff; font-size: 0.9rem; }
+.scene-desc { font-style: italic; color: #8899aa; font-size: 0.9rem; }
+.voiceover { background: #0d1a2e; border-radius: 6px; padding: 0.8rem 1rem; margin-top: 0.7rem; font-size: 0.95rem; line-height: 1.6; color: #e0e8f0; border-left: 3px solid #0088ff; }
+.voiceover-label { font-size: 0.75rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; color: #0088ff; margin-bottom: 0.3rem; }
+.prompt-label { font-size: 0.75rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; color: #fff; margin-bottom: 0.2rem; margin-top: 0.6rem; padding: 0.15rem 0.6rem; border-radius: 4px; display: inline-block; }
+.prompt-label.image { background: #9b59b6; }
+.prompt-label.video { background: #e74c3c; }
+.prompt-box { background: #0d1a2e; border-radius: 6px; padding: 0.8rem 1rem; font-size: 0.88rem; line-height: 1.5; color: #99aabb; font-family: 'Courier New', monospace; border-left: 3px solid #00e5ff; white-space: pre-wrap; margin-bottom: 0.5rem; }
+.prompt-box.video-prompt { border-left-color: #e74c3c; background: #1a0d0d; }
+.img-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0.8rem; margin-top: 0.5rem; }
+.img-item { background: #0d1a2e; border-radius: 6px; padding: 0.7rem; border-left: 3px solid #9b59b6; }
+.img-item .label { font-size: 0.7rem; font-weight: 600; color: #9b59b6; margin-bottom: 0.2rem; }
+.img-item .text { font-size: 0.82rem; color: #99aabb; font-family: 'Courier New', monospace; line-height: 1.4; white-space: pre-wrap; }
+.vid-item { background: #1a0d0d; border-radius: 6px; padding: 0.7rem; border-left: 3px solid #e74c3c; }
+.vid-item .label { font-size: 0.7rem; font-weight: 600; color: #e74c3c; margin-bottom: 0.2rem; }
+.vid-item .text { font-size: 0.82rem; color: #99aabb; font-family: 'Courier New', monospace; line-height: 1.4; }
+.thumbnail-box { background: #0f1d33; border-radius: 10px; padding: 1.2rem 1.5rem; box-shadow: 0 1px 4px rgba(0,0,0,0.3); border-left: 4px solid #ff6b35; margin-bottom: 1rem; }
+.thumbnail-box .label { font-size: 0.75rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 0.2rem; }
+.thumbnail-box .label.gold { color: #ff6b35; }
+.thumbnail-box .label.blue { color: #0088ff; }
+.seo-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+.seo-card { background: #0f1d33; border-radius: 10px; padding: 1rem 1.2rem; box-shadow: 0 1px 4px rgba(0,0,0,0.3); }
+.seo-card h3 { font-size: 0.9rem; color: #00e5ff; margin-bottom: 0.5rem; }
+.seo-card ul { list-style: none; }
+.seo-card li { font-size: 0.88rem; color: #99aabb; padding: 0.25rem 0; border-bottom: 1px solid #1a2a44; }
+.seo-card li:last-child { border-bottom: none; }
+.seo-card.tags li { display: inline-block; background: #1a2a44; padding: 0.2rem 0.6rem; border-radius: 4px; margin: 0.2rem; font-size: 0.8rem; border: none; }
+.seo-desc { font-size: 0.85rem; line-height: 1.6; color: #99aabb; margin-bottom: 0.5rem; }
+.vonote { background: #0f1d33; border-radius: 10px; padding: 1.2rem 1.5rem; box-shadow: 0 1px 4px rgba(0,0,0,0.3); }
+.vonote ul { list-style: none; font-size: 0.92rem; line-height: 1.8; color: #99aabb; }
+.meta-row { display: flex; gap: 1rem; flex-wrap: wrap; margin-bottom: 1rem; }
+.meta-tag { background: #1a2a44; padding: 0.3rem 0.8rem; border-radius: 20px; font-size: 0.85rem; }
+.meta-tag.style { background: #1a2a44; color: #00e5ff; border: 1px solid #00e5ff; }
+footer { margin-top: 3rem; text-align: center; font-size: 0.85rem; color: #556677; padding: 1rem 0; }
+@media (max-width: 700px) { .seo-grid { grid-template-columns: 1fr; } .img-grid { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+<div class="container">
+
+<h1>The Haaland Paradox: Why Fewer Touches Makes Him Deadlier</h1>
+<div class="subtitle">Stickman sports infographic style — Clean vector illustrations on dark football stadium backgrounds</div>
+
+<div class="meta-row">
+    <span class="meta-tag">Category: Tactical Analysis &amp; Premier League</span>
+    <span class="meta-tag">Est. Length: ~3 min</span>
+    <span class="meta-tag style">Style: Stickman Sports Infographic</span>
+    <span class="meta-tag">Scenes: 10</span>
+    <span class="meta-tag">Images: 20</span>
+    <span class="meta-tag">Video Prompts: 20</span>
+    <span class="meta-tag">Voiceover: ~350 words</span>
+</div>
+
+<!-- SCENE 01 -->
+<div class="scene">
+    <div class="scene-header">
+        <span class="scene-num">SCENE 01</span>
+        <span class="scene-desc">Hook — Defenders study him all week. He scores twice with 11 touches.</span>
+    </div>
+    <div class="voiceover">
+        <div class="voiceover-label">Voiceover</div>
+        Premier League defenders spend entire weeks studying Erling Haaland. They know where he runs, how strong he is, and which foot he prefers. Yet by the 60th minute he has already scored twice with barely eleven touches of the ball. Beating him is the job. Nobody has worked out how.
+    </div>
+    <div class="prompt-label image">Image Prompts (2)</div>
+    <div class="img-grid">
+        <div class="img-item">
+            <div class="label">Prompt A — The exhausted studiers</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, three exhausted defender stickmen sitting around a film-studio desk with a giant video screen showing a paused Haaland stickman silhouette mid-sprint, textbooks stacked beside them labelled "WHERE HE RUNS", "HOW STRONG", "PREFERRED FOOT", sweat drops flying off their heads, on the screen a ticker counting "TOUCHES: 11, GOALS: 2", a Manchester City sky blue scarf draped over the desk as cultural prop, stadium floodlights behind the screen, bold text "A WEEK OF STUDY. STILL TWO GOALS." at top in orange, high contrast infographic composition</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt B — The 60th minute check</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a giant match clock frozen at "60:00" with a tick box beside it reading "GOALS: 2", below the clock a touch counter odometer showing "11", a Haaland stickman in sky blue shirt mid-celebration with arms slightly out in his signature stance, motion trails showing idle walking between touches, stadium floodlights from above on the clock, bold text "ELEVEN TOUCHES. TWO GOALS. BY 60 MINUTES." at bottom in sky blue, high contrast infographic composition</div>
+        </div>
+    </div>
+    <div class="prompt-label video">AI Video Prompts (2)</div>
+    <div class="img-grid">
+        <div class="vid-item">
+            <div class="label">Video A — Study session fails</div>
+            <div class="text">Three defenders review the screen, Haaland silhouette plays in fragments, each study note flashes and gets a red cross, the touch counter ticks up to 11 and stops while goals rack to 2, one defender slams the table in defeat, 5-second failure reveal, one-time with hold</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video B — The paradox clock</div>
+            <div class="text">The 60:00 clock freezes with a click, goals tick to 2, the touch odometer rolls to 11, the Haaland stickman strikes his celebration pose, a red "HOW?" pulsing question mark appears above, 5-second build, one-time with hold</div>
+        </div>
+    </div>
+</div>
+
+<!-- SCENE 02 -->
+<div class="scene">
+    <div class="scene-header">
+        <span class="scene-num">SCENE 02</span>
+        <span class="scene-desc">The paradox — The fewest-touching striker who leads the golden boot</span>
+    </div>
+    <div class="voiceover">
+        <div class="voiceover-label">Voiceover</div>
+        Here is the paradox. Haaland touches the ball fewer times than almost any striker in Europe. And he still leads the golden boot race. The best finisher in the world is also the least involved striker on the pitch. He is deadlier because he does less, not in spite of it.
+    </div>
+    <div class="prompt-label image">Image Prompts (2)</div>
+    <div class="img-grid">
+        <div class="img-item">
+            <div class="label">Prompt A — The two-leaderboard split</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, two leaderboards side by side — left board titled "FEWEST TOUCHES" with a Haaland stickman at number 1 showing a touch icon crossed out, right board titled "GOLDEN BOOT" with the same Haaland stickman at number 1 holding a golden boot trophy, a big equals sign between the two boards, stadium floodlights on both boards, bold text "LESS INVOLVED. MORE DANGEROUS." at top in orange, high contrast infographic composition</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt B — The ghost striker</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a tactical pitch diagram showing a traditional striker drawn as a solid figure with dense touch trails all over midfield, contrasted with a Haaland stickman drawn partially transparent with almost no touch trails — just one direct line from kickoff straight into the penalty box, the word "PARADOX" stamped between them in gold, stadium floodlights on the diagram, bold text "THE LEAST TOUCHING. THE MOST SCORING." at bottom in cyan, high contrast infographic composition</div>
+        </div>
+    </div>
+    <div class="prompt-label video">AI Video Prompts (2)</div>
+    <div class="img-grid">
+        <div class="vid-item">
+            <div class="label">Video A — Boards sync</div>
+            <div class="text">Both leaderboards slide in, the FEWEST TOUCHES list settles with Haaland first, the GOLDEN BOOT list syncs to the same position, a flash links the two names, the golden boot glows, 5-second sync, one-time with hold</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video B — Ghost striker reveal</div>
+            <div class="text">The solid striker's dense touch trails draw across midfield, then the ghost Haaland draws a single direct line into the box, the PARADOX stamp slams into place, camera pushes in, 5-second reveal, seamless loop</div>
+        </div>
+    </div>
+</div>
+
+<!-- SCENE 03 -->
+<div class="scene">
+    <div class="scene-header">
+        <span class="scene-num">SCENE 03</span>
+        <span class="scene-desc">Blind-spot mechanics — Hiding just behind the defender's shoulder</span>
+    </div>
+    <div class="voiceover">
+        <div class="voiceover-label">Voiceover</div>
+        Watch his movement before the cross comes in. He does not wrestle defenders. He hides from them. His starting position is always just behind the centre-back's shoulder — an angle the defender physically cannot see without turning his head.
+    </div>
+    <div class="prompt-label image">Image Prompts (2)</div>
+    <div class="img-grid">
+        <div class="img-item">
+            <div class="label">Prompt A — The blind-side shoulder</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, tactical telestration view of a centre-back stickman from behind with a shaded cone of vision drawn in front of him labelled "WHAT HE SEES", behind his shoulder a Haaland stickman positioned in a dark blind-spot zone labelled "OUT OF VISION", a glowing amber circle marking the dead angle between shoulder and sightline, dashed line showing the cross trajectory from a winger stickman wide on the right, stadium floodlights on the telestration, bold text "HE STAYS IN THE BLIND SPOT" at top in orange, high contrast infographic composition</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt B — Hide, don't wrestle</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, split panel comparison — left panel "WRESTLER" showing a stickman striker grappling a defender shoulder to shoulder with a red X through it, right panel "HIDER" showing a Haaland stickman standing calmly in the defender's shadow just behind his shoulder with a green checkmark, a human eye icon in the corner showing the blind spot vanishing point, stadium floodlights on both panels, bold text "WRESTLING LOSES. HIDING WINS." at bottom in cyan, high contrast infographic composition</div>
+        </div>
+    </div>
+    <div class="prompt-label video">AI Video Prompts (2)</div>
+    <div class="img-grid">
+        <div class="vid-item">
+            <div class="label">Video A — Vision cone revealed</div>
+            <div class="text">The defender's vision cone draws forward from his head, the blind-spot zone pulses amber behind his shoulder, Haaland slides into the dead angle and freezes there, the cross trajectory draws in from the wing, 5-second telestration, one-time with hold</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video B — Hider wins</div>
+            <div class="text">Split panel draws in, the wrestler panel gets a red X and fades, Haaland steps into the defender's shadow with a green checkmark, the eye icon blinks, 4-second comparison, seamless loop</div>
+        </div>
+    </div>
+</div>
+
+<!-- SCENE 04 -->
+<div class="scene">
+    <div class="scene-header">
+        <span class="scene-num">SCENE 04</span>
+        <span class="scene-desc">Peripheral vision — Turning his head away from the ball</span>
+    </div>
+    <div class="voiceover">
+        <div class="voiceover-label">Voiceover</div>
+        By lingering in that blind spot, he forces the defender to turn his head away from the ball. Peripheral vision cannot track him there. He does not create danger by moving. He creates danger by existing exactly where the defender cannot glance.
+    </div>
+    <div class="prompt-label image">Image Prompts (2)</div>
+    <div class="img-grid">
+        <div class="img-item">
+            <div class="label">Prompt A — The forced head turn</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a centre-back stickman's head drawn with a large circular eye and a turning arrow showing him looking away toward a winger stickman carrying the ball on the right, a red dashed arc showing his narrowed vision as he turns, the Haaland stickman glowing faintly in the blocked-out zone behind his other shoulder, a small eye-chart icon illustrating peripheral fade, stadium floodlights on the arc, bold text "HE MAKES THEM LOOK AWAY" at top in orange, high contrast infographic composition</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt B — Existence over movement</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a physics-style diagram with a stickman Haaland as a fixed magnet symbol labelled "DANGER" radiating faded red detection waves without moving, beside it a scrolling ticker "HE ISN'T MOVING — HE'S POSITIONED", the defender stickman with a "PERIPHERAL: BLIND" warning tag, stadium floodlights as radar sweeps across the scene, bold text "NO MOVEMENT NEEDED. JUST POSITION." at bottom in cyan, high contrast infographic composition</div>
+        </div>
+    </div>
+    <div class="prompt-label video">AI Video Prompts (2)</div>
+    <div class="img-grid">
+        <div class="vid-item">
+            <div class="label">Video A — Head turns away</div>
+            <div class="text">The defender's eye tracks the winger, his head rotates, his vision arc sweeps away from Haaland's zone, Haaland glows brighter the moment he leaves the arc, a soft alert chime plays, 5-second tracking, one-time with hold</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video B — Radar ping without motion</div>
+            <div class="text">Radar sweep rotates across the scene, each pass pings Haaland's fixed position, the scrolling ticker runs beneath, the defender's warning tag flashes, 5-second radar loop, seamless loop</div>
+        </div>
+    </div>
+</div>
+
+<!-- SCENE 05 -->
+<div class="scene">
+    <div class="scene-header">
+        <span class="scene-num">SCENE 05</span>
+        <span class="scene-desc">The trigger — The second they look at the winger, he attacks the gap</span>
+    </div>
+    <div class="voiceover">
+        <div class="voiceover-label">Voiceover</div>
+        The second the defender looks toward the winger, Haaland attacks the gap. One step. Half a yard. The ball is already in the air and the defender has lost him forever. The cross does not find Haaland. Haaland finds the gap, and the gap finds the ball.
+    </div>
+    <div class="prompt-label image">Image Prompts (2)</div>
+    <div class="img-grid">
+        <div class="img-item">
+            <div class="label">Prompt A — The trigger frame</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, freeze-frame tactical shot of a Haaland stickman mid-spring with a single explosive motion trail arrow shooting behind the defence, the centre-back stickman frozen with head locked on the winger stickman wide, a gap between two defenders glowing green labelled "THE GAP", a cross arrow arcing SHARPLY toward the gap, stadium floodlights on the frozen frame, bold text "ONE LOOK. ONE STEP. LOST." at top in orange, high contrast infographic composition</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt B — Gap finds the ball</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, sequential storyboard of three miniature frames — Frame 1 "DEFENDER LOOKS AWAY", Frame 2 "HAALAND SPRINTS INTO GAP", Frame 3 "BALL LANDS AT HIS FEET" — each with a connecting arrow, the final frame showing the ball arriving perfectly at his feet while defenders look the wrong way, stadium floodlights across the three frames, bold text "HE DOESN'T FIND THE BALL. THE GAP DOES." at bottom in sky blue, high contrast infographic composition</div>
+        </div>
+    </div>
+    <div class="prompt-label video">AI Video Prompts (2)</div>
+    <div class="img-grid">
+        <div class="vid-item">
+            <div class="label">Video A — Trigger and spring</div>
+            <div class="text">The defender's head clicks toward the winger, a freeze-frame moment where Haaland explodes with a single motion trail, the gap glows green, the cross bends in slow motion, 5-second trigger, one-time with hold</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video B — Three-frame sequence</div>
+            <div class="text">Frame 1 locks in, arrow shoots to Frame 2 as Haaland dashes, arrow shoots to Frame 3 as the ball lands, defenders turn late with panicked faces, the final frame glows, 5-second sequence, seamless loop</div>
+        </div>
+    </div>
+</div>
+
+<!-- SCENE 06 -->
+<div class="scene">
+    <div class="scene-header">
+        <span class="scene-num">SCENE 06</span>
+        <span class="scene-desc">The decoy &amp; gravity effect — Defences collapse toward him</span>
+    </div>
+    <div class="voiceover">
+        <div class="voiceover-label">Voiceover</div>
+        Even when he does not touch the ball, he dominates the play. Two centre-backs track Haaland towards the near post. Both commit. And while they chase him, a midfield runner slides into completely vacant central space. Haaland never touches it. The defence still breaks.
+    </div>
+    <div class="prompt-label image">Image Prompts (2)</div>
+    <div class="img-grid">
+        <div class="img-item">
+            <div class="label">Prompt A — The gravity diagram</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, tactical pitch diagram with Haaland stickman pulling a dashed red arrow toward the near post, two centre-back stickmen drawn with purple suction arrows chasing him in a panic, while an attacking midfielder stickman in sky blue runs untouched into a vacant green central zone labelled "ACRES OF SPACE", the two CBs leaving an empty hole behind them, stadium floodlights on the pitch diagram, bold text "TWO DEFENDERS. ONE DECOY. EMPTY CENTRE." at top in orange, high contrast infographic composition</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt B — Gravity well metaphor</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a planet-gravity visual where Haaland stickman sits in the centre as a small gravity well, four defender stickmen orbiting and being pulled inward on curved dashed paths, a midfield runner stickman darting outward through the space they abandoned, a "PANIC" warning icon above the defenders, stadium floodlights on the gravity well, bold text "THE GRAVITY THAT OPENS SPACE" at bottom in cyan, high contrast infographic composition</div>
+        </div>
+    </div>
+    <div class="prompt-label video">AI Video Prompts (2)</div>
+    <div class="img-grid">
+        <div class="vid-item">
+            <div class="label">Video A — Defenders collapse</div>
+            <div class="text">Haaland drifts toward the near post dragging two defenders with him, the midfield runner dashes into the empty central zone as they commit, the green space pulses, the hole left behind glows, 5-second collapse, one-time with hold</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video B — Gravity well pulls</div>
+            <div class="text">Defenders orbit Haaland on curved paths being pulled inward, the runner breaks outward through the vacated space, the PANIC icon flashes, camera orbits the well, 5-second orbit, seamless loop</div>
+        </div>
+    </div>
+</div>
+
+<!-- SCENE 07 -->
+<div class="scene">
+    <div class="scene-header">
+        <span class="scene-num">SCENE 07</span>
+        <span class="scene-desc">The illusion of control — Conceding everywhere else</span>
+    </div>
+    <div class="voiceover">
+        <div class="voiceover-label">Voiceover</div>
+        The defence thinks they are containing him. That is the illusion. Every yard they funnel toward Haaland is a yard they stop defending. One player cannot be neutralised while the space he created scores the goal.
+    </div>
+    <div class="prompt-label image">Image Prompts (2)</div>
+    <div class="img-grid">
+        <div class="img-item">
+            <div class="label">Prompt A — The illusion of control</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, magic-mirror visual — left side a defender stickman smiling with "CONTAINED?" above a Haaland stickman locked in a bubble, right side a cracked mirror showing a midfield runner stickman free in space with "GOAL" flashing above his head, the reality breaking out of the frame, a chain linking Haaland's bubble to the goal across the mirror, stadium floodlights on the mirror, bold text "CONTAINED? OR JUST DEFLECTED?" at top in orange, high contrast infographic composition</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt B — Where every yard went</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a tactical map of City's attack with coins stacking on a running lane — 4 defending players drawn clustered on Haaland's lane with a huge stack of arrows, while 2 wide options and 1 midfield runner get clean unguarded lanes with open net icons, a balance scale tilted showing "DEFENDED: X" vs "UNDEFENDED: O", stadium floodlights on the scale, bold text "STOP ONE PLAYER. LOSE THE REST." at bottom in cyan, high contrast infographic composition</div>
+        </div>
+    </div>
+    <div class="prompt-label video">AI Video Prompts (2)</div>
+    <div class="img-grid">
+        <div class="vid-item">
+            <div class="label">Video A — Mirror cracks</div>
+            <div class="text">The contained bubble holds in the mirror, the runner breaks free on the other side, a crack spiderwebs across the mirror, the GOAL flashes and the illusion shatters, 5-second illusion break, one-time with hold</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video B — Arrow stack tilts</div>
+            <div class="text">Defenders stack their arrows on Haaland's lane, the unguarded runners accumulate open-net icons, the scale tips over, GOLD stamps across the runner lane, 5-second tilt, seamless loop</div>
+        </div>
+    </div>
+</div>
+
+<!-- SCENE 08 -->
+<div class="scene">
+    <div class="scene-header">
+        <span class="scene-num">SCENE 08</span>
+        <span class="scene-desc">Ruthless efficiency — The six-yard-box conversion chart</span>
+    </div>
+    <div class="voiceover">
+        <div class="voiceover-label">Voiceover</div>
+        Now the numbers. Haaland's conversion rate inside the six-yard box is absurdly high — the best in Europe. Compare his shot chart to any top striker and the difference is not volume. It is placement. Almost every shot he takes is from the space he has already manufactured.
+    </div>
+    <div class="prompt-label image">Image Prompts (2)</div>
+    <div class="img-grid">
+        <div class="img-item">
+            <div class="label">Prompt A — The shot chart comparison</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, two goal-mouth shot charts side by side — left chart "OTHER TOP STRIKER" with scattered dots all over the box and a low percentage label "12% CONVERTED", right chart "HAALAND" with nearly every dot clustered at the centre of the six-yard box and a gold label "38% CONVERTED", a green glow over Haaland's six-yard cluster, stadium floodlights on the charts, bold text "FEWER SHOTS. BETTER PLACES." at top in orange, high contrast infographic composition</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt B — Placement over volume</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, two giant target boards — left target "50 SHOTS" with many scattered arrows missing the bullseye, right target "25 SHOTS" with fewer arrows but all clustered dead centre in gold, a bullseye icon divided in half showing "VOLUME vs PLACEMENT", a trophy icon tilted toward the placement side, stadium floodlights on the targets, bold text "IT WAS NEVER ABOUT HOW MANY" at bottom in sky blue, high contrast infographic composition</div>
+        </div>
+    </div>
+    <div class="prompt-label video">AI Video Prompts (2)</div>
+    <div class="img-grid">
+        <div class="vid-item">
+            <div class="label">Video A — Charts populate</div>
+            <div class="text">Dots scatter onto the left chart at random, then cluster tightly onto the right chart's six-yard box, the two percentage labels lock in, the green glow brightens on Haaland's cluster, 5-second populate, one-time with hold</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video B — Targets fill</div>
+            <div class="text">Arrows feather across the left target, arrows land dead centre on the right target one by one, the bullseye icon tips toward placement, the gold cluster glows, 5-second fill, seamless loop</div>
+        </div>
+    </div>
+</div>
+
+<!-- SCENE 09 -->
+<div class="scene">
+    <div class="scene-header">
+        <span class="scene-num">SCENE 09</span>
+        <span class="scene-desc">Two seconds &amp; half a yard — Finishing over athleticism</span>
+    </div>
+    <div class="voiceover">
+        <div class="voiceover-label">Voiceover</div>
+        He does not need fifty touches to control a game. He needs two seconds and half a yard of space. That is not raw athleticism. That is finishing as a science. Timing, positioning, and a trigger that fires before the defender processes the threat.
+    </div>
+    <div class="prompt-label image">Image Prompts (2)</div>
+    <div class="img-grid">
+        <div class="img-item">
+            <div class="label">Prompt A — Two seconds, half a yard</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a laboratory-science visual — a stopwatch frozen at "2.0 SEC" with a measuring stick marked "0.5 YARD" alongside, a Haaland stickman in the middle releasing a strike with a single motion trail, the defender stickman still registering the threat with a "???" icon above his head, stadium floodlights as lab lamps, bold text "TWO SECONDS. HALF A YARD. GOAL." at top in orange, high contrast infographic composition</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt B — Science over strength</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, side-by-side cards — card 1 "RAW ATHLETICISM" with a muscle arm icon and a red question mark, card 2 "FINISHING AS SCIENCE" with a flask and blueprint icons glowing gold with a green checkmark, a human brain and foot icon linked by arrows between the cards, stadium floodlights behind the science card, bold text "ATHLETICISM RUNS. SCIENCE SCORES." at bottom in cyan, high contrast infographic composition</div>
+        </div>
+    </div>
+    <div class="prompt-label video">AI Video Prompts (2)</div>
+    <div class="img-grid">
+        <div class="vid-item">
+            <div class="label">Video A — The two-second strike</div>
+            <div class="text">Stopwatch ticks to 2.0, the measuring stick extends to half a yard, Haaland strikes with one motion trail while the defender's question marks pop above his head, the net ripples, 5-second strike, one-time with hold</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video B — Cards duel</div>
+            <div class="text">The athleticism card wobbles with a red question mark, the science card glows gold with a green checkmark, a brain-and-foot icon links them, the science card wins the frame, 5-second duel, seamless loop</div>
+        </div>
+    </div>
+</div>
+
+<!-- SCENE 10 -->
+<div class="scene">
+    <div class="scene-header">
+        <span class="scene-num">SCENE 10</span>
+        <span class="scene-desc">Outro + CTA — One question the whole league can't answer</span>
+    </div>
+    <div class="voiceover">
+        <div class="voiceover-label">Voiceover</div>
+        So here is the question. Is there any defensive system in world football built to stop this? Or is containing Haaland impossible across a full ninety minutes? Drop your answer in the comments. And subscribe — because we are breaking down every striker's tactics one by one.
+    </div>
+    <div class="prompt-label image">Image Prompts (2)</div>
+    <div class="img-grid">
+        <div class="img-item">
+            <div class="label">Prompt A — The unanswerable question</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a giant glowing question mark hovering above a chessboard where a Haaland stickman faces an empty chair with scattered defensive-pieces knocked over, a thought bubble from the viewer stickman reading "STOP HIM? OR CONTAIN THE GAP?", a green comment bubble forming below, stadium floodlights on the chessboard, bold text "NINETY MINUTES. NO ANSWER YET." at top in orange, high contrast infographic composition</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt B — Subscribe finale</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a giant glowing red subscribe button with a white bell and "SUBSCRIBE" text, a stickman pressing it, TheFootballRepublics branded icons floating around — a golden boot, a stopwatch, a half-yard ruler, a tactical arrow and a sky blue scarf — the channel name "TheFootballRepublics" in bold below, tiny stickman defenders watching nervously from the stands, bold text "NEXT STRIKER. NEXT BREAKDOWN." at bottom in gold, high contrast composition</div>
+        </div>
+    </div>
+    <div class="prompt-label video">AI Video Prompts (2)</div>
+    <div class="img-grid">
+        <div class="vid-item">
+            <div class="label">Video A — The lone question</div>
+            <div class="text">The question mark pulses over the chessboard, the empty chair glows, knocked-over defence pieces scatter, a comment bubble pops in with a typing cursor, 5-second question, one-time with hold</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video B — Subscribe CTA</div>
+            <div class="text">Red subscribe button pulses with the bell shaking, stickman presses it and a green tick pops, TheFootballRepublics icons float around, defenders in the stands panic, 5-second call to action, seamless loop</div>
+        </div>
+    </div>
+</div>
+
+<!-- THUMBNAIL -->
+<div style="margin-top:1.5rem;">
+    <div class="section-header">Thumbnail <span class="badge gold">Video 10</span></div>
+    <div class="thumbnail-box">
+        <div class="label gold">Thumbnail Idea — Concept 1 (Tactical Contrast)</div>
+        <p style="margin:0.3rem 0 0.8rem; color:#99aabb; font-size:0.95rem;">Flat vector illustration thumbnail in the "PICK ME?" template style. High-contrast dark background. Right side: a single Haaland stickman in sky blue Man City shirt looking intensely forward, square jawline stick face, glowing teal tactical arrow and dashed movement lines pointing behind him. Left side: a bewildered defender stickman with wide eyes looking the wrong way. On the far left, two lines of massive condensed bold white text with black outline: "11" huge and "TOUCHES." beneath, with "2 GOALS" as a small gold stamp. A faint formation diagram ghosted in the background. Must read clearly at 200px mobile thumbnail size. Color palette: near-black background, white text, sky blue accent (#6CABDD), gold accent (#FFD700).</p>
+        <div class="label blue">Thumbnail Text</div>
+        <p style="margin:0.3rem 0 0.8rem; font-size:1.3rem; font-weight:700; color:#00e5ff;">"11 TOUCHES."</p>
+        <div class="label gold">AI Image Prompt</div>
+        <div class="prompt-box">YouTube thumbnail, flat vector illustration style, no photography no gradients, high-contrast dark night stadium background, right side of frame features one single tall black stick figure with round white circle head, two focused black dot eyes, wearing a solid sky blue (#6CABDD) Manchester City home shirt, square jawline, shoulders squared staring intensely forward, behind him a glowing teal dashed tactical arrow with dotted run lines pointing from his shoulder to behind a defender, left side features a bewildered defender stickman with wide panicked eyes and arms spread looking the wrong direction, far left of frame massive condensed bold sans-serif white text with black outline stroke "11" on the top line occupying nearly half the frame height and "TOUCHES." on the second line, with a small gold stamp badge reading "2 GOALS" tucked at the bottom, a faint ghosted formation diagram drawn in the dark background corners, no decorative text effects, strong visual balance text left defender middle Haaland right, reads clearly at 200px, colour palette near-black background (#0D0D0D to #1A1A1A), cool white floodlight highlights, sky blue accent (#6CABDD), gold accent (#FFD700), aspect ratio 16:9 1280x720px</div>
+    </div>
+</div>
+
+<div style="margin-top:1.5rem;">
+    <div class="section-header">Alternative Thumbnail <span class="badge blue">Concept 2 (The Dilemma)</span></div>
+    <div class="thumbnail-box">
+        <div class="label gold">Thumbnail Idea — Concept 2 (The Dilemma)</div>
+        <p style="margin:0.3rem 0 0.8rem; color:#99aabb; font-size:0.95rem;">Flat vector illustration thumbnail in the "PURE EMOTION" template style. Dark stadium background. Wide shot inside the six-yard box: two defender stickmen physically pulling Haaland's sky blue jersey from both sides while he effortlessly stretches to reach the ball a half-yard ahead of them. Above him, massive condensed bold white text with black outline: "UNGUARDABLE" on top line, "STILL SCORES." below in gold accent. Motion lines on the ball and a glow under Haaland. Must read clearly at 200px mobile thumbnail size. Color palette: near-black background, white text, sky blue accent, gold highlight.</p>
+        <div class="label blue">Thumbnail Text</div>
+        <p style="margin:0.3rem 0 0.8rem; font-size:1.3rem; font-weight:700; color:#00e5ff;">"UNGUARDABLE. STILL SCORES."</p>
+        <div class="label gold">AI Image Prompt</div>
+        <div class="prompt-box">YouTube thumbnail, flat vector illustration style, no photography no gradients, dark night stadium background with green floodlit pitch visible along the bottom edge, inside the white-painted six-yard box two defender stickmen in contrasting kits pull on the sky blue (#6CABDD) jersey of the Haaland stickman from both sides, Haaland leans forward reaching the ball at the last half-yard with a bright movement glow under his feet and motion lines on the ball, centre-top of frame massive condensed bold sans-serif white text with black outline stroke "UNGUARDABLE" on the top line and "STILL SCORES." on the second line with "STILL SCORES." highlighted in gold (#FFD700), letter height roughly one-third thumbnail height, no decorative text effects, strong visual balance defenders left and right Haaland centre text top, reads clearly at 200px, colour palette near-black background (#0D0D0D to #1A1A1A), cool white floodlights, sky blue accent (#6CABDD), gold highlight (#FFD700), aspect ratio 16:9 1280x720px</div>
+    </div>
+</div>
+
+<!-- SEO -->
+<div style="margin-top:1.5rem;">
+    <div class="section-header">SEO <span class="badge gold">Video 10</span></div>
+    <div class="seo-grid">
+        <div class="seo-card">
+            <h3>Title Options</h3>
+            <ul>
+                <li>The Haaland Paradox: Why Fewer Touches Makes Him Deadlier</li>
+                <li>Haaland Has Fewer Touches Than Any Striker. He Still Leads the Golden Boot.</li>
+                <li>Why Nobody Can Stop Haaland's Blind-Spot Runs</li>
+                <li>11 Touches, 2 Goals: How Haaland Broke Premier League Defending</li>
+                <li>Defending Haaland Is Broken: Why Premier League Defenses Can't Stop Him</li>
+                <li>Why Haaland Barely Touching the Ball Makes Man City More Dangerous</li>
+                <li>Salah, Son, Mbappé — Yet Haaland Scores More With Less. Here's How.</li>
+            </ul>
+        </div>
+        <div class="seo-card">
+            <h3>Description</h3>
+            <div class="seo-desc">Premier League defenders spend entire weeks studying Erling Haaland. They know where he runs, how strong he is, and which foot he prefers. By the 60th minute he has already scored twice with barely eleven touches.</div>
+            <div class="seo-desc">This is the tactical breakdown of why fewer touches makes Haaland deadlier — the blind-spot positioning that hides him behind centre-backs' shoulders, the gravity effect that collapses defences and opens space for City's midfield runners, and the ruthless six-yard-box efficiency that separates modern finishing from raw athleticism.</div>
+        </div>
+        <div class="seo-card tags">
+            <h3>Tags (30)</h3>
+            <ul>
+                <li>haaland</li><li>haaland tactics</li><li>how to stop haaland</li><li>haaland blind spot runs</li><li>manchester city tactics</li><li>premier league analysis</li><li>haaland golden boot</li><li>haaland fewest touches</li><li>striker positioning explained</li><li>false runs football</li><li>haaland gravity effect</li><li>six yard box striker</li><li>football tactics explained</li><li>why haaland scores so much</li><li>haaland movement analysis</li><li>man city attacking tactics</li><li>haaland conversion rate</li><li>erling haaland analysis</li><li>football positioning telestration</li><li>deadly striker movement</li><li>premier league 2026</li><li>haaland celebration</li><li>stick figure football</li><li>the football republics</li><li>football analysis</li><li>haaland vs defenders</li><li>attacking tactics explained</li><li>football for beginners</li><li>haaland finishing science</li><li>the football republics haaland</li>
+            </ul>
+        </div>
+        <div class="seo-card">
+            <h3>Keywords (15)</h3>
+            <ul>
+                <li>why haaland is unguardable</li><li>haaland blind-spot positioning</li><li>how haaland scores with few touches</li><li>haaland tactical breakdown</li><li>haaland gravity effect football</li><li>haaland six-yard box conversion</li><li>stop haaland man city tactics</li><li>haaland movement analysis</li><li>haaland 11 touches 2 goals</li><li>why fewer touches makes haaland deadlier</li><li>haaland near post runs</li><li>man city midfield runners space</li><li>best striker positioning in the world</li><li>haaland finishing science vs athleticism</li><li>the football republics haaland analysis</li>
+            </ul>
+        </div>
+        <div class="seo-card" style="grid-column: span 2;">
+            <h3>Hashtags (7)</h3>
+            <ul>
+                <li>#Haaland</li><li>#ManchesterCity</li><li>#PremierLeague</li><li>#Tactics</li><li>#GoldenBoot</li><li>#FootballAnalysis</li><li>#TheFootballRepublics</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!-- VOICEOVER NOTES -->
+<div style="margin-top:1.5rem;">
+    <div class="section-header">AI Voiceover Notes <span class="badge gold">Video 10</span></div>
+    <div class="vonote">
+        <ul>
+            <li><strong>Tone:</strong> Analytical and quietly awed — the narrator is explaining something they have studied closely, letting the viewer feel the paradox land on its own. Calm and factual in the mechanics, slightly more animated on the golden boot data, quieter and more rhetorical at the closing question.</li>
+            <li><strong>Pace:</strong> 155–165 wpm baseline, drop to ~120 wpm on the paradox reveal ("eleven touches") and the closing question. Factual data scene (~scene 08) can run to ~170 wpm. Pause 1.0s after "eleven touches" and after "It was never about how many."</li>
+            <li><strong>Emphasis:</strong> Max one word per sentence — "eleven", "paradox", "blind spot", "gap", "science", "impossible". Key numbers get a very slight pause before them (60th minute, 11 touches, half a yard, 2 seconds).</li>
+            <li><strong>Pronunciation:</strong> Erling Haaland — "AIR-ling HAR-land"; Manchester City — standard; all other names in standard English pronunciation. No foreign-noun pitfalls in this script.</li>
+            <li><strong>Pauses:</strong> 0.8s after each scene header, 1.2s after "eleven touches", 0.5s before "And he still leads the golden boot race" and before the closing question, ~0.3s between sentences in normal flow.</li>
+            <li><strong>Duration:</strong> ~350 words at ~140 wpm spoken = ~2 min 30 seconds, plus pauses and visual gaps = est. ~2:50–3:00 final video.</li>
+        </ul>
+    </div>
+</div>
+
+<div style="margin-top:1.5rem; padding:1rem; background:#111d33; border-radius:8px; border-left:4px solid #00e5ff;">
+    <strong style="color:#00e5ff;">Generated from <code>new.md</code> • TheFootballRepublics — 10-Scene Format</strong>
+    <p style="color:#8899aa; font-size:0.85rem; margin-top:0.3rem;">10 scenes · 2 image prompts + 2 video prompts per scene · Total: 20 images · 20 video prompts · ~350 words voiceover (~3 min) · Stickman sports infographic style · Dark stadium background theme · Hook + script + thumbnail concepts from new.md folded into full storyboard</p>
+</div>
+
+<footer>TheFootballRepublics&mdash; Changing how you watch the game &bull; Tactical analysis &bull; Stickman football breakdowns</footer>
+
+</div>
+</body>
+</html>
