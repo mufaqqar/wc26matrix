@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Why Brazil's Next Generation Might Actually Win It | TheFootballRepublics</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; background: #0a1628; color: #e0e8f0; padding: 2rem 1rem; }
+.container { max-width: 1000px; margin: 0 auto; }
+h1 { font-size: 2rem; font-weight: 700; color: #00e5ff; margin-bottom: 0.3rem; }
+.subtitle { color: #8899aa; font-size: 1rem; margin-bottom: 2rem; border-left: 4px solid #ff6b35; padding-left: 1rem; }
+.badge { font-size: 0.75rem; font-weight: 600; background: #ff6b35; color: #fff; padding: 0.2rem 0.7rem; border-radius: 20px; display: inline-block; }
+.badge.gold { background: #ff6b35; }
+.badge.blue { background: #0088ff; }
+.badge.image { background: #9b59b6; color: #fff; }
+.badge.video { background: #e74c3c; color: #fff; }
+.section-header { font-size: 1.2rem; font-weight: 600; color: #00e5ff; background: #111d33; padding: 0.7rem 1.2rem; border-radius: 8px; margin-bottom: 1rem; display: flex; align-items: center; gap: 0.6rem; flex-wrap: wrap; }
+.scene { background: #0f1d33; border-radius: 10px; padding: 1.2rem 1.5rem; margin-bottom: 1rem; box-shadow: 0 1px 4px rgba(0,0,0,0.3); border-left: 4px solid #00e5ff; }
+.scene-header { display: flex; align-items: center; gap: 0.8rem; margin-bottom: 0.8rem; flex-wrap: wrap; }
+.scene-num { font-weight: 700; color: #00e5ff; font-size: 0.9rem; }
+.scene-desc { font-style: italic; color: #8899aa; font-size: 0.9rem; }
+.voiceover { background: #0d1a2e; border-radius: 6px; padding: 0.8rem 1rem; margin-top: 0.7rem; font-size: 0.95rem; line-height: 1.6; color: #e0e8f0; border-left: 3px solid #0088ff; }
+.voiceover-label { font-size: 0.75rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; color: #0088ff; margin-bottom: 0.3rem; }
+.prompt-label { font-size: 0.75rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; color: #fff; margin-bottom: 0.2rem; margin-top: 0.6rem; padding: 0.15rem 0.6rem; border-radius: 4px; display: inline-block; }
+.prompt-label.image { background: #9b59b6; }
+.prompt-label.video { background: #e74c3c; }
+.prompt-box { background: #0d1a2e; border-radius: 6px; padding: 0.8rem 1rem; font-size: 0.88rem; line-height: 1.5; color: #99aabb; font-family: 'Courier New', monospace; border-left: 3px solid #00e5ff; white-space: pre-wrap; margin-bottom: 0.5rem; }
+.prompt-box.video-prompt { border-left-color: #e74c3c; background: #1a0d0d; }
+.img-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0.8rem; margin-top: 0.5rem; }
+.img-item { background: #0d1a2e; border-radius: 6px; padding: 0.7rem; border-left: 3px solid #9b59b6; }
+.img-item .label { font-size: 0.7rem; font-weight: 600; color: #9b59b6; margin-bottom: 0.2rem; }
+.img-item .text { font-size: 0.82rem; color: #99aabb; font-family: 'Courier New', monospace; line-height: 1.4; white-space: pre-wrap; }
+.vid-item { background: #1a0d0d; border-radius: 6px; padding: 0.7rem; border-left: 3px solid #e74c3c; }
+.vid-item .label { font-size: 0.7rem; font-weight: 600; color: #e74c3c; margin-bottom: 0.2rem; }
+.vid-item .text { font-size: 0.82rem; color: #99aabb; font-family: 'Courier New', monospace; line-height: 1.4; }
+.thumbnail-box { background: #0f1d33; border-radius: 10px; padding: 1.2rem 1.5rem; box-shadow: 0 1px 4px rgba(0,0,0,0.3); border-left: 4px solid #ff6b35; margin-bottom: 1rem; }
+.thumbnail-box .label { font-size: 0.75rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 0.2rem; }
+.thumbnail-box .label.gold { color: #ff6b35; }
+.thumbnail-box .label.blue { color: #0088ff; }
+.seo-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+.seo-card { background: #0f1d33; border-radius: 10px; padding: 1rem 1.2rem; box-shadow: 0 1px 4px rgba(0,0,0,0.3); }
+.seo-card h3 { font-size: 0.9rem; color: #00e5ff; margin-bottom: 0.5rem; }
+.seo-card ul { list-style: none; }
+.seo-card li { font-size: 0.88rem; color: #99aabb; padding: 0.25rem 0; border-bottom: 1px solid #1a2a44; }
+.seo-card li:last-child { border-bottom: none; }
+.seo-card.tags li { display: inline-block; background: #1a2a44; padding: 0.2rem 0.6rem; border-radius: 4px; margin: 0.2rem; font-size: 0.8rem; border: none; }
+.seo-desc { font-size: 0.85rem; line-height: 1.6; color: #99aabb; margin-bottom: 0.5rem; }
+.vonote { background: #0f1d33; border-radius: 10px; padding: 1.2rem 1.5rem; box-shadow: 0 1px 4px rgba(0,0,0,0.3); }
+.vonote ul { list-style: none; font-size: 0.92rem; line-height: 1.8; color: #99aabb; }
+.meta-row { display: flex; gap: 1rem; flex-wrap: wrap; margin-bottom: 1rem; }
+.meta-tag { background: #1a2a44; padding: 0.3rem 0.8rem; border-radius: 20px; font-size: 0.85rem; }
+.meta-tag.style { background: #1a2a44; color: #00e5ff; border: 1px solid #00e5ff; }
+footer { margin-top: 3rem; text-align: center; font-size: 0.85rem; color: #556677; padding: 1rem 0; }
+@media (max-width: 700px) { .seo-grid { grid-template-columns: 1fr; } .img-grid { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+<div class="container">
+
+<h1>Why Brazil's Next Generation Might Actually Win It</h1>
+<div class="subtitle">Stickman sports infographic style — Clean vector illustrations on dark football stadium backgrounds</div>
+
+<div class="meta-row">
+    <span class="meta-tag">Category: International Football Analysis</span>
+    <span class="meta-tag">Est. Length: ~3.5 min</span>
+    <span class="meta-tag style">Style: Stickman Sports Infographic</span>
+    <span class="meta-tag">Scenes: 10</span>
+    <span class="meta-tag">Images: 20</span>
+    <span class="meta-tag">Video Prompts: 20</span>
+    <span class="meta-tag">Voiceover: ~497 words</span>
+</div>
+
+<!-- SCENE 01 -->
+<div class="scene">
+    <div class="scene-header">
+        <span class="scene-num">SCENE 01</span>
+        <span class="scene-desc">Cold Open — five World Cups, nothing since 2002</span>
+    </div>
+    <div class="voiceover">
+        <div class="voiceover-label">Voiceover</div>
+        Brazil have won the World Cup five times. No country has won it more. And they haven't won anything since 2002. Twenty-four years. The most decorated team in football history spent a whole generation collecting near-misses. That is changing now. Not loudly. Inside the squad.
+    </div>
+    <div class="prompt-label image">Image Prompts (2)</div>
+    <div class="img-grid">
+        <div class="img-item">
+            <div class="label">Prompt A — The five trophies and the empty shelf</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a tall trophy shelf with five golden World Cup trophies lined up in a row all glowing brightly, then a long empty gap on the shelf to the right fading into darkness, a dust sheet draped over the last space with a small label "2002 — 2026", a stickman in a yellow Brazil jersey standing in front of the shelf looking up at the gap with his hands on his hips, a calendar icon on the floor with its pages peeling away labelled "24 YEARS", stadium floodlights raking across the shelf, bold text "FIVE TROPHIES. NOTHING SINCE 2002." at top in orange, high contrast infographic composition</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt B — The trophy cabinet world record</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a world map infographic where one large country shape is filled solid bright yellow and labelled "BRAZIL — 5", five large other country shapes labelled "1", "1", "1", "0", "0" in muted grey, the yellow shape is five times the visual weight of everything else combined, a stickman in a yellow jersey pointing up at the number 5 with a questioning expression and a speech bubble containing a question mark, stadium floodlights above the map, bold text "NOBODY HAS WON IT MORE" at bottom in cyan, high contrast infographic composition</div>
+        </div>
+    </div>
+    <div class="prompt-label video">AI Video Prompts (2)</div>
+    <div class="img-grid">
+        <div class="vid-item">
+            <div class="label">Video A — Trophy shelf countdown</div>
+            <div class="text">The five golden trophies light up one by one on the shelf, then all the light drains away and the empty space to the right of the shelf goes dark, the dust sheet over the 2002-2026 gap lifts slightly in a breeze, the calendar pages on the floor peel off and scatter, 6-second hook reveal, one-time with hold</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video B — World map count up</div>
+            <div class="text">The muted grey country shapes fade in across the map, then the yellow Brazil shape ignites and grows to five times the size of the others, the stickman points upward and the question mark speech bubble pops in, 5-second contradiction reveal, seamless loop</div>
+        </div>
+    </div>
+</div>
+
+<!-- SCENE 02 -->
+<div class="scene">
+    <div class="scene-header">
+        <span class="scene-num">SCENE 02</span>
+        <span class="scene-desc">Context — the heartbreak ledger and the end of the Neymar era</span>
+    </div>
+    <div class="voiceover">
+        <div class="voiceover-label">Voiceover</div>
+        First the ledger. Belo Horizonte, 2014. Brazil lose seven-one at home. Then Russia, 2018 — dumped out of the group stage. Then 2022 — out before the knockout rounds, the earliest exit in their history. And the last piece of magic, Neymar, has now gone. The identity had to be rebuilt.
+    </div>
+    <div class="prompt-label image">Image Prompts (2)</div>
+    <div class="img-grid">
+        <div class="img-item">
+            <div class="label">Prompt A — The heartbreak ledger</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, an open ledger book with three glowing red pages turning in sequence, page one labelled "2014 — 7-1 AT HOME" with a stickman in a yellow jersey standing alone on an empty pitch, page two labelled "2018 — OUT OF THE GROUP" with a stickman walking through a group stage bracket, page three labelled "2022 — EARLIEST EXIT EVER" with a stickman carrying a suitcase, a tear drop falling onto the last page, stadium floodlights over the book, bold text "THREE TOURNAMENTS. THREE DIFFERENT DISASTERS." at top in orange, high contrast infographic composition</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt B — The last magician walks off</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a single stickman in a yellow Brazil number 10 jersey with a ball at his feet performing a small trick of magic, he is drawn in muted grey and semi transparent, walking toward a dark tunnel at the right edge of the pitch, behind him a bright yellow halo of magic sparkles fading out, an empty number 10 shirt on a hanger glowing empty beside him, stadium floodlights fading out over the tunnel, bold text "THE ERA IS OVER" at bottom in cyan, high contrast infographic composition</div>
+        </div>
+    </div>
+    <div class="prompt-label video">AI Video Prompts (2)</div>
+    <div class="img-grid">
+        <div class="vid-item">
+            <div class="label">Video A — Ledger pages turning</div>
+            <div class="text">The ledger book opens, page one turns revealing 2014 and the 7-1, page two turns revealing 2018 and the group stage exit, page three turns revealing 2022 and the suitcase, a red tear drop falls onto the final page, 6-second history ledger, one-time with hold</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video B — Number 10 exit animation</div>
+            <div class="text">The grey number 10 stickman juggles the ball once, the magic sparkles around him dissolve, he turns and walks slowly into the dark tunnel, the floodlights above the tunnel dim out one by one, the empty number 10 shirt remains glowing, 6-second era ending moment, one-time with hold</div>
+        </div>
+    </div>
+</div>
+
+<!-- SCENE 03 -->
+<div class="scene">
+    <div class="scene-header">
+        <span class="scene-num">SCENE 03</span>
+        <span class="scene-desc">The pivot — from finding one genius to building a structure</span>
+    </div>
+    <div class="voiceover">
+        <div class="voiceover-label">Voiceover</div>
+        For twenty years Brazil's plan was simple. Find one genius and wait. Neymar was the last of them. What replaced him is structure. Ancelotti arrived in 2025, and the message changed from talent-spotting to building. Younger call-ups, far more of them, and a system that no longer depends on one man.
+    </div>
+    <div class="prompt-label image">Image Prompts (2)</div>
+    <div class="img-grid">
+        <div class="img-item">
+            <div class="label">Prompt A — Waiting for one genius</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a long empty bench with a single glowing golden football on it labelled "FIND ONE GENIUS. WAIT.", a long queue of years marked 2006 to 2024 ticking past in a calendar strip, the bench sits alone on a deserted pitch, one grey stickman in a number 10 jersey pacing back and forth with a stopwatch, a clock icon with a spinning hand dominates the scene, stadium floodlights dim and cold, bold text "TWENTY YEARS OF WAITING" at top in cyan, high contrast infographic composition</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt B — Building the structure</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a bright architect stickman in a yellow Brazil kit standing on a scaffold drawing a tactical blueprint on a huge glowing grid of the pitch, around the scaffold twenty younger stickmen in yellow kits carrying building materials numbered with age badges 18 to 23, the blueprint grid glows green where it is filled in, a clipboard icon with an arrow replacing an old magic wand, stadium floodlights blazing on the construction site, bold text "NOW THEY BUILD" at bottom in orange, high contrast infographic composition</div>
+        </div>
+    </div>
+    <div class="prompt-label video">AI Video Prompts (2)</div>
+    <div class="img-grid">
+        <div class="vid-item">
+            <div class="label">Video A — The long wait animation</div>
+            <div class="text">The calendar strip years 2006 to 2024 flip past one after another, the lone ball on the bench stays untouched, the number 10 stickman keeps pacing and the clock hand spins, cold blue light, 5-second old model reveal, seamless loop</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video B — Blueprint build animation</div>
+            <div class="text">The architect stickman draws on the glowing pitch grid and each line fills in with green light, twenty younger stickmen carry materials past in both directions, the magic wand icon crumbles and the clipboard icon locks into place, 6-second new model reveal, one-time with hold</div>
+        </div>
+    </div>
+</div>
+
+<!-- SCENE 04 -->
+<div class="scene">
+    <div class="scene-header">
+        <span class="scene-num">SCENE 04</span>
+        <span class="scene-desc">Pillar One — the generational vanguard on the front line</span>
+    </div>
+    <div class="voiceover">
+        <div class="voiceover-label">Voiceover</div>
+        Start with the front line. Vinícius Júnior and Rodrygo are already the real thing. Behind them, Endrick arrived at Real Madrid at seventeen. Estêvão Willian went to Chelsea at eighteen. Raphinha has scored in a European final. This isn't a prospect list. It's a starting eleven.
+    </div>
+    <div class="prompt-label image">Image Prompts (2)</div>
+    <div class="img-grid">
+        <div class="img-item">
+            <div class="label">Prompt A — The front line depth chart</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a four row depth chart on a pitch outline, top row two tall stickmen in yellow Brazil kits labelled "VINÍCIUS JR." and "RODRYGO" with glowing red checkmarks, second row "RAPHINHA" with a small silver final trophy icon, third row two smaller younger stickmen labelled "ENDRICK — 17" and "ESTÊVÃO — 18" with glowing yellow badges, the top row stands significantly taller and more solid than the row below, arrows connect the depth levels showing they are being promoted, stadium floodlights along the pitch, bold text "NOT PROSPECTS. A STARTING ELEVEN." at top in orange, high contrast infographic composition</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt B — Teenagers on European stages</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, two teenage stickmen in yellow Brazil kits standing on a split stage, left stage is a huge Real Madrid stadium silhouette labelled "17" with a white kit folded on a chair, right stage is a huge Chelsea stadium silhouette labelled "18" with a blue kit folded on a chair, both teenagers are visibly smaller than the stadium doorways behind them, a small age badge floats above each head, stadium floodlights blazing, bold text "SEVENTEEN AND EIGHTEEN" at bottom in cyan, high contrast infographic composition</div>
+        </div>
+    </div>
+    <div class="prompt-label video">AI Video Prompts (2)</div>
+    <div class="img-grid">
+        <div class="vid-item">
+            <div class="label">Video A — Depth chart promote animation</div>
+            <div class="text">The checkmarks pop in on the top row, the ENDRICK and ESTÊVÃO badges glow, the promotion arrows animate upward and the two teenagers move up one row into the senior line, the pitch outline stays fixed, 5-second squad depth reveal, one-time with hold</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video B — Stage doors animation</div>
+            <div class="text">The two teenage stickmen walk forward as the Real Madrid and Chelsea stadium silhouettes grow large behind them, the folded club kits on the chairs unfold and glow, the age badges 17 and 18 pop above their heads, 5-second arrival moment, seamless loop</div>
+        </div>
+    </div>
+</div>
+
+<!-- SCENE 05 -->
+<div class="scene">
+    <div class="scene-header">
+        <span class="scene-num">SCENE 05</span>
+        <span class="scene-desc">Pillar One, part two — how this wave is actually built</span>
+    </div>
+    <div class="voiceover">
+        <div class="voiceover-label">Voiceover</div>
+        Pelé was seventeen when he won the World Cup. The difference is what happens before the big day. Ronaldo, Ronaldinho, the old legends, learned football as adults. Today's Brazilians learn the tactical board at ten. They're coached in position, told what their job is, then let play. Versatile, early, and drilled.
+    </div>
+    <div class="prompt-label image">Image Prompts (2)</div>
+    <div class="img-grid">
+        <div class="img-item">
+            <div class="label">Prompt A — Old route vs new route</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, two separate climbing routes drawn side by side up a cliff face, the left route labelled "THE OLD ROUTE" is a long winding path starting high up where a stickman labelled "RONALDO" and another labelled "RONALDINHO" appear, the right route labelled "THE NEW ROUTE" is a short ladder starting at the very bottom where tiny stickmen labelled "AGE 10" climb upward, a stopwatch and a trophy icon sit at the top of each route, stadium floodlights lighting both climbs, bold text "LEARNED LATE. LEARNED EARLY." at top in cyan, high contrast infographic composition</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt B — The four-position shirt</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a single stickman in a yellow Brazil jersey standing in the centre holding up four position cards, card one "STRIKER" showing a stickman in a centre forward pose, card two "WINGER" with a sprinting stickman, card three "INSIDE FORWARD" with a stickman dribbling, card four "SECOND STRIKER" with a stickman making a late run into the box, a glowing four-arrow cycle icon rotates around the player, a tactical grid board behind him, stadium floodlights, bold text "TAUGHT EVERY JOB. MASTERED ONE." at bottom in orange, high contrast infographic composition</div>
+        </div>
+    </div>
+    <div class="prompt-label video">AI Video Prompts (2)</div>
+    <div class="img-grid">
+        <div class="vid-item">
+            <div class="label">Video A — Two climbing routes animation</div>
+            <div class="text">The old winding route draws in grey from high up with the two legend stickmen appearing at the top, the new ladder route draws in bright yellow from the bottom with the AGE 10 stickman climbing it quickly, the two routes finish side by side at the same trophy, 5-second development contrast, one-time with hold</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video B — Position card cycle animation</div>
+            <div class="text">The four position cards flip out one at a time around the stickman as the cycle arrow rotates, each card locks into a slot on the tactical board behind, the stickman steps forward into the striker slot and glows, 5-second versatility reveal, seamless loop</div>
+        </div>
+    </div>
+</div>
+
+<!-- SCENE 06 -->
+<div class="scene">
+    <div class="scene-header">
+        <span class="scene-num">SCENE 06</span>
+        <span class="scene-desc">Pillar Two — the engine room overhaul and the death of the Camisa 10</span>
+    </div>
+    <div class="voiceover">
+        <div class="voiceover-label">Voiceover</div>
+        Now the engine room, and this is the real change. Brazil used to build a team around the Camisa 10. The little artist who holds the ball and solves the match. That job is disappearing. What replaces it is work rate, ball winning, and players who attack forward as fast as they recover.
+    </div>
+    <div class="prompt-label image">Image Prompts (2)</div>
+    <div class="img-grid">
+        <div class="img-item">
+            <div class="label">Prompt A — The number 10 throne, empty</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a single ornate glowing throne in the centre circle of a pitch with a yellow number 10 shirt hanging on it, the throne is empty, eight other stickmen in yellow Brazil kits are spread around the throne in a wide flat shape instead of clustered around it, grey dust covers the throne base, a large faded magic wand icon lies broken on the ground beside it, stadium floodlights on the empty throne, bold text "THE CAMISA 10 IS DEAD" at top in orange, high contrast infographic composition</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt B — Work rate engine room</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, three central stickmen in yellow Brazil kits running with motion lines, each with a motion meter bar beside them fully filled and labelled "RECOVER", "WIN", "BURST", a speedometer icon glowing between them, arrows showing the full pitch split into "ATTACK FAST" forward and "SPRINT BACK" backward, a small number 10 stickman in grey sitting on the bench in the background, stadium floodlights tracking the three runners, bold text "WORK RATE REPLACES MAGIC" at bottom in cyan, high contrast infographic composition</div>
+        </div>
+    </div>
+    <div class="prompt-label video">AI Video Prompts (2)</div>
+    <div class="img-grid">
+        <div class="vid-item">
+            <div class="label">Video A — Empty throne reveal</div>
+            <div class="text">The camera pushes in on the throne, the number 10 shirt fades from the backrest and the throne dims, the eight surrounding players slide outward into a wide flat shape, the broken wand icon drops onto the ground, 5-second death of the number 10, one-time with hold</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video B — Engine room burst cycle</div>
+            <div class="text">The three central stickmen burst forward together filling the RECOVER WIN BURST meters, then pivot and sprint back as the pitch arrows reverse, the grey number 10 sits motionless on the bench, 5-second work rate loop, seamless loop</div>
+        </div>
+    </div>
+</div>
+
+<!-- SCENE 07 -->
+<div class="scene">
+    <div class="scene-header">
+        <span class="scene-num">SCENE 07</span>
+        <span class="scene-desc">Pillar Three — the tactical identity shift: pressing, width, compactness</span>
+    </div>
+    <div class="voiceover">
+        <div class="voiceover-label">Voiceover</div>
+        So the new Seleção presses like a European side. Pressing means crowding your opponent the second he loses the ball, and winning it back high up the pitch. They use the full width, holding the touchlines, and stay compact defensively. Joga Bonito still exists. It just has to win the game first.
+    </div>
+    <div class="prompt-label image">Image Prompts (2)</div>
+    <div class="img-grid">
+        <div class="img-item">
+            <div class="label">Prompt A — Pressing explained</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a stickman in a grey kit has just lost the ball on the right side of the pitch, four yellow Brazil stickmen immediately converge on him in a closing arrow cage with the stolen ball snapping back toward them, a large red circle marks the trap zone with the label "WIN IT BACK HIGH", a beginner-friendly arrow diagram in the corner shows the same idea as a simple funnel shape, stadium floodlights on the press, bold text "THEY STEAL IT BACK UP HERE" at top in cyan, high contrast infographic composition</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt B — Width and compactness</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a pitch drawn as a wide rectangle with a team shape, two yellow Brazil winger stickmen pushed all the way onto the left and right touchline corners with glowing flag icons, the rest of the yellow team compressed into a tight narrow block in the middle third with a shield icon labelled "COMPACT", an outer arrow diagram shows the width measurement stretched wide, stadium floodlights along both touchlines, bold text "WIDE. THEN NARROW." at bottom in orange, high contrast infographic composition</div>
+        </div>
+    </div>
+    <div class="prompt-label video">AI Video Prompts (2)</div>
+    <div class="img-grid">
+        <div class="vid-item">
+            <div class="label">Video A — Press trap animation</div>
+            <div class="text">The grey stickman turns to dribble, four yellow stickmen snap inward from four directions closing the cage, the ball pops loose and travels upfield with a red trail into the trap zone circle, the funnel diagram draws itself in the corner, 5-second pressing explainer, seamless loop</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video B — Width compress animation</div>
+            <div class="text">The two winger stickmen slide out to the touchlines as the width arrow stretches, the central block tightens and the shield icon forms around it, the two shapes settle into a wide attack and narrow defence posture, 5-second shape reveal, one-time with hold</div>
+        </div>
+    </div>
+</div>
+
+<!-- SCENE 08 -->
+<div class="scene">
+    <div class="scene-header">
+        <span class="scene-num">SCENE 08</span>
+        <span class="scene-desc">The two blueprints — old Brazil against new Brazil</span>
+    </div>
+    <div class="voiceover">
+        <div class="voiceover-label">Voiceover</div>
+        Put the two blueprints side by side. Old Brazil: narrow, creative, dependent on one moment of genius. New Brazil: wide, aggressive, and there are at least four ways to score. Europe spent a decade proving you can win this tournament without flair. Brazil is stealing that blueprint, and keeping the flair on top of it.
+    </div>
+    <div class="prompt-label image">Image Prompts (2)</div>
+    <div class="img-grid">
+        <div class="img-item">
+            <div class="label">Prompt A — Split scoreboard comparison</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a split screen comparison, left half muted and grey showing a narrow cluster of four yellow stickmen around one glowing number 10 labelled "OLD BRAZIL" with the row "ONE WAY TO SCORE", right half bright and colourful showing eight yellow stickmen spread across the full width with four separate goal arrows and glowing dots labelled "NEW BRAZIL" with the row "FOUR WAYS TO SCORE", a lightning bolt divider between the halves, stadium floodlights on the right half, bold text "ONE GENIUS. OR EIGHT OPTIONS." at top in cyan, high contrast infographic composition</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt B — Stealing the blueprint</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a stickman in a yellow Brazil jersey reaching across to pull a rolled blueprint sheet labelled "EUROPEAN SYSTEM" off a grey European factory wall, on the Brazil side of the wall the same blueprint sheet is being layered on top of a glowing yellow sheet labelled "JOGA BONITO", both sheets combine into a single glowing composite blueprint, a copying machine icon and a paint brush icon in the corner, stadium floodlights, bold text "EUROPE'S RULES. BRAZIL'S SOUL." at bottom in orange, high contrast infographic composition</div>
+        </div>
+    </div>
+    <div class="prompt-label video">AI Video Prompts (2)</div>
+    <div class="img-grid">
+        <div class="vid-item">
+            <div class="label">Video A — Comparison wipe animation</div>
+            <div class="text">The screen wipes left to right, the left grey half shows the four clustered players collapsing inward around the number 10, the right bright half shows eight players spreading out to the touchlines with four goal arrows lighting up, 5-second blueprint comparison, one-time with hold</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video B — Blueprint layering animation</div>
+            <div class="text">The Brazil stickman pulls the European blueprint sheet across the wall, it locks onto the wall, then the glowing yellow Joga Bonito sheet slides on top and locks too, the combined blueprint flares bright and a goal arrow fires from it, 5-second identity merge, seamless loop</div>
+        </div>
+    </div>
+</div>
+
+<!-- SCENE 09 -->
+<div class="scene">
+    <div class="scene-header">
+        <span class="scene-num">SCENE 09</span>
+        <span class="scene-desc">Climax — the verdict: can this blueprint return Brazil to the summit?</span>
+    </div>
+    <div class="voiceover">
+        <div class="voiceover-label">Voiceover</div>
+        So can it work? The talent is real. The veterans are in place. The system is imported and understood. But Brazil have lost to Croatia, Belgium and Argentina, and beating Europe is a different problem from beating South America. The blueprint is credible. The summit is not guaranteed.
+    </div>
+    <div class="prompt-label image">Image Prompts (2)</div>
+    <div class="img-grid">
+        <div class="img-item">
+            <div class="label">Prompt A — The mountain of opponents</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a single yellow Brazil stickman at the base of a huge steep mountain shaped like a World Cup trophy, the mountain is covered in opponent nameplates with checkmarks labelled "CROATIA", "BELGIUM", "ARGENTINA" all already crossed out at lower altitudes, three higher nameplates unlit at the summit labelled "FRANCE", "SPAIN", "ENGLAND", the stickman looks up with a small blueprint sheet in his hand, a rope and a coach stickman beside him, stadium floodlights on the summit, bold text "THE HARD PART IS STILL ABOVE" at top in orange, high contrast infographic composition</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt B — The credibility scale</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a large balance scale in the centre, on the left pan a glowing blue blueprint sheet labelled "CREDIBLE" and on the right pan a dark silhouette of a World Cup trophy labelled "GUARANTEED" sitting slightly higher and tilted, the scale wobbles and does not settle, a stickman analyst stands beside it with open hands and a question mark speech bubble, a tick icon next to one pan and a cross icon next to the other, stadium floodlights, bold text "PROMISING IS NOT PROVEN" at bottom in cyan, high contrast infographic composition</div>
+        </div>
+    </div>
+    <div class="prompt-label video">AI Video Prompts (2)</div>
+    <div class="img-grid">
+        <div class="vid-item">
+            <div class="label">Video A — Summit climb animation</div>
+            <div class="text">The yellow stickman climbs past the crossed out nameplates one by one with the rope unrolling, he reaches the summit base and looks up at the three unlit nameplates as the floodlights shift to the summit, the camera tilts up and holds, 6-second verdict moment, one-time with hold</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video B — Wobbling scale animation</div>
+            <div class="text">The scale drops to the CREDIBLE pan, tips back, tips forward and settles level without ever landing, the trophy silhouette flickers, the analyst stickman's question mark bubble pops in and he shrugs, 5-second unresolved verdict, seamless loop</div>
+        </div>
+    </div>
+</div>
+
+<!-- SCENE 10 -->
+<div class="scene">
+    <div class="scene-header">
+        <span class="scene-num">SCENE 10</span>
+        <span class="scene-desc">Close + CTA — a new identity, and what's next</span>
+    </div>
+    <div class="voiceover">
+        <div class="voiceover-label">Voiceover</div>
+        Twenty-four years is a long time to be the best team never to win. But nothing about this squad looks like the ones that came before. Not one. Subscribe, because next we break down the position that quietly decides World Cups, and it gets brutal.
+    </div>
+    <div class="prompt-label image">Image Prompts (2)</div>
+    <div class="img-grid">
+        <div class="img-item">
+            <div class="label">Prompt A — A different Brazil</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, three glowing summary cards floating in a row, Card 1 "THE VANGUARD" with a young striker icon and age badges 17 and 18, Card 2 "THE ENGINE ROOM" with a running and tackling icon and a struck through number 10, Card 3 "THE SYSTEM" with a pressing trap funnel icon, each card carries a red checkmark, below the cards a full stickman Brazil team in yellow kits walk out of the tunnel together, stadium floodlights blazing over the whole team, bold text "NOT THE BRAZIL YOU KNOW" at bottom in gold, high contrast infographic composition</div>
+        </div>
+        <div class="img-item">
+            <div class="label">Prompt B — Subscribe finale</div>
+            <div class="text">stickman sports infographic style, clean vector illustration on dark blue stadium background, a giant glowing subscribe button with a red notification bell and bold "SUBSCRIBE" text, a stickman in a yellow Brazil jersey pressing the button, around the button floating TheFootballRepublics branded icons, a stickman keeper, a pressing trap funnel, a tactical board, a golden World Cup trophy, a goal net, the channel name "TheFootballRepublics" in bold white, a stadium of tiny stickman fans in the stands, bold high contrast call to action composition</div>
+        </div>
+    </div>
+    <div class="prompt-label video">AI Video Prompts (2)</div>
+    <div class="img-grid">
+        <div class="vid-item">
+            <div class="label">Video A — Summary cards animation</div>
+            <div class="text">Three cards slide in from the left one at a time with red checkmarks popping, the full yellow stickman team walks out from the tunnel below in a single line and stops at the halfway line, all cards glow gold together, 5-second summary reveal, one-time with hold</div>
+        </div>
+        <div class="vid-item">
+            <div class="label">Video B — Subscribe CTA animation</div>
+            <div class="text">The subscribe button pulses and the red bell shakes, the stickman presses it and the bell flashes, TheFootballRepublics icons float in around the button, the crowd in the stands rises in the background, the channel name fades in bold, 5-second call to action, seamless loop</div>
+        </div>
+    </div>
+</div>
+
+<!-- THUMBNAIL -->
+<div style="margin-top:1.5rem;">
+    <div class="section-header">Thumbnail <span class="badge gold">Video 10</span></div>
+    <div class="thumbnail-box">
+        <div class="label gold">Thumbnail Idea — Template 2, New Rules</div>
+        <p style="margin:0.3rem 0 0.8rem; color:#99aabb; font-size:0.95rem;">Flat vector illustration thumbnail. Dark night football stadium background with visible green pitch, subtle crowd blur, and a single hard spotlight beaming down from above. One stick figure center-left — round white head, simple black dot eyes — wearing a bright yellow Brazil home jersey with green trim, holding up a large tactical clipboard showing a simple pressing-trap diagram. A Brazil flag draped over his shoulder. The FIFA World Cup trophy bottom left with the Brazil CBF crest beside it. On the right side, large bold white text "NEW RULES" in heavy Impact font. Deep shadow contrast, slight vignette, 16:9 YouTube thumbnail, reads clearly at 200px mobile size, no watermarks.</p>
+        <div class="label blue">Thumbnail Text</div>
+        <p style="margin:0.3rem 0 0.8rem; font-size:1.3rem; font-weight:700; color:#00e5ff;">"NEW RULES" — "BRAZIL'S REBUILD"</p>
+        <div class="label gold">AI Image Prompt</div>
+        <div class="prompt-box">YouTube thumbnail, flat vector illustration style, no photography no gradients, dark moody night football stadium background with green pitch visible and subtle crowd blur, a single hard spotlight beaming down from above centre, one black stick figure with a round white circle head and two simple black dot eyes standing in the spotlight wearing a bright yellow Brazil home jersey with green trim, holding up a large tactical clipboard showing a simple pressing trap diagram, a green and yellow Brazil flag draped over his shoulder, the FIFA World Cup trophy placed bottom left with the Brazil CBF crest beside it, large bold white text "NEW RULES" on the right side in Impact or Anton heavy font, deep shadow contrast, slight vignette around edges, colour palette near-black background, spotlight amber, Brazil yellow and green, text pure white, strong visual balance stick figure left text right, reads clearly at 200px mobile thumbnail size, aspect ratio 16:9 1280x720px, no watermarks</div>
+    </div>
+</div>
+
+<!-- SEO -->
+<div style="margin-top:1.5rem;">
+    <div class="section-header">SEO <span class="badge gold">Video 10</span></div>
+    <div class="seo-grid">
+        <div class="seo-card">
+            <h3>Title Options</h3>
+            <ul>
+                <li>Why Brazil's Next Generation Might Actually Win It</li>
+                <li>New Brazil: The Quiet Rebuild Behind the Next Generation</li>
+                <li>Don't Call Brazil Done — Look Who's Coming Up Front</li>
+                <li>Brazil Haven't Won Since 2002. This Squad Is Different.</li>
+                <li>Why the End of the Camisa 10 Might Save Brazil</li>
+                <li>Every Brazil Fan Missed This Structural Shift</li>
+                <li>The Tactical Blueprint Brazil Are Quietly Stealing From Europe</li>
+            </ul>
+        </div>
+        <div class="seo-card">
+            <h3>Description</h3>
+            <div class="seo-desc">Brazil have won the World Cup five times and haven't won anything since 2002 — while the squad underneath quietly rebuilt itself.</div>
+            <div class="seo-desc">This video breaks down the new Seleção generation by generation: the front-line vanguard of Vinícius Júnior, Rodrygo, Raphinha, Endrick and Estêvão Willian, and how they're coached differently from Pelé, Ronaldo and Ronaldinho. Then the engine room overhaul — the retirement of the Camisa 10 and the rise of high-work-rate ball winners — and the tactical identity shift, where European pressing, full-width play and defensive compactness are being layered on top of Joga Bonito. By the end you'll have a clear verdict on whether this blueprint can realistically put Brazil back at the summit of international football.</div>
+        </div>
+        <div class="seo-card tags">
+            <h3>Tags (30)</h3>
+            <ul>
+                <li>brazil next generation</li><li>brazil national team 2026</li><li>vinicius junior</li><li>rodrygo brazil</li><li>raphinha brazil</li><li>endrick real madrid</li><li>estevao willian chelsea</li><li>carlo ancelotti brazil</li><li>camisa 10 explained</li><li>brazil tactical analysis</li><li>brazil football tactics</li><li>joga bonito modern</li><li>brazil pressing football</li><li>brazil world cup drought</li><li>brazil 2002 last trophy</li><li>brazil 7-1 germany 2014</li><li>pele 1958 seventeen</li><li>brazil midfield overhaul</li><li>high work rate midfielders</li><li>brazil youth development</li><li>neymar era ending</li><li>will brazil win the world cup</li><li>brazil vs europe football</li><li>football transition play explained</li><li>stickman football explainer</li><li>world cup 2026 analysis</li><li>understand football tactics</li><li>soccer explained for beginners</li><li>the football republics</li>
+            </ul>
+        </div>
+        <div class="seo-card">
+            <h3>Keywords (15)</h3>
+            <ul>
+                <li>brazil next generation football players</li><li>why brazil have not won since 2002</li><li>camisa 10 role disappearing</li><li>brazil high press tactics explained</li><li>endrick real madrid age</li><li>estevao willian chelsea transfer</li><li>carlo ancelotti brazil tactics</li><li>brazil football youth development explained</li><li>modern jogo bonito</li><li>brazil fullbacks width tactics</li><li>world cup 2026 brazil prediction</li><li>pele ronaldo ronaldinho comparison</li><li>brazil lose to europe problem</li><li>high work rate brazil midfield</li><li>stickman soccer tactics breakdown</li>
+            </ul>
+        </div>
+        <div class="seo-card" style="grid-column: span 2;">
+            <h3>Hashtags (7)</h3>
+            <ul>
+                <li>#Brazil</li><li>#Selecao</li><li>#ViniciusJr</li><li>#WorldCup2026</li><li>#JogaBonito</li><li>#FootballTactics</li><li>#TheFootballRepublics</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!-- VOICEOVER NOTES -->
+<div style="margin-top:1.5rem;">
+    <div class="section-header">AI Voiceover Notes <span class="badge gold">Video 10</span></div>
+    <div class="vonote">
+        <ul>
+            <li><strong>Tone:</strong> Calm, intelligent, British-neutral documentary narrator. Slightly wry on the cold open ("the most decorated team in football history, collecting near-misses"). Warm and explanatory through the player sections. Deadpan on the pivot into the engine room. Drop volume and slow down on the verdict — it's deliberately unresolved. Quiet and final on the close.</li>
+            <li><strong>Pace:</strong> Steady 155–165 wpm baseline. Slow down to ~120 wpm on the three tournament dates (2014 / 2018 / 2022) so each one lands like a hit. Slight speed-up on the player name sequence (Vinícius, Rodrygo, Raphinha, Endrick, Estêvão) at 170 wpm. Drop volume on "The Camisa 10 is dead" and on "The summit is not guaranteed."</li>
+            <li><strong>Emphasis:</strong> Max one word per sentence — "five", "seven-one", "earliest", "seventeen", "eighteen", "Camisa 10", "wide", "credible", "guaranteed", "nothing". No upspeak, no filler, every sentence ends with a downward inflection. The "24 years" cold-open line gets a slight upward lift as the section-break hook.</li>
+            <li><strong>Pronunciation:</strong> "Vinícius" — Vin-SEE-kee-oos. "Rodrygo" — rod-REE-go. "Raphinha" — raf-EEN-ya. "Endrick" — END-rick. "Estêvão" — esh-TEH-vown. "Pelé" — peh-LAY. "Ronaldo" — RON-al-doh. "Ancelotti" — an-cheh-LOT-tee. "Joga Bonito" — JOG-ah bo-NEE-too. "Seleção" — seh-leh-SOWN. "Belo Horizonte" — BEL-oh hor-ee-ZON-tee. "Croatia", "Belgium" standard English.</li>
+            <li><strong>Pauses:</strong> 0.8s after each section header. 1.0–1.2s after "seven-one at home", after "the earliest exit in their history", and after "The Camisa 10 is dead". 0.5s before the verdict pivot "So can it work?" 1.2s before the CTA.</li>
+            <li><strong>Duration:</strong> ~497 words at 155 wpm spoken = ~3 min 12 seconds (with the prescribed pauses and visual gaps, est. ~3.5 min final video)</li>
+        </ul>
+    </div>
+</div>
+
+<div style="margin-top:1.5rem; padding:1rem; background:#111d33; border-radius:8px; border-left:4px solid #00e5ff;">
+    <strong style="color:#00e5ff;">Generated from <code>Master Prompt.md</code> • TheFootballRepublics — 10-Scene Format</strong>
+    <p style="color:#8899aa; font-size:0.85rem; margin-top:0.3rem;">10 scenes · 2 image prompts + 2 video prompts per scene · Total: 20 images · 20 video prompts · ~497 words voiceover (~3.5 min) · Stickman sports infographic style · Dark stadium background theme</p>
+</div>
+
+<footer>TheFootballRepublics — Changing how you watch the game &bull; World Cup 2026 breakdowns &bull; Stickman football analysis</footer>
+
+</div>
+</body>
+</html>
